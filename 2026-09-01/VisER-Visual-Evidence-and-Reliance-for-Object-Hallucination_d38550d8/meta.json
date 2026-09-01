@@ -4,5 +4,30 @@
  "title": "VisER-Visual-Evidence-and-Reliance-for-Object-Hallucination",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-01 07:27:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/09ad048d-6cbc-424f-b60b-cd3d8430b0ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/09ad048d-6cbc-424f-b60b-cd3d8430b0ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:46:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "object hallucination",
+    "large vision-language models",
+    "training-free detection",
+    "visual grounding",
+    "source confounding",
+    "logit lens"
+   ],
+   "field": "多模态大模型幻觉检测",
+   "innovations": [
+    "提出两路互补信号（视觉证据VE+视觉依赖VR）解决来源混淆问题",
+    "设计基于logit-lens证据门控的VE分数过滤无对象特异性证据的虚假支持",
+    "用轻量输入嵌入相似度估计文本前缀支持，避免计算密集的注意力权重"
+   ],
+   "benchmarks": [
+    "MSCOCO",
+    "Pascal VOC"
+   ]
+  }
+ }
 }
