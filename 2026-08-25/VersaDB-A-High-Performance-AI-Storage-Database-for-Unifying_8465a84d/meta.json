@@ -4,5 +4,33 @@
  "title": "VersaDB-A-High-Performance-AI-Storage-Database-for-Unifying",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-25 14:42:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/ee07c153-a351-4f58-84f4-64f6eb1846cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/ee07c153-a351-4f58-84f4-64f6eb1846cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:52:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI 数据存储",
+    "多模态数据集",
+    "数据库优化",
+    "高性能读取",
+    "VersaDB",
+    "B+ 树索引",
+    "内存优化"
+   ],
+   "field": "AI 系统与管理",
+   "innovations": [
+    "提出页面级分离存储结构，实现结构化/非结构化数据高效随机访问",
+    "双层分片与层次化元数据管理，支持分布式并发读写与快速定位",
+    "引入标量-Blob 分离加载与动态页面替换，显著降低内存峰值占用"
+   ],
+   "benchmarks": [
+    "Pure Reading",
+    "Shuffle Reading",
+    "Preprocessing",
+    "分布式数据并行读取"
+   ]
+  }
+ }
 }

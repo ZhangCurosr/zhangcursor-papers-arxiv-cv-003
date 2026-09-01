@@ -4,5 +4,31 @@
  "title": "UniMem-Unifying-Multimodal-Memory-and-Control-for-Vision-Lan",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-25 02:59:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2160142b-9f79-42f3-a298-54d4286443dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2160142b-9f79-42f3-a298-54d4286443dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:52:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "多模态记忆",
+    "事件驱动架构",
+    "关键帧缓存",
+    "非马尔可夫任务",
+    "感知别名",
+    "机器人操作"
+   ],
+   "field": "机器人学习与VLA模型",
+   "innovations": [
+    "事件驱动多模态记忆统一架构",
+    "关键帧缓存实现单帧级推理速度",
+    "联合训练文本与视觉记忆消除分层瓶颈"
+   ],
+   "benchmarks": [
+    "robosuite仿真任务",
+    "xArm6硬件任务"
+   ]
+  }
+ }
 }

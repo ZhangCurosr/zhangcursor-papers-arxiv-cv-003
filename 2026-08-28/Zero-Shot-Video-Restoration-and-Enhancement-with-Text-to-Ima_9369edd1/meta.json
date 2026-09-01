@@ -4,5 +4,33 @@
  "title": "Zero-Shot-Video-Restoration-and-Enhancement-with-Text-to-Ima",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-08-28 23:24:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/24114f5a-0798-4b08-a183-5418008d94c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/24114f5a-0798-4b08-a183-5418008d94c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:55:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本视频修复",
+    "潜在扩散模型",
+    "时间一致性",
+    "多模态参考",
+    "Token合并",
+    "双重提示调优"
+   ],
+   "field": "视频修复与增强",
+   "innovations": [
+    "提出首个支持文本+图像多模态参考的零样本视频修复框架ZVRM",
+    "双重提示调优反转与采样将推理步数从1000降至360步（约1/3）",
+    "纹理感知视频token合并自适应平衡时间一致性与细节保留"
+   ],
+   "benchmarks": [
+    "REDS4",
+    "UDM10",
+    "DAVIS",
+    "DID",
+    "RealMCVSR"
+   ]
+  }
+ }
 }

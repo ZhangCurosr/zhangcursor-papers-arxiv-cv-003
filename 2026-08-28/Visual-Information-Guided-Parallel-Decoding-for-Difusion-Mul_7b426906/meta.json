@@ -4,5 +4,35 @@
  "title": "Visual-Information-Guided-Parallel-Decoding-for-Difusion-Mul",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-28 13:48:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9975779b-5688-4962-95fc-81ffb808e261.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9975779b-5688-4962-95fc-81ffb808e261.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:54:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion multimodal LLM",
+    "parallel decoding",
+    "visual grounding",
+    "token selection",
+    "information gain",
+    "training-free sampling"
+   ],
+   "field": "多模态大模型推理加速",
+   "innovations": [
+    "利用 token-to-image 注意力质量重加权置信度实现视觉 grounded 的 token 排序",
+    "引入图像注意力相似度惩罚项降低并行选中 token 集合的信息冗余",
+    "在 3 个开源 dMLLM 和 7 个基准上训练-free 验证，k=8 时平均超 Info-Gain 19.3 CIDEr 分"
+   ],
+   "benchmarks": [
+    "COCO Caption",
+    "Flickr30K",
+    "NoCaps",
+    "DetailCaps",
+    "TextVQA",
+    "DocVQA",
+    "ChartQA"
+   ]
+  }
+ }
 }

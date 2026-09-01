@@ -4,5 +4,35 @@
  "title": "Visual-Information-Guided-Parallel-Decoding-for-Difusion-Mul",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-28 23:24:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/33e67869-9b71-4a9e-b2cc-3f1a85460969.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/33e67869-9b71-4a9e-b2cc-3f1a85460969.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:54:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散多模态大语言模型",
+    "并行解码",
+    "视觉 grounding",
+    "令牌选择",
+    "信息增益",
+    "注意力正则"
+   ],
+   "field": "扩散多模态大语言模型解码优化",
+   "innovations": [
+    "提出 VIG-Sampler，利用令牌-图像注意力质量重加权置信度，优先选择视觉上接地且信息丰富的令牌",
+    "设计基于图像注意力相似度的集合选择正则项，减少并行解码令牌间的信息冗余",
+    "训练免费且无额外前向传播开销，在多个 dMLLM 与基准上显著超越信息增益等先进采样器"
+   ],
+   "benchmarks": [
+    "COCO Caption",
+    "Flickr30K",
+    "NoCaps",
+    "DetailCaps",
+    "TextVQA",
+    "DocVQA",
+    "ChartQA"
+   ]
+  }
+ }
 }

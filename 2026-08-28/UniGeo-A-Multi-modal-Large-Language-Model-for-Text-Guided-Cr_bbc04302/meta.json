@@ -4,5 +4,30 @@
  "title": "UniGeo-A-Multi-modal-Large-Language-Model-for-Text-Guided-Cr",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-28 23:24:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b54f63b0-66c3-4e15-951a-f9334737f2bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b54f63b0-66c3-4e15-951a-f9334737f2bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:53:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-Guided Drone Geo-Localization",
+    "Multi-modal Large Language Model",
+    "Candidate Verification",
+    "Cross-view Generation",
+    "Hard-negative Learning",
+    "Geospatial Reasoning"
+   ],
+   "field": "无人机地理定位",
+   "innovations": [
+    "提出候选条件化查询细化与轻量级候选验证的即插即用后检索推理框架",
+    "姿势感知跨视角生成合成几何可控的硬负样本用于候选消歧",
+    "三阶段渐进式训练策略解耦地理语义理解、跨视角生成和候选验证"
+   ],
+   "benchmarks": [
+    "GeoText-1652",
+    "UAVReason"
+   ]
+  }
+ }
 }

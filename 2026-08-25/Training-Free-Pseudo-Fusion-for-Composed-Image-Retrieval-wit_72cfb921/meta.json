@@ -4,5 +4,32 @@
  "title": "Training-Free-Pseudo-Fusion-for-Composed-Image-Retrieval-wit",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-25 14:43:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4bad22ed-ce52-4324-9bfa-9f427a9e6e63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4bad22ed-ce52-4324-9bfa-9f427a9e6e63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:52:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Composed Image Retrieval",
+    "Zero-shot Retrieval",
+    "Diffusion Models",
+    "Multimodal Large Language Models",
+    "Training-free",
+    "Cross-modal"
+   ],
+   "field": "多模态检索与生成",
+   "innovations": [
+    "提出无需训练的伪融合框架PeFuse，将CIR转换为单模态检索任务",
+    "系统性地比较单向/双向四种转换策略（T→I, I→I, T→T, I→T）",
+    "揭示T→I转换效果最优，扩散伪像损害检索性能的规律"
+   ],
+   "benchmarks": [
+    "Fashion-IQ",
+    "CIRR",
+    "CIRCO",
+    "GeneCIS"
+   ]
+  }
+ }
 }

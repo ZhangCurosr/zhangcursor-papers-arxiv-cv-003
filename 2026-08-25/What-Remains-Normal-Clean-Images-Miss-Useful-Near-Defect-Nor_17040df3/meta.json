@@ -4,5 +4,31 @@
  "title": "What-Remains-Normal-Clean-Images-Miss-Useful-Near-Defect-Nor",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-25 02:58:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/337aa896-d251-4c6e-841b-0d65a0a5acdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/337aa896-d251-4c6e-841b-0d65a0a5acdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:53:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "industrial anomaly detection",
+    "normal-only training",
+    "memory-based detection",
+    "reconstruction-based detection",
+    "context intervention",
+    "pixel localization"
+   ],
+   "field": "工业视觉异常检测",
+   "innovations": [
+    "固定预算诊断揭示清洁内存遗漏近缺陷正常参考",
+    "BOUNDARYSUPPORT 通过上下文扰动暴露像素保留邻域特征",
+    "匹配对照证明 altered-context 特征优于 clean-view 对应特征"
+   ],
+   "benchmarks": [
+    "MVTec AD",
+    "VisA",
+    "Real-IAD"
+   ]
+  }
+ }
 }

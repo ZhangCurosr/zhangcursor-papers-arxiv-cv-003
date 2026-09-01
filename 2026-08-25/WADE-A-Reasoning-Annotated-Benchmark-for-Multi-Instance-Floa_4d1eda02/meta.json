@@ -4,5 +4,30 @@
  "title": "WADE-A-Reasoning-Annotated-Benchmark-for-Multi-Instance-Floa",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-25 03:00:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/52be91cc-a310-426d-8b4c-65c9c993c712.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/52be91cc-a310-426d-8b4c-65c9c993c712.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:53:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Floating Waste",
+    "Vision-Language Model",
+    "Multi-Instance Grounding",
+    "Reasoning Annotation",
+    "QLoRA Fine-tuning",
+    "Object Hallucination",
+    "Waterway Monitoring"
+   ],
+   "field": "环境感知与多模态定位",
+   "innovations": [
+    "提出 WADE 推理注释基准测试，覆盖孟加拉国农村水域密集漂浮垃圾的多实例定位任务",
+    "设计类别级九字段推理链注解体系，为 VLM 提供统一的判别规则监督",
+    "揭示紧凑 VLM 经 QLoRA 微调后可超越商业零样本系统，但空间定位仍是核心瓶颈"
+   ],
+   "benchmarks": [
+    "WADE"
+   ]
+  }
+ }
 }

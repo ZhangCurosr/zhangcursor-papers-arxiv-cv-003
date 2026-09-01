@@ -4,5 +4,31 @@
  "title": "Unsupervised-Adaptation-of-3D-CT-Foundation-Models-for-3D-CB",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-28 13:48:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/84e5a8b3-c80c-4b37-9836-84d0723d51a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/84e5a8b3-c80c-4b37-9836-84d0723d51a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:54:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Unsupervised Domain Adaptation",
+    "CBCT Segmentation",
+    "Foundation Models",
+    "3D Medical Imaging",
+    "Feature Alignment",
+    "Redundancy Reduction",
+    "Barlow Twins"
+   ],
+   "field": "医学图像分割与域适应",
+   "innovations": [
+    "提出基于冗余降低的无监督特征对齐框架，无需adversary预测头",
+    "架构无关设计，同时适配CNN和ViT基础模型，显著提升CT到CBCT迁移性能",
+    "公开Pancreatic-3D CBCT肝脏分割标注，促进公平基准研究"
+   ],
+   "benchmarks": [
+    "Pancreatic-CT-CBCT-SEG (DR)",
+    "LiTS + Private DI dataset"
+   ]
+  }
+ }
 }

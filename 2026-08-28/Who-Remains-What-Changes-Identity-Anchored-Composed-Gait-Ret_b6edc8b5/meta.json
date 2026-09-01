@@ -4,5 +4,30 @@
  "title": "Who-Remains-What-Changes-Identity-Anchored-Composed-Gait-Ret",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-28 13:50:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/5beafd07-ee0d-41b7-a778-e906ce023bda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/5beafd07-ee0d-41b7-a778-e906ce023bda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:54:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "步态检索",
+    "组合检索",
+    "身份锚定",
+    "视觉-语言对齐",
+    "CoGR",
+    "多帧特征聚合"
+   ],
+   "field": "步态识别与组合检索",
+   "innovations": [
+    "提出Identity-anchored ComposeGait框架，通过PIA生成样本级ID token并双向注入共享Q-Former防止身份漂移",
+    "定制支持多正样本和身份冲突过滤的CoGR对比损失",
+    "构建首个步态-语言组合检索数据集及VLM自动化标注流水线"
+   ],
+   "benchmarks": [
+    "Language-Augmented CCPG",
+    "Language-Augmented CASIA-B"
+   ]
+  }
+ }
 }

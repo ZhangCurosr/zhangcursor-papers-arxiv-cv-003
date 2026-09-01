@@ -4,5 +4,34 @@
  "title": "VeCAS-Vessel-Focused-Contrast-Free-Angiogram-Synthesis-for-V",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-25 14:42:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/aa85e4ff-826e-46cf-b39d-a299575a0e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/aa85e4ff-826e-46cf-b39d-a299575a0e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:52:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contrast-free angiography",
+    "vascular intervention",
+    "diffusion inpainting",
+    "cross-modality distillation",
+    "medical image synthesis",
+    "angiogram generation"
+   ],
+   "field": "医学图像生成与介入导航",
+   "innovations": [
+    "两阶段血管聚焦框架：显式解耦血管定位与造影外观合成",
+    "跨模态潜在蒸馏：通过多尺度特征预测桥接无对比剂与造影图像",
+    "血管聚焦扩散修复：训练限定血管区域损失、推理保留非血管背景"
+   ],
+   "benchmarks": [
+    "DSC",
+    "clDice",
+    "PSNR",
+    "SSIM",
+    "Visual Turing Test",
+    "Robot Navigation in Phantom"
+   ]
+  }
+ }
 }

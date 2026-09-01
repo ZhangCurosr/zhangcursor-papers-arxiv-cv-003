@@ -4,5 +4,31 @@
  "title": "What-Remains-Normal-Clean-Images-Miss-Useful-Near-Defect-Nor",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-25 14:42:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/337aa896-d251-4c6e-841b-0d65a0a5acdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/337aa896-d251-4c6e-841b-0d65a0a5acdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:53:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工业异常检测",
+    "无监督异常定位",
+    "记忆基检测器",
+    "重建基检测器",
+    "DINOv2",
+    "上下文扰动"
+   ],
+   "field": "工业视觉异常检测",
+   "innovations": [
+    "固定预算诊断揭示干净训练池缺失缺陷邻域正常特征",
+    "BOUNDARYSUPPORT通过合成上下文改变仅学习像素保留邻域特征",
+    "跨记忆与重建范式的匹配对照证明改变后上下文特征更优"
+   ],
+   "benchmarks": [
+    "MVTec AD",
+    "VisA",
+    "Real-IAD"
+   ]
+  }
+ }
 }

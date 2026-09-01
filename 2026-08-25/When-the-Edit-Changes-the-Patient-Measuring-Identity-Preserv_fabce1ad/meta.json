@@ -4,5 +4,36 @@
  "title": "When-the-Edit-Changes-the-Patient-Measuring-Identity-Preserv",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-25 14:42:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b9af98b5-3aba-4bf3-984c-7d82fc4996b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b9af98b5-3aba-4bf3-984c-7d82fc4996b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:53:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual image generation",
+    "identity preservation",
+    "retinal OCT",
+    "text-conditioned editing",
+    "medical image synthesis",
+    "SDEdit",
+    "Prompt-to-Prompt",
+    "InstructPix2Pix"
+   ],
+   "field": "医学图像反事实生成",
+   "innovations": [
+    "首次系统评估OCT反事实生成中的身份保留，提出三维度评估框架",
+    "提出ICA度量量化编辑方向与真实纵向变化的语义对齐",
+    "证明显式身份保留可在几乎不损失其他指标前提下显著改善身份一致性"
+   ],
+   "benchmarks": [
+    "Southampton AMD OCT dataset",
+    "FID",
+    "AMD stage F1-score",
+    "Ag_eye",
+    "Ag_sex",
+    "ICA"
+   ]
+  }
+ }
 }
