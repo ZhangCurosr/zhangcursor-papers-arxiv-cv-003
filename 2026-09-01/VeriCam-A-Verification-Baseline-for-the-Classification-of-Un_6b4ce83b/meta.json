@@ -4,5 +4,31 @@
  "title": "VeriCam-A-Verification-Baseline-for-the-Classification-of-Un",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-01 17:36:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c8a08dc8-67fb-4e1d-80fc-3c0470f84536.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c8a08dc8-67fb-4e1d-80fc-3c0470f84536.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:08:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot classification",
+    "verification network",
+    "graph clustering",
+    "Leiden algorithm",
+    "capture device bias",
+    "metric learning",
+    "fine-grained classification"
+   ],
+   "field": "细粒度视觉分类与零样本学习",
+   "innovations": [
+    "基于验证网络的零样本类别发现，将分类重构为pairwise binary decision",
+    "提出朴素阈值与Leiden(CPM)图聚类两种无先验聚类方案",
+    "系统揭示LPLCv2中捕获设备偏差对OCR任务的负面影响"
+   ],
+   "benchmarks": [
+    "LPLCv2",
+    "PARSeq-tiny OCR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "VeriCam-A-Verification-Baseline-for-the-Classification-of-Un",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-01 07:16:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c8a08dc8-67fb-4e1d-80fc-3c0470f84536.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c8a08dc8-67fb-4e1d-80fc-3c0470f84536.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:08:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot classification",
+    "verification network",
+    "graph clustering",
+    "capture device bias",
+    "ViT",
+    "Leiden algorithm"
+   ],
+   "field": "零样本学习与度量学习",
+   "innovations": [
+    "验证驱动的零样本分类新范式，无需先验标签",
+    "朴素阈值与Leiden图聚类的双方案验证框架",
+    "交通监控数据集设备偏差的实证量化"
+   ],
+   "benchmarks": [
+    "LPLCv2",
+    "PARSeq-tiny OCR"
+   ]
+  }
+ }
 }

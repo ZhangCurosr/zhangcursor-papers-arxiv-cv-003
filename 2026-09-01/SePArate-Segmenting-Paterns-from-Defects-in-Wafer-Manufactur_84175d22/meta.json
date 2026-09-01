@@ -4,5 +4,31 @@
  "title": "SePArate-Segmenting-Paterns-from-Defects-in-Wafer-Manufactur",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-01 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d5b37e4f-cf8e-418d-bda8-c9d96317c1b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d5b37e4f-cf8e-418d-bda8-c9d96317c1b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:08:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督分割",
+    "晶圆缺陷分析",
+    "二元图像分割",
+    "混合缺陷模式",
+    "软监督图",
+    "模式加权损失",
+    "半导体制造"
+   ],
+   "field": "工业缺陷检测与分割",
+   "innovations": [
+    "首个面向二元混合缺陷图像的弱监督像素级分割框架 SePArate",
+    "提出结合 CAM 与局部密度图的软监督图生成机制",
+    "引入模式加权 Dice 损失与缺失惩罚+阈值调度联合优化策略"
+   ],
+   "benchmarks": [
+    "MATDefects",
+    "MixedWM38"
+   ]
+  }
+ }
 }

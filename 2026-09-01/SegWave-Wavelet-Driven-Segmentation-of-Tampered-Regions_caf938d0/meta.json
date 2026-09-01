@@ -4,5 +4,33 @@
  "title": "SegWave-Wavelet-Driven-Segmentation-of-Tampered-Regions",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-01 17:36:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/462b487e-50d3-4b39-9912-099ab22b0f51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/462b487e-50d3-4b39-9912-099ab22b0f51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:08:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Image Forensics",
+    "Tampering Detection",
+    "Discrete Wavelet Transform",
+    "Adaptive Sub-band Attention",
+    "Multi-source Segmentation",
+    "Weak Supervision",
+    "Segment Anything"
+   ],
+   "field": "图像篡改检测与定位",
+   "innovations": [
+    "提出 DWT + ASA 的混合 Transformer 框架，利用局部化多尺度频率线索实现压缩无关的篡改定位",
+    "设计自适应子带注意力模块，动态加权 LH/HL/HH 高频子带以提升边界定位与多源分区能力",
+    "在弱二值掩码监督下实现点提示引导的多源分割，无需精细标注即可分区多个伪造源"
+   ],
+   "benchmarks": [
+    "CocoGlide",
+    "Columbia",
+    "RealisticTampering",
+    "SafireMS-Expert"
+   ]
+  }
+ }
 }

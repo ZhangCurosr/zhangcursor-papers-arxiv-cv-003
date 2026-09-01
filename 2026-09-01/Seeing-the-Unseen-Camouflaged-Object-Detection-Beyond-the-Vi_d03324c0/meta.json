@@ -4,5 +4,33 @@
  "title": "Seeing-the-Unseen-Camouflaged-Object-Detection-Beyond-the-Vi",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-01 17:36:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c3b1abe7-6c27-4bd0-8982-3d39c927962f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c3b1abe7-6c27-4bd0-8982-3d39c927962f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:08:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "camouflaged object detection",
+    "multispectral imaging",
+    "transformer",
+    "weight inflation",
+    "cascaded decoder",
+    "hyperspectral"
+   ],
+   "field": "多光谱/高光谱图像分割",
+   "innovations": [
+    "提出MSFormer首个端到端多光谱Transformer COD框架",
+    "设计权重膨胀策略将RGB预训练PVT适配至多光谱输入",
+    "提出级联解码器模块实现多尺度特征的递归融合"
+   ],
+   "benchmarks": [
+    "MCOD",
+    "Hyper-COD",
+    "COD10K",
+    "CAMO",
+    "NC4K"
+   ]
+  }
+ }
 }
