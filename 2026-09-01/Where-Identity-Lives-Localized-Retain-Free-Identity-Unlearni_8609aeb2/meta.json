@@ -4,5 +4,29 @@
  "title": "Where-Identity-Lives-Localized-Retain-Free-Identity-Unlearni",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-01 17:36:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/16a318ed-7b86-4e79-9781-933e3d3a4fa4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/16a318ed-7b86-4e79-9781-933e3d3a4fa4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:20:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "Multimodal Large Language Models",
+    "Identity Erasure",
+    "Mechanistic Interpretability",
+    "Retain-Free Learning"
+   ],
+   "field": "多模态大模型隐私与机器遗忘",
+   "innovations": [
+    "通过因果追踪/权重移植/Fisher重叠三重定位，首次精确定位MLLM身份知识存储于解码器MLP早期到中期层",
+    "提出PAVA方法，利用视觉属性锚点替代外部保留集，实现仅需forget set的身份遗忘",
+    "揭示名字与面容处理在MLP中的模态特异性分层存储机制，支持可组合的顺序遗忘"
+   ],
+   "benchmarks": [
+    "MLLMU-Bench",
+    "ReMem"
+   ]
+  }
+ }
 }

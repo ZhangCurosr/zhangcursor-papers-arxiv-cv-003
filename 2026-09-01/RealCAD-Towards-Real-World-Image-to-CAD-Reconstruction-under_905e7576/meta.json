@@ -4,5 +4,31 @@
  "title": "RealCAD-Towards-Real-World-Image-to-CAD-Reconstruction-under",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-01 17:36:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e0abf2cd-cff2-4086-a145-7227f18fc2b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e0abf2cd-cff2-4086-a145-7227f18fc2b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:18:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image-to-CAD",
+    "Sim2Real",
+    "parameter bias",
+    "DeepCAD",
+    "OpenRealCAD",
+    "contrastive learning",
+    "computer-aided design"
+   ],
+   "field": "3D CAD重建与生成",
+   "innovations": [
+    "修正DeepCAD参数表示以降低分布集中性，消除频率捷径学习",
+    "构建OpenRealCAD真实图像基准并配对修正表示的命令序列",
+    "提出联合几何约束图像翻译与多正对对比学习的Sim2Real重建框架"
+   ],
+   "benchmarks": [
+    "OpenRealCAD",
+    "DeepCAD合成数据"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SocialReasonBench-A-Video-QA-Benchmark-for-Social-Reasoning",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-01 17:36:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15ddb715-1896-4255-a874-8ba5f7d59b73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15ddb715-1896-4255-a874-8ba5f7d59b73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:19:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频QA基准",
+    "社会推理",
+    "反事实推理",
+    "多模态大模型",
+    "互动叙事游戏",
+    "基准测试",
+    "因果推理"
+   ],
+   "field": "多模态社会推理评估",
+   "innovations": [
+    "提出基于互动叙事游戏分支结构的视频QA基准SocialReasonBench，首次系统性评估LMM在七类社会推理维度上的能力",
+    "开发多智能体策展管道，利用游戏状态信号锚定标签并设计诊断性干扰项",
+    "构建双维分类体系（人际互动×推理能力）与完整模态消融资产"
+   ],
+   "benchmarks": [
+    "SocialReasonBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SurgSkill-Bench-A-Benchmark-for-Multimodal-Surgical-Skill-As",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-01 17:36:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/cea61e8f-bf39-44d6-a5da-780325c9b4fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/cea61e8f-bf39-44d6-a5da-780325c9b4fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:20:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "surgical skill assessment",
+    "SurgSkill-Bench",
+    "multimodal learning",
+    "co-attention",
+    "key-frame extraction",
+    "OSATS"
+   ],
+   "field": "医疗视频分析与手术技能评估",
+   "innovations": [
+    "提出首个视频-评分-文本三模态对齐的手术技能评估基准SurgSkill-Bench",
+    "定义纯视频与专家评论辅助两种互补的评估设置并提供受控基线",
+    "引入内容自适应关键帧采样(CA-Frame)以缓解手术视频冗余问题"
+   ],
+   "benchmarks": [
+    "SurgSkill-Bench"
+   ]
+  }
+ }
 }

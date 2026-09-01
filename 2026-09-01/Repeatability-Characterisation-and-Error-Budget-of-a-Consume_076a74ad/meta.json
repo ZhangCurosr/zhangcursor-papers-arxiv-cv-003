@@ -4,5 +4,30 @@
  "title": "Repeatability-Characterisation-and-Error-Budget-of-a-Consume",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-01 17:36:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9dea90a-ddf9-4626-b106-d1a423f53363.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9dea90a-ddf9-4626-b106-d1a423f53363.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:19:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured light",
+    "wound measurement",
+    "repeatability",
+    "error budget",
+    "3D geometry",
+    "variance decomposition",
+    "intraclass correlation"
+   ],
+   "field": "生物医学测量与评估",
+   "innovations": [
+    "刚性模体设计实现测量误差与生物变化的可识别方差分解，揭示采集范围贡献75%表面积方差而非传感器本身",
+    "提出控制变量反推的误差预算框架，量化各误差源贡献比例",
+    "固定尺度quadric曲率估计器解决顶点密度差异高达43倍时的跨扫描可比较性问题"
+   ],
+   "benchmarks": [
+    "临床4周面积减少53%（因子2.13）愈合预测阈值"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "RealOOB-A-Definition-Consistent-Real-World-Oriented-Occlusio",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-01 17:36:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/60fd5115-dd57-4ae2-897e-fd23dfe4cf52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/60fd5115-dd57-4ae2-897e-fd23dfe4cf52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:18:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Occlusion Boundary",
+    "Edge Detection",
+    "Monocular Depth Estimation",
+    "Benchmark",
+    "Geometry-aware Vision"
+   ],
+   "field": "遮挡边界估计与低层视觉",
+   "innovations": [
+    "首个定义一致且覆盖自遮挡的现实世界OB基准RealOOB",
+    "有效性感知方向标签机制",
+    "系统证明边缘检测器可作为强OB基线"
+   ],
+   "benchmarks": [
+    "RealOOB",
+    "PIOD",
+    "NYUv2_OR",
+    "BSDS ownership"
+   ]
+  }
+ }
 }

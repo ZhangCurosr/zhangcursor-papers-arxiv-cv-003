@@ -4,5 +4,33 @@
  "title": "Whole-Slide-Image-Analysis-under-Realistic-Few-Shot-Annotati",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-01 17:36:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/206e0a07-78f7-4e08-b24d-33ee8d7f6e3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/206e0a07-78f7-4e08-b24d-33ee8d7f6e3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:21:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Whole-Slide Image",
+    "conditional random field",
+    "few-shot transduction",
+    "vision-language model",
+    "weak annotation",
+    "digital pathology",
+    "interactive segmentation"
+   ],
+   "field": "计算病理学与WSI分析",
+   "innovations": [
+    "提出SlideCRF：融合空间邻域平滑与手工生物特征（纹理+颜色）的CRF转导精化方法，适配真实WSI场景",
+    "设计class-presence软惩罚项（λ）抑制未在标注中出现的类别",
+    "构建统一的realistic标注协议基准（clicks/scribbles × representative/error-driven/HITL）"
+   ],
+   "benchmarks": [
+    "BACH",
+    "CATCH",
+    "SKINCANCER",
+    "TIGER"
+   ]
+  }
+ }
 }
