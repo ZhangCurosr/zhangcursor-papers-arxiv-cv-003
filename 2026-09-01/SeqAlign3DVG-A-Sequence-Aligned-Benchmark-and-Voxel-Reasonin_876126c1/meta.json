@@ -4,5 +4,30 @@
  "title": "SeqAlign3DVG-A-Sequence-Aligned-Benchmark-and-Voxel-Reasonin",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-01 07:20:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/828a5deb-0da9-41a7-a7ee-c26454cbd9bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/828a5deb-0da9-41a7-a7ee-c26454cbd9bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:41:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Visual Grounding",
+    "Embodied Perception",
+    "Vision-Language",
+    "Voxel Memory",
+    "Multi-View Aggregation",
+    "Sequence-Aligned Benchmark"
+   ],
+   "field": "3D 视觉定位 / 具身感知",
+   "innovations": [
+    "提出严格观测对齐的单视角与有序序列 3D 视觉定位基准 SeqAlign3DVG",
+    "Relevance-Ordered Voxel Memory（ROVM）：按查询相关性有序保守更新 3D 体素记忆以抑制多视图噪声",
+    "Progressive Language-Voxel Fusion（PLVF）：粗粒度目标槽假设 + 稀疏 token 级交叉注意力两阶段细粒度消歧"
+   ],
+   "benchmarks": [
+    "SeqAlign3DVG",
+    "ScanNetV2"
+   ]
+  }
+ }
 }

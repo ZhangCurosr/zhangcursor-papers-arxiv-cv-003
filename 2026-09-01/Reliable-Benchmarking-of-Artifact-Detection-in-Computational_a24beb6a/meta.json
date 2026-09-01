@@ -4,5 +4,32 @@
  "title": "Reliable-Benchmarking-of-Artifact-Detection-in-Computational",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-01 07:16:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2edc6c1c-8269-4d26-ad00-4e1221f09f77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2edc6c1c-8269-4d26-ad00-4e1221f09f77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:40:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reproducibility",
+    "Uncertainty Quantification",
+    "Benchmarking",
+    "Computational Pathology",
+    "Quality Control",
+    "Artifact Detection",
+    "Whole-Slide Imaging",
+    "Small Cohort"
+   ],
+   "field": "计算病理学的小样本不确定性分析",
+   "innovations": [
+    "提出四轴可靠性协议量化小样本基准的测试集采样、训练随机性、划分组成和未文档化预处理变异",
+    "发现组织限制等常见预处理步骤可能与目标伪影（如离焦）结构性混淆，且无法通过阈值调整解决",
+    "独立复现扩散工件检测器，分离出稳健的机制改进（对比项提升笔迹检测）与不可靠的比较结论"
+   ],
+   "benchmarks": [
+    "AIRAQC",
+    "TCGA Whole-Slide Images"
+   ]
+  }
+ }
 }

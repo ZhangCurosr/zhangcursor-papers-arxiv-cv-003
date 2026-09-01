@@ -4,5 +4,31 @@
  "title": "Vision-Models-Predict-Urban-Scene-Appraisal-with-Limited-Neu",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-01 07:18:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d2f7bd30-5269-4ed8-b24b-26ee8d8d52f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d2f7bd30-5269-4ed8-b24b-26ee8d8d52f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:42:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "representational similarity analysis",
+    "neural alignment",
+    "urban scene appraisal",
+    "EEG",
+    "vision models",
+    "noise ceiling"
+   ],
+   "field": "计算神经科学与城市视觉分析交叉",
+   "innovations": [
+    "首个无训练EEG神经对齐基准，仅需55张图嵌入即可评估",
+    "证明预测准确率与神经对齐度解耦，Gabor描述子匹配最优模型",
+    "揭示任务集不调制且重新加权神经几何导致过拟合"
+   ],
+   "benchmarks": [
+    "OpenNeuro ds006850",
+    "Berlin street scenes (55 images)",
+    "9 urban appraisal scales"
+   ]
+  }
+ }
 }

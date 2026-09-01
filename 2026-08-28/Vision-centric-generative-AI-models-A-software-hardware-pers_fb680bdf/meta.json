@@ -4,5 +4,32 @@
  "title": "Vision-centric-generative-AI-models-A-software-hardware-pers",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-28 23:24:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7ef853a6-fc42-4cde-a037-7a10dda02ad4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7ef853a6-fc42-4cde-a037-7a10dda02ad4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:40:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision generative AI",
+    "software-hardware co-design",
+    "diffusion models",
+    "GAN",
+    "autonomous vehicles",
+    "edge deployment",
+    "energy efficiency"
+   ],
+   "field": "视觉生成模型与硬件协同设计",
+   "innovations": [
+    "提出right model for right application的软硬件协同设计理念",
+    "系统性量化四类生成模型在参数-FID-能效三维空间的权衡关系",
+    "构建模型家族与应用领域兼容性的部署决策框架"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "ImageNet 128x128",
+    "ImageNet 256x256"
+   ]
+  }
+ }
 }

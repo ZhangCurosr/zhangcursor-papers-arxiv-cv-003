@@ -4,5 +4,33 @@
  "title": "Robust-retinal-biometrics-for-patient-identity-verification",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-01 07:16:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/fd8c00c7-89c5-4da8-b3be-79ef7cb2bed3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/fd8c00c7-89c5-4da8-b3be-79ef7cb2bed3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:41:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retinal biometrics",
+    "patient identity verification",
+    "metric learning",
+    "color fundus imaging",
+    "patient re-identification",
+    "ArcFace",
+    "triplet loss",
+    "medical image audit"
+   ],
+   "field": "医学图像患者身份验证与生物识别",
+   "innovations": [
+    "首个在跨设备跨队列纵向眼底影像上系统验证的视网膜生物识别度量学习系统，AUROC近1.0且Recall@1超97%",
+    "提出ArcFace+Triplet Loss复合损失配合PK采样与Hard Mining的策略，迁移自人脸/行人Re-ID最佳实践到眼科影像",
+    "首次利用AI筛查+专家审核范式量化大规模眼底数据库中的身份标注错误率（RS 0.588%/AREDS 0.164%/UKBB 0.259%）"
+   ],
+   "benchmarks": [
+    "Rotterdam Study (RS)",
+    "UK Biobank (UKBB)",
+    "Age-Related Eye Disease Study (AREDS)"
+   ]
+  }
+ }
 }

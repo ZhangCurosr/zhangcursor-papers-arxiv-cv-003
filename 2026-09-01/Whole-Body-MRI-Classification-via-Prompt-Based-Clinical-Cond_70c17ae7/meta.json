@@ -4,5 +4,10 @@
  "title": "Whole-Body-MRI-Classification-via-Prompt-Based-Clinical-Cond",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-01 07:20:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e7457f7b-08ce-4e51-b58a-007873726f27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e7457f7b-08ce-4e51-b58a-007873726f27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:42:50",
+  "chunks": 1
+ }
 }

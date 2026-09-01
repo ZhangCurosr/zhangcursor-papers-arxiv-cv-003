@@ -4,5 +4,33 @@
  "title": "Repeatability-Characterisation-and-Error-Budget-of-a-Consume",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-01 07:19:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9dea90a-ddf9-4626-b106-d1a423f53363.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9dea90a-ddf9-4626-b106-d1a423f53363.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:40:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured light",
+    "wound measurement",
+    "repeatability",
+    "error budget",
+    "intraclass correlation",
+    "rigid phantom",
+    "3D reconstruction",
+    "medical metrology"
+   ],
+   "field": "生物医学测量与伤口几何分析",
+   "innovations": [
+    "刚性模型分离测量误差与生物学变化的方差分解设计",
+    "固定尺度曲率估计器解决网格分辨率依赖性",
+    "误差预算揭示捕获范围主导75%表面积方差"
+   ],
+   "benchmarks": [
+    "4周面积降低53%愈合预测阈值(R=2.13)",
+    "ICC 0.75良好信度阈值",
+    "ISO 5725-1重复性标准"
+   ]
+  }
+ }
 }

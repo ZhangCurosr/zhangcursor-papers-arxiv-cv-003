@@ -4,5 +4,31 @@
  "title": "Real-Time-Video-Anomaly-Detection-Using-YOLO-Pose-Estimation",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-01 07:16:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/12b902f0-aac3-4e0e-96cb-8709b263dda4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/12b902f0-aac3-4e0e-96cb-8709b263dda4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:40:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video anomaly detection",
+    "CLIP",
+    "YOLO pose estimation",
+    "zero-shot classification",
+    "real-time processing",
+    "vision-language model"
+   ],
+   "field": "视频异常检测",
+   "innovations": [
+    "用CLIP零样本图文余弦相似度替代多特征GMM/kNN密度估计，实现3.36×吞吐提升",
+    "固定4条文本prompt实现无需异常标签训练的多类异常分类",
+    "YOLO v11n-pose与CLIP的两阶段轻量架构在单GPU上实现51 FPS实时检测"
+   ],
+   "benchmarks": [
+    "CUHK Avenue",
+    "ShanghaiTech Campus",
+    "CU Indoor Anomaly"
+   ]
+  }
+ }
 }

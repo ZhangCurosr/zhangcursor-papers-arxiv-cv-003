@@ -4,5 +4,32 @@
  "title": "Segmentation-of-Bovid-Dentition-Under-Imperfect-Annotations",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-01 07:19:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/512eb1e2-71b1-4884-b62b-ab71507e5fdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/512eb1e2-71b1-4884-b62b-ab71507e5fdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:41:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义分割",
+    "牛科牙齿",
+    "标注不完美",
+    "直方图均衡化",
+    "MobileNetV2",
+    "SegFormer",
+    "分布外泛化"
+   ],
+   "field": "科学图像分割与低质量标注鲁棒性",
+   "innovations": [
+    "系统揭示预处理对定量与定性分割效果的解耦影响",
+    "证明轻量级 CNN 在 imperfect annotation 场景下可与大型 Transformer 媲美",
+    "提供跨羊亚科的细分分割基准与泛化性验证"
+   ],
+   "benchmarks": [
+    "B.O.V.I.D. dataset",
+    "Dice score",
+    "mIoU"
+   ]
+  }
+ }
 }

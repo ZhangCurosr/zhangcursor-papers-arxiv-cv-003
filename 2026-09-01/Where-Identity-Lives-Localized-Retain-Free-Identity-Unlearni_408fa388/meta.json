@@ -4,5 +4,31 @@
  "title": "Where-Identity-Lives-Localized-Retain-Free-Identity-Unlearni",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-01 07:18:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/13b61988-29d1-4754-8c5d-47c459673fa7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/13b61988-29d1-4754-8c5d-47c459673fa7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:42:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "multimodal large language models",
+    "identity unlearning",
+    "retain-free unlearning",
+    "mechanistic localization",
+    "causal tracing",
+    "Fisher overlap"
+   ],
+   "field": "多模态大模型隐私与机器遗忘",
+   "innovations": [
+    "通过因果追踪/权重移植/Fisher 重叠三点收敛定位身份知识到早期-中期解码器 MLP 层",
+    "提出 PAVA，仅用遗忘集并结合自生成视觉属性锚定实现保留集无关的身份遗忘",
+    "在 MLLMU-Bench/ReMem 上取得遗忘-保留最优权衡，并能分阶段组合 VQA/QA 通路编辑"
+   ],
+   "benchmarks": [
+    "MLLMU-Bench",
+    "ReMem"
+   ]
+  }
+ }
 }

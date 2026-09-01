@@ -4,5 +4,33 @@
  "title": "Vision-centric-generative-AI-models-A-software-hardware-pers",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-28 13:48:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7ef853a6-fc42-4cde-a037-7a10dda02ad4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7ef853a6-fc42-4cde-a037-7a10dda02ad4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:40:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉生成AI",
+    "软件硬件协同设计",
+    "模型能效评估",
+    "边缘部署",
+    "扩散模型",
+    "GAN",
+    "FID",
+    "TOPS/W"
+   ],
+   "field": "视觉生成模型与硬件协同优化",
+   "innovations": [
+    "提出四类视觉生成模型与七类应用场景的匹配框架，揭示GAN在边缘部署中被低估的普适价值",
+    "建立FID-参数量-能效的三维量化评估体系，证明参数效率与输出质量不成正比",
+    "论证硬件被动适配模式的结构性问题，倡导'合适模型-合适硬件-合适应用'的协同设计范式"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "ImageNet 128×128",
+    "ImageNet 256×256"
+   ]
+  }
+ }
 }

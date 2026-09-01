@@ -4,5 +4,37 @@
  "title": "Semantic-Spatial-Discriminability-Enhancement-for-Generalize",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-01 07:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/49e76bc4-e679-4239-bcc9-9d110d94c146.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/49e76bc4-e679-4239-bcc9-9d110d94c146.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:41:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generalized Visual Grounding",
+    "多模态定位",
+    "语义判别力",
+    "空间判别力",
+    "实例中心密度图",
+    "BEiT-3",
+    "交叉注意力"
+   ],
+   "field": "视觉定位与指代表达理解",
+   "innovations": [
+    "提出语义-空间联合判别增强框架 SSDE，同时提升细粒度属性理解与实例级空间分离能力",
+    "设计空间引导交叉注意力（SGCA）将跨模态相似度图作为偏置注入属性提取过程",
+    "构建实例中心密度图作为辅助监督信号，隐式编码多目标数量与空间结构"
+   ],
+   "benchmarks": [
+    "RefCOCO",
+    "RefCOCO+",
+    "RefCOCOg",
+    "gRefCOCO",
+    "Ref-ZOM",
+    "R-RefCOCO",
+    "R-RefCOCO+",
+    "R-RefCOCOg"
+   ]
+  }
+ }
 }
