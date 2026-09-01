@@ -4,5 +4,33 @@
  "title": "TSPFN-A-Temporal-Tabular-Foundation-Model-for-Physiological",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-01 07:19:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d5b3a417-4c23-49d9-b3dd-6b55f784bb66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d5b3a417-4c23-49d9-b3dd-6b55f784bb66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:37:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Time series classification",
+    "Foundation model",
+    "In-context learning",
+    "Physiological signals",
+    "TabPFN",
+    "RoPE"
+   ],
+   "field": "生理时序分类",
+   "innovations": [
+    "将TabPFN架构扩展为支持多通道时序结构的基础模型",
+    "引入通道级RoPE和通道身份嵌入建模时序与通道依赖",
+    "在14万真实生理序列上预训练实现零样本分类"
+   ],
+   "benchmarks": [
+    "eICU-CRD",
+    "ESR",
+    "EOS",
+    "ECG5000",
+    "CPSC 2018"
+   ]
+  }
+ }
 }

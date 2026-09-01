@@ -4,5 +4,29 @@
  "title": "SELECT-SELEctive-Context-Transfer-for-Class-Incremental-Sema",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-01 07:18:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e42245ca-8d7d-40a3-b4b1-d02beb090881.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e42245ca-8d7d-40a3-b4b1-d02beb090881.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:37:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Class-Incremental Semantic Segmentation",
+    "catastrophic forgetting",
+    "context transfer attention",
+    "knowledge distillation",
+    "selective initialization"
+   ],
+   "field": "持续学习 / 类别增量语义分割",
+   "innovations": [
+    "基于表征扰动量的语义相似度检测，动态筛选历史类子集初始化新类token",
+    "上下文转移注意力(CTA)聚合相似类token，结合噪声扰动与margin损失防止表示重叠",
+    "L_ct margin loss从优化端保证新旧类表征分离，缓解稳定性-可塑性困境"
+   ],
+   "benchmarks": [
+    "Pascal VOC 2012",
+    "ADE20K"
+   ]
+  }
+ }
 }

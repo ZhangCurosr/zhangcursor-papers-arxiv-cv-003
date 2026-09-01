@@ -4,5 +4,33 @@
  "title": "TAMI-Temporally-Aligned-Missingness-Aware-and-Interpretable",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-01 07:18:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/13f75b04-2793-4c83-a82c-35dbc9d587e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/13f75b04-2793-4c83-a82c-35dbc9d587e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:37:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal fusion",
+    "temporal alignment",
+    "mental health",
+    "mild cognitive impairment",
+    "missingness-aware",
+    "interpretable AI",
+    "depression detection",
+    "anxiety screening"
+   ],
+   "field": "多模态心理健康数字生物标志物",
+   "innovations": [
+    "自适应时间分箱实现跨模态细粒度时间对齐，消除序列索引配对导致的时间错位",
+    "模态-时间步缺失掩码显式编码遥测缺失，区分零填充与有效测量",
+    "问题上下文在每时间分箱联合所有模态条件化融合"
+   ],
+   "benchmarks": [
+    "AUROC (depression/anxiety)",
+    "AUPRC",
+    "Macro-F1"
+   ]
+  }
+ }
 }

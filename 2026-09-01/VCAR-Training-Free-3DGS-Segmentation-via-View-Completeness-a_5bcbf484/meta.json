@@ -4,5 +4,30 @@
  "title": "VCAR-Training-Free-3DGS-Segmentation-via-View-Completeness-a",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-01 07:18:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/803d1dda-3b51-4f0e-a7c3-4956628b8c98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/803d1dda-3b51-4f0e-a7c3-4956628b8c98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:38:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "3D Segmentation",
+    "Training-Free",
+    "View Completeness",
+    "Boundary Refinement",
+    "SAM"
+   ],
+   "field": "3D Scene Understanding / 3D Segmentation",
+   "innovations": [
+    "Training-free coarse-to-fine 3DGS segmentation framework addressing view incompleteness and anisotropic boundary overflow",
+    "Spherical Spiral Sampling (SSS) for view completeness enhancement via object-centric supplementary viewpoints",
+    "Axis-aware Boundary Refinement (ABR) identifying dominant 3D scale axes for targeted anisotropic compression to reduce boundary artifacts"
+   ],
+   "benchmarks": [
+    "NVOS",
+    "LERF"
+   ]
+  }
+ }
 }

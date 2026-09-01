@@ -4,5 +4,31 @@
  "title": "TUE-Detector-A-Tool-Using-Expert-MLLM-Based-Detector-for-AI",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-01 07:23:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f18ea68b-1b6d-4a21-9837-566260178c44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f18ea68b-1b6d-4a21-9837-566260178c44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:38:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated video detection",
+    "MLLM tool use",
+    "influence function",
+    "tool evolution",
+    "evidence-grounded reasoning",
+    "GRPO reinforcement learning",
+    "forensic video analysis"
+   ],
+   "field": "AI生成视频检测与多模态取证",
+   "innovations": [
+    "首个将通用MLLM训练为面向AI视频检测的工具使用专家检测器",
+    "提出基于影响函数的教师轨迹动态加权策略以解决细粒度过程监督数据稀缺问题",
+    "设计使用广度与证据有效性双维度评估及类遗传操作的用户经验引导工具演化机制"
+   ],
+   "benchmarks": [
+    "ViF-Bench",
+    "GenVideo"
+   ]
+  }
+ }
 }
