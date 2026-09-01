@@ -4,5 +4,38 @@
  "title": "Video-FLAIR-Not-Whether-to-Reason-But-How",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-08-28 13:50:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/06b66fcb-8fbc-4b97-a341-cfd030b50f57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/06b66fcb-8fbc-4b97-a341-cfd030b50f57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:16:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "自适应推理",
+    "强化学习",
+    "链式推理",
+    "多模态验证器"
+   ],
+   "field": "多模态大模型推理效率与自适应推理",
+   "innovations": [
+    "三模式自适应推理框架 Video-FLAIR：学习如何选择推理模式而非是否推理",
+    "模式结构化 rollout+组合奖励：在无标注条件下实现跨模式内比较学习",
+    "在线验证器 DPO 刷新机制：解决 RL 中 reward model 漂移问题"
+   ],
+   "benchmarks": [
+    "MathVista",
+    "Video-Holmes",
+    "Video-MMMU",
+    "EMMA",
+    "MMMU",
+    "HallusionBench",
+    "AI2D",
+    "MM-Vet v2",
+    "Video-TT",
+    "VSI-Bench",
+    "SciVideoBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Video-FLAIR-Not-Whether-to-Reason-But-How",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-08-28 23:24:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/06b66fcb-8fbc-4b97-a341-cfd030b50f57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/06b66fcb-8fbc-4b97-a341-cfd030b50f57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:17:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Adaptive Reasoning",
+    "Multimodal LLM",
+    "Video Understanding",
+    "Reinforcement Learning",
+    "Chain-of-Thought",
+    "Token-level Credit Shaping"
+   ],
+   "field": "多模态大模型推理优化",
+   "innovations": [
+    "提出三模式自适应推理框架并通过组内对比RL学习模式路由",
+    "设计结合ALP与在线验证器的复合奖励实现成本-准确性-接地联合优化",
+    "引入GDPO与token级信用塑形解决多模态RLVR的多奖励梯度模糊问题"
+   ],
+   "benchmarks": [
+    "MathVista",
+    "Video-Holmes",
+    "Video-MMMU",
+    "EMMA",
+    "HallusionBench",
+    "AI2D",
+    "VSI-Bench",
+    "SciVideoBench"
+   ]
+  }
+ }
 }

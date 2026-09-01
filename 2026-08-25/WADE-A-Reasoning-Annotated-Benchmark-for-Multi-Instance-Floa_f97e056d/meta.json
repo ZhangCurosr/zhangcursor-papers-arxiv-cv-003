@@ -4,5 +4,30 @@
  "title": "WADE-A-Reasoning-Annotated-Benchmark-for-Multi-Instance-Floa",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-25 14:42:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/52be91cc-a310-426d-8b4c-65c9c993c712.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/52be91cc-a310-426d-8b4c-65c9c993c712.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:15:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多实例定位",
+    "漂浮垃圾检测",
+    "视觉语言模型",
+    "推理监督",
+    "QLoRA微调",
+    "环境感知",
+    "幻觉评估"
+   ],
+   "field": "多模态环境感知与密集定位",
+   "innovations": [
+    "提出WADE基准测试，包含2,167图像13,608标注的密集多实例漂浮垃圾定位任务",
+    "设计类别级九字段推理链，为紧凑VLM提供结构化判别性监督",
+    "验证2B参数模型经QLoRA微调后可超越商业级零样本VLM"
+   ],
+   "benchmarks": [
+    "WADE"
+   ]
+  }
+ }
 }

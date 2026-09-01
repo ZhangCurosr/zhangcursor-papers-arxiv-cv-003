@@ -4,5 +4,30 @@
  "title": "WHAT-MEMORY-COMPOSITION-DOES-NOT-TELL-US-ABOUT-ANOMALY-DETEC",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-25 02:58:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c2176093-5f97-49e7-9311-ae7c3ea0d842.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c2176093-5f97-49e7-9311-ae7c3ea0d842.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:16:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly detection",
+    "memory-based methods",
+    "contaminated training",
+    "coreset selection",
+    "out-of-bag filtering",
+    "industrial defect detection"
+   ],
+   "field": "工业异常检测",
+   "innovations": [
+    "揭示全局覆盖选择器对稀疏训练污染的放大效应（16-44×）",
+    "提出 CLEANCON OOB 交叉图像门控方法在固定检测器下将污染降至≈0%",
+    "建立污染度与检测性能非单调关系的悖论发现"
+   ],
+   "benchmarks": [
+    "MVTec AD",
+    "VisA"
+   ]
+  }
+ }
 }
