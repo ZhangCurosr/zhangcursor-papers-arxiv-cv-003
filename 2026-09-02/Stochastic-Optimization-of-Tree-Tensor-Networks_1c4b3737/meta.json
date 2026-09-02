@@ -4,5 +4,31 @@
  "title": "Stochastic-Optimization-of-Tree-Tensor-Networks",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-02 06:50:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a30a7b06-a6e3-4f4e-9cf9-0b3f069f14ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a30a7b06-a6e3-4f4e-9cf9-0b3f069f14ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:52:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tree Tensor Networks",
+    "Riemannian Optimization",
+    "Stochastic Optimization",
+    "Tensor Networks for ML",
+    "Distance over Gradients",
+    "Quotient Manifold"
+   ],
+   "field": "张量网络机器学习优化",
+   "innovations": [
+    "推导TTN参数流形与商流形上的随机自适应与免学习率黎曼优化算法族",
+    "证明RADAGRAD在TTN商流形上的regret界并揭示规范自由度下的测地距离分解",
+    "提出CNN-TTN混合架构并系统验证无约束优化对下游可压缩性的破坏"
+   ],
+   "benchmarks": [
+    "Fashion-MNIST",
+    "CIFAR10",
+    "Imagenette"
+   ]
+  }
+ }
 }

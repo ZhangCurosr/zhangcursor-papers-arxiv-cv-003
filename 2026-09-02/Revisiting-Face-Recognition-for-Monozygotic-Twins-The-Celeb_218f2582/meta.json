@@ -4,5 +4,39 @@
  "title": "Revisiting-Face-Recognition-for-Monozygotic-Twins-The-Celeb",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-02 06:55:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c5829ff7-1a42-4d8c-8d63-10aa147e03ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c5829ff7-1a42-4d8c-8d63-10aa147e03ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:51:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "face recognition",
+    "monozygotic twins",
+    "Celeb Twins Test Set",
+    "skin marks",
+    "mirror twins",
+    "deep CNN",
+    "face verification"
+   ],
+   "field": "细粒度人脸验证",
+   "innovations": [
+    "提出CTTS数据集，首个含皮肤标记和镜像元数据的名人同卵双胞胎测试集（21,120对图像）",
+    "发现当前深度CNN匹配器未有效利用可见皮肤标记和镜像不对称特征",
+    "系统评估生成式AI合成双胞胎训练数据的可行性，指出现有工具无法产生有效训练样本"
+   ],
+   "benchmarks": [
+    "CTTS-80",
+    "ND-Twins",
+    "LFW",
+    "CALFW",
+    "CPLFW",
+    "CFP-FP",
+    "AgeDB-30",
+    "Hadrian",
+    "Eclipse",
+    "Trad 5"
+   ]
+  }
+ }
 }

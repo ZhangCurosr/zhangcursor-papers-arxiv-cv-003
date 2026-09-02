@@ -4,5 +4,29 @@
  "title": "Streaming4D-Accelerate-4D-World-Models-via-Block-wise-Video",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-02 06:53:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/43908c2e-0cda-44f4-a1d8-e983cdcd086c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/43908c2e-0cda-44f4-a1d8-e983cdcd086c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:51:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D world model",
+    "autoregressive video generation",
+    "incremental reconstruction",
+    "streaming pipeline",
+    "low-latency 3D"
+   ],
+   "field": "4D动态场景生成与重建",
+   "innovations": [
+    "块状AR生成与增量3D重建的同步流水线并行",
+    "Self-Forcing生成器与CUT3R后端的紧耦合架构",
+    "单卡1.24×加速同时保持几何保真度"
+   ],
+   "benchmarks": [
+    "7-Scenes",
+    "CUT3R latency comparison"
+   ]
+  }
+ }
 }

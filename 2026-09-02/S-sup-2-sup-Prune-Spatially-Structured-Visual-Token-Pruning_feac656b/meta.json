@@ -4,5 +4,37 @@
  "title": "S-sup-2-sup-Prune-Spatially-Structured-Visual-Token-Pruning",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-02 06:51:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/54cf6d1a-adad-4715-a1d6-cd95ee4f6622.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/54cf6d1a-adad-4715-a1d6-cd95ee4f6622.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:51:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual token pruning",
+    "multimodal large language models",
+    "spatial allocation",
+    "training-free acceleration",
+    "Laplacian structure",
+    "Early Representation Change"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "将视觉token剪枝重新定义为空间速率分配问题，解耦'预算分布'与'局部选择'",
+    "用Laplacian响应方差无训练分配区域token预算并自适应结构复杂度",
+    "提出ERC作为第一解码器层的轻量代表性选择信号"
+   ],
+   "benchmarks": [
+    "Qwen2.5-VL-7B-Instruct",
+    "LLaVA-OneVision-7B",
+    "MMB^EN",
+    "POPE",
+    "GQA",
+    "MMMU",
+    "MME",
+    "VQA^Text",
+    "MMVet"
+   ]
+  }
+ }
 }

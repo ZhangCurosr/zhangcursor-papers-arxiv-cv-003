@@ -4,5 +4,30 @@
  "title": "SpatialGuard-Harness-Guided-Verifiable-Spatial-Reasoning-for",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-02 06:51:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b65395c0-17ac-4c64-bb42-c87ad0d111cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b65395c0-17ac-4c64-bb42-c87ad0d111cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:51:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image generation",
+    "spatial reasoning",
+    "layout-guided generation",
+    "agent harness",
+    "verifiable generation",
+    "3D spatial layout"
+   ],
+   "field": "可控图像生成",
+   "innovations": [
+    "首次将 agent harness 概念引入文生图流水线，构建跨轮次空间约束执行机制",
+    "提出可编辑布局状态+结构化验证+定向修复的闭环生成范式，缓解多轮交互中的约束遗忘问题"
+   ],
+   "benchmarks": [
+    "Gemini 2.5 Pro",
+    "Qwen3-VL",
+    "Grok 4"
+   ]
+  }
+ }
 }

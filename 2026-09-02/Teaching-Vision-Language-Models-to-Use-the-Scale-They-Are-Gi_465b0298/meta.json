@@ -4,5 +4,30 @@
  "title": "Teaching-Vision-Language-Models-to-Use-the-Scale-They-Are-Gi",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-02 06:53:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3d3d59ab-8d44-41ab-84ad-eefbafaa9535.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3d3d59ab-8d44-41ab-84ad-eefbafaa9535.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:52:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "尺度等变性",
+    "无标签训练",
+    "度量物理推理",
+    "自蒸馏",
+    "视觉语言模型",
+    "齐次关系"
+   ],
+   "field": "多模态物理推理",
+   "innovations": [
+    "利用尺度等变对称性作为无标签监督信号，仅需单次查询即可训练度量接地能力",
+    "提出EquiSD方法，将模型预测投影到等变函数族并用搬运目标微调，避免引入外部量级先验",
+    "发现VLM在度量推理中尺度利用不足的普遍缺陷并建立诊断探针体系"
+   ],
+   "benchmarks": [
+    "QuantiPhy",
+    "IVP-Sim"
+   ]
+  }
+ }
 }
