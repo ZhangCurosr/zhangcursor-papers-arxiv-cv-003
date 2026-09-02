@@ -4,5 +4,29 @@
  "title": "Streaming4D-Accelerate-4D-World-Models-via-Block-wise-Video",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-02 17:36:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/43908c2e-0cda-44f4-a1d8-e983cdcd086c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/43908c2e-0cda-44f4-a1d8-e983cdcd086c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:21:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D世界模型",
+    "自回归视频生成",
+    "增量3D重建",
+    "流水线并行",
+    "低延迟生成",
+    "Streaming4D"
+   ],
+   "field": "动态3D/4D生成与重建",
+   "innovations": [
+    "块级自回归视频生成与增量3D重建的紧耦合同步流水线设计",
+    "通过单块偏移的流水线并行显著降低端到端延迟（1.21×–1.24×）",
+    "提供含硬件竞争系数的延迟解析模型与多分辨率效率分析"
+   ],
+   "benchmarks": [
+    "7-Scenes"
+   ]
+  }
+ }
 }

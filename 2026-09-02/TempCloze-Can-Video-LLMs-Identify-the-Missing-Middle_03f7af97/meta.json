@@ -4,5 +4,31 @@
  "title": "TempCloze-Can-Video-LLMs-Identify-the-Missing-Middle",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-02 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ed5797ea-c355-4481-92ea-c955d42609b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ed5797ea-c355-4481-92ea-c955d42609b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:22:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video-LLM",
+    "时序推理",
+    "视频完形填空",
+    "benchmark",
+    "视觉推理",
+    "Temporal Reasoning"
+   ],
+   "field": "多模态大模型评测",
+   "innovations": [
+    "提出TempCloze视频完形填空基准，以纯视觉候选替代文本选项消除语言捷径",
+    "设计三维度(Semantic/Alignment/Progression)同源干扰项机制，系统化拆解视觉时序推理能力",
+    "发现Alignment(时间对齐)是当前Video-LLM视觉时序推理的主要瓶颈"
+   ],
+   "benchmarks": [
+    "TempCloze",
+    "TempCloze-Mixed",
+    "TempCloze-Hard"
+   ]
+  }
+ }
 }

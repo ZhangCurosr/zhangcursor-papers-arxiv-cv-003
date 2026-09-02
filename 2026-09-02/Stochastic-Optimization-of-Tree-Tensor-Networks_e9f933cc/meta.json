@@ -4,5 +4,31 @@
  "title": "Stochastic-Optimization-of-Tree-Tensor-Networks",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-02 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a30a7b06-a6e3-4f4e-9cf9-0b3f069f14ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a30a7b06-a6e3-4f4e-9cf9-0b3f069f14ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:21:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tree tensor network",
+    "stochastic Riemannian optimization",
+    "quotient manifold",
+    "distance over gradients",
+    "MUON",
+    "model compression"
+   ],
+   "field": "张量网络与黎曼优化",
+   "innovations": [
+    "在 TTN 参数流形与商流形上推导随机黎曼自适应与免超参优化器",
+    "证明 TTN 商流形测地线喷流与 Grassmann 笛卡尔积共享结构以支持距离计算",
+    "提出 CNN-TTN 混合架构并验证黎曼优化对下游压缩的数值稳定性优势"
+   ],
+   "benchmarks": [
+    "Fashion-MNIST",
+    "CIFAR10",
+    "Imagenette"
+   ]
+  }
+ }
 }

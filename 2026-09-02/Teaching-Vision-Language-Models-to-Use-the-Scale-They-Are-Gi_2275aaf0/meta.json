@@ -4,5 +4,31 @@
  "title": "Teaching-Vision-Language-Models-to-Use-the-Scale-They-Are-Gi",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-02 17:36:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3d3d59ab-8d44-41ab-84ad-eefbafaa9535.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3d3d59ab-8d44-41ab-84ad-eefbafaa9535.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:23:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "physical reasoning",
+    "scale equivariance",
+    "label-free training",
+    "metric grounding",
+    "benchmark evaluation",
+    "self-distillation"
+   ],
+   "field": "视觉语言模型物理推理",
+   "innovations": [
+    "利用缩放等变性作为精确无标签约束",
+    "EquiSD仅需单次查询即可微调模型尺度响应",
+    "在合成与真实视频上验证尺度泛化能力"
+   ],
+   "benchmarks": [
+    "QuantiPhy",
+    "IVP-Sim"
+   ]
+  }
+ }
 }

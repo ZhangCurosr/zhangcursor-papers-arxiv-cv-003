@@ -4,5 +4,38 @@
  "title": "S-sup-2-sup-Prune-Spatially-Structured-Visual-Token-Pruning",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-02 17:36:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/54cf6d1a-adad-4715-a1d6-cd95ee4f6622.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/54cf6d1a-adad-4715-a1d6-cd95ee4f6622.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:21:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Token Pruning",
+    "Multimodal LLM",
+    "Spatial Allocation",
+    "Training-free",
+    "Laplacian Structure",
+    "Early Representation Change"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "提出解耦的空间分配+局部选择两阶段免训练剪枝框架",
+    "用Laplacian方差自适应分配区域Token预算而非均匀分布",
+    "揭示不同打分标准产生稳定空间偏差并验证Uniform Grid价值"
+   ],
+   "benchmarks": [
+    "GQA",
+    "MMMU",
+    "POPE",
+    "MME",
+    "MMB EN",
+    "MMB CN",
+    "VQAv2",
+    "VizWiz",
+    "SQAMG",
+    "MMVet"
+   ]
+  }
+ }
 }
