@@ -4,5 +4,33 @@
  "title": "Reliability-Challenges-in-Diffusion-Vision-Language-Models",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-02 06:50:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/739dcef6-6d87-41cb-ae3b-d8d00065c43b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/739dcef6-6d87-41cb-ae3b-d8d00065c43b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:19:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion VLM",
+    "hallucination",
+    "bias evaluation",
+    "reliability",
+    "length bias",
+    "commit step"
+   ],
+   "field": "视觉语言模型可靠性评估",
+   "innovations": [
+    "首次系统评估dLVLM的幻觉、偏差和选择可靠性",
+    "发现去噪提交步数与置信度联合信号可预测幻觉风险",
+    "揭示dLVLM长度偏差源于去噪第一步的一次性先验机制"
+   ],
+   "benchmarks": [
+    "POPE",
+    "CHAIR",
+    "FairFace",
+    "CUB-200-2011 MCQA",
+    "Stanford Dogs MCQA"
+   ]
+  }
+ }
 }

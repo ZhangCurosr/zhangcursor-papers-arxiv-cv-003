@@ -4,5 +4,31 @@
  "title": "Solaris-Towards-Interfaces-That-Are-Generated-Not-Coded",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-02 06:52:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f2211c27-0a61-41cb-8a9d-b5d336d7f20f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f2211c27-0a61-41cb-8a9d-b5d336d7f20f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:22:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interface world model",
+    "autoregressive frame generation",
+    "few-step distillation",
+    "self-distillation",
+    "real-time interaction",
+    "multimodal interface"
+   ],
+   "field": "生成式用户界面与交互",
+   "innovations": [
+    "首款无参考实现的界面世界模型，行为由上下文动态决定而非预编程",
+    "自回归+少步蒸馏+自我训练三步实时化链路，首次将交互延迟压至0.5s内",
+    "LLM意图解析与世界模型渲染分离架构，实现同一动作的多义交互语义"
+   ],
+   "benchmarks": [
+    "SSIM",
+    "DINOv3 cross-region matching",
+    "250-user pairwise preference (7500 judgments)"
+   ]
+  }
+ }
 }

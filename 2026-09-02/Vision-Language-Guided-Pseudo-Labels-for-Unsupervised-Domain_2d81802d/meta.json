@@ -4,5 +4,32 @@
  "title": "Vision-Language-Guided-Pseudo-Labels-for-Unsupervised-Domain",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-02 06:54:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d158e845-d988-4ae4-bc16-18fdae98ab40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d158e845-d988-4ae4-bc16-18fdae98ab40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:24:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督域适应",
+    "语义分割",
+    "伪标签",
+    "视觉-语言模型",
+    "SAM",
+    "EVA-CLIP",
+    "BLIP",
+    "工业垃圾分拣"
+   ],
+   "field": "无监督域适应语义分割",
+   "innovations": [
+    "利用SAM+EVA-CLIP跨模态链路生成外部伪标签，绕过分割模型自身置信度依赖",
+    "提出可选BLIP语言验证模块，对低置信度区域进行多信号纠错",
+    "系统性论证伪标签质量（而非数量）是域偏移下自训练成功的关键因素"
+   ],
+   "benchmarks": [
+    "GTA5-to-Cityscapes",
+    "LabWaste-to-RealWaste"
+   ]
+  }
+ }
 }

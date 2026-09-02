@@ -4,5 +4,34 @@
  "title": "Scale-based-Approach-for-Active-Wildfire-Segmentation-on-Sat",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-02 06:49:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8ba9ccfc-b3ef-4696-bf29-28cac179a1b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8ba9ccfc-b3ef-4696-bf29-28cac179a1b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:21:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "wildfire segmentation",
+    "Landsat-8",
+    "scale-based evaluation",
+    "SWIR",
+    "U-Net",
+    "DeepLabV3+",
+    "SegFormer",
+    "Land8Fire"
+   ],
+   "field": "遥感影像语义分割与分布偏移评估",
+   "innovations": [
+    "提出基于 IQR 连接分量大小的尺度感知训练/测试划分协议，显式评估从小火到大火的分布偏移鲁棒性",
+    "系统对比 Dual-SWIR、SWIR2-only、SWIR1-only 三种光谱配置，揭示 SWIR2 在稀疏野火分割中的关键判别力",
+    "在统一尺度协议下公平比较 CNN 与 Transformer 架构，得出 U-Net 泛化最优、DeepLabV3+ 召回保守的结论"
+   ],
+   "benchmarks": [
+    "Land8Fire",
+    "Baseline random split",
+    "Small-fire test set",
+    "Large-fire test set"
+   ]
+  }
+ }
 }

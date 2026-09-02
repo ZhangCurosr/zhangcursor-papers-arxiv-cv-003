@@ -4,5 +4,32 @@
  "title": "UI-VISA-U-Net-Initialized-Vascular-Image-Segmentation-Archit",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-02 06:50:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8fde7bc4-5439-40e0-911e-dddc802c7b43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8fde7bc4-5439-40e0-911e-dddc802c7b43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:23:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "血管分割",
+    "DSA",
+    "U-Net",
+    "区域生长算法",
+    "clDice",
+    "混合架构",
+    "连通性保真"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "提出 UI-VISA 混合架构，用 U-Net 预测作为区域生长智能种子点",
+    "CNN 引导的区域生长算法实现血管连通性显式约束",
+    "统计显著的 clDice 提升验证拓扑保真效果"
+   ],
+   "benchmarks": [
+    "Dice score",
+    "clDice score",
+    "推理时间"
+   ]
+  }
+ }
 }

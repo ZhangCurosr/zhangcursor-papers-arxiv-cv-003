@@ -4,5 +4,57 @@
  "title": "UNCOVERING-UNDERSTANDING-GENERATION-SYN-ERGY-IN-NATIVE-UNIFI",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-02 06:52:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c71b6216-7e11-4613-b2a8-47beace67863.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c71b6216-7e11-4613-b2a8-47beace67863.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:24:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "unified multimodal models",
+    "understanding-generation synergy",
+    "native multimodal",
+    "flow matching",
+    "task-decoupled architecture",
+    "representation probing",
+    "end-to-end unification"
+   ],
+   "field": "多模态表示学习与统一建模",
+   "innovations": [
+    "在原生设定下从表示/任务/系统三层揭示理解与生成协同的条件与边界",
+    "提出任务解耦MOT以专业化冲突视觉计算并保留语义交互实现双向增益",
+    "证明在推理密集型图像编辑等深度交互任务上端到端UMM优于匹配的规划-执行流水线"
+   ],
+   "benchmarks": [
+    "MME",
+    "MMBench",
+    "MMStar",
+    "SEED Bench",
+    "MMMU",
+    "DocVQA",
+    "ChartQA",
+    "GenEval2",
+    "DPG-Bench",
+    "HPSv3",
+    "Geometry3K",
+    "PGPS9K",
+    "MathVerse",
+    "MathVista",
+    "UniSVG",
+    "VSI-Bench",
+    "SPAR-Bench",
+    "CV-Bench",
+    "DA-2K",
+    "MindCube",
+    "ViewSpatial",
+    "3DSRBench",
+    "MMSI",
+    "ALL-Angles",
+    "SpatialEdit",
+    "View Sequence Completion",
+    "RISEBench",
+    "KRIS-Bench"
+   ]
+  }
+ }
 }

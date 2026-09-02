@@ -4,5 +4,30 @@
  "title": "Visual-Framing-for-News-Stance-Detection-via-Image-Generatio",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-02 06:55:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0c98ab26-f98f-4b51-930a-c285e86a94ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0c98ab26-f98f-4b51-930a-c285e86a94ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:24:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stance detection",
+    "news framing",
+    "text-to-image generation",
+    "multimodal NLP",
+    "visual framing",
+    "article-level stance"
+   ],
+   "field": "多模态立场检测与计算框架分析",
+   "innovations": [
+    "将传播学视觉框架理论转译为T2I可操作的四层10特征prompt schema",
+    "提出三阶段VFSTANCE框架（LLM标注→T2I生成→LVLM检测）实现文章级立场显式化",
+    "人机双重验证：机器性能超越所有基线且用户研究显示生成图像帮助人类识别立场"
+   ],
+   "benchmarks": [
+    "K-News-Stance-MM",
+    "CheeSE"
+   ]
+  }
+ }
 }

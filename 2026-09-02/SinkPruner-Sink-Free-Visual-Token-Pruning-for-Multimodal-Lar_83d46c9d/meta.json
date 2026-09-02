@@ -4,5 +4,38 @@
  "title": "SinkPruner-Sink-Free-Visual-Token-Pruning-for-Multimodal-Lar",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-02 06:54:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/55a90c27-ad48-43e7-9b97-839f27429c5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/55a90c27-ad48-43e7-9b97-839f27429c5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:22:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual token pruning",
+    "multimodal large language models",
+    "attention sink",
+    "token compression",
+    "efficient inference",
+    "training-free method"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "发现高范数异常token是视觉冗余与注意力汇聚的根源",
+    "提出scale-free top-ρ相对排名规则实现零校准跨架构迁移",
+    "设计即插即用visual sanitizer模块正交增强现有剪枝方法"
+   ],
+   "benchmarks": [
+    "LLaVA-1.5-7B",
+    "Qwen2.5-VL-7B",
+    "MMBench",
+    "MME",
+    "POPE",
+    "ScienceQA",
+    "MMMU",
+    "MM-Vet",
+    "MVBench",
+    "SEED-Bench"
+   ]
+  }
+ }
 }

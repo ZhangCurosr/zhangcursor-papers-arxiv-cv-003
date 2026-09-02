@@ -4,5 +4,32 @@
  "title": "Seeing-the-World-and-the-Self-from-Egocentric-Video",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-02 06:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/14e68966-283e-49f8-adf9-cd36d95f3ccc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/14e68966-283e-49f8-adf9-cd36d95f3ccc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:21:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric video",
+    "joint scene-self reconstruction",
+    "diffusion motion generation",
+    "metric geometry",
+    "kinematic feedback",
+    "Pi3X adaptation"
+   ],
+   "field": "第一人称三维感知与人体运动重建",
+   "innovations": [
+    "提出RESELF统一框架耦合确定性几何重建与几何条件扩散运动生成",
+    "设计闭环运动学反馈机制通过可微轨迹条件反向优化相机头",
+    "构建EE4D-JSM首个支持联合场景与全身运动重建的大规模对齐数据集"
+   ],
+   "benchmarks": [
+    "EE4D-JSM",
+    "EgoExo4D",
+    "ATE/RPE深度与轨迹评测",
+    "MPJPE/PA-MPJPE/H-MPJPE运动评测"
+   ]
+  }
+ }
 }

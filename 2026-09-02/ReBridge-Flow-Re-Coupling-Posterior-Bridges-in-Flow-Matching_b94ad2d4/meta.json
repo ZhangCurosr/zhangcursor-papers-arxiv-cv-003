@@ -4,5 +4,33 @@
  "title": "ReBridge-Flow-Re-Coupling-Posterior-Bridges-in-Flow-Matching",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-02 06:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f66c44c3-c778-4821-9ea1-0582fa9c94ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f66c44c3-c778-4821-9ea1-0582fa9c94ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:18:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "Image Restoration",
+    "Posterior Bridge",
+    "Endpoint Re-Coupling",
+    "Inverse Problems"
+   ],
+   "field": "生成式图像复原",
+   "innovations": [
+    "提出后验桥缺陷(PBD)联合目标，统一刻画测量误差、流先验偏差与桥残差",
+    "给出干净侧锚定与源侧重耦合的闭式更新，保证局部桥兼容性与强凸最优",
+    "证明桥残差在源侧重耦合后的精确收缩，给出理论保证"
+   ],
+   "benchmarks": [
+    "CelebA",
+    "AFHQ-Cat",
+    "COCO",
+    "IXI-Brain",
+    "PMUB",
+    "X-Ray Hand"
+   ]
+  }
+ }
 }

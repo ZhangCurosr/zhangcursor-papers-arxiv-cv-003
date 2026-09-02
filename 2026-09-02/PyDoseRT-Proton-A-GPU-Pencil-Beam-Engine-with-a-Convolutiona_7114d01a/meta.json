@@ -4,5 +4,35 @@
  "title": "PyDoseRT-Proton-A-GPU-Pencil-Beam-Engine-with-a-Convolutiona",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-02 06:52:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/acab2cc8-9e02-40c5-bbfc-7ff1a369e7ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/acab2cc8-9e02-40c5-bbfc-7ff1a369e7ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:19:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "proton dose calculation",
+    "pencil-beam engine",
+    "residual correction network",
+    "Monte Carlo",
+    "differentiable physics",
+    "RepVGG-U-Net",
+    "DoseRAD2026"
+   ],
+   "field": "计算放射治疗剂量学",
+   "innovations": [
+    "可微分双高斯铅笔束引擎经两阶段校准至MC精度",
+    "BEV空间零初始化残差U-Net学习加性剂量修正",
+    "多源离散嵌入与多尺度BEV深度监督融合"
+   ],
+   "benchmarks": [
+    "DoseRAD2026 proton challenge",
+    "beamlet MAE",
+    "image-z IDD distance",
+    "plan MAE",
+    "gamma pass rate 1%/1mm",
+    "DVH error"
+   ]
+  }
+ }
 }

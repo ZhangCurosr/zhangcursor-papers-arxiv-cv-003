@@ -4,5 +4,32 @@
  "title": "Visual-Attention-Faithfulness-in-Vision-Language-Models-is-H",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-02 06:55:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/fb998e0f-58eb-4e12-9700-bd4769b9128b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/fb998e0f-58eb-4e12-9700-bd4769b9128b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:24:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "注意力忠实性",
+    "因果扰动",
+    "可解释性",
+    "VQA",
+    "comprehensiveness",
+    "sufficiency gap"
+   ],
+   "field": "多模态模型可解释性",
+   "innovations": [
+    "首次系统评估VLM视觉注意力忠实性，提出comprehensiveness与sufficiency gap双维度因果评估框架",
+    "识别三种异构处理模式（Faithful-Sufficient/Faithful-Distributed/Non-Focal）揭示注意力忠实性的非均匀性",
+    "发现人类标注ground-truth仅约60%满足comprehensiveness，揭示人-机视觉依赖的系统性分歧"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "VRDU",
+    "ChartQA"
+   ]
+  }
+ }
 }

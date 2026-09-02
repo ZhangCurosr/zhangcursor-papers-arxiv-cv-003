@@ -4,5 +4,31 @@
  "title": "Separating-perception-from-reasoning-in-vision-language-mode",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-02 06:53:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/27f77ec8-243f-40b9-8368-24a77019988b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/27f77ec8-243f-40b9-8368-24a77019988b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:21:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态评测",
+    "视觉-语言模型",
+    "感知与推理归因",
+    "可识别性",
+    "晶体结构",
+    "无模型参考"
+   ],
+   "field": "多模态模型评估与诊断",
+   "innovations": [
+    "提出无模型的渲染天花板，通过逆向投影精确计算图像信息上限",
+    "构建归因梯架分解感知与推理失败",
+    "发现并量化强模型的中间产物伪造现象"
+   ],
+   "benchmarks": [
+    "晶体系统识别",
+    "Materials Project",
+    "五相机正交渲染协议"
+   ]
+  }
+ }
 }

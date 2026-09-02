@@ -4,5 +4,31 @@
  "title": "Residual-Kalman-Dynamics-for-Event-Based-UAV-Forecasting",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-02 06:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d5242543-e1e1-4511-84e7-184bf9caae2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d5242543-e1e1-4511-84e7-184bf9caae2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:20:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件相机",
+    "UAV轨迹预测",
+    "残差卡尔曼滤波",
+    "边界框预测",
+    "运动先验诊断",
+    "FRED数据集"
+   ],
+   "field": "事件视觉与目标追踪",
+   "innovations": [
+    "残差卡尔曼滤波框架，结合物理先验与数据驱动加速度修正",
+    "引入运动先验相关性与解相关诊断，量化捷径依赖",
+    "全尺寸（中心+宽高）卡尔曼状态预测"
+   ],
+   "benchmarks": [
+    "FRED数据集",
+    "ADE/FDE (中心与边界框)",
+    "mIoU"
+   ]
+  }
+ }
 }

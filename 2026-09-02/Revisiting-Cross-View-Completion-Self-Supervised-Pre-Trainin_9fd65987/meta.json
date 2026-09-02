@@ -4,5 +4,33 @@
  "title": "Revisiting-Cross-View-Completion-Self-Supervised-Pre-Trainin",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-02 06:52:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/fbdc1520-8bf5-4bd9-9960-cb4d208c8bea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/fbdc1520-8bf5-4bd9-9960-cb4d208c8bea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:20:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-view completion",
+    "self-supervised pre-training",
+    "co-visibility",
+    "masked autoencoder",
+    "3D vision",
+    "relative improvement"
+   ],
+   "field": "三维视觉自监督预训练",
+   "innovations": [
+    "提出交叉视角重建误差与MAE误差的相对改进量作为共视性自监督代理",
+    "仅增一个输出通道即联合执行交叉视角补全、MAE重建和共视预测",
+    "支持从原始视频直接训练，消除3D数据预处理需求"
+   ],
+   "benchmarks": [
+    "ScanNet-1500",
+    "ETH3D",
+    "DL3DV",
+    "7-Scenes",
+    "MPI-Sintel"
+   ]
+  }
+ }
 }

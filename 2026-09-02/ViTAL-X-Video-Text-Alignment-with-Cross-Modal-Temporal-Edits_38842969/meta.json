@@ -4,5 +4,39 @@
  "title": "ViTAL-X-Video-Text-Alignment-with-Cross-Modal-Temporal-Edits",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-02 06:54:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ed4a36c8-c77e-468f-b347-09f0f06c37b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ed4a36c8-c77e-468f-b347-09f0f06c37b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:25:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video-text alignment",
+    "temporal reasoning",
+    "contrastive learning",
+    "parameter-efficient fine-tuning",
+    "self-supervised learning",
+    "cross-modal learning"
+   ],
+   "field": "视频-语言模型时序对齐",
+   "innovations": [
+    "提出XTE自监督框架，通过同步跨模态变换生成硬负样本，解决视频-语言模型的时间盲缺陷",
+    "设计轻量级时空适配器+双模态LoRA，在冻结骨干基础上注入时序感知，仅0.4B参数达SOTA"
+   ],
+   "benchmarks": [
+    "XTE-Bench",
+    "RTime",
+    "VideoComp",
+    "TemporalBench",
+    "ActivityNet",
+    "YouCook2",
+    "DiDeMo",
+    "MSR-VTT",
+    "MSVD",
+    "Kinetics-400",
+    "UCF-101",
+    "HMDB-51"
+   ]
+  }
+ }
 }
