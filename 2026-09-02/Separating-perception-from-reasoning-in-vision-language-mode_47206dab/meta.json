@@ -4,5 +4,31 @@
  "title": "Separating-perception-from-reasoning-in-vision-language-mode",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-02 17:36:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/27f77ec8-243f-40b9-8368-24a77019988b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/27f77ec8-243f-40b9-8368-24a77019988b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "multimodal evaluation",
+    "perception-reasoning separation",
+    "crystal structure",
+    "model-free benchmark",
+    "render ceiling"
+   ],
+   "field": "多模态模型评估与诊断",
+   "innovations": [
+    "提出无模型render ceiling通过逆变换已知渲染建立certified参考",
+    "证明预言机仅在可枚举phantom set上失败并在2160结构验证为空",
+    "建立R1-R3-R4归因阶梯精确分解感知与推理缺陷贡献"
+   ],
+   "benchmarks": [
+    "Materials Project crystal structures",
+    "14 vision-language models zero-shot leaderboard",
+    "ResNet-50/ViT supervised pixel baseline"
+   ]
+  }
+ }
 }

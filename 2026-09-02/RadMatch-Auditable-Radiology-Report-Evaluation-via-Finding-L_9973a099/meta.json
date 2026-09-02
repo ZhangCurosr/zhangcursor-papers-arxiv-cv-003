@@ -4,5 +4,29 @@
  "title": "RadMatch-Auditable-Radiology-Report-Evaluation-via-Finding-L",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-02 17:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d9d0c1b3-b339-43a5-8591-9e4a3488031b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d9d0c1b3-b339-43a5-8591-9e4a3488031b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:11:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Radiology Report Generation",
+    "Evaluation Metrics",
+    "LLM-based Evaluation",
+    "Auditable Metrics",
+    "Clinical Error Detection"
+   ],
+   "field": "医疗自然语言处理",
+   "innovations": [
+    "发现级结构化匹配与显著性感知评分的三阶段评估框架",
+    "ACR 临床重要性层级与上下文感知的动态显著性分配",
+    "确定性比较器与 LLM 混合评分实现可审计的错误溯源"
+   ],
+   "benchmarks": [
+    "ReXVal",
+    "RadEvalExpert"
+   ]
+  }
+ }
 }

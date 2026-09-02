@@ -4,5 +4,32 @@
  "title": "Semantic-Guided-Multimodal-Preprocessing-for-Vision-Transfor",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-02 17:36:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8eb66357-4004-4e02-89e5-f63d9126c8ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8eb66357-4004-4e02-89e5-f63d9126c8ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "semantic guidance",
+    "multimodal preprocessing",
+    "CCRCC grading",
+    "nuclei classification",
+    "multiplicative modulation",
+    "computational pathology"
+   ],
+   "field": "计算病理与医学图像分析",
+   "innovations": [
+    "提出乘性调制（MM）预处理将核分级图嵌入RGB输入，无需修改ViT架构",
+    "揭示颜色叠加是类区分信息的主要载体并提供感知优化叠加策略",
+    "以可调控合成错误率（0%-60%）的系统性敏感性分析刻画对上游核分类器不完美的容忍边界"
+   ],
+   "benchmarks": [
+    "TCGA KIRC/KIRP CCRCC patch数据集",
+    "Gao et al. [12] 核分级基线",
+    "max-voting聚合基线"
+   ]
+  }
+ }
 }

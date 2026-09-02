@@ -4,5 +4,31 @@
  "title": "Scale-based-Approach-for-Active-Wildfire-Segmentation-on-Sat",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-02 17:35:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8ba9ccfc-b3ef-4696-bf29-28cac179a1b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8ba9ccfc-b3ef-4696-bf29-28cac179a1b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:12:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "wildfire segmentation",
+    "satellite imagery",
+    "scale-based evaluation",
+    "Landsat-8",
+    "U-Net",
+    "DeepLabV3+",
+    "SegFormer",
+    "SWIR"
+   ],
+   "field": "遥感智能解译",
+   "innovations": [
+    "提出基于IQR连通分量分析的尺度分布偏移评估协议，替代传统随机划分",
+    "系统对比SWIR1/SWIR2波段组合对Landsat-8活动火灾分割的贡献",
+    "在尺度分布偏移场景下公平比较CNN与Transformer架构的泛化鲁棒性"
+   ],
+   "benchmarks": [
+    "Land8Fire"
+   ]
+  }
+ }
 }

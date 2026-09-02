@@ -4,5 +4,35 @@
  "title": "ViTAMINS-An-Empirical-Study-of-Training-Self-Supervised-Visi",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-02 17:35:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5922d58b-9deb-4135-b5e2-41eaabb5b99b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5922d58b-9deb-4135-b5e2-41eaabb5b99b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:14:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督学习",
+    "对比学习",
+    "Vision Transformer",
+    "合成负样本",
+    "硬负样本",
+    "涌现属性"
+   ],
+   "field": "自监督视觉表征学习",
+   "innovations": [
+    "首次将合成硬负样本集成到Vision Transformer对比学习中，六种变换策略生成高质量负样本",
+    "证明简单对比学习无需自蒸馏复杂技巧即可达到超越DINO/MoBY/iBOT的表征质量",
+    "合成负样本增强涌现属性，产生清晰的无监督语义分割注意力图"
+   ],
+   "benchmarks": [
+    "ImageNet Linear Evaluation",
+    "k-NN Classification",
+    "Oxford/Paris Image Retrieval",
+    "Copydays Copy Detection",
+    "DAVIS-2017 Video Segmentation",
+    "COCO Object Detection",
+    "ADE20K Semantic Segmentation"
+   ]
+  }
+ }
 }

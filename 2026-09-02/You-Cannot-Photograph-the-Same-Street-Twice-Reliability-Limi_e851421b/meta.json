@@ -4,5 +4,32 @@
  "title": "You-Cannot-Photograph-the-Same-Street-Twice-Reliability-Limi",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-02 17:36:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6e33706-4b3c-43c8-b5b6-e7b2cb23ac5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6e33706-4b3c-43c8-b5b6-e7b2cb23ac5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:14:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "urban change measurement",
+    "reliability",
+    "Google Street View",
+    "longitudinal analysis",
+    "acquisition bias",
+    "camera geometry"
+   ],
+   "field": "视觉-语言模型的城市感知测量可靠性",
+   "innovations": [
+    "构建VLM感知评分可靠性阶梯，量化提示顺序与图像重编码同为仪器属性",
+    "揭示三模型对照下采集响应方向属模型属性而非任务属性",
+    "确定单点测量无效但聚合至数百对观测可恢复城市变迁信号"
+   ],
+   "benchmarks": [
+    "CityPulse",
+    "Global Streetscapes",
+    "Mapillary"
+   ]
+  }
+ }
 }

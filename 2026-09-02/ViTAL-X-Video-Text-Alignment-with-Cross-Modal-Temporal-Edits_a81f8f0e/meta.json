@@ -4,5 +4,40 @@
  "title": "ViTAL-X-Video-Text-Alignment-with-Cross-Modal-Temporal-Edits",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-02 17:37:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ed4a36c8-c77e-468f-b347-09f0f06c37b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ed4a36c8-c77e-468f-b347-09f0f06c37b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频-语言对齐",
+    "时序推理",
+    "跨模态时间编辑",
+    "参数高效微调",
+    "时间盲",
+    "对比学习"
+   ],
+   "field": "多模态视频理解",
+   "innovations": [
+    "提出XTE跨模态时间编辑自监督框架，通过同步视频-文本变换生成硬负样本注入时序监督",
+    "设计XTE-Bench诊断基准，隔离空间捷径精确评估5类时间推理能力",
+    "ViTAL-X以0.4B参数和1M训练数据在6个时间基准上超越6B参数模型达到SOTA"
+   ],
+   "benchmarks": [
+    "XTE-Bench",
+    "TemporalBench",
+    "VideoComp",
+    "RTime",
+    "YouCook2",
+    "ActivityNet",
+    "DiDeMo",
+    "MSR-VTT",
+    "MSVD",
+    "Kinetics-400",
+    "UCF-101",
+    "HMDB-51"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Revisiting-Cross-View-Completion-Self-Supervised-Pre-Trainin",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-02 17:36:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/fbdc1520-8bf5-4bd9-9960-cb4d208c8bea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/fbdc1520-8bf5-4bd9-9960-cb4d208c8bea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:12:24",
+  "chunks": 1
+ }
 }

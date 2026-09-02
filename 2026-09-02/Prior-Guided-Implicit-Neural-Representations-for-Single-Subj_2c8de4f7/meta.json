@@ -4,5 +4,31 @@
  "title": "Prior-Guided-Implicit-Neural-Representations-for-Single-Subj",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-02 17:36:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b03f361d-856f-4ca9-9e2b-81076f09f593.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b03f361d-856f-4ca9-9e2b-81076f09f593.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:11:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion MRI",
+    "super-resolution",
+    "implicit neural representation",
+    "transfer learning",
+    "medical image reconstruction",
+    "tractography"
+   ],
+   "field": "医学影像超分辨率",
+   "innovations": [
+    "模板先验引导的INR单被试dMRI超分框架",
+    "蒙特卡洛积分建模厚切片降采样算子",
+    "配准融合+微调实现6倍加速与显著性能提升"
+   ],
+   "benchmarks": [
+    "HCP-YA 4x through-plane super-resolution",
+    "NODF baseline",
+    "NODF-HashEnc baseline"
+   ]
+  }
+ }
 }

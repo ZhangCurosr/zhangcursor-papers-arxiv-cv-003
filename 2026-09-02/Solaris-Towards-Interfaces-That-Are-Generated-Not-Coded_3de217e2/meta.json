@@ -4,5 +4,29 @@
  "title": "Solaris-Towards-Interfaces-That-Are-Generated-Not-Coded",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-02 17:36:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7f04f047-dff0-4ab9-8db9-163e1053dcb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7f04f047-dff0-4ab9-8db9-163e1053dcb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interface world model",
+    "real-time interface generation",
+    "autoregressive frame generation",
+    "visual UI",
+    "agent environment"
+   ],
+   "field": "交互式视觉生成",
+   "innovations": [
+    "提出界面世界模型新范式，消除代码中间层实现实时交互界面生成",
+    "自回归逐帧生成结合少步蒸馏与自训练，实现720p实时视觉渲染",
+    "LLM与世界观模型分离架构：LLM解释意图定义交互语义，世界模型负责视觉生成"
+   ],
+   "benchmarks": [
+    "30-interface reconstruction benchmark",
+    "250-participant user study (7,500 pairwise judgments)"
+   ]
+  }
+ }
 }

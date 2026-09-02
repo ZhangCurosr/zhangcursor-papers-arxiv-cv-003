@@ -4,5 +4,33 @@
  "title": "What-Where-and-How-Probing-Spatiotemporal-Representations-in",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-02 17:37:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c83b6db6-3269-4ac1-812b-fde0ae637f1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c83b6db6-3269-4ac1-812b-fde0ae637f1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:14:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频基础模型",
+    "表征可解释性",
+    "层析分析",
+    "表示几何",
+    "表示引导",
+    "直觉物理",
+    "相机运动"
+   ],
+   "field": "视频理解与视觉表征可解释性",
+   "innovations": [
+    "提出统一框架系统分析视频基础模型的属性编码、深度位置与几何结构",
+    "证明相机运动表征呈平滑时序流形并组织在中间层",
+    "提出并验证了遵循特征轨迹的样条表示引导方法优于线性插值"
+   ],
+   "benchmarks": [
+    "CameraBench",
+    "IntPhys 2",
+    "UBnormal",
+    "RealEstate10K"
+   ]
+  }
+ }
 }

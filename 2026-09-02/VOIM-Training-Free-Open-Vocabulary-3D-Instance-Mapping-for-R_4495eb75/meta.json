@@ -4,5 +4,10 @@
  "title": "VOIM-Training-Free-Open-Vocabulary-3D-Instance-Mapping-for-R",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-02 17:36:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a13061e3-af45-410f-ac09-292458c0c5a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a13061e3-af45-410f-ac09-292458c0c5a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:40",
+  "chunks": 1
+ }
 }

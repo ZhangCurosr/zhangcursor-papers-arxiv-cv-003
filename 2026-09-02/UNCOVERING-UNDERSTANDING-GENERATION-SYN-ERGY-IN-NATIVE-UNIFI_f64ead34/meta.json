@@ -4,5 +4,40 @@
  "title": "UNCOVERING-UNDERSTANDING-GENERATION-SYN-ERGY-IN-NATIVE-UNIFI",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-02 17:36:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c71b6216-7e11-4613-b2a8-47beace67863.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c71b6216-7e11-4613-b2a8-47beace67863.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "统一多模态模型",
+    "理解与生成协同",
+    "原生多模态",
+    "任务解耦",
+    "表示探针",
+    "端到端统一"
+   ],
+   "field": "多模态大模型",
+   "innovations": [
+    "三层次（表示/任务/系统）系统研究理解-生成协同条件性",
+    "提出任务解耦 MoT 架构实现双向增益",
+    "在原生像素直通设置下隔离外部先验干扰"
+   ],
+   "benchmarks": [
+    "GenEval2",
+    "DPG-Bench",
+    "MME",
+    "MMBench",
+    "MMStar",
+    "SEED Bench",
+    "MMMU",
+    "Geometry3K",
+    "UniSVG",
+    "VSI-Bench",
+    "RISEBench",
+    "KRIS-Bench"
+   ]
+  }
+ }
 }

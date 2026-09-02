@@ -4,5 +4,40 @@
  "title": "SinkPruner-Sink-Free-Visual-Token-Pruning-for-Multimodal-Lar",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-02 17:37:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33ca72d4-d249-46e3-87b7-939d271b2575.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33ca72d4-d249-46e3-87b7-939d271b2575.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉Token剪枝",
+    "多模态大语言模型",
+    "注意力汇聚",
+    "无需训练",
+    "高效推理"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "发现高范数异常Token的空间和特征双重冗余性并提出预过滤机制",
+    "提出训练无关的级联剪枝框架SinkPruner实现粗到细的Token压缩",
+    "验证高范数过滤模块的可迁移性作为即插即用组件"
+   ],
+   "benchmarks": [
+    "MMBench",
+    "MME",
+    "POPE",
+    "ScienceQA",
+    "VQA-v2",
+    "MMStar",
+    "MMMU",
+    "AI2D",
+    "MM-Vet",
+    "MVBench",
+    "SEED-Bench",
+    "NextQA",
+    "VideoMME"
+   ]
+  }
+ }
 }

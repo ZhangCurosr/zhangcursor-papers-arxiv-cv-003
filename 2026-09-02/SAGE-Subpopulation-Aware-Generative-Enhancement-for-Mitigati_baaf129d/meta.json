@@ -4,5 +4,31 @@
  "title": "SAGE-Subpopulation-Aware-Generative-Enhancement-for-Mitigati",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-02 17:36:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7ad7886a-d393-42bf-a7bf-06cb1ec96111.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7ad7886a-d393-42bf-a7bf-06cb1ec96111.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:12:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spurious correlations",
+    "generative data augmentation",
+    "worst-group accuracy",
+    "diffusion models",
+    "domain generalization",
+    "robust classification"
+   ],
+   "field": "鲁棒机器学习与虚假相关性缓解",
+   "innovations": [
+    "提出无组标签下的两阶段生成增强框架SAGE，通过聚类推断子群体引导定向生成",
+    "设计逆密度采样与token合并策略，解决聚类随机性导致的多样性下降问题",
+    "构建合成子标签平衡验证集替代手动DFR验证集，实现无监督最后层重加权"
+   ],
+   "benchmarks": [
+    "Waterbirds",
+    "CelebA",
+    "MetaShift"
+   ]
+  }
+ }
 }

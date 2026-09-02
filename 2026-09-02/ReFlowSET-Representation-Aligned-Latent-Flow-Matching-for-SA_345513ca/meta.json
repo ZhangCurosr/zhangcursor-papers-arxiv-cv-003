@@ -4,5 +4,30 @@
  "title": "ReFlowSET-Representation-Aligned-Latent-Flow-Matching-for-SA",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-02 17:37:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6b9c3e98-9ee2-45a8-9094-ebe3b3004805.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6b9c3e98-9ee2-45a8-9094-ebe3b3004805.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:12:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SAR-to-EO Translation",
+    "Latent Flow Matching",
+    "Representation Alignment",
+    "VAE Codec Selection",
+    "Diffusion Transformer",
+    "Cross-Modal Image Generation"
+   ],
+   "field": "遥感图像生成与翻译",
+   "innovations": [
+    "系统评估并选择更适合SAR/EO模态的潜在空间编解码器（FLUX.2）",
+    "提出从头训练的轻量条件DiT配合双流SAR条件处理与延迟融合架构",
+    "引入训练专用的VFM表示对齐损失以提供语义指导且零推理开销"
+   ],
+   "benchmarks": [
+    "QXS-SAROPT",
+    "SAR2Opt"
+   ]
+  }
+ }
 }

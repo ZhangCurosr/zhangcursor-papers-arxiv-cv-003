@@ -4,5 +4,10 @@
  "title": "Vision-Language-Guided-Pseudo-Labels-for-Unsupervised-Domain",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-02 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d158e845-d988-4ae4-bc16-18fdae98ab40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d158e845-d988-4ae4-bc16-18fdae98ab40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:14:27",
+  "chunks": 1
+ }
 }

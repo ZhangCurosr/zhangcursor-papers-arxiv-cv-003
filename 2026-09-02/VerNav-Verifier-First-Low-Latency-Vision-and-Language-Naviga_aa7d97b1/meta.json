@@ -4,5 +4,29 @@
  "title": "VerNav-Verifier-First-Low-Latency-Vision-and-Language-Naviga",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-02 17:36:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/623ee5e5-f0bf-46e2-9bc3-fd349c178b67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/623ee5e5-f0bf-46e2-9bc3-fd349c178b67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:13:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-and-Language Navigation",
+    "Low-Latency Inference",
+    "Verifier-Policy",
+    "Preference Optimization",
+    "Adaptive Computation"
+   ],
+   "field": "视觉-语言导航",
+   "innovations": [
+    "Verifier-first 批量验证替代自回归生成实现 >10× 延迟降低",
+    "熵触发的自适应生成器协作框架",
+    "VPO+RFT 两阶段验证器对齐方案"
+   ],
+   "benchmarks": [
+    "R2R val-seen",
+    "R2R val-unseen"
+   ]
+  }
+ }
 }
