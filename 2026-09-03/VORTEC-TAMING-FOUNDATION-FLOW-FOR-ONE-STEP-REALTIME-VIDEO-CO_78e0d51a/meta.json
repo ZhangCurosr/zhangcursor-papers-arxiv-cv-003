@@ -4,5 +4,32 @@
  "title": "VORTEC-TAMING-FOUNDATION-FLOW-FOR-ONE-STEP-REALTIME-VIDEO-CO",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-03 17:32:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d8cde3a-7a67-4481-9cbf-e53c9a891994.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d8cde3a-7a67-4481-9cbf-e53c9a891994.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:35:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频压缩",
+    "流匹配",
+    "生成式压缩",
+    "单步解码",
+    "Wan2.1",
+    "感知编码"
+   ],
+   "field": "视频生成压缩",
+   "innovations": [
+    "将压缩潜表示沿流轨迹映射为时间步，实现无需访问FlowDIT参数的单步初始化解码",
+    "设计多粒度patchify的FPMF融合模块对齐压缩域与流域，同时去除先验冗余",
+    "提出CGG组间通信机制，通过尾帧复用和先验缓存零开销保证跨组时序一致性"
+   ],
+   "benchmarks": [
+    "UVG",
+    "HEVC Class B",
+    "HEVC Class C",
+    "MCL-JCV"
+   ]
+  }
+ }
 }

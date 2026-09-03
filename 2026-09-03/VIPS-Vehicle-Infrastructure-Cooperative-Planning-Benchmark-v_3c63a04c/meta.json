@@ -4,5 +4,30 @@
  "title": "VIPS-Vehicle-Infrastructure-Cooperative-Planning-Benchmark-v",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-03 17:31:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ecce6c9-ed2f-496b-a607-62e094494abe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ecce6c9-ed2f-496b-a607-62e094494abe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:35:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vehicle-Infrastructure Cooperative Planning",
+    "Pseudo-Simulation",
+    "End-to-End Autonomous Driving",
+    "V2X",
+    "Sparse Representation",
+    "Benchmark"
+   ],
+   "field": "自动驾驶协同规划评测",
+   "innovations": [
+    "将两阶段伪仿真扩展至V2I协同场景，实现可扩展且贴近闭环的规划鲁棒性评估",
+    "提出CoS-V2X稀疏锚实例框架，在降低28.6%通信开销的同时取得最优EPDMS",
+    "构建带矢量地图标注的V2X-Real规划数据集与新颖视图合成管线"
+   ],
+   "benchmarks": [
+    "VIPS (Vehicle-Infrastructure Pseudo-Simulation)",
+    "V2X-Real with Vector Map Annotations"
+   ]
+  }
+ }
 }

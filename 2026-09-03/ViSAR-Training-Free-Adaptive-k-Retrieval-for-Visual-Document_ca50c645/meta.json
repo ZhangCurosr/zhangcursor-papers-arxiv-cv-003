@@ -4,5 +4,29 @@
  "title": "ViSAR-Training-Free-Adaptive-k-Retrieval-for-Visual-Document",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-03 17:31:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f470b581-8bf0-4d64-b5e1-4d601d258ddf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f470b581-8bf0-4d64-b5e1-4d601d258ddf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:35:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DocVQA",
+    "RAG",
+    "Adaptive-k Retrieval",
+    "Late-Interaction",
+    "Visual Document Retrieval",
+    "Multi-vector Embedding"
+   ],
+   "field": "文档视觉理解与检索增强生成",
+   "innovations": [
+    "提出无需训练的三级交互加权机制，在late-interaction嵌入空间中构建查询条件化页面相似度矩阵实现adaptive-k检索",
+    "发现相似度矩阵稀疏性与答案准确率正相关，为检索质量评估提供无标签结构信号"
+   ],
+   "benchmarks": [
+    "MMLongBench",
+    "LongDocURL"
+   ]
+  }
+ }
 }
