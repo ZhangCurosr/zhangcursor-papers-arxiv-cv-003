@@ -4,5 +4,30 @@
  "title": "Thinking-in-Pictures-A-Systematic-Benchmark-for-Reasoning-dr",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-03 06:53:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/518c369b-288f-4be6-ab05-f6fef151f5ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/518c369b-288f-4be6-ab05-f6fef151f5ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:18:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reasoning-driven Image Generation",
+    "Benchmark",
+    "Unified Multimodal Models",
+    "Visual Reasoning",
+    "Image Generation",
+    "Rule Induction",
+    "Integration Gap"
+   ],
+   "field": "多模态生成与视觉推理",
+   "innovations": [
+    "提出首个以图像为输出的推理驱动图像生成基准RIG-BENCH，涵盖4个任务家族11个子任务，要求模型从视觉上下文归纳规则并合成答案",
+    "揭示当前UGMs存在显著的推理-生成差距，感知相似度指标（DINO/CLIP）与推理正确性脱钩",
+    "通过T/D/H/O匹配诊断分析量化集成差距，分离推理失败与渲染失败，揭示端到端生成的特有瓶颈"
+   ],
+   "benchmarks": [
+    "RIG-BENCH"
+   ]
+  }
+ }
 }

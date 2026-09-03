@@ -4,5 +4,32 @@
  "title": "Towards-Zero-Shot-Transfer-Across-Embodiments-For-Driving-VL",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-03 06:54:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9cbb4913-fa46-4163-8919-8c7c2ae28810.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9cbb4913-fa46-4163-8919-8c7c2ae28810.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:17:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "zero-shot transfer",
+    "BEV-Forcing",
+    "autonomous driving",
+    "cross-embodiment generalization",
+    "multi-dataset training"
+   ],
+   "field": "自动驾驶具身智能",
+   "innovations": [
+    "BEV-Forcing: 低容量 cross-attention head 将 BEV occupancy 监督信号注入 VLA backbone 以实现零样本空间迁移",
+    "揭示辅助任务收益随训练数据多样性增加而递减的规律，提出数据规模联合评估范式"
+   ],
+   "benchmarks": [
+    "WOD-E2E",
+    "NAVSIM",
+    "nuScenes-QA",
+    "Physical AI-1k",
+    "KITScenes LongTail"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Uncertainty-Guided-Adverse-Weather-Restoration-via-Gated-Tra",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-03 06:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ad53070a-fdf6-4829-b6cf-0de14ae1d7e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ad53070a-fdf6-4829-b6cf-0de14ae1d7e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:18:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adverse weather restoration",
+    "all-in-one image restoration",
+    "gated transformer",
+    "uncertainty-aware refinement",
+    "balanced multi-scale skip connection",
+    "linear attention"
+   ],
+   "field": "图像恢复与去噪去模糊",
+   "innovations": [
+    "GDTB 通过 query-conditioned gating 实现退化感知的自适应全局聚合",
+    "BMSC 以预测-校正多步积分渐进融合多尺度跳连以降低浅层噪声",
+    "URH 与 BAE-Loss 联合训练像素级均值/方差以提高严重退化鲁棒性"
+   ],
+   "benchmarks": [
+    "Snow100K-S",
+    "Snow100K-L",
+    "Outdoor-Rain",
+    "Raindrop"
+   ]
+  }
+ }
 }

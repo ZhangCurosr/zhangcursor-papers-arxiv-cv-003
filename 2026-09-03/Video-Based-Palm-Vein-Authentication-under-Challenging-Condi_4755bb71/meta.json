@@ -4,5 +4,34 @@
  "title": "Video-Based-Palm-Vein-Authentication-under-Challenging-Condi",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-03 06:54:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/0419cb58-aaa5-44af-8aef-f1acd6fe5776.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/0419cb58-aaa5-44af-8aef-f1acd6fe5776.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:18:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "palm-vein recognition",
+    "video-based biometrics",
+    "optimal transport",
+    "robust authentication",
+    "fairness audit",
+    "dataset",
+    "test-time matching"
+   ],
+   "field": "生物特征识别与安全性",
+   "innovations": [
+    "首个公开视频掌纹静脉数据集 CUP，含四种表面退化与配对生理/人口统计元数据",
+    "零参数测试时时空匹配器，结合全局余弦与显著性引导的区域级熵最优传输融合",
+    "跨冻结骨干与跨数据库通用提升，CUP 上 EER 在脏污条件较最强基线提升约 20%"
+   ],
+   "benchmarks": [
+    "CUP",
+    "SCUT",
+    "TJ-PV",
+    "CASIA (850 nm)",
+    "VERA"
+   ]
+  }
+ }
 }

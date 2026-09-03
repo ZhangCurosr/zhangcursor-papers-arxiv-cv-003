@@ -4,5 +4,10 @@
  "title": "World-Coherent-Decoding-Self-Verifying-Test-Time-Planning-fo",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-03 06:54:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/cc4aa0bf-562f-496d-a477-89002582543e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/cc4aa0bf-562f-496d-a477-89002582543e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:19:32",
+  "chunks": 1
+ }
 }

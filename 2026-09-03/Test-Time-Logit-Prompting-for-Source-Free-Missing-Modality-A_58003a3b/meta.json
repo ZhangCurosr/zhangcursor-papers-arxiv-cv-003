@@ -4,5 +4,30 @@
  "title": "Test-Time-Logit-Prompting-for-Source-Free-Missing-Modality-A",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-03 06:54:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/58f455e4-9b84-4ac3-a82f-b7e25c5b374c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/58f455e4-9b84-4ac3-a82f-b7e25c5b374c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:17:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "source-free adaptation",
+    "missing modality",
+    "test-time adaptation",
+    "vision-language models",
+    "logit prompting"
+   ],
+   "field": "多模态学习与缺失模态适应",
+   "innovations": [
+    "提出logit空间测试时适应新范式，无需源数据即可调整冻结VLM决策",
+    "设计不确定性感知调整与模态完整性一致性正则化联合优化机制",
+    "实现与现有训练based提示方法的即插即用集成"
+   ],
+   "benchmarks": [
+    "MM-IMDb",
+    "UPMC Food-101",
+    "Hateful Memes"
+   ]
+  }
+ }
 }

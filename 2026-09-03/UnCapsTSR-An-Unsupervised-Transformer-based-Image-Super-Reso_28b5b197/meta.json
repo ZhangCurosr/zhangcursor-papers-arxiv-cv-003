@@ -4,5 +4,32 @@
  "title": "UnCapsTSR-An-Unsupervised-Transformer-based-Image-Super-Reso",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-03 06:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9ca1cd3c-6f16-4ff5-83b9-460becca27c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9ca1cd3c-6f16-4ff5-83b9-460becca27c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:18:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Wireless Capsule Endoscopy",
+    "Super-Resolution",
+    "Transformer",
+    "Unsupervised Learning",
+    "GAN",
+    "Medical Image Analysis",
+    "EndoQM"
+   ],
+   "field": "医学图像超分辨率",
+   "innovations": [
+    "提出基于Transformer的无监督GAN架构UnCapsTSR，无需LR-HR配对即可进行WCE图像超分",
+    "引入双边全变分(BTV)损失，在空间平滑与边缘保持间取得平衡",
+    "设计领域专属无参考评估指标EndoQM，针对内窥镜图像质量评估"
+   ],
+   "benchmarks": [
+    "Kvasir Capsule SR",
+    "KID",
+    "GIANA"
+   ]
+  }
+ }
 }

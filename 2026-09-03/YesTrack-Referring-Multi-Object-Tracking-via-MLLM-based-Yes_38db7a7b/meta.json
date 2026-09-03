@@ -4,5 +4,10 @@
  "title": "YesTrack-Referring-Multi-Object-Tracking-via-MLLM-based-Yes",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-03 06:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c82d5420-ef7c-43d9-a9d7-af33f59a9dcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c82d5420-ef7c-43d9-a9d7-af33f59a9dcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:19:22",
+  "chunks": 1
+ }
 }

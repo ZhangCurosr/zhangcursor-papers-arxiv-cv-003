@@ -4,5 +4,31 @@
  "title": "TC-Next-Zero-Shot-Multimodal-Cyclone-Forecasting",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-03 06:55:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/277e95f9-de1d-4738-9caa-e324cc8ef93f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/277e95f9-de1d-4738-9caa-e324cc8ef93f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:17:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tropical Cyclone Forecasting",
+    "Zero-shot Transfer",
+    "Multimodal Fusion",
+    "Weather Foundation Models",
+    "Satellite IR",
+    "GraphCast"
+   ],
+   "field": "气象 AI / 热带气旋预报",
+   "innovations": [
+    "跨预报源零样本学习化 TC 追踪与强度预测",
+    "多模态低秩融合结合 RPN/RoIAlign 实现轻量高效预测",
+    "卫星红外分支显著提升长时效轨迹与强度精度"
+   ],
+   "benchmarks": [
+    "TempestExtremes",
+    "WeatherNext Cyclones Direct Tracker",
+    "TCBench-style evaluation on WP 2019–2020 and 2025"
+   ]
+  }
+ }
 }
