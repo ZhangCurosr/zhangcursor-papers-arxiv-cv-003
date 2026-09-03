@@ -4,5 +4,30 @@
  "title": "VIPS-Vehicle-Infrastructure-Cooperative-Planning-Benchmark-v",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-03 06:53:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ecce6c9-ed2f-496b-a607-62e094494abe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ecce6c9-ed2f-496b-a607-62e094494abe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:59:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "V2I",
+    "cooperative planning",
+    "pseudo-simulation",
+    "benchmark",
+    "sparse representation",
+    "end-to-end autonomous driving",
+    "vehicle-infrastructure"
+   ],
+   "field": "车路协同自动驾驶规划",
+   "innovations": [
+    "扩展伪仿真至V2I协作场景，实现可扩展且高保真的规划鲁棒性评估",
+    "提出CoS-V2X稀疏协作框架，以更低通信开销实现优于密集BEV基线的规划性能"
+   ],
+   "benchmarks": [
+    "VIPS",
+    "V2X-Real"
+   ]
+  }
+ }
 }
