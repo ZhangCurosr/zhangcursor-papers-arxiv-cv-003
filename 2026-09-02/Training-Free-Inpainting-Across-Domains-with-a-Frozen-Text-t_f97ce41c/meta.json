@@ -4,5 +4,36 @@
  "title": "Training-Free-Inpainting-Across-Domains-with-a-Frozen-Text-t",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-09-02 17:36:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/9cee148d-d5e9-4f9e-b6e4-9d2bb1b3962a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/9cee148d-d5e9-4f9e-b6e4-9d2bb1b3962a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:49:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-free inpainting",
+    "frozen diffusion model",
+    "test-time control",
+    "PI controller",
+    "cross-domain transfer",
+    "latent diffusion",
+    "boundary-interior feedback",
+    "release schedule"
+   ],
+   "field": "扩散模型推理时控制与零训练修复",
+   "innovations": [
+    "将 PI 控制结构引入冻结 SD1.5 的 DDIM 逆向轨迹，分离边界-内部反馈与持久状态",
+    "四字段预设释放调度实现逆向进程中的动作调制，无需任何权重更新",
+    "仅用 CelebA-HQ pilot 调参即实现到 AFHQ 和 Places2 的配置锁定零调整迁移"
+   ],
+   "benchmarks": [
+    "Main35 (AFHQ 1300 + CelebA-HQ 1400 + Places2 800, 35 protocols)",
+    "LanPaint native v1.5.5 ComfyUI",
+    "PILOT official DDIM",
+    "SD-Inpaint",
+    "BrushNet",
+    "PixelHacker (Places2-finetuned)"
+   ]
+  }
+ }
 }

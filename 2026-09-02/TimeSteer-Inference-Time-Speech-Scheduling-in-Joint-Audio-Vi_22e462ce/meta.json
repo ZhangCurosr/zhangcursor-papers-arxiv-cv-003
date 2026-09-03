@@ -4,5 +4,28 @@
  "title": "TimeSteer-Inference-Time-Speech-Scheduling-in-Joint-Audio-Vi",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-02 17:37:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/96afdb09-c0bb-4925-8940-679011bb3129.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/96afdb09-c0bb-4925-8940-679011bb3129.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:49:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inference-time speech scheduling",
+    "joint audio-visual diffusion",
+    "training-free temporal control",
+    "clean latent remapping",
+    "speech scheduling benchmark"
+   ],
+   "field": "联合音频视觉生成与时序控制",
+   "innovations": [
+    "提出推理时语音调度任务，无需微调即可将语音-视觉联合内容重排至用户指定区间",
+    "发现时序敏感型 cross-attention 头可暴露模型推断源区间且 clean latent 中音视频耦合内容可直接编辑",
+    "设计 Region-Aware Latent Remapping，在语音区间用仿射映射保持语速、在非语音间隙用三次桥接平滑过渡"
+   ],
+   "benchmarks": [
+    "SpeechShift"
+   ]
+  }
+ }
 }

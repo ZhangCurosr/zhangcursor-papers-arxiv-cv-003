@@ -4,5 +4,32 @@
  "title": "The-Visual-Insensitivity-Gap-Diagnosing-When-Vision-Language",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-02 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/88e80b54-3366-4c97-a147-6fe48e541255.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/88e80b54-3366-4c97-a147-6fe48e541255.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:49:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Visual Insensitivity",
+    "Hallucination Diagnosis",
+    "Selective Generation",
+    "Input Intervention",
+    "Encoder-Decoder Disconnect"
+   ],
+   "field": "多模态大模型可解释性与评测",
+   "innovations": [
+    "提出VSI指标量化per-sample视觉使用情况并发现40%-97%样本存在视觉忽略",
+    "证明视觉不敏感性是样本固有属性而非模型特有（跨6 VLM，Spearman ρ=+0.40）",
+    "建立编码器-LLM断开连接的因果证据（probe acc 0.72-0.79 vs ∆argmax 2%-11%, gap>0.65）"
+   ],
+   "benchmarks": [
+    "POPE",
+    "MMVP",
+    "HallusionBench",
+    "MMStar"
+   ]
+  }
+ }
 }
