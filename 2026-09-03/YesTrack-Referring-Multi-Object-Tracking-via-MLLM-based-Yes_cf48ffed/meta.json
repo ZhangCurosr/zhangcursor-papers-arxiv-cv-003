@@ -4,5 +4,29 @@
  "title": "YesTrack-Referring-Multi-Object-Tracking-via-MLLM-based-Yes",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-03 17:32:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c82d5420-ef7c-43d9-a9d7-af33f59a9dcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c82d5420-ef7c-43d9-a9d7-af33f59a9dcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:13:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "referring multi-object tracking",
+    "multimodal large language models",
+    "discriminative paradigm",
+    "temporal consistency",
+    "binary verification"
+   ],
+   "field": "多模态视频理解与跟踪",
+   "innovations": [
+    "将MLLM从生成caption转为直接判别Yes/No logit，消除自回归开销",
+    "提出TCP（保守时序置信度先验）与TRP（降频参照传播）两个轻量时序一致性约束"
+   ],
+   "benchmarks": [
+    "Refer-KITTI",
+    "Refer-KITTI-V2",
+    "KITTI tracking (car/person)"
+   ]
+  }
+ }
 }

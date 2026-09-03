@@ -4,5 +4,31 @@
  "title": "TC-Next-Zero-Shot-Multimodal-Cyclone-Forecasting",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-03 17:31:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/277e95f9-de1d-4738-9caa-e324cc8ef93f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/277e95f9-de1d-4738-9caa-e324cc8ef93f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:11:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tropical Cyclone Forecasting",
+    "Zero-Shot Transfer",
+    "Multimodal Deep Learning",
+    "Weather Foundation Models",
+    "Satellite Infrared Imagery"
+   ],
+   "field": "气象AI与极端天气预测",
+   "innovations": [
+    "仅用GraphCast训练的TC-Next可零样本迁移至Pangu-Weather/IFS HRES/WN-C且路径误差降15-49%、强度误差降3-6倍",
+    "宏微CNN+RPN+RoIAlign实现跨尺度大气-卫星多模态融合",
+    "仅依赖12个通用大气变量实现跨预报源统一学习追踪器"
+   ],
+   "benchmarks": [
+    "TempestExtremes",
+    "WeatherNext Cyclones",
+    "TCBench",
+    "WeatherBench2"
+   ]
+  }
+ }
 }

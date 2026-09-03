@@ -4,5 +4,33 @@
  "title": "Uncertainty-Guided-Adverse-Weather-Restoration-via-Gated-Tra",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-03 17:31:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ad53070a-fdf6-4829-b6cf-0de14ae1d7e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ad53070a-fdf6-4829-b6cf-0de14ae1d7e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:12:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像复原",
+    "恶劣天气移除",
+    "全合一网络",
+    "门控Transformer",
+    "不确定性建模",
+    "线性注意力",
+    "多尺度融合"
+   ],
+   "field": "图像复原与增强",
+   "innovations": [
+    "提出门控双尺度Transformer块GDTB，通过正弦重加权线性注意力与数据相关门控实现天气条件自适应的全局上下文聚合",
+    "设计基于预测器-校正器数值积分的平衡多尺度跳跃连接BMSC，渐进式抑制浅层含噪特征的传播",
+    "提出不确定性感知细化头URH与亮度感知能量损失BAE-Loss，联合优化像素级重建与不确定性校准"
+   ],
+   "benchmarks": [
+    "Snow100K-S",
+    "Snow100K-L",
+    "Outdoor-Rain",
+    "Raindrop"
+   ]
+  }
+ }
 }

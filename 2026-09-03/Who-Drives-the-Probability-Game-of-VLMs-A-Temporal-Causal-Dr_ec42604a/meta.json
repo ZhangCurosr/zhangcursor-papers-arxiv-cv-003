@@ -4,5 +4,32 @@
  "title": "Who-Drives-the-Probability-Game-of-VLMs-A-Temporal-Causal-Dr",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-03 17:31:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/037d52be-4b70-4a0d-8b96-32431f8eb74c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/037d52be-4b70-4a0d-8b96-32431f8eb74c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:13:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Causal Inference",
+    "Evaluation Framework",
+    "Autoregressive Generation",
+    "Process-Oriented Evaluation",
+    "Structural Causal Model"
+   ],
+   "field": "多模态大模型评估与可解释性",
+   "innovations": [
+    "基于SCM的无参考时序因果驱动指标（PCD/QCD/VCD）",
+    "通过do-算子与后背调整剥离混杂实现源级干预估计",
+    "揭示早期视觉/问题引导→后期前缀依赖的一致性动态规律"
+   ],
+   "benchmarks": [
+    "MAVIS",
+    "LLaVA-Video-178K",
+    "MiraData",
+    "VLMBias"
+   ]
+  }
+ }
 }

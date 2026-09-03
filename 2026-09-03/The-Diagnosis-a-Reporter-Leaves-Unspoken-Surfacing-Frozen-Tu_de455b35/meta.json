@@ -4,5 +4,10 @@
  "title": "The-Diagnosis-a-Reporter-Leaves-Unspoken-Surfacing-Frozen-Tu",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-03 17:31:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3e905f37-6158-4c63-95c9-ed5156f8870a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3e905f37-6158-4c63-95c9-ed5156f8870a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:12:15",
+  "chunks": 1
+ }
 }

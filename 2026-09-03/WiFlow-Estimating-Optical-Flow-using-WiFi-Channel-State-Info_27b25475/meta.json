@@ -4,5 +4,32 @@
  "title": "WiFlow-Estimating-Optical-Flow-using-WiFi-Channel-State-Info",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-03 17:31:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/87616013-b9d6-4078-bf4b-d4b2ec2ede53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/87616013-b9d6-4078-bf4b-d4b2ec2ede53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:13:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Optical Flow",
+    "WiFi Sensing",
+    "Channel State Information",
+    "Device-free Perception",
+    "Motion Estimation",
+    "Privacy-preserving Vision",
+    "WiFlow Dataset"
+   ],
+   "field": "无线感知与低层视觉交叉",
+   "innovations": [
+    "首次实现仅用 WiFi CSI 端到端估计像素级光流",
+    "提出三种精度-算力权衡的 RAFT 式 CSI→光流架构",
+    "构建首个 CSI-光流配对数据集并提供系统预处理对比"
+   ],
+   "benchmarks": [
+    "WiFlow Dataset (sideview/birdview/birdview+)",
+    "Time Split (75/3/22%)",
+    "Subject Split (71/10/19%)"
+   ]
+  }
+ }
 }

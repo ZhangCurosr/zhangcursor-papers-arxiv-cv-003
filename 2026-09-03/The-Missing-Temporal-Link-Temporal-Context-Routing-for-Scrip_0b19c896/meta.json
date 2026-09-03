@@ -4,5 +4,32 @@
  "title": "The-Missing-Temporal-Link-Temporal-Context-Routing-for-Scrip",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-03 17:31:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/dae717df-988d-430a-aec6-7fbf029f1ce3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/dae717df-988d-430a-aec6-7fbf029f1ce3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:13:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序控制",
+    "音视频联合生成",
+    "脚本驱动生成",
+    "交叉注意力",
+    "多模态生成"
+   ],
+   "field": "多模态生成与时序控制",
+   "innovations": [
+    "提出TCR将脚本时序映射到音视频共享时间轴并独立路由每个提示词",
+    "设计持续归一化高斯路由偏置实现非侵入式时序控制",
+    "构建粗到细数据流水线获得0.1s级时序标注"
+   ],
+   "benchmarks": [
+    "200脚本测试集",
+    "VBench IQ/AES",
+    "Shot Boundary MAE",
+    "Dialogue Acc@0.5s",
+    "Sync-C"
+   ]
+  }
+ }
 }

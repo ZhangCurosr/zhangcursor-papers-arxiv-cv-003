@@ -4,5 +4,29 @@
  "title": "World-Coherent-Decoding-Self-Verifying-Test-Time-Planning-fo",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-03 17:31:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/cc4aa0bf-562f-496d-a477-89002582543e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/cc4aa0bf-562f-496d-a477-89002582543e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:13:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Models",
+    "test-time planning",
+    "flow matching",
+    "candidate selection",
+    "self-supervised verification",
+    "robot control"
+   ],
+   "field": "世界动作模型测试时校准",
+   "innovations": [
+    "将WAM想象作为可证伪的未来-动作假设，利用内部flow surprisal与path effort进行无外部监督的最佳候选选择",
+    "设计延迟自我验证机制，以执行后imagination-reality mismatch训练轻量预测器，将事后误差摊销为事前筛选能力"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0 Hard limited-randomization",
+    "Franka hammering visual-shift stress test"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Thinking-in-Pictures-A-Systematic-Benchmark-for-Reasoning-dr",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-03 17:31:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/518c369b-288f-4be6-ab05-f6fef151f5ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/518c369b-288f-4be6-ab05-f6fef151f5ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:12:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理驱动图像生成",
+    "RIG-BENCH",
+    "统一多模态生成模型",
+    "视觉推理基准",
+    "规则归纳",
+    "感知-推理鸿沟"
+   ],
+   "field": "多模态生成与视觉推理",
+   "innovations": [
+    "定义 RIG 任务并首次将目标答案从语言中完全剥离，要求端到端图像-到-图像推理生成",
+    "提出 T/D/H/O 四类匹配诊断协议以量化集成鸿沟",
+    "设计开放/封闭双轨答案空间以分离生成灵活性与严格逻辑推理能力"
+   ],
+   "benchmarks": [
+    "RIG-BENCH"
+   ]
+  }
+ }
 }

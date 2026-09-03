@@ -4,5 +4,33 @@
  "title": "Towards-Zero-Shot-Transfer-Across-Embodiments-For-Driving-VL",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-03 17:31:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9cbb4913-fa46-4163-8919-8c7c2ae28810.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9cbb4913-fa46-4163-8919-8c7c2ae28810.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:12:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "zero-shot transfer",
+    "BEV-Forcing",
+    "cross-embodiment",
+    "autonomous driving",
+    "multi-dataset training",
+    "spatial representation"
+   ],
+   "field": "自动驾驶视觉-语言-动作模型",
+   "innovations": [
+    "提出BEV-Forcing辅助任务，通过轻量BEV头将occupancy map监督注入VLM backbone以提升跨载体零样本迁移",
+    "系统揭示多载体训练与辅助监督的交互规律，指出二者存在重叠收益",
+    "证明低容量BEV头优于全Transformer块，强迫主干特征编码密集空间信息"
+   ],
+   "benchmarks": [
+    "WOD-E2E",
+    "KITScenes LongTail",
+    "Physical AI",
+    "nuScenes-QA"
+   ]
+  }
+ }
 }

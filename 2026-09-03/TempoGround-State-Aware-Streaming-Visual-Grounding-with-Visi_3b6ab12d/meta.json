@@ -4,5 +4,31 @@
  "title": "TempoGround-State-Aware-Streaming-Visual-Grounding-with-Visi",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-03 17:31:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/bf9a2666-504d-4a92-9bc0-698e9a8271d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/bf9a2666-504d-4a92-9bc0-698e9a8271d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:12:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "streaming visual grounding",
+    "vision-language models",
+    "cross-frame correspondence",
+    "reinforcement learning",
+    "3D detection",
+    "referring expression"
+   ],
+   "field": "流式视觉定位",
+   "innovations": [
+    "State-aware curriculum prediction with cross-frame 2D correspondence and presence estimation",
+    "Streaming Grounding Reinforcement (SGR) with verifiable Grounding, Identity, Consistency rewards",
+    "Three-stage progressive training from single-frame SFT to streaming SGR"
+   ],
+   "benchmarks": [
+    "ARKitScenes",
+    "ScanNet",
+    "ScanNet++"
+   ]
+  }
+ }
 }
