@@ -4,5 +4,32 @@
  "title": "The-Shape-of-Time-Video-Token-Contrast-for-Temporal-Understa",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-04 17:22:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0f70503e-3d91-4ed7-9c39-4239e2469cc4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0f70503e-3d91-4ed7-9c39-4239e2469cc4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:42:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Language Model",
+    "Temporal Understanding",
+    "Contrastive Learning",
+    "Representation Learning",
+    "Video Token",
+    "Counterfactual"
+   ],
+   "field": "视频语言模型时序理解",
+   "innovations": [
+    "提出表示层面的时间反事实对比学习目标VT-Contrast，直接约束video-token表示的时序敏感性",
+    "使用Kendall tau距离对同视频时间重排负样本进行难度分级，优选hard negatives",
+    "在late-layer last-frame token上施加针对性对比监督，无需架构修改"
+   ],
+   "benchmarks": [
+    "TOMATO",
+    "TempCompass",
+    "Vinoground",
+    "Video-MME"
+   ]
+  }
+ }
 }

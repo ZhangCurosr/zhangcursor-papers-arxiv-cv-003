@@ -4,5 +4,32 @@
  "title": "SV-WAM-An-Eficient-Surround-View-World-Action-Model-for-End",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-04 17:24:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e0cf3188-c5f9-4f64-a9b1-92e41cb1737d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e0cf3188-c5f9-4f64-a9b1-92e41cb1737d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:41:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "end-to-end autonomous driving",
+    "world-action model",
+    "surround-view planning",
+    "causal mask",
+    "drivable area regularization",
+    "flow matching",
+    "NAVSIM"
+   ],
+   "field": "端到端自动驾驶规划",
+   "innovations": [
+    "提出action-centered causal mask实现训练时视频监督与推理时action-only解耦",
+    "设计可微分drivable-area compliance regularizer以SDF+LQR rollout约束车辆footprint边界"
+   ],
+   "benchmarks": [
+    "NAVSIMv2 navtest",
+    "NAVSIMv2 navhard",
+    "NAVSIMv1",
+    "nuScenes zero-shot"
+   ]
+  }
+ }
 }

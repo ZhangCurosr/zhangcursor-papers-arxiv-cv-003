@@ -4,5 +4,34 @@
  "title": "Scal3R-Learning-Eficient-Multi-Relative-Pose-Query-for-Scala",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-04 17:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e2f88ede-ce53-409f-a1ca-26dfd3359183.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e2f88ede-ce53-409f-a1ca-26dfd3359183.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:41:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Online 3D Reconstruction",
+    "Relative Pose Estimation",
+    "Prompt Tuning",
+    "Pose Graph Optimization",
+    "Loop Closure",
+    "Frozen Backbone Adaptation"
+   ],
+   "field": "在线3D重建与位姿估计",
+   "innovations": [
+    "不对称注意力注入实现冻结骨干的参数高效适配且保有点云质量",
+    "多参考相对姿态查询替代全局绝对回归以消除长序列外推漂移",
+    "在线PGO与回环闭合自然集成至流式推理管线无需架构修改"
+   ],
+   "benchmarks": [
+    "KITTI",
+    "Virtual KITTI",
+    "Sintel",
+    "TUM-Dynamic",
+    "ScanNet",
+    "7-Scenes"
+   ]
+  }
+ }
 }

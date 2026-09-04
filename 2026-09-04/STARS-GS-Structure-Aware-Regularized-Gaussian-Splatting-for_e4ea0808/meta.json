@@ -4,5 +4,32 @@
  "title": "STARS-GS-Structure-Aware-Regularized-Gaussian-Splatting-for",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-04 17:24:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f2aeaf82-a52a-45ca-834c-ca0026f6b4a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f2aeaf82-a52a-45ca-834c-ca0026f6b4a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:41:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "surface reconstruction",
+    "large-scale aerial photogrammetry",
+    "structure-aware partitioning",
+    "neighborhood geometric constraint",
+    "adaptive regularization"
+   ],
+   "field": "大规模3D表面重建",
+   "innovations": [
+    "结构感知场景划分：融合几何与外观特征进行监督体素聚类与RAG合并，使分区边界对齐场景元素并保持跨区连续性",
+    "邻域感知高斯组织：在几何感知邻域图上联合施加法线一致性与切向分布约束，从单点属性优化扩展至邻域相对排布优化",
+    "自适应表面正则化：根据局部平坦度动态调节不透明度二值化与深度方差约束强度，平衡结构化与非结构化区域"
+   ],
+   "benchmarks": [
+    "GauU-Scene",
+    "AIRLY",
+    "UrbanScene3D",
+    "Mill19"
+   ]
+  }
+ }
 }

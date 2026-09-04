@@ -4,5 +4,31 @@
  "title": "The-Blind-Spot-in-2D-Infants-Pose-Estimation-Robust-Learning",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-04 17:22:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/75a58cbd-6f85-4ba8-b550-f61e490f98f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/75a58cbd-6f85-4ba8-b550-f61e490f98f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:42:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Noisy Labels",
+    "Pose Estimation",
+    "Training Dynamics",
+    "Infant Monitoring",
+    "Robust Learning",
+    "Medical Imaging"
+   ],
+   "field": "医学图像分析/姿态估计",
+   "innovations": [
+    "提出REMIND方法，基于关键点训练动态的无监督噪声筛选策略，无需阈值调参",
+    "首次在早产儿2D姿态估计中系统性研究标注噪声问题并验证",
+    "跨域验证证明训练动态特征在SurgPose和头影测量数据集上的泛化性"
+   ],
+   "benchmarks": [
+    "NeoPose",
+    "SurgPose",
+    "Cephalometric Landmark Dataset"
+   ]
+  }
+ }
 }

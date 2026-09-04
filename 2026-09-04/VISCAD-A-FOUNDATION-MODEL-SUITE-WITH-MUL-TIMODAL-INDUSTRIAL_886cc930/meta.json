@@ -4,5 +4,29 @@
  "title": "VISCAD-A-FOUNDATION-MODEL-SUITE-WITH-MUL-TIMODAL-INDUSTRIAL",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-04 17:24:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7669f8a6-eec6-4b55-95a8-f7a57fbb6277.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7669f8a6-eec6-4b55-95a8-f7a57fbb6277.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:43:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工业CAD",
+    "多模态基础模型",
+    "程序生成",
+    "装配设计",
+    "测试时缩放"
+   ],
+   "field": "工业AI设计",
+   "innovations": [
+    "27B多模态零件生成器VisCAD-M1统一覆盖文本/图纸/照片/渲染图",
+    "并行测试时缩放(parallel-tts)使模型自rerank提升约5%相对SOTA",
+    "DSL-无关中间表示IR支持跨FreeCAD/SolidWorks/Fusion的装配迁移"
+   ],
+   "benchmarks": [
+    "PubCADBench",
+    "RealCADBench"
+   ]
+  }
+ }
 }

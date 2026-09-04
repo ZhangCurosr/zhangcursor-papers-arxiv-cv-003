@@ -4,5 +4,31 @@
  "title": "Sharpening-the-Ensemble-An-SSIM-Aligned-Residual-Refiner-for",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-04 17:22:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/38995740-a41c-49d3-94d9-ca37f35e5b30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/38995740-a41c-49d3-94d9-ca37f35e5b30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:41:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "brain MRI inpainting",
+    "BraTS",
+    "deep ensemble",
+    "post-processing",
+    "residual refiner",
+    "SSIM",
+    "image sharpening"
+   ],
+   "field": "医学图像合成与后处理",
+   "innovations": [
+    "冻结双冠集成+轻量残差细化器，仅训练后处理模块",
+    "将模型分歧图作为显式输入并系统扫描结构损失权重",
+    "成对显著性检验+官方未见过榜单双重验证的小增益稳定提升"
+   ],
+   "benchmarks": [
+    "BraTS 2025 Local-Synthesis (inpainting)",
+    "BraTS-GLI 2023 T1n volumes"
+   ]
+  }
+ }
 }

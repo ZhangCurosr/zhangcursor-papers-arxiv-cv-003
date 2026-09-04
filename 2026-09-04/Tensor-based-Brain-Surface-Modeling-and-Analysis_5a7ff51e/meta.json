@@ -4,5 +4,29 @@
  "title": "Tensor-based-Brain-Surface-Modeling-and-Analysis",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-04 17:23:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0f7c5192-e958-4f6c-995d-72491d3d7d37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0f7c5192-e958-4f6c-995d-72491d3d7d37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:42:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "surface morphometry",
+    "Laplace-Beltrami operator",
+    "diffusion smoothing",
+    "Riemannian manifold",
+    "brain surface modeling",
+    "tensor-based analysis"
+   ],
+   "field": "计算神经影像学与脑形态测量",
+   "innovations": [
+    "统一张量基表面形态测量框架整合建模-平滑-统计推断",
+    "基于FEM显式估计Laplace-Beltrami算子实现无展平扩散平滑",
+    "参数化不变面积/曲率扩张率度量与流形上高斯随机场统计推断"
+   ],
+   "benchmarks": [
+    "28名儿童纵向MRI（12-16岁），FWHM=20mm平滑，α=0.025%显著性"
+   ]
+  }
+ }
 }

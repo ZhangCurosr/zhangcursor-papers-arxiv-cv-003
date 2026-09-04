@@ -4,5 +4,28 @@
  "title": "Seeing-Before-Synthesizing-VLM-Guided-Transition-Event-Disco",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-04 17:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/8143742a-3ef8-4c10-b289-65fd3127c14c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/8143742a-3ef8-4c10-b289-65fd3127c14c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 18:41:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督密集视频字幕",
+    "VLM",
+    "过渡事件检测",
+    "视觉-语言对齐",
+    "自适应门控"
+   ],
+   "field": "视频理解与密集字幕",
+   "innovations": [
+    "将VLM重构为过渡事件搜索工具，通过语义变化自适应门控选择性注入过渡监督",
+    "提出结合语义变化点与时间中点的自适应高斯掩码，动态确定过渡事件的位置与宽度"
+   ],
+   "benchmarks": [
+    "ActivityNet Captions",
+    "YouCook2"
+   ]
+  }
+ }
 }
