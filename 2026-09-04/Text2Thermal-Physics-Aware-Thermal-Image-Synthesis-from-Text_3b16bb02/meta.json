@@ -4,5 +4,33 @@
  "title": "Text2Thermal-Physics-Aware-Thermal-Image-Synthesis-from-Text",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-04 07:01:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e5ec09ce-6b7c-462e-8fce-6fe593ceee8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e5ec09ce-6b7c-462e-8fce-6fe593ceee8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Thermal image synthesis",
+    "Text-to-image generation",
+    "Physics-informed prompting",
+    "LoRA adaptation",
+    "ControlNet",
+    "Latent diffusion",
+    "Cross-domain generation"
+   ],
+   "field": "多模态生成与热红外视觉",
+   "innovations": [
+    "提出首个基于物理感知结构化文本先验的纯文本到热图像合成框架，通过显式热属性提示解决 RGB-to-TIR 映射的根本性歧义",
+    "控制分支从热适配骨干克隆（而非 RGB 骨干）实现跨域可控生成，避免分布不一致干扰",
+    "仅用 3.19M 训练参数（0.3%）即超越全参数微调基线，在 M3FD/FLIR/FMB 均取得 SOTA FID"
+   ],
+   "benchmarks": [
+    "M3FD",
+    "FLIR",
+    "FMB",
+    "R2T2"
+   ]
+  }
+ }
 }

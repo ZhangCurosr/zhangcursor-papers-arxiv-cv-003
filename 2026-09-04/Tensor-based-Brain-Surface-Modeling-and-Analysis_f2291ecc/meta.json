@@ -4,5 +4,31 @@
  "title": "Tensor-based-Brain-Surface-Modeling-and-Analysis",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-04 06:59:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0f7c5192-e958-4f6c-995d-72491d3d7d37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0f7c5192-e958-4f6c-995d-72491d3d7d37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tensor-based morphometry",
+    "Laplace-Beltrami operator",
+    "brain surface modeling",
+    "diffusion smoothing",
+    "random field theory",
+    "cortical curvature",
+    "area dilatation",
+    "longitudinal MRI"
+   ],
+   "field": "计算神经影像学 / 脑形态测量",
+   "innovations": [
+    "显式 FEM 估计 Laplace-Beltrami 算子实现无展平的皮层扩散平滑",
+    "基于度量张量的面积/曲率扩张率作为参数化不变形态指标",
+    "将 RFT 统计推断推广到闭合 2D 黎曼流形"
+   ],
+   "benchmarks": [
+    "28 名正常儿童青少年纵向 T1-MRI（11.5±3.1 岁 → 16.1±3.2 岁）"
+   ]
+  }
+ }
 }

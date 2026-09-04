@@ -4,5 +4,33 @@
  "title": "Urban-Boundaries-Social-Barriers-A-Benchmark-and-Vision-Cent",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-04 07:00:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/daab1610-11af-4493-9afe-410c9128a22f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/daab1610-11af-4493-9afe-410c9128a22f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:55:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gated Community Detection",
+    "Multimodal Learning",
+    "Urban Computing",
+    "Spatial Equity",
+    "Remote Sensing Foundation Model",
+    "Cross-modal Fusion",
+    "GBA Urban Morphology"
+   ],
+   "field": "城市计算与空间公平的多模态视觉感知",
+   "innovations": [
+    "构建GBA-GCs都市级多模态封闭社区基准与标准化评估协议",
+    "提出MCGC视觉中心三模态框架，通过IO双视觉流与CCF自适应融合显著提升识别性能",
+    "将围合感知地图用于绿地偏差、步行绕行与房价分层等公平性分析"
+   ],
+   "benchmarks": [
+    "GBA-GCs",
+    "Guangzhou Evaluation Split",
+    "Cross-region Transfer (Hong Kong/Singapore/London)",
+    "Boundary Noise Robustness Test"
+   ]
+  }
+ }
 }

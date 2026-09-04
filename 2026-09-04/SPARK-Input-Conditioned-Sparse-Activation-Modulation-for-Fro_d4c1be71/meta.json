@@ -4,5 +4,31 @@
  "title": "SPARK-Input-Conditioned-Sparse-Activation-Modulation-for-Fro",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-04 07:01:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7de573e8-449a-4c6d-9c0f-21a3d59ac340.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7de573e8-449a-4c6d-9c0f-21a3d59ac340.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:52:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "超分辨率",
+    "Diffusion Transformer",
+    "参数高效适配",
+    "激活空间调制",
+    "massive activations",
+    "感知质量优化"
+   ],
+   "field": "图像超分辨率",
+   "innovations": [
+    "提出SPARK框架，通过冻结骨干+轻量输入条件化预测器对少量主导激活通道施加有界仿射调制",
+    "设计在线EMA稳定性早停的通道选择策略，无需全量数据遍历即可识别主导通道子空间",
+    "系统隔离并验证通道选择、参数预算和调制机制三要素对感知质量提升的独立贡献"
+   ],
+   "benchmarks": [
+    "DIV2K",
+    "DRealSR",
+    "RealSR"
+   ]
+  }
+ }
 }

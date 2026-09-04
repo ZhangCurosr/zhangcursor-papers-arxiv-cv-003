@@ -4,5 +4,30 @@
  "title": "Sparse-auto-regressive-modeling-for-scene-generation-from-mu",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-04 06:59:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ac673cb8-3e12-4281-9d34-f1dcd453b445.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ac673cb8-3e12-4281-9d34-f1dcd453b445.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "sparse voxel latent",
+    "masked auto-regressive",
+    "scene completion",
+    "novel view synthesis",
+    "3D generation",
+    "photometric supervision"
+   ],
+   "field": "3D 视觉与生成",
+   "innovations": [
+    "在稀疏体素对齐 3D 潜空间中联合预测 occupancy 与 latent token 实现无监督 3D 场景补全",
+    "层级 coarse-to-fine 占用预测配合 BFS 空间顺序的 3D 自回归生成策略"
+   ],
+   "benchmarks": [
+    "3DFront",
+    "RealEstate10K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Unfold-The-World-Factorize-4D-Properties-in-Reinforcing-Spat",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-04 07:00:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1790438b-8faf-4896-9a65-3260702de3a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1790438b-8faf-4896-9a65-3260702de3a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:55:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D空间推理",
+    "因子分解强化学习",
+    "视觉语言模型",
+    "RLVR",
+    "重投影一致性",
+    "时序循环一致性"
+   ],
+   "field": "多模态空间智能",
+   "innovations": [
+    "首次将4D空间推理因子分解为XY平面、Z深度、T时间三个正交可验证子目标",
+    "提出重投影一致性+遮挡门控的XY奖励与Kendall-τ深度排序Z奖励",
+    "通过正反向循环一致性T奖励实现无标注时序推理验证"
+   ],
+   "benchmarks": [
+    "VSI-Bench",
+    "All-Angles-Bench",
+    "BLINK",
+    "3DSRBench",
+    "CVBench",
+    "ERQA",
+    "RealWorldQA",
+    "MMSI-Bench"
+   ]
+  }
+ }
 }

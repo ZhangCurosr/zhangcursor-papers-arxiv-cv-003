@@ -4,5 +4,31 @@
  "title": "Stable-and-Scalable-Bundle-Adjustment-of-Holistic-3D-Structu",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-04 06:59:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e3ff7e2d-3bb8-47a7-8cf7-6a64d719fd6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e3ff7e2d-3bb8-47a7-8cf7-6a64d719fd6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bundle Adjustment",
+    "Structure from Motion",
+    "Geometric Priors",
+    "Line-based Reconstruction",
+    "Sparse Optimization"
+   ],
+   "field": "三维计算机视觉与几何重建",
+   "innovations": [
+    "提出特征与组的分类学，将高阶几何关系参数化为组并与相机并列以保留Schur补稀疏性",
+    "设计组诱导与跨特征重投影误差，在像素空间统一表达约束避免3D正则化的尺度模糊问题"
+   ],
+   "benchmarks": [
+    "1DSfM",
+    "Hypersim",
+    "ETH3D",
+    "ScanNet++",
+    "7Scenes"
+   ]
+  }
+ }
 }

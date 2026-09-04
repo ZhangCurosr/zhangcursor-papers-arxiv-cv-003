@@ -4,5 +4,31 @@
  "title": "Stabilizing-Camera-Controlled-Novel-View-Synthesis-at-Infere",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-04 06:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/91abf678-4952-49f5-a274-a5c45a366e02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/91abf678-4952-49f5-a274-a5c45a366e02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Novel View Synthesis",
+    "Camera-Controlled Generation",
+    "Training-Free",
+    "Video Diffusion",
+    "Self-Regenerative",
+    "Geometric Consistency"
+   ],
+   "field": "3D视觉与多视角合成",
+   "innovations": [
+    "将大相机轨迹分解为小步自回归生成以降低每步几何畸变与误差累积",
+    "在对极线约束的空间注意力中注入几何先验",
+    "CIELAB直方图匹配的低频外观锚定机制"
+   ],
+   "benchmarks": [
+    "RealEstate10K",
+    "MegaScene",
+    "MipNeRF360"
+   ]
+  }
+ }
 }

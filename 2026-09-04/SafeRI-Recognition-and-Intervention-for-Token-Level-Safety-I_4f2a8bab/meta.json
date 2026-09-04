@@ -4,5 +4,36 @@
  "title": "SafeRI-Recognition-and-Intervention-for-Token-Level-Safety-I",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-04 07:01:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d8efd225-3163-4b07-aedd-944e7ab21d5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d8efd225-3163-4b07-aedd-944e7ab21d5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "安全对齐",
+    "门控LoRA",
+    "token级干预",
+    "后对齐加固",
+    "流式风险识别"
+   ],
+   "field": "多模态大模型安全对齐",
+   "innovations": [
+    "按需门控LoRA干预：基于流式隐藏状态风险识别在危险轨迹出现后激活安全适配器，安全轨迹保持frozen-backbone",
+    "两阶段解耦训练+过渡语句转向：识别器仅边界监督，LoRA学习从危险前缀经过渡语句到安全续写的局部重定向"
+   ],
+   "benchmarks": [
+    "SPA-VL-test harm",
+    "AdvBench",
+    "HADES",
+    "XSTest",
+    "MSSBench",
+    "MMBench",
+    "MM-Vet",
+    "BLINK",
+    "HarmBench PAIR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "VI3-Grounding-Pretrained-3D-Foundation-Models-with-Inertial",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-04 07:00:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/13022b28-eea5-445c-a144-09a6639dbb20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/13022b28-eea5-445c-a144-09a6639dbb20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:55:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D foundation models",
+    "visual-inertial estimation",
+    "test-time refinement",
+    "metric scale recovery",
+    "IMU preintegration"
+   ],
+   "field": "3D视觉与多传感器融合",
+   "innovations": [
+    "提出VI3框架，首次在不依赖GT的情况下将IMU度量信号锚定至任意预训练3DFM",
+    "设计零GT惯性状态初始化方法，结合TLS尺度和重力共识机制",
+    "提出TTR度量注入机制，通过轻量级测试时微调恢复物理一致的重建尺度"
+   ],
+   "benchmarks": [
+    "TartanAirV2",
+    "EuRoC MAV",
+    "UZH-FPV"
+   ]
+  }
+ }
 }

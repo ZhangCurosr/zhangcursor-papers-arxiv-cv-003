@@ -4,5 +4,10 @@
  "title": "Scal3R-Learning-Eficient-Multi-Relative-Pose-Query-for-Scala",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-04 07:00:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e2f88ede-ce53-409f-a1ca-26dfd3359183.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e2f88ede-ce53-409f-a1ca-26dfd3359183.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 11:54:02",
+  "chunks": 1
+ }
 }
