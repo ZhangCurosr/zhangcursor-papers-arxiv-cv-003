@@ -4,5 +4,34 @@
  "title": "ToPO-Token-Conditioned-Preference-Routing-for-Attention-Base",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-04 07:01:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/212aec83-5f84-4fb0-a9e6-23d3dc3f09cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/212aec83-5f84-4fb0-a9e6-23d3dc3f09cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:36:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion DPO",
+    "preference optimization",
+    "spatial-temporal routing",
+    "token-conditioned attention",
+    "latent diffusion",
+    "pairwise preference"
+   ],
+   "field": "扩散模型对齐与偏好优化",
+   "innovations": [
+    "冻结参考残差对比构建可分离空间-时间路由",
+    "cross-attention token调制空间权重",
+    "像素中点辅助对称排序损失"
+   ],
+   "benchmarks": [
+    "Pick-a-Pic v2",
+    "HPSv2",
+    "ImageReward",
+    "GenEval",
+    "T2I-CompBench",
+    "CLIP"
+   ]
+  }
+ }
 }

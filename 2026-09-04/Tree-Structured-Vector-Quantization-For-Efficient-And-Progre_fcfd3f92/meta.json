@@ -4,5 +4,31 @@
  "title": "Tree-Structured-Vector-Quantization-For-Efficient-And-Progre",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-04 07:00:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5bdf6fa2-cd69-41cd-937f-876d09fd9d64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5bdf6fa2-cd69-41cd-937f-876d09fd9d64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:36:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tree-structured vector quantization",
+    "progressive image compression",
+    "learned image compression",
+    "prefix-decodable bitstream",
+    "hierarchical prefix supervision",
+    "rate-aware refinement scheduling"
+   ],
+   "field": "学习图像压缩/渐进表征",
+   "innovations": [
+    "将VQ码本组织为二叉树，使路径前缀即有效重建码，实现比特流级渐进解码",
+    "设计仅依赖因果上下文的树熵模型与块级续传/分支符号，支持任意前缀截断算术编解码",
+    "提出速率感知细化调度与层次前缀监督，在单模型下实现高效自适应码率与稳定的浅层重建"
+   ],
+   "benchmarks": [
+    "Kodak",
+    "CLIC2020",
+    "DIV2K"
+   ]
+  }
+ }
 }

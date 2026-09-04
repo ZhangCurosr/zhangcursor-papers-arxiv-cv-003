@@ -4,5 +4,33 @@
  "title": "The-impact-of-phase-information-for-few-shot-fine-grained-im",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-04 06:58:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a6b69909-283c-439d-b33c-828e5a1c13ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a6b69909-283c-439d-b33c-828e5a1c13ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:35:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot fine-grained classification",
+    "phase information",
+    "spatial-frequency fusion",
+    "amplitude-phase integration",
+    "meta-learning",
+    "fine-grained recognition"
+   ],
+   "field": "少样本细粒度图像分类",
+   "innovations": [
+    "首次系统挖掘频域相位信息在FSFGIC中的作用",
+    "提出即插即用API模块联合建模局部-全局幅度与相位",
+    "设计PSF-Net实现相位感知空间-频率自适应融合"
+   ],
+   "benchmarks": [
+    "CUB-200-2011",
+    "Stanford Dogs",
+    "Stanford Cars",
+    "meta-iNat",
+    "tiered meta-iNat"
+   ]
+  }
+ }
 }

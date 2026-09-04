@@ -4,5 +4,10 @@
  "title": "TokenMatch-3D-Mesh-Correspondence-Transformer-with-Curvature",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-04 07:00:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ce71b5be-7668-4c40-9aa9-a1fa1ca868a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ce71b5be-7668-4c40-9aa9-a1fa1ca868a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:36:25",
+  "chunks": 1
+ }
 }

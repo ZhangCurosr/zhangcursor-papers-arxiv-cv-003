@@ -4,5 +4,30 @@
  "title": "Select-Compress-Reinvest-A-Controlled-Study-of-Visual-Token",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-04 06:59:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a72179a5-ee62-490d-a522-f7af43ead239.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a72179a5-ee62-490d-a522-f7af43ead239.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:35:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-video MLLM",
+    "visual token allocation",
+    "frame selection",
+    "orthogonal matching pursuit",
+    "controlled experiment"
+   ],
+   "field": "多模态大模型效率优化",
+   "innovations": [
+    "控制实验分解帧选择/压缩/再投资的独立贡献",
+    "OMP无修改即匹敌专业选择器",
+    "压缩节省token再投资时间覆盖带来2-3点增益"
+   ],
+   "benchmarks": [
+    "LongVideoBench",
+    "Video-MME",
+    "LVBench"
+   ]
+  }
+ }
 }
