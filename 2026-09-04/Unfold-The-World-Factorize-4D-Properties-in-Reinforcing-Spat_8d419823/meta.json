@@ -4,5 +4,32 @@
  "title": "Unfold-The-World-Factorize-4D-Properties-in-Reinforcing-Spat",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-04 17:22:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1790438b-8faf-4896-9a65-3260702de3a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1790438b-8faf-4896-9a65-3260702de3a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:31:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spatial Reasoning",
+    "Reinforcement Learning",
+    "Vision-Language Models",
+    "4D Reasoning",
+    "Factorized Reward"
+   ],
+   "field": "空间智能与多模态推理",
+   "innovations": [
+    "将4D空间推理分解为XY/Z/T三个正交可验证奖励子目标",
+    "两阶段渐进训练：SFT空间感知+RL因子化奖励优化",
+    "引入时间循环一致性奖励强化时序因果推理"
+   ],
+   "benchmarks": [
+    "VSI-Bench",
+    "All-Angles-Bench",
+    "BLINK",
+    "3DSR-Bench",
+    "MMBench"
+   ]
+  }
+ }
 }

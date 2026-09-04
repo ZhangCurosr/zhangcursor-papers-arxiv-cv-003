@@ -4,5 +4,31 @@
  "title": "Urban-Boundaries-Social-Barriers-A-Benchmark-and-Vision-Cent",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-04 17:23:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/daab1610-11af-4493-9afe-410c9128a22f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/daab1610-11af-4493-9afe-410c9128a22f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:31:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gated Community Detection",
+    "Multimodal Learning",
+    "Urban Computing",
+    "Spatial Equity",
+    "Remote Sensing",
+    "DINOv3",
+    "Cross-modal Fusion"
+   ],
+   "field": "城市计算与空间公平",
+   "innovations": [
+    "GBA-GCs 首个大湾区尺度多模态封闭小区基准（37,444 AOI，κ=0.85）",
+    "MCGC 视觉中心框架：IO 双流反差建模 + CCF 模态感知交叉注意力融合",
+    "揭示封闭小区导致的 NDVI 绿化偏见、步行 Detour Index 上升与房价分层关联"
+   ],
+   "benchmarks": [
+    "GBA-GCs (Guangzhou evaluation split)",
+    "Cross-region: Hong Kong / Singapore / London transfer"
+   ]
+  }
+ }
 }
