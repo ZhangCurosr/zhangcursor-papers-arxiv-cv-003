@@ -4,5 +4,10 @@
  "title": "TruncGradGS-Improved-3D-Gaussian-Splatting-via-Truncated-Gra",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-04 17:23:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/539578f8-9b26-4b9e-9ff1-c665d821f073.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/539578f8-9b26-4b9e-9ff1-c665d821f073.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:31:24",
+  "chunks": 1
+ }
 }

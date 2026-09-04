@@ -4,5 +4,34 @@
  "title": "SignSeek-Learning-Transferable-Representations-for-Sign-Dict",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-04 17:22:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2a52be5c-5174-4392-a723-0541fe3f5bb3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2a52be5c-5174-4392-a723-0541fe3f5bb3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:30:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sign dictionary retrieval",
+    "skeleton-based representation learning",
+    "contrastive learning",
+    "masked prediction",
+    "cross-lingual sign language",
+    "zero-shot transfer"
+   ],
+   "field": "手语理解与多模态表征学习",
+   "innovations": [
+    "ASGM 主导关节器选择结合 MAC/MAP 双掩码目标学习结构化姿态表征",
+    "纯姿态预训练在零微调条件下实现跨语料库检索 SOTA 并零样本泛化到 BSL",
+    "冻结姿态编码器直接迁移到孤立识别与字幕对齐任务，无需下游微调"
+   ],
+   "benchmarks": [
+    "ASL-Citizen",
+    "WLASL2000",
+    "NMFs-CSL",
+    "BSL SignBank",
+    "How2Sign",
+    "BOBSL"
+   ]
+  }
+ }
 }

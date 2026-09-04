@@ -4,5 +4,10 @@
  "title": "Tree-species-mapping-in-Denmark-A-comparison-of-spectral-tem",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-04 17:23:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bb377fe9-cdef-455c-942c-2353e27f6860.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bb377fe9-cdef-455c-942c-2353e27f6860.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:31:26",
+  "chunks": 1
+ }
 }
