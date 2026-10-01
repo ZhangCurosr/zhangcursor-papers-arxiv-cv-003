@@ -4,5 +4,33 @@
  "title": "LEARNING-VIA-SELF-CONSISTENCY-FOR-DIFFUSION-BASED-VIDEO-REAS",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-09-30 18:51:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4695e59e-0981-42ab-84bf-7443a2005dc7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4695e59e-0981-42ab-84bf-7443a2005dc7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:30:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video reasoning",
+    "self-consistency",
+    "diffusion models",
+    "test-time scaling",
+    "rejection fine-tuning",
+    "visual search",
+    "maze solving",
+    "referring segmentation"
+   ],
+   "field": "视频生成与视觉推理",
+   "innovations": [
+    "首次将自洽性扩展至视频推理的结构化连续输出并设计任务特定聚合规则",
+    "发现视频模型去噪早期锁定任务布局，提出早期读出显著降低推理成本",
+    "提出拒绝微调RFT将多样本共识蒸馏为单生成模型，无需ground-truth监督"
+   ],
+   "benchmarks": [
+    "Frozen Lake Maze",
+    "Visual Search Arrays (Campbell et al.)",
+    "gRefCOCO Referring Segmentation"
+   ]
+  }
+ }
 }

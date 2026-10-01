@@ -4,5 +4,35 @@
  "title": "Imagine3D-LLM-Teaching-MLLMs-to-Imagine-3D-Scenes-Before-Ans",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-30 18:49:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1dbf2f2f-c6ef-40f9-b655-3b8b819518d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1dbf2f2f-c6ef-40f9-b655-3b8b819518d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:29:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Scene Understanding",
+    "Multimodal Large Language Model",
+    "3D Gaussian Splatting",
+    "Spatial Reasoning",
+    "Compact Scene Representation",
+    "Multi-view MLLM"
+   ],
+   "field": "多视角3D场景理解与空间推理",
+   "innovations": [
+    "Gaussian summary tokens 机制：在 MLLM 中插入少量可学习 tokens 解码为紧凑 3DGS 表示，联合光度重建与语言建模损失训练",
+    "信息瓶颈诱导对象级自组织分组：M << KN' 的设计使跨视图重叠内容合并到共享 token，涌现对象级抽象",
+    "重建监督向图像特征的传播效应：仅对 summary tokens 施加重建损失，但 LLM 图像特征随之变得更强 3D 感知"
+   ],
+   "benchmarks": [
+    "SQA3D",
+    "Real-3DQA",
+    "ScanQA",
+    "Scan2Cap",
+    "ScanRefer",
+    "Multi3DRefer",
+    "SPAR-Bench"
+   ]
+  }
+ }
 }

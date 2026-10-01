@@ -4,5 +4,31 @@
  "title": "LDM-is-AE-Latent-Diffusion-Model-is-an-Auto-Encoder-for-End",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-30 08:05:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2734f15e-a09e-4553-8ad1-b05019a7cecc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2734f15e-a09e-4553-8ad1-b05019a7cecc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:30:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Latent Diffusion Model",
+    "End-to-End Training",
+    "Auto-Encoder",
+    "Diffusion Transformer",
+    "Image Generation",
+    "Representation Learning"
+   ],
+   "field": "图像生成与扩散模型",
+   "innovations": [
+    "揭示LDM骨干网络的内蕴自编码结构并将其显式化",
+    "提出时间感知辅助特征混合与残差DiT-E设计实现稳定单阶段训练",
+    "建立潜空间到图像域再到潜空间的显式路径实现diffusion-native潜表示学习"
+   ],
+   "benchmarks": [
+    "ImageNet 256x256 class-conditional generation",
+    "ImageNet 512x512 class-conditional generation",
+    "GenEval text-to-image benchmark"
+   ]
+  }
+ }
 }

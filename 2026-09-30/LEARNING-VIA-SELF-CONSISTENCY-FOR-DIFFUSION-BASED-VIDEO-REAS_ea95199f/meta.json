@@ -4,5 +4,31 @@
  "title": "LEARNING-VIA-SELF-CONSISTENCY-FOR-DIFFUSION-BASED-VIDEO-REAS",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-09-30 08:07:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4695e59e-0981-42ab-84bf-7443a2005dc7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4695e59e-0981-42ab-84bf-7443a2005dc7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:30:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频推理",
+    "自一致性",
+    "扩散模型",
+    "测试时间缩放",
+    "拒绝微调",
+    "视觉感知"
+   ],
+   "field": "视频生成与视觉推理",
+   "innovations": [
+    "首次将自一致性扩展至视频推理的结构化连续输出（路径、点、掩码）",
+    "提出免训练的测试时间缩放方法并结合早期读取策略降低推理成本",
+    "将多样本共识蒸馏至单模型（RFT），无需Ground-truth或外部验证器"
+   ],
+   "benchmarks": [
+    "Frozen Lake",
+    "Visual Search",
+    "gRefCOCO"
+   ]
+  }
+ }
 }

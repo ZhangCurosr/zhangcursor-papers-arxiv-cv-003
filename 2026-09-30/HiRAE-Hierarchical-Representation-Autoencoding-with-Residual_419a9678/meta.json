@@ -4,5 +4,33 @@
  "title": "HiRAE-Hierarchical-Representation-Autoencoding-with-Residual",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-30 18:52:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6a518d3c-64e5-4181-95d7-20e85155f7a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6a518d3c-64e5-4181-95d7-20e85155f7a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:28:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "representation autoencoder",
+    "hierarchical fusion",
+    "image reconstruction",
+    "diffusion generation",
+    "visual tokenization",
+    "DINOv3"
+   ],
+   "field": "视觉表征与图像生成",
+   "innovations": [
+    "深度依赖残差预算的分层融合框架，联合训练融合与解码器，消除分阶段适配",
+    "24层全层级自动融合，无需手动层子集选择，保持原潜空间结构",
+    "通过残差范数上限与逐组Dropout正则化平衡重建细节与生成兼容性"
+   ],
+   "benchmarks": [
+    "ImageNet-256 rFID",
+    "GenEval",
+    "DPG-Bench",
+    "GenAI-Bench",
+    "guided gFID"
+   ]
+  }
+ }
 }

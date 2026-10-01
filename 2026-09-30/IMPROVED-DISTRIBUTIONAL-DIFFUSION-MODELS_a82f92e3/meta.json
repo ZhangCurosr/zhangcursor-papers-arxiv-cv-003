@@ -4,5 +4,30 @@
  "title": "IMPROVED-DISTRIBUTIONAL-DIFFUSION-MODELS",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-30 08:13:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fc57aedd-76db-4c2b-9a8c-4ced339811c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fc57aedd-76db-4c2b-9a8c-4ced339811c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:29:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Models",
+    "Few-step Generation",
+    "Distributional Denoising",
+    "Flow Matching",
+    "Energy Score",
+    "Scoring Rules"
+   ],
+   "field": "生成模型与快速采样",
+   "innovations": [
+    "延迟粒子扩展降低多粒子训练开销至1.5x FM",
+    "基于动力学相变的时变评分规则调度(lambda(t), beta(t))",
+    "单阶段from scratch训练实现4步FID 4.48"
+   ],
+   "benchmarks": [
+    "ImageNet-256^2",
+    "MS-COCO T2I"
+   ]
+  }
+ }
 }

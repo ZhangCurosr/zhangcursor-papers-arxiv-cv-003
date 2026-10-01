@@ -4,5 +4,35 @@
  "title": "Imagine3D-LLM-Teaching-MLLMs-to-Imagine-3D-Scenes-Before-Ans",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-30 08:01:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fdfcd1aa-b904-4e4e-bea8-2d71b4f577aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fdfcd1aa-b904-4e4e-bea8-2d71b4f577aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:29:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Scene Understanding",
+    "Multimodal Large Language Models",
+    "3D Gaussian Splatting",
+    "Spatial Reasoning",
+    "Compact Scene Representation",
+    "Cross-view Correspondence"
+   ],
+   "field": "多视角 3D 场景理解与推理",
+   "innovations": [
+    "Gaussian Summary Tokens：在 MLLM 中引入紧凑可学习 token 并解码为 3DGS 实现先想象再回答的机制",
+    "信息瓶颈驱动的对象级分组：M<<KN' 无监督涌现跨视角对象聚合",
+    "从紧凑高斯教师蒸馏加速 MLLM 多模态训练收敛"
+   ],
+   "benchmarks": [
+    "SPAR-Bench",
+    "SQA3D",
+    "Real-3DQA",
+    "ScanQA",
+    "Scan2Cap",
+    "ScanRefer",
+    "Multi3DRefer"
+   ]
+  }
+ }
 }

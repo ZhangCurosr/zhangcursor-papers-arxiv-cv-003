@@ -4,5 +4,34 @@
  "title": "Graphical-Abstract",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-30 18:50:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad0e46aa-aa21-4883-a236-66c824153f97.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad0e46aa-aa21-4883-a236-66c824153f97.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:27:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Handwritten Text Recognition",
+    "In-Context Learning",
+    "Vision-Language Model",
+    "Cross-Domain",
+    "Transfer Learning",
+    "Zero-shot"
+   ],
+   "field": "手写文本识别（HTR）",
+   "innovations": [
+    "首次系统性探索ICL在HTR中的免微调适配能力，提出ID/CD双场景评估框架",
+    "发现上下文大小2-4即可饱和大部分增益，最大16主要降低误差范围而非提升上限",
+    "证明VLM的ICL在跨域场景下可竞争于专用HTR模型，为低资源HTR提供新路径"
+   ],
+   "benchmarks": [
+    "IAM",
+    "Washington",
+    "Rimes-2011",
+    "ICFHR2016",
+    "LAM",
+    "SaintGall"
+   ]
+  }
+ }
 }

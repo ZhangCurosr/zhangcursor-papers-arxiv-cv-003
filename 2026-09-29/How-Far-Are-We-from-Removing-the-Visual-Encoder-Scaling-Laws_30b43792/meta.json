@@ -4,5 +4,40 @@
  "title": "How-Far-Are-We-from-Removing-the-Visual-Encoder-Scaling-Laws",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-29 19:06:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ccaee204-76b6-4d32-8272-8267b461212d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ccaee204-76b6-4d32-8272-8267b461212d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:25:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "encoder-free MLLM",
+    "scaling laws",
+    "multimodal pretraining",
+    "mixture-of-experts",
+    "visual encoder",
+    "compute-optimal allocation",
+    "loss-compute frontier"
+   ],
+   "field": "多模态大模型缩放定律",
+   "innovations": [
+    "系统比较encoder-free与encoder-based MLLM的scaling laws并预测效率crossover点",
+    "揭示decoder通过双向注意力、浅层处理和专家路由集中接管视觉编码的机制",
+    "按主题细分的crossover分析，发现感知密集型任务追赶更晚"
+   ],
+   "benchmarks": [
+    "CV-Bench",
+    "POPE",
+    "MME",
+    "ChartQA",
+    "DocVQA",
+    "AI2D",
+    "TextVQA",
+    "RealWorldQA",
+    "MMStar",
+    "MMBench-EN",
+    "ScienceQA-IMG"
+   ]
+  }
+ }
 }

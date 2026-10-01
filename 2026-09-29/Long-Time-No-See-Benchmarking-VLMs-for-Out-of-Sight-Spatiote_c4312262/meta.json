@@ -4,5 +4,31 @@
  "title": "Long-Time-No-See-Benchmarking-VLMs-for-Out-of-Sight-Spatiote",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-29 08:02:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/651d0f6e-3759-41cc-9f46-a4d10e64ca13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/651d0f6e-3759-41cc-9f46-a4d10e64ca13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:26:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM",
+    "egocentric video",
+    "out-of-sight reasoning",
+    "spatiotemporal reasoning",
+    "VQA benchmark",
+    "HD-EPIC",
+    "3D spatial perception",
+    "object permanence"
+   ],
+   "field": "具身视觉-语言模型评测",
+   "innovations": [
+    "提出首个要求目标在查询时刻几何验证为不可见且已重定位的VQA基准BEYOND3D",
+    "设计四级诊断问题链（视觉/时序/场景/3D）与三阶段可见性轨迹推断管线",
+    "揭示时间证据检索是视外推理的上游瓶颈，3D预测存在前置/近距离强偏向"
+   ],
+   "benchmarks": [
+    "BEYOND3D"
+   ]
+  }
+ }
 }

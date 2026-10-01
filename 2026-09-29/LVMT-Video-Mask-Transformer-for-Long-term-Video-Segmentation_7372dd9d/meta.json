@@ -4,5 +4,34 @@
  "title": "LVMT-Video-Mask-Transformer-for-Long-term-Video-Segmentation",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-29 07:54:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d49353da-d302-44cf-afe6-b6301a47942d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d49353da-d302-44cf-afe6-b6301a47942d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:26:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频分割",
+    "长时跟踪",
+    "GRU记忆",
+    "截断反向传播",
+    "冻结编码器",
+    "Query传播"
+   ],
+   "field": "视频理解与分割",
+   "innovations": [
+    "用GRU替代非自适应查询融合实现自适应长时记忆传播",
+    "提出TQP训练策略实现长视频高效稳定训练",
+    "冻结编码器架构下刷新多任务SOTA且推理速度快10倍"
+   ],
+   "benchmarks": [
+    "OVIS",
+    "YouTube-VIS 2022",
+    "VIPSeg",
+    "VSPW",
+    "YouTube-VIS 2019",
+    "YouTube-VIS 2021"
+   ]
+  }
+ }
 }

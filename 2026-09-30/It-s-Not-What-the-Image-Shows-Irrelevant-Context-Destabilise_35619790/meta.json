@@ -4,5 +4,32 @@
  "title": "It-s-Not-What-the-Image-Shows-Irrelevant-Context-Destabilise",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-30 18:49:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cc687484-3acc-477f-925c-e55c6bc08176.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cc687484-3acc-477f-925c-e55c6bc08176.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:30:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM judge",
+    "替代性评估",
+    "无关上下文",
+    "MIST",
+    "invariance test",
+    "习语理解",
+    "prompt敏感性"
+   ],
+   "field": "多模态NLP评估",
+   "innovations": [
+    "提出MIST基准，首次以标签保持扰动检验VLM judge对无关图像的鲁棒性",
+    "发现图像存在本身动摇judge而非图像内容，且动摇不提升human一致性",
+    "将invariance test从task model迁移至judge model，揭示替代性协议的条件依赖性"
+   ],
+   "benchmarks": [
+    "MIST",
+    "AdMIRe (SemEval-2025 Task 1)",
+    "ID10M-JAM"
+   ]
+  }
+ }
 }

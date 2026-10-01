@@ -4,5 +4,30 @@
  "title": "Honeycomb-Constant-Size-Scene-Memory-Representation-for-Vide",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-09-30 08:09:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a056d95f-76ff-4056-924d-36a4e63c7b9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a056d95f-76ff-4056-924d-36a4e63c7b9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:28:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频世界模型",
+    "固定大小记忆",
+    "低秩表征",
+    "场景一致性",
+    "前馈写入",
+    "闭环回放"
+   ],
+   "field": "视频生成与场景记忆",
+   "innovations": [
+    "HexMemory 固定大小低秩六平面记忆结构，避免存储随生成膨胀",
+    "前馈循环写入器 + 置信度加权池化与残差校正融合，写入耗时恒定",
+    "端到端联合训练 writer-reader-DiT，在 WorldScore 与 RE10K 刷新一致性指标"
+   ],
+   "benchmarks": [
+    "WorldScore",
+    "RealEstate10K NVS"
+   ]
+  }
+ }
 }

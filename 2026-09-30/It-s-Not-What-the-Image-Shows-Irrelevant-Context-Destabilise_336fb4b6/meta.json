@@ -4,5 +4,30 @@
  "title": "It-s-Not-What-the-Image-Shows-Irrelevant-Context-Destabilise",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-30 08:09:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cc687484-3acc-477f-925c-e55c6bc08176.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cc687484-3acc-477f-925c-e55c6bc08176.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:29:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM-as-judge",
+    "irrelevant context",
+    "invariance test",
+    "idiom annotation",
+    "MIST benchmark",
+    "multimodal robustness"
+   ],
+   "field": "多模态大模型评估与可信AI",
+   "innovations": [
+    "提出MIST压力测试，通过标签保持的双向图像扰动量化VLM judge对无关上下文的去稳定效应",
+    "发现VLM被图片存在本身而非图片内容移动，对齐与误导图像引发相近比例的标签偏移且均低于随机方向",
+    "将不变性行为测试从任务模型移植到评估者，并以提示编辑控制分离指令效力与多模态融合惯性"
+   ],
+   "benchmarks": [
+    "MIST",
+    "alt-test"
+   ]
+  }
+ }
 }

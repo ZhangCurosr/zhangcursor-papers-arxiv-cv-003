@@ -4,5 +4,31 @@
  "title": "Learning-Native-Reflection-in-Unified-Models-with-Interleave",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-29 19:06:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/de069e63-e610-4f41-af6e-840178320862.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/de069e63-e610-4f41-af6e-840178320862.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:26:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "unified multimodal models",
+    "reinforcement learning",
+    "self-reflection",
+    "image editing",
+    "compositional generation"
+   ],
+   "field": "多模态统一模型强化学习",
+   "innovations": [
+    "首次将整轨迹RL应用于统一模型的多轮反思-修正循环，组相对优势同时优化文本诊断头与流匹配渲染头",
+    "揭示SFT冷启动已具备修复能力但选择不可靠，RL通过筛选有效路径将条件修复率从20.59%提升至64.94%",
+    "设计失败区域内的渐变奖励破解二元基准信噪比问题，使进度信号对100%训练样本有效"
+   ],
+   "benchmarks": [
+    "GenEval",
+    "WISE",
+    "OneIG-Bench",
+    "T2I-CompBench++"
+   ]
+  }
+ }
 }

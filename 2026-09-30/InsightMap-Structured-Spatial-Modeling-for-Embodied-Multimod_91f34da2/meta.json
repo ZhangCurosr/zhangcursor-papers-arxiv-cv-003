@@ -4,5 +4,32 @@
  "title": "InsightMap-Structured-Spatial-Modeling-for-Embodied-Multimod",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-30 08:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6cc51dd6-6850-42b8-b33e-fbb4e2621a9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6cc51dd6-6850-42b8-b33e-fbb4e2621a9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:29:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied navigation",
+    "multimodal reasoning",
+    "spatial memory",
+    "world model",
+    "map prediction"
+   ],
+   "field": "具身人工智能与多模态学习",
+   "innovations": [
+    "将自上而下地图同时作为显式空间记忆与动作条件预测目标",
+    "提出联合动作-地图训练公式以提供结构化空间监督",
+    "构建统一 RGB-D 数据管道支持导航、问答与定位多任务协同"
+   ],
+   "benchmarks": [
+    "R2R-CE",
+    "RxR-CE",
+    "ScanQA",
+    "SQA3D",
+    "ScanRefer"
+   ]
+  }
+ }
 }

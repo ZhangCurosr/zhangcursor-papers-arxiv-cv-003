@@ -4,5 +4,10 @@
  "title": "LDM-is-AE-Latent-Diffusion-Model-is-an-Auto-Encoder-for-End",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-30 18:50:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2734f15e-a09e-4553-8ad1-b05019a7cecc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2734f15e-a09e-4553-8ad1-b05019a7cecc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:30:31",
+  "chunks": 1
+ }
 }
