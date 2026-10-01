@@ -4,5 +4,34 @@
  "title": "Generative-AI-Based-Data-Augmentation-for-Oral-Lesion-Classi",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-29 08:08:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/21e36af5-7405-422c-bfb6-c5486faf4147.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/21e36af5-7405-422c-bfb6-c5486faf4147.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:51:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Augmentation",
+    "Oral Cancer",
+    "PhotoMOCI",
+    "Synthetic Image Filter",
+    "Image Generation",
+    "Diffusion Models",
+    "GANs"
+   ],
+   "field": "低资源医学图像分类的数据增强",
+   "innovations": [
+    "提出 SIF 双辅助器（SPC+SID）筛选生成样本机制，兼顾类别判别一致性与机器视觉真实性",
+    "构建 PhotoMOCI 多任务公开数据集（700 张三类病灶）并建立四生成器×两数据集全面基准",
+    "首次系统比较 SD(txt) / SD(txt+img) / SG3(lbl) / AC-SG3 在口腔摄影增强上的效果与筛选收益"
+   ],
+   "benchmarks": [
+    "PhotoMOCI (3-class, 700 imgs)",
+    "KOCD v1 (2-class, 950 imgs)",
+    "ResNet50",
+    "Vision Transformer (ViT)",
+    "FID / KID / Precision / Recall / Coverage"
+   ]
+  }
+ }
 }

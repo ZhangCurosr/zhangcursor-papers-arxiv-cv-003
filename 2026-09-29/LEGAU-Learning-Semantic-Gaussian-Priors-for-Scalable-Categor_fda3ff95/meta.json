@@ -4,5 +4,32 @@
  "title": "LEGAU-Learning-Semantic-Gaussian-Priors-for-Scalable-Categor",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-29 19:06:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d806b029-fdbc-4b77-bac1-26ea24d2c83a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d806b029-fdbc-4b77-bac1-26ea24d2c83a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:53:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "category-level pose estimation",
+    "semantic gaussian field",
+    "NOCS",
+    "multimodal transformer",
+    "3D gaussian splatting",
+    "sim2real transfer",
+    "shape-pose coupling"
+   ],
+   "field": "类别级 6D 物体姿态估计",
+   "innovations": [
+    "提出语义高斯场作为类别条件结构先验，耦合姿态推理与形状重建",
+    "多模态交替注意力骨干：局部RGB-D特征、文本嵌入与tri-plane场嵌入统一融合",
+    "端到端单模型多类别训练，无需逐类别预训练或CAD模板"
+   ],
+   "benchmarks": [
+    "HouseCat6D",
+    "SOPE",
+    "ROPE"
+   ]
+  }
+ }
 }

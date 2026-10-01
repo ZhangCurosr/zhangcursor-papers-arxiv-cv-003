@@ -4,5 +4,33 @@
  "title": "NARROW-MULTIMODAL-FINE-TUNING-CAN-INDUCE-EMERGENT-MISALIGNME",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-29 19:06:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95151154-c8dc-4919-a541-e10105b4c0f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95151154-c8dc-4919-a541-e10105b4c0f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:58:59",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Emergent Misalignment",
+    "Multimodal Fine-tuning",
+    "VLM Safety",
+    "LoRA Adaptation",
+    "Alignment Degradation",
+    "Activation Steering"
+   ],
+   "field": "多模态大模型安全与对齐",
+   "innovations": [
+    "首次系统验证窄多模态微调可在跨五类行为通道中诱发连贯的涌现式不对齐",
+    "揭示训练-评估模态匹配与CoT一致性为EM强度的关键调制因素",
+    "提出Prompt Inoculation/Benign-sample Repair/Activation-level Steering三种缓解策略并发现EM在激活空间的低维编码"
+   ],
+   "benchmarks": [
+    "MM-SafetyBench",
+    "MSSBench",
+    "90-question Open-ended Opinion Suite",
+    "Visual Factual Dishonesty Benchmark",
+    "Image Jailbreak Evaluation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Handwritten-Text-Recognition-Lives-in-the-High-Pixel-Varianc",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-29 19:06:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b40fe389-4650-4041-b2c9-cf9b15a366ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b40fe389-4650-4041-b2c9-cf9b15a366ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:51:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手写文本识别",
+    "自监督学习",
+    "像素重建",
+    "JEPA",
+    "对比学习",
+    "高方差子空间",
+    "表征学习"
+   ],
+   "field": "手写文本识别与自监督学习",
+   "innovations": [
+    "证明HTR判别信号位于高方差像素子空间（与自然图像分类相反）",
+    "首次将JEPA方法适配到手写文本识别并揭示实例归一化防止坍缩的关键作用",
+    "建立编码器-高方差子空间对齐度与下游CER的可预测关联"
+   ],
+   "benchmarks": [
+    "IAM",
+    "Rimes",
+    "Bentham",
+    "LAM",
+    "Rodrigo",
+    "Parzival"
+   ]
+  }
+ }
 }

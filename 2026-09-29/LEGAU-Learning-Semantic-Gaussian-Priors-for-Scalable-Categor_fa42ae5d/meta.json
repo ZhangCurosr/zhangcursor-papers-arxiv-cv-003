@@ -4,5 +4,31 @@
  "title": "LEGAU-Learning-Semantic-Gaussian-Priors-for-Scalable-Categor",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-29 07:53:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d806b029-fdbc-4b77-bac1-26ea24d2c83a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d806b029-fdbc-4b77-bac1-26ea24d2c83a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:53:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Category-level 6D Pose Estimation",
+    "Semantic Gaussian Field",
+    "NOCS",
+    "3D Gaussian Splatting",
+    "Multi-modal Transformer",
+    "Sim2Real Transfer"
+   ],
+   "field": "类别级 6D 物体位姿估计",
+   "innovations": [
+    "将类别级位姿估计建模为 NOCS、6D位姿和语义高斯场的耦合统一推理问题，而非独立任务",
+    "引入 triplane 参数化的语义高斯场作为类别条件结构先验，直接参与多模态 attention 融合",
+    "端到端可微 3D Gaussian splatting 监督提供形状-位姿一致性正则，实现单模型 149 类别扩展"
+   ],
+   "benchmarks": [
+    "HouseCat6D",
+    "SOPE",
+    "ROPE"
+   ]
+  }
+ }
 }

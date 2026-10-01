@@ -4,5 +4,30 @@
  "title": "Multi-Scale-Semantic-Mapping-in-Urban-Environments-via-Obser",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-29 08:02:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8232582-a07b-4f50-9cac-ec2aaf107d6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8232582-a07b-4f50-9cac-ec2aaf107d6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:57:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义映射",
+    "多尺度感知",
+    "互信息正则化",
+    "Pareto优化",
+    "主动探索",
+    "具身导航"
+   ],
+   "field": "具身智能语义映射",
+   "innovations": [
+    "类别感知似然校准策略，通过β系数自适应抑制非最优视角下的VLM错误似然",
+    "MI正则化（CLUB）惩罚运动与校准策略间的表示依赖，防止冗余捷径学习",
+    "类别级值估计器+Nash-MTL Pareto梯度平衡，解决多尺度异质策略的梯度冲突"
+   ],
+   "benchmarks": [
+    "自建城市语义映射数据集（80场景）",
+    "UrbanBIS真实世界迁移评测"
+   ]
+  }
+ }
 }

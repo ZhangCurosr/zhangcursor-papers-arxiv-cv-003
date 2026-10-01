@@ -4,5 +4,30 @@
  "title": "HUMAN-TCI-Hierarchical-Multi-Stream-Motion-Aware-Network-wit",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-09-29 07:58:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e5d9dbc2-3463-48af-a65e-cee33a1161b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e5d9dbc2-3463-48af-a65e-cee33a1161b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:51:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-motion retrieval",
+    "human motion understanding",
+    "torso-centered interaction",
+    "hierarchical multi-stream",
+    "cross-modal alignment",
+    "contrastive learning"
+   ],
+   "field": "多模态检索与具身智能",
+   "innovations": [
+    "提出分层三流架构（上体/躯干/下体）显式建模身体部位动力学",
+    "设计躯干中心非对称注意力机制捕捉跨部位交互关系",
+    "在KIT-ML和HumanML3D上以轻量GRU架构超越Transformer基线取得SOTA"
+   ],
+   "benchmarks": [
+    "KIT Motion-Language Dataset",
+    "HumanML3D"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "MaLiang-Harness-A-Programmable-Path-to-Image-and-Video-Gener",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-09-29 08:01:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f03977dd-2d63-4788-9d18-814a5fca4702.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f03977dd-2d63-4788-9d18-814a5fca4702.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:56:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "programmatic image generation",
+    "video generation",
+    "MLLM agent",
+    "P2V gap",
+    "executable visual program",
+    "MaLiang-Harness",
+    "revision-aware verification"
+   ],
+   "field": "可编程视觉生成",
+   "innovations": [
+    "提出 P2V gap 与 PEG/TGP/REV 三模块统一框架，支持图像视频的程序化构建与修订感知验证",
+    "构建 MaLiang-IBench/VBench 双基准并揭示通用 benchmark 得分与可视化程序生成能力的显著解耦",
+    "在统一接口下集成多渲染后端（Canvas/SVG/Three.js/path-tracing）并评估 11 个 MLLM 的系统性差异"
+   ],
+   "benchmarks": [
+    "MaLiang-IBench",
+    "MaLiang-VBench",
+    "Artificial Analysis Intelligence Index"
+   ]
+  }
+ }
 }

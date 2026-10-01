@@ -4,5 +4,30 @@
  "title": "LAGRANGIAN-HAMILTONIAN-FLOWS-FOR-VIDEO-PREDICTION-AND-IMAGE",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-29 07:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/49c2b30a-5fdc-43a0-856f-a8a46660c4f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/49c2b30a-5fdc-43a0-856f-a8a46660c4f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:52:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "Symplectic Geometry",
+    "Video Prediction",
+    "Lagrangian Submanifold",
+    "Hamilton-Jacobi",
+    "Image Generation",
+    "Transport-Source Decomposition"
+   ],
+   "field": "几何深度学习与视频预测",
+   "innovations": [
+    "首次将图像表示为余切丛上的精确拉格朗日图并通过Hamilton-Jacobi条件导出传输-源参数化",
+    "LHFM-V在循环视频预测器中实现最低FLOP计数（13.1G）并保持高预测精度"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "Moving MNIST"
+   ]
+  }
+ }
 }

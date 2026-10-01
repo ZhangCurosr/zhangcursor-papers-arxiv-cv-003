@@ -4,5 +4,30 @@
  "title": "HUMAN-TCI-Hierarchical-Multi-Stream-Motion-Aware-Network-wit",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-09-29 19:08:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e5d9dbc2-3463-48af-a65e-cee33a1161b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e5d9dbc2-3463-48af-a65e-cee33a1161b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:51:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Motion Retrieval",
+    "Torso-Centered Interaction",
+    "Multi-Stream Motion Encoding",
+    "Contrastive Learning",
+    "Skeleton-based Action Retrieval",
+    "Cross-Modal Alignment"
+   ],
+   "field": "多模态人体运动理解",
+   "innovations": [
+    "提出躯干中心交互(TCI)机制，首次显式建模躯干对上下肢运动的引导作用",
+    "设计分层三流GRU架构，以轻量结构实现细粒度空间-时序对齐",
+    "验证CLIP冻结文本编码器可直接赋能运动检索并提升近20% R@1"
+   ],
+   "benchmarks": [
+    "KIT Motion-Language Dataset",
+    "HumanML3D"
+   ]
+  }
+ }
 }

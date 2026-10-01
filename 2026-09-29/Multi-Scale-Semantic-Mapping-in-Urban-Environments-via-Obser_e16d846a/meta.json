@@ -4,5 +4,29 @@
  "title": "Multi-Scale-Semantic-Mapping-in-Urban-Environments-via-Obser",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-29 19:07:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8232582-a07b-4f50-9cac-ec2aaf107d6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8232582-a07b-4f50-9cac-ec2aaf107d6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:57:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义地图构建",
+    "多尺度感知",
+    "强化学习导航",
+    "互信息正则化",
+    "Pareto优化",
+    "城市环境"
+   ],
+   "field": "具身语义地图构建",
+   "innovations": [
+    "提出类别感知似然校准策略缓解城市多尺度观测失配问题",
+    "引入MI正则化抑制校准与运动策略间的冗余表征耦合",
+    "类别级价值估计结合Pareto梯度平衡解决多尺度优化冲突"
+   ],
+   "benchmarks": [
+    "UrbanBIS"
+   ]
+  }
+ }
 }

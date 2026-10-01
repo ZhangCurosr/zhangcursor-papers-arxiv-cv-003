@@ -4,5 +4,32 @@
  "title": "LESS-IS-MORE-GENETIC-FRAME-SELECTION-FOR-EFFICIENT-NOVEL-VIE",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-29 19:09:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d2fc899e-52fa-4794-9878-353aa7a3a775.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d2fc899e-52fa-4794-9878-353aa7a3a775.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:53:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "新型视图合成",
+    "帧选择",
+    "遗传算法",
+    "前馈重建",
+    "行为克隆"
+   ],
+   "field": "3D视觉与场景重建",
+   "innovations": [
+    "遗传搜索蒸馏的无渲染帧选择器",
+    "选择条件特征的增量贪心选择",
+    "跨重建器的零样本迁移能力"
+   ],
+   "benchmarks": [
+    "DL3DV",
+    "Tanks and Temples",
+    "Mip-NeRF 360",
+    "ScanNet++",
+    "7-Scenes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Modeling-Whole-Slide-Images-as-Dynamic-Tumor-Microenvironmen",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-29 08:06:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8607cd7c-9e95-4852-bdbd-1981b7f3913b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8607cd7c-9e95-4852-bdbd-1981b7f3913b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:57:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "whole-slide image",
+    "multiple instance learning",
+    "tumor microenvironment",
+    "reaction-diffusion",
+    "concept-guided",
+    "computational pathology",
+    "weakly supervised learning"
+   ],
+   "field": "计算病理学与全切片图像分析",
+   "innovations": [
+    "将WSI建模为动态肿瘤微环境场，通过图离散化反应-扩散过程实现自适应区域演化",
+    "设计概念引导的各向异性边界通量机制，耦合特征交互与语义传播",
+    "提出区域内扩散+边界反应-通量联合的伪时间演化框架，替代静态patch聚合"
+   ],
+   "benchmarks": [
+    "TCGA-LUAD生存预测",
+    "TCGA-BLCA生存预测",
+    "TCGA-BRCA生存预测",
+    "GBC生存预测",
+    "BRACS亚型分类",
+    "EBRAINS亚型分类",
+    "基因表达预测(LUAD/BLCA/BRCA)"
+   ]
+  }
+ }
 }

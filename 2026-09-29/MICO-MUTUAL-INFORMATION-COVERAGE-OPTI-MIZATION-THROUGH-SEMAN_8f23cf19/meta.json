@@ -4,5 +4,10 @@
  "title": "MICO-MUTUAL-INFORMATION-COVERAGE-OPTI-MIZATION-THROUGH-SEMAN",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-09-29 19:07:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e444e067-2642-49ca-a193-d6315dbf89fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e444e067-2642-49ca-a193-d6315dbf89fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:57:04",
+  "chunks": 5
+ }
 }

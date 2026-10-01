@@ -4,5 +4,34 @@
  "title": "MIND-THE-REFGAP-CORRECTING-REFERENCE-AT-TENTION-IN-DIFFUSION",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-29 19:06:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f6163186-e6f9-463b-9af3-a09dcfa80ebb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f6163186-e6f9-463b-9af3-a09dcfa80ebb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:55:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion-based visual editing",
+    "reference attention",
+    "training-free correction",
+    "head swapping",
+    "face swapping",
+    "in-context diffusion",
+    "attention logit offset"
+   ],
+   "field": "生成模型推理时干预",
+   "innovations": [
+    "提出RefGAP双向在线参考注意力修正方法，通过实测ρ动态决定正负logit偏移强度",
+    "建立基于B和b̄_edit的自动层选择规则，实现跨七种编辑器的单一系数迁移",
+    "揭示参考注意力质量不足是扩散编辑器忠实度瓶颈，并提供可复用的诊断框架"
+   ],
+   "benchmarks": [
+    "HeadSwapBench",
+    "FaceForensics++ FaceSwap",
+    "ViViD",
+    "VITON-HD",
+    "SUN397"
+   ]
+  }
+ }
 }

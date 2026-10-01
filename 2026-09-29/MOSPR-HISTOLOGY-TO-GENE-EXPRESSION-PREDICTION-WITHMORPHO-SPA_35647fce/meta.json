@@ -4,5 +4,34 @@
  "title": "MOSPR-HISTOLOGY-TO-GENE-EXPRESSION-PREDICTION-WITHMORPHO-SPA",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-09-29 19:08:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3193cad1-a3aa-40ae-9595-f28cc22c0812.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3193cad1-a3aa-40ae-9595-f28cc22c0812.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:55:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "histology-to-gene expression",
+    "whole-slide image",
+    "morpho-spatial macrostates",
+    "low-rank regression",
+    "computational pathology",
+    "TCGA",
+    "multiple instance learning"
+   ],
+   "field": "计算病理学与多组学整合",
+   "innovations": [
+    "Cohort 级形态邻接聚合构建共享宏观状态字典",
+    "线性框架耦合形态-空间表征与低秩分子基实现精确可解释分解"
+   ],
+   "benchmarks": [
+    "TCGA-BRCA",
+    "TCGA-KIRC",
+    "TCGA-LUAD",
+    "Hallmark",
+    "GO-BP",
+    "KEGG"
+   ]
+  }
+ }
 }

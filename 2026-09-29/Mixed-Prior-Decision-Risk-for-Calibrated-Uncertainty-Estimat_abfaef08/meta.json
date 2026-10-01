@@ -4,5 +4,37 @@
  "title": "Mixed-Prior-Decision-Risk-for-Calibrated-Uncertainty-Estimat",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-29 07:53:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b1ab5378-706e-4365-84c8-30b92089878e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b1ab5378-706e-4365-84c8-30b92089878e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:57:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-set recognition",
+    "uncertainty estimation",
+    "Bayesian decision theory",
+    "selective prediction",
+    "probabilistic embeddings",
+    "calibrated uncertainty"
+   ],
+   "field": "开放集识别与不确定性估计",
+   "innovations": [
+    "提出MPRisk，将后验不确定性直接分解为决策条件错误风险分量（假接受/误识别/假拒绝/非特异性惩罚），无需非线性校准",
+    "证明KL信息增益汇总与OSR决策风险非单调，线性融合KL分量的PRR可为负",
+    "引入混合先验连续未知成分推导非特异性惩罚rNS，可检测低质量已知样本被高置信度错误拒绝的失败模式"
+   ],
+   "benchmarks": [
+    "IJB-C",
+    "IJB-B",
+    "Whale",
+    "VoxBlink VB-Eval-L-5",
+    "Yahoo Answers",
+    "AG News",
+    "DBPedia",
+    "CLINC150",
+    "PAN-20-AV"
+   ]
+  }
+ }
 }

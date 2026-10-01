@@ -4,5 +4,32 @@
  "title": "MIND-THE-REFGAP-CORRECTING-REFERENCE-AT-TENTION-IN-DIFFUSION",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-29 08:01:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f6163186-e6f9-463b-9af3-a09dcfa80ebb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f6163186-e6f9-463b-9af3-a09dcfa80ebb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:54:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion editing",
+    "reference attention",
+    "training-free",
+    "visual editing",
+    "attention manipulation",
+    "identity swapping"
+   ],
+   "field": "扩散模型视觉编辑",
+   "innovations": [
+    "基于在线参考注意力质量的免训练双边注意力校正机制",
+    "单次跨模型校准即可迁移到未见模型和额外任务的共享配置方案"
+   ],
+   "benchmarks": [
+    "HeadSwapBench",
+    "FaceForensics++ FaceSwap",
+    "ViViD",
+    "VITON-HD",
+    "SUN397"
+   ]
+  }
+ }
 }

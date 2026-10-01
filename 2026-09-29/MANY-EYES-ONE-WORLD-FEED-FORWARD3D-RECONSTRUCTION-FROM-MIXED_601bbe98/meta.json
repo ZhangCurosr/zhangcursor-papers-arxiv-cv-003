@@ -4,5 +4,30 @@
  "title": "MANY-EYES-ONE-WORLD-FEED-FORWARD3D-RECONSTRUCTION-FROM-MIXED",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-29 19:09:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7d380301-4b5e-40db-b218-a2751849c55a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7d380301-4b5e-40db-b218-a2751849c55a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:53:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D reconstruction",
+    "mixed cameras",
+    "panoramic imagery",
+    "feed-forward model",
+    "synthetic data",
+    "camera-agnostic"
+   ],
+   "field": "多视角几何与3D重建",
+   "innovations": [
+    "单pass无相机先验的混合相机（透视+鱼眼+全景）度量重建",
+    "LENSCOPE过程化数据引擎支持连续相机流形采样与共视性验证",
+    "全视野调整大小+宽高比嵌入适配异构投影输入"
+   ],
+   "benchmarks": [
+    "Stanford 2D3DS heterogeneous tuples",
+    "Laser-scanned mixed-camera benchmark (BLK360 G2)"
+   ]
+  }
+ }
 }

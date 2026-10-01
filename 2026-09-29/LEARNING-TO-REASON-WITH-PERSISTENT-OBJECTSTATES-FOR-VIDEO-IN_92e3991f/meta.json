@@ -4,5 +4,34 @@
  "title": "LEARNING-TO-REASON-WITH-PERSISTENT-OBJECTSTATES-FOR-VIDEO-IN",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-29 19:07:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5961f5f4-774f-4539-9153-e5b289a2df38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5961f5f4-774f-4539-9153-e5b289a2df38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:52:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Instance Segmentation",
+    "Persistent Object State",
+    "Propose-Verify Reasoning",
+    "Video Object Segmentation",
+    "Identity Drift",
+    "Plug-and-play Framework"
+   ],
+   "field": "视频实例分割",
+   "innovations": [
+    "提出持久对象状态形式化，显式分离身份历史与当前观测，默认保留至转换被验证",
+    "设计 Propose-Verify 两步共享参数推理，联合处理对象存在性、竞争关联与状态转换准入",
+    "引入门控选择性写回机制，通过动作概率×关联质量×非空质量二次衰减不确定证据"
+   ],
+   "benchmarks": [
+    "YouTube-VIS 2019",
+    "YouTube-VIS 2021",
+    "YouTube-VIS 2022",
+    "OVIS",
+    "LVOS v1",
+    "LVOS v2"
+   ]
+  }
+ }
 }

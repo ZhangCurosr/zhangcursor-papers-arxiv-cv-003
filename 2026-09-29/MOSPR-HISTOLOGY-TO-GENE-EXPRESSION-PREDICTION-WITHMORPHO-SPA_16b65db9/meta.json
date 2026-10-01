@@ -4,5 +4,35 @@
  "title": "MOSPR-HISTOLOGY-TO-GENE-EXPRESSION-PREDICTION-WITHMORPHO-SPA",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-09-29 08:00:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3193cad1-a3aa-40ae-9595-f28cc22c0812.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3193cad1-a3aa-40ae-9595-f28cc22c0812.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:54:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "形态-空间回归",
+    "基因表达预测",
+    "全切片图像",
+    "低秩PCA",
+    "谱嵌入",
+    "TCGA",
+    "可解释AI"
+   ],
+   "field": "计算病理学与多组学整合",
+   "innovations": [
+    "队列级形态宏观状态字典学习",
+    "线性低秩基因表达回归框架",
+    "全局与宏观状态贡献的代数可分解性"
+   ],
+   "benchmarks": [
+    "TCGA-BRCA",
+    "TCGA-KIRC",
+    "TCGA-LUAD",
+    "Hallmark通路",
+    "GO-BP通路",
+    "KEGG通路"
+   ]
+  }
+ }
 }

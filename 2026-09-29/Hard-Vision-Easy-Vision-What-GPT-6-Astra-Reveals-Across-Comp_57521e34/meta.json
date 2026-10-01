@@ -4,5 +4,47 @@
  "title": "Hard-Vision-Easy-Vision-What-GPT-6-Astra-Reveals-Across-Comp",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-29 07:58:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a0b6130-7c09-421e-b46f-d3f7b5a75735.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a0b6130-7c09-421e-b46f-d3f7b5a75735.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:52:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generalist vision",
+    "frontier VLM",
+    "hard vision",
+    "structured prediction",
+    "3D perception",
+    "image restoration",
+    "reasoning cost"
+   ],
+   "field": "通用视觉大模型评测",
+   "innovations": [
+    "在9域34能力55基准上系统刻画通用系统与专用/人类参照的能力成熟度边界",
+    "揭示易视觉（语义/对象中心）与硬视觉（度量几何/忠实重建/时序一致/专家细粒度）的分层格局",
+    "以得分比与成本比双轴量化推理努力与工具调用的增益代价并给出通用-专用分工框架"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "MathVista",
+    "RefCOCO",
+    "DAVIS",
+    "MS-CXR",
+    "LOL-v1",
+    "GenEval2",
+    "MMM U-Pro",
+    "OCHuman",
+    "Anywhere3Dv2",
+    "DIODE",
+    "ETH3D",
+    "Omni3D",
+    "ActivityNet",
+    "EmbodiedBench",
+    "MedXpertQA-MM",
+    "VLRS-Bench",
+    "HoVer-NeXt"
+   ]
+  }
+ }
 }

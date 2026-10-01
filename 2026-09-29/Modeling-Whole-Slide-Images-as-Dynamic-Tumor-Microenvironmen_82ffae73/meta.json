@@ -4,5 +4,31 @@
  "title": "Modeling-Whole-Slide-Images-as-Dynamic-Tumor-Microenvironmen",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-29 19:07:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8607cd7c-9e95-4852-bdbd-1981b7f3913b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8607cd7c-9e95-4852-bdbd-1981b7f3913b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:57:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "whole-slide image",
+    "multiple instance learning",
+    "tumor microenvironment",
+    "reaction-diffusion",
+    "vision-language",
+    "computational pathology"
+   ],
+   "field": "计算病理学与弱监督学习",
+   "innovations": [
+    "受反应-扩散启发的动态微环境场建模框架TMEvolve",
+    "概念引导的各向异性边界通量机制",
+    "自适应软区域划分与伪时间迭代演化"
+   ],
+   "benchmarks": [
+    "TCGA-LUAD/BLCA/BRCA/GBC生存预测",
+    "BRACS/EBRAINS亚型分类",
+    "TCGA基因表达预测"
+   ]
+  }
+ }
 }

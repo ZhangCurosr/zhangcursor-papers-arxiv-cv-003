@@ -4,5 +4,35 @@
  "title": "Handwritten-Text-Recognition-Lives-in-the-High-Pixel-Varianc",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-29 07:53:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/22325c14-b570-4f92-9a29-7cbfdac839a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/22325c14-b570-4f92-9a29-7cbfdac839a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:52:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手写文本识别",
+    "自监督学习",
+    "Masked Image Modeling",
+    "JEPA",
+    "像素重建",
+    "方差子空间",
+    "SSL预训练"
+   ],
+   "field": "手写文本识别与自监督表示学习",
+   "innovations": [
+    "证明HTR判别信号位于高方差像素子空间（与自然图像分类相反），提供像素基底SSL优势的几何解释",
+    "首次将I-JEPA和V-JEPA-2适配到线级手写文本识别，发现实例归一化可防止训练坍塌",
+    "在匹配条件下系统对比六种SSL方法，证明冻结的像素基底编码器配合LLM解码器可达到全监督SOTA水平"
+   ],
+   "benchmarks": [
+    "IAM",
+    "Rimes",
+    "Bentham",
+    "LAM",
+    "Rodrigo",
+    "Parzival"
+   ]
+  }
+ }
 }

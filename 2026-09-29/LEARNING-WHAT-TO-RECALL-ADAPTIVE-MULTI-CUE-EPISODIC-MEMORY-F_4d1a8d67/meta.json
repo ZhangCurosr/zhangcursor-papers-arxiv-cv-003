@@ -4,5 +4,32 @@
  "title": "LEARNING-WHAT-TO-RECALL-ADAPTIVE-MULTI-CUE-EPISODIC-MEMORY-F",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-09-29 19:07:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/66f15fa8-9eab-4079-9b90-c1cdea489fff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/66f15fa8-9eab-4079-9b90-c1cdea489fff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:53:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Models",
+    "Episodic Memory",
+    "Memory-Augmented Generation",
+    "Multi-Cue Fusion",
+    "Reinforcement Learning",
+    "Embodied AI",
+    "Video Prediction"
+   ],
+   "field": "世界模型与长期记忆",
+   "innovations": [
+    "提出基于未来感知预测效用的 episodic 记忆检索学习框架",
+    "设计查询自适应的多线索加权融合检索机制",
+    "将 EMDR² 的隐变量检索思想扩展至多模态世界模型记忆系统"
+   ],
+   "benchmarks": [
+    "LoopNav",
+    "SoundSpaces",
+    "AI2-THOR"
+   ]
+  }
+ }
 }

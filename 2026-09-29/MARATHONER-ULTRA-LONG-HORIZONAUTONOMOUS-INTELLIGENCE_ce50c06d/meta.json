@@ -4,5 +4,32 @@
  "title": "MARATHONER-ULTRA-LONG-HORIZONAUTONOMOUS-INTELLIGENCE",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-09-29 19:07:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f6c70271-08fd-4560-bbc9-c5957f761296.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f6c70271-08fd-4560-bbc9-c5957f761296.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:53:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ultra-long-horizon",
+    "agentic model",
+    "reinforcement learning",
+    "process reward",
+    "code agent",
+    "task synthesis"
+   ],
+   "field": "自主智能体与超长horizon执行",
+   "innovations": [
+    "基于Major Release PR与Multi-Task Chaining的超长期任务合成流水线",
+    "Later Stage Bonus Reward过程级奖励以激励长轨迹后半段高价值操作"
+   ],
+   "benchmarks": [
+    "FrontierSWE",
+    "SWE-Marathon",
+    "Terminal Bench 2.0",
+    "SWE-Bench Verified",
+    "NL2Repo"
+   ]
+  }
+ }
 }
