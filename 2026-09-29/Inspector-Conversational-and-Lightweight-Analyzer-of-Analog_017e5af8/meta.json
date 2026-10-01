@@ -4,5 +4,35 @@
  "title": "Inspector-Conversational-and-Lightweight-Analyzer-of-Analog",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-29 19:07:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/075cfbb3-e2c2-411f-8fb5-aa0ab1b674ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/075cfbb3-e2c2-411f-8fb5-aa0ab1b674ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:08:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GDSII分析",
+    "模拟IC版图",
+    "大语言模型",
+    "卷积神经网络",
+    "EDA",
+    "对话式AI",
+    "YOLv8",
+    "Llama-3.2"
+   ],
+   "field": "模拟集成电路自动化设计",
+   "innovations": [
+    "提出轻量级LLM+CNN解耦框架Inspector，实现GDSII版图的对话式语义分析",
+    "构建首个开源GDSII模拟版图对话数据集，覆盖30K+真实布局变体",
+    "双阶段分离训练范式（CNN专注视觉检测、LLM专注语义路由），在1B参数下超越通用VLM最高81%精度"
+   ],
+   "benchmarks": [
+    "Task A: 单器件识别(97%)",
+    "Task B: 基础电路拓扑识别(91%)",
+    "Task C: 基础电路组件计数(99%)",
+    "Task D: 混合电路组件计数(92%)",
+    "SkyWater 130nm PDK DRC/LVS合规布局"
+   ]
+  }
+ }
 }

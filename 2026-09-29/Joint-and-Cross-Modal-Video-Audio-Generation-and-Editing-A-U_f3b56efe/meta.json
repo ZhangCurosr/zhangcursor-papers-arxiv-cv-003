@@ -4,5 +4,31 @@
  "title": "Joint-and-Cross-Modal-Video-Audio-Generation-and-Editing-A-U",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-09-29 19:07:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c72aeb3d-2e96-482f-bdaf-0de9ff64b9db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c72aeb3d-2e96-482f-bdaf-0de9ff64b9db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:10:45",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "音视频生成",
+    "跨模态对齐",
+    "视频编辑",
+    "Foley",
+    "多模态生成",
+    "综述",
+    "统一框架"
+   ],
+   "field": "多模态生成",
+   "innovations": [
+    "提出联合/跨模态/编辑三任务统一公式化框架",
+    "构建五轴设计分类法（生成策略/音频表示/视频表示/对齐机制/预训练复用）"
+   ],
+   "benchmarks": [
+    "CAVP",
+    "VATEX",
+    "AudioSet"
+   ]
+  }
+ }
 }

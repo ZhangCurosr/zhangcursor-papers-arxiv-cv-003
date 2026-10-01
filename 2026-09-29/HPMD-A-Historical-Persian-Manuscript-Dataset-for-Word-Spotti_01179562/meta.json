@@ -4,5 +4,30 @@
  "title": "HPMD-A-Historical-Persian-Manuscript-Dataset-for-Word-Spotti",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-09-29 19:08:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ed372e4b-bf9e-4b48-91cc-9803e02e71fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ed372e4b-bf9e-4b48-91cc-9803e02e71fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:07:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "historical Persian manuscript",
+    "word spotting",
+    "handwritten text recognition",
+    "CTC posterior",
+    "low-resource script",
+    "dataset"
+   ],
+   "field": "历史手稿分析与手写文本检索",
+   "innovations": [
+    "提出仅需行级标注的 CTC 后验矩阵直接检索方法，避免解码硬决策导致的近形字符混淆",
+    "构建首个大规模历史波斯手写数据集 HPMD，含 223 页诗歌与散文手稿及多维度属性标签"
+   ],
+   "benchmarks": [
+    "HPMD test set (44 pages, 735 lines)",
+    "PHOC query-by-string baseline with oracle word boundaries",
+    "Exact OCR match baseline"
+   ]
+  }
+ }
 }

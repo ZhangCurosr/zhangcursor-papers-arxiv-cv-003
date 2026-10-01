@@ -4,5 +4,31 @@
  "title": "World-Knowledge-in-the-Weights-Reading-Concept-Circuits-of-V",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-09 07:04:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/36ea63d3-1b53-4cfe-bcb6-ec8c975dd093.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/36ea63d3-1b53-4cfe-bcb6-ec8c975dd093.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:05:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Concept Circuit",
+    "Vision Transformer",
+    "Cross-Layer Transcoder",
+    "Interpretability",
+    "Spurious Correlation",
+    "Mechanistic Interpretability",
+    "Sparse Autoencoder"
+   ],
+   "field": "视觉模型可解释性",
+   "innovations": [
+    "首次用CLT从ViT权重直接读取input-invariant全局概念电路",
+    "实例电路faithfulness超越SAE 24.4%并用于自动虚假相关去除",
+    "通过co-activation重加权抑制feature interference获得因果相关的全局边权"
+   ],
+   "benchmarks": [
+    "ImageNet validation",
+    "Waterbird worst-group accuracy"
+   ]
+  }
+ }
 }

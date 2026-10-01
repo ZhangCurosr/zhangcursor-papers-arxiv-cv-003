@@ -4,5 +4,10 @@
  "title": "Generative-Residual-Factorization",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-29 07:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b7742c43-eeb3-4bdf-9b10-85969f7d7a13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b7742c43-eeb3-4bdf-9b10-85969f7d7a13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:06:24",
+  "chunks": 1
+ }
 }

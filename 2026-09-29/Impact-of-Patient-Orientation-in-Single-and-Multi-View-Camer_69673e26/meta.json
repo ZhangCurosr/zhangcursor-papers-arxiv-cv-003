@@ -4,5 +4,29 @@
  "title": "Impact-of-Patient-Orientation-in-Single-and-Multi-View-Camer",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-29 19:06:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cefdb367-c750-414b-8428-aa1dd5f891ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cefdb367-c750-414b-8428-aa1dd5f891ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:08:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-view pose estimation",
+    "rehabilitation monitoring",
+    "camera viewpoint optimization",
+    "skeleton-based action quality assessment",
+    "personalized exercise model"
+   ],
+   "field": "计算机视觉在医疗康复中的应用",
+   "innovations": [
+    "提出REHAB26-ViewAngles多视角康复数据集与分离度度量Ψ",
+    "发现优化视角较正面提升16.9%且2D骨架优于3D"
+   ],
+   "benchmarks": [
+    "REHAB26-ViewAngles",
+    "MediaPipe Pose 2D/3D",
+    "RUMPL multi-view transformer"
+   ]
+  }
+ }
 }

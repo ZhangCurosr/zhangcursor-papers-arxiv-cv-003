@@ -4,5 +4,31 @@
  "title": "WSPolypNet-Weakly-Supervised-Polyp-Localization-in-Colonosco",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-09 17:33:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/310a7917-ad2c-435c-8dac-92f08fb532db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/310a7917-ad2c-435c-8dac-92f08fb532db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:04:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "weakly supervised learning",
+    "polyp localization",
+    "colonoscopy video",
+    "class activation map",
+    "MedSAM2",
+    "3D CNN"
+   ],
+   "field": "医学视频弱监督定位",
+   "innovations": [
+    "仅用视频级标签的3D CNN-CAM弱监督息肉定位框架",
+    "五视角CAM聚合增强小息肉定位",
+    "CAM线索转点提示驱动MedSAM2边界精化"
+   ],
+   "benchmarks": [
+    "LDPolypVideo",
+    "CorLoc@0.3/0.5/0.7",
+    "Recall"
+   ]
+  }
+ }
 }

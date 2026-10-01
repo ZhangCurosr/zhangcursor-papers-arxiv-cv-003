@@ -4,5 +4,29 @@
  "title": "HyperDAM-Hyperspectral-Distractor-Aware-Memory-with-Amodal-E",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-09-29 07:59:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/793afebb-b286-4268-bd1d-82cf8c0601d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/793afebb-b286-4268-bd1d-82cf8c0601d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:07:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hyperspectral tracking",
+    "SAM 3",
+    "distractor-aware memory",
+    "amodal tracking",
+    "video object segmentation"
+   ],
+   "field": "高光谱单目标跟踪",
+   "innovations": [
+    "无监督 HSI 记忆门控拒绝光谱不一致更新",
+    "外挂因果 3D 扩压头实现 modal-to-amodal 外推",
+    "HOTC2026-Modal 密集监督标注扩展"
+   ],
+   "benchmarks": [
+    "HOTC 2026 Public-LB75",
+    "HOTC 2026 Private Leaderboard"
+   ]
+  }
+ }
 }

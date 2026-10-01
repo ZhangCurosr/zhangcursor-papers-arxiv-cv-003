@@ -4,5 +4,32 @@
  "title": "What-Do-Hallucinations-Reveal-About-Multimodal-Reasoning-Dia",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-16 07:14:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-16/0ae93f96-c4e9-40f6-8703-85dc151f2193.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-16/0ae93f96-c4e9-40f6-8703-85dc151f2193.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:05:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual hallucination",
+    "contrastive decoding",
+    "multimodal large language models",
+    "visual grounding",
+    "token-level diagnosis"
+   ],
+   "field": "多模态大模型幻觉诊断",
+   "innovations": [
+    "提出SAFE框架，通过双路径视觉ablation计算token级grounding分数",
+    "揭示视觉依赖衰减和幻觉时序聚类的动力学规律",
+    "设计同时用于诊断和缓解的统一对比探测机制"
+   ],
+   "benchmarks": [
+    "MMHalBench",
+    "HallusionBench",
+    "CHAIR",
+    "POPE",
+    "MMMU"
+   ]
+  }
+ }
 }

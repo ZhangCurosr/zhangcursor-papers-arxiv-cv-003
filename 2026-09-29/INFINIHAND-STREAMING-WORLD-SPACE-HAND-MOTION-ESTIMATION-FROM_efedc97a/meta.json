@@ -4,5 +4,32 @@
  "title": "INFINIHAND-STREAMING-WORLD-SPACE-HAND-MOTION-ESTIMATION-FROM",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-29 19:06:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6543a0df-1a5b-40b1-bdb8-fd4c3e4c57e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6543a0df-1a5b-40b1-bdb8-fd4c3e4c57e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:07:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界空间手部估计",
+    "第一人称视频",
+    "流式前馈",
+    "MANO模型",
+    "相机轨迹估计",
+    "束调整"
+   ],
+   "field": "计算机视觉-手势识别与动作理解",
+   "innovations": [
+    "提出统一的流式前馈框架联合估计手部与世界空间轨迹",
+    "引入持久时空记忆增强长序列跟踪鲁棒性",
+    "结合稀疏束调整后处理以纠正累积漂移"
+   ],
+   "benchmarks": [
+    "ARCTIC",
+    "HOT3D",
+    "EgoDex",
+    "HOI4D"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Geometric-Encoding-for-Spatial-Reasoning-in-Vision-Language",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-29 08:08:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23fe8db4-d058-4b04-aa7a-da299c521187.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23fe8db4-d058-4b04-aa7a-da299c521187.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:06:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Spatial Reasoning",
+    "Geometric Encoding",
+    "Training-free",
+    "VSI-Bench",
+    "Depth Estimation"
+   ],
+   "field": "视觉语言模型空间推理",
+   "innovations": [
+    "训练免费的感知-几何-提示管线，零微调增强VLM空间推理",
+    "确定性几何引擎从单目视频生成结构化空间代码（JSON格式）",
+    "系统验证显式几何与原始视觉信息的互补效应"
+   ],
+   "benchmarks": [
+    "VSI-Bench"
+   ]
+  }
+ }
 }

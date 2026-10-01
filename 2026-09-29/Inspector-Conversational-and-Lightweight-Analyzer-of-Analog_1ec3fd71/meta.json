@@ -4,5 +4,30 @@
  "title": "Inspector-Conversational-and-Lightweight-Analyzer-of-Analog",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-29 07:53:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/075cfbb3-e2c2-411f-8fb5-aa0ab1b674ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/075cfbb3-e2c2-411f-8fb5-aa0ab1b674ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:08:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GDSII分析",
+    "模拟集成电路",
+    "视觉语言模型",
+    "目标检测",
+    "EDA",
+    "大语言模型"
+   ],
+   "field": "模拟IC布局自动化",
+   "innovations": [
+    "轻量级LLM-CNN混合架构实现对话式布局分析",
+    "开放数据集与端到端工作流支持可复现研究",
+    "三阶段部署流水线实现视觉感知与语义推理解耦"
+   ],
+   "benchmarks": [
+    "SkyWater 130nm PDK",
+    "Task A-D四项布局分析任务"
+   ]
+  }
+ }
 }

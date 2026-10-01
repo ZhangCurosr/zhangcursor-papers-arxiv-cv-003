@@ -4,5 +4,30 @@
  "title": "Geometry-as-Address-Routing-Attention-to-Visual-Memory-for-L",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-09-29 19:10:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8b57de0b-49c1-4f8e-bdd7-d52b1b88f0d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8b57de0b-49c1-4f8e-bdd7-d52b1b88f0d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:06:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长程视频生成",
+    "相机控制视频生成",
+    "视觉记忆",
+    "几何对应注意力",
+    "3D 感知生成",
+    "自回归视频生成"
+   ],
+   "field": "长程相机控制视频生成",
+   "innovations": [
+    "提出 GEAR 框架，将几何作为 token 级显式地址、视觉注意力负责内容检索，解耦几何寻址与视觉记忆",
+    "设计 GCA 稀疏几何对应注意力与 Invisible Octree 可见性过滤，避免全局 3D 融合误差累积",
+    "引入退化历史增强策略提升自回归长程生成的鲁棒性"
+   ],
+   "benchmarks": [
+    "DL3DV-Evaluation",
+    "WorldScore-Static"
+   ]
+  }
+ }
 }

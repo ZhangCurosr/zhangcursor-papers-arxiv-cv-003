@@ -4,5 +4,32 @@
  "title": "INFINIHAND-STREAMING-WORLD-SPACE-HAND-MOTION-ESTIMATION-FROM",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-29 07:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6543a0df-1a5b-40b1-bdb8-fd4c3e4c57e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6543a0df-1a5b-40b1-bdb8-fd4c3e4c57e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:07:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world-space hand estimation",
+    "ego-centric video",
+    "streaming reconstruction",
+    "MANO",
+    "SLAM integration",
+    "feed-forward framework"
+   ],
+   "field": "Ego-centric 3D 手运动估计与世界空间重建",
+   "innovations": [
+    "端到端流式前馈统一手定位/MANO/相机轨迹",
+    "GCA持久时空记忆+手中心双路特征融合",
+    "稀疏BA关键帧池校正长序列漂移"
+   ],
+   "benchmarks": [
+    "ARCTIC",
+    "HOT3D",
+    "EgoDex",
+    "HOI4D"
+   ]
+  }
+ }
 }

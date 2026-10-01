@@ -4,5 +4,31 @@
  "title": "Generative-Residual-Factorization",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-29 19:07:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b7742c43-eeb3-4bdf-9b10-85969f7d7a13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b7742c43-eeb3-4bdf-9b10-85969f7d7a13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:06:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative residual factorization",
+    "information theory",
+    "next-embedding prediction",
+    "self-supervised learning",
+    "diffusion models",
+    "entropy decomposition",
+    "representation learning"
+   ],
+   "field": "生成模型理论基础",
+   "innovations": [
+    "条件律后验因子化定理: 下一patch分布精确拆分为残差核与后验混合积分",
+    "方向性损失纤维不可识别: 余弦NEPA目标存在常数嵌入全局极小,无法约束残差核",
+    "熵分裂加法定理: 条件熵精确分解为残差熵与后验互信息两项"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "CIFAR-10"
+   ]
+  }
+ }
 }

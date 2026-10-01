@@ -4,5 +4,39 @@
  "title": "Just-MLPs-Eficient-Visual-State-Reconstruction-for-Multimoda",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-29 19:06:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23d0d2ee-833d-42cb-85d2-a49e32748ed0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23d0d2ee-833d-42cb-85d2-a49e32748ed0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:09:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "视觉token压缩",
+    "低秩适配",
+    "参数高效微调",
+    "推理加速",
+    "知识蒸馏"
+   ],
+   "field": "多模态模型效率优化",
+   "innovations": [
+    "揭示视觉表征在隐藏维度的低秩可压缩性与跨层可预测性",
+    "提出δ-Vision框架用轻量级低秩adapter替代逐层Transformer演化",
+    "设计embedding与recurrent两种记忆构建变体并验证与token剪枝的正交性"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "RWQA",
+    "GQA",
+    "MMB",
+    "MME",
+    "POPE",
+    "SQA",
+    "VQAv2",
+    "MuirBench",
+    "Video-MME",
+    "MVBench"
+   ]
+  }
+ }
 }

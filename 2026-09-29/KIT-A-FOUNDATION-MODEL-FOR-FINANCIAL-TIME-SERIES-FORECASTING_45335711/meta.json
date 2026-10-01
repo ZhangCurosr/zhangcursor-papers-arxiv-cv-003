@@ -4,5 +4,31 @@
  "title": "KIT-A-FOUNDATION-MODEL-FOR-FINANCIAL-TIME-SERIES-FORECASTING",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-29 19:07:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ff46a2f3-2373-4dc7-81d3-bbd269768f46.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ff46a2f3-2373-4dc7-81d3-bbd269768f46.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:10:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "金融时间序列预测",
+    "扩散模型",
+    "流匹配",
+    "K线预测",
+    "基础模型",
+    "classifier-free guidance",
+    "scale-free表示"
+   ],
+   "field": "金融时间序列基础模型",
+   "innovations": [
+    "将K线预测重构为流匹配条件路径生成，消除自回归误差累积",
+    "设计可逆五维对数比率状态编码，保持几何合法性并实现跨市场scale-free泛化"
+   ],
+   "benchmarks": [
+    "A股/美股/加密货币七粒度RankIC",
+    "收益预测与波动率预测",
+    "一年期多空回测"
+   ]
+  }
+ }
 }

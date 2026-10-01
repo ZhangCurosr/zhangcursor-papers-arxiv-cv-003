@@ -4,5 +4,34 @@
  "title": "JRDB-AVR-An-Active-Visual-Reasoning-Benchmark-for-Embodied-A",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-29 07:59:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ce33f40c-b645-47f6-811b-d665f95200b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ce33f40c-b645-47f6-811b-d665f95200b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:08:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动视觉推理",
+    "具身智能",
+    "视觉证据 grounding",
+    "场景图",
+    "VLM 幻觉检测",
+    "JRDB"
+   ],
+   "field": "具身主动视觉推理",
+   "innovations": [
+    "提出首个真实环境主动视觉推理基准 JRDB-AVR，要求代理自主决策观测时机与视角",
+    "设计答案-证据联合评估协议，显式揭示 VLM 的条件幻觉问题",
+    "构建基于显式图世界模型的训练-free 主动推理基线 JRDB-AVR-Agent"
+   ],
+   "benchmarks": [
+    "JRDB-AVR",
+    "GQA",
+    "CLEVRER",
+    "STAR",
+    "VIEW2SPACE",
+    "JRDB-Reasoning"
+   ]
+  }
+ }
 }

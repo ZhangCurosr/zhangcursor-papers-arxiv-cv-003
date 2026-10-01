@@ -4,5 +4,30 @@
  "title": "sensVLA-Spatially-Grounded-Vision-Language-Action-Model-for",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-16 07:16:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-16/6d4efa6a-6aff-4d0d-b1fc-416f7d2b333a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-16/6d4efa6a-6aff-4d0d-b1fc-416f7d2b333a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:05:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "BEV Perception",
+    "Flow Matching",
+    "Autonomous Wheel Loader",
+    "Parameter-Efficient Fine-Tuning",
+    "Heavy Equipment Autonomy",
+    "Sensor Fusion"
+   ],
+   "field": "机器人学/VLA模型",
+   "innovations": [
+    "将冻结BEV特征通过异构交叉注意力直接路由至可训练动作专家，解耦几何接地与语言推理",
+    "以flow-matching速度回归实现连续6-DoF动作生成，避免离散token化误差",
+    "首epoch冻结LoRA仅warm-up动作专家的分阶段PEFT策略结合state-history dropout与EMA验证"
+   ],
+   "benchmarks": [
+    "real-world wheel loader loading-and-hauling dataset (200K train / 40K val chunks)"
+   ]
+  }
+ }
 }

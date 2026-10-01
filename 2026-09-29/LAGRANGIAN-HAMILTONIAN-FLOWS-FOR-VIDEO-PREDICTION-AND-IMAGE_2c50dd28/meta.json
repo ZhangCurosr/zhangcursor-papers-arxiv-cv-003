@@ -4,5 +4,30 @@
  "title": "LAGRANGIAN-HAMILTONIAN-FLOWS-FOR-VIDEO-PREDICTION-AND-IMAGE",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-29 19:06:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/49c2b30a-5fdc-43a0-856f-a8a46660c4f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/49c2b30a-5fdc-43a0-856f-a8a46660c4f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:10:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lagrangian-Hamiltonian Flow Matching",
+    "symplectic geometry",
+    "video prediction",
+    "flow matching",
+    "transport-source parameterization",
+    "exact Lagrangian graph"
+   ],
+   "field": "视频预测与图像生成的几何建模",
+   "innovations": [
+    "将图像表示为精确拉格朗日图并通过哈密顿-雅可比方程刻画可运输它的哈密顿量",
+    "从辛几何导出运输-源分解的参数化，显式分离空间结构与通道值演化",
+    "LHFM-V在循环视频预测器中实现最低FLOP数并达到可比精度"
+   ],
+   "benchmarks": [
+    "CIFAR-10 unconditional generation",
+    "Moving MNIST video prediction"
+   ]
+  }
+ }
 }

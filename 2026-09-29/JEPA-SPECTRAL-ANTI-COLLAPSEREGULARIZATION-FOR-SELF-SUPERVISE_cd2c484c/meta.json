@@ -4,5 +4,34 @@
  "title": "JEPA-SPECTRAL-ANTI-COLLAPSEREGULARIZATION-FOR-SELF-SUPERVISE",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-29 07:53:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6c96a988-578e-4732-880b-c7323c750743.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6c96a988-578e-4732-880b-c7323c750743.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:09:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督学习",
+    "联合嵌入",
+    "抗坍塌正则化",
+    "谱正则",
+    "JEPA",
+    "表示秩",
+    "迁移学习",
+    "λ平衡"
+   ],
+   "field": "自监督视觉表征学习",
+   "innovations": [
+    "从λ平衡导出SACReg谱抗坍塌正则并作用于主干表示",
+    "提出λ-JEPA统一框架同时在骨干与投影空间施加协方差谱正则",
+    "引入增强厚度分析解耦类间分离与增广相关变异"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "ImageNet-100",
+    "Something-Something-v2",
+    "Kinetics-400"
+   ]
+  }
+ }
 }

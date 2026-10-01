@@ -4,5 +4,32 @@
  "title": "INFIMED2-A-GENERALIST-MEDICAL-MULTIMODAL-FOUNDATION-MODEL-FR",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-09-29 19:07:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8718d2ba-325f-40fa-8f2d-95ecce3de747.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8718d2ba-325f-40fa-8f2d-95ecce3de747.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:07:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical multimodal LLM",
+    "continued pretraining",
+    "stability-aware supervision",
+    "RLVR",
+    "data curation"
+   ],
+   "field": "医学多模态基础模型",
+   "innovations": [
+    "阶段感知的三阶段CPT数据配比策略",
+    "答案稳定性估计驱动的多档路由重建生成高质量SFT监督",
+    "RLVR结合pass@8难度感知的中等难度优先优化"
+   ],
+   "benchmarks": [
+    "MMMU Medical-test",
+    "MMMU-Pro Medical-10",
+    "MedXpertQA-MM",
+    "PMC-VQA-clean",
+    "OmniMedVQA"
+   ]
+  }
+ }
 }

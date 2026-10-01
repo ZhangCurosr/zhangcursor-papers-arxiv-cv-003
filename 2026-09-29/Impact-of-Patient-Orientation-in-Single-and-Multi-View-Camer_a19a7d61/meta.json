@@ -4,5 +4,37 @@
  "title": "Impact-of-Patient-Orientation-in-Single-and-Multi-View-Camer",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-29 07:58:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cefdb367-c750-414b-8428-aa1dd5f891ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cefdb367-c750-414b-8428-aa1dd5f891ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:08:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rehabilitation monitoring",
+    "multi-view pose estimation",
+    "camera viewpoint",
+    "exercise quality assessment",
+    "separability metric",
+    "MediaPipe Pose",
+    "skeleton-based analysis",
+    "personalized motion model"
+   ],
+   "field": "康复监测中的多视角姿态估计",
+   "innovations": [
+    "提出REHAB26-ViewAngles数据集，系统评估相机视角对康复动作质量评估的影响",
+    "提出可分离性度量Ψ，量化区分正确与错误动作重复的能力",
+    "发现最优侧偏视角(15°-30°)比常用正面视角提升16.9%，且2D姿态估计整体优于3D"
+   ],
+   "benchmarks": [
+    "REHAB26-ViewAngles",
+    "MediaPipe Pose 2D/3D",
+    "YOLO26",
+    "RUMPL",
+    "Orthogonal 2D HPE",
+    "Triangulation",
+    "Weighted Multi-View Fusion"
+   ]
+  }
+ }
 }

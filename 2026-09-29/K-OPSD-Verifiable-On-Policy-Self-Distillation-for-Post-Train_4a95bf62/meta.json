@@ -4,5 +4,31 @@
  "title": "K-OPSD-Verifiable-On-Policy-Self-Distillation-for-Post-Train",
  "token": "sk-rxBzzlmRG...",
  "created_at": "2026-09-29 19:08:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5f78aa47-4cba-4b57-9795-a95f461df3c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5f78aa47-4cba-4b57-9795-a95f461df3c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:10:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy self-distillation",
+    "verifiable supervision",
+    "vision-language model",
+    "AEC drawings",
+    "cross-entropy inner loss",
+    "best-of-N sampling",
+    "hint-conditioned rescue"
+   ],
+   "field": "多模态大模型后训练与领域适配",
+   "innovations": [
+    "提出 K-OPSD 可验证在线自我蒸馏闭环，无需外部教师即可从模型自身 best-of-N 生成中构建自教师",
+    "用过程级验证器 + 提示救援 + 去提示重验证提升自蒸馏覆盖率与监督纯度",
+    "在验证完成序列上使用交叉熵内层损失替代有界广义 JSD，缓解高置信错误 token 的梯度饱和"
+   ],
+   "benchmarks": [
+    "AECV-Bench",
+    "ArchCAD"
+   ]
+  }
+ }
 }

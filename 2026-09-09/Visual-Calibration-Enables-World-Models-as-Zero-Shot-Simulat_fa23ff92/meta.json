@@ -4,5 +4,33 @@
  "title": "Visual-Calibration-Enables-World-Models-as-Zero-Shot-Simulat",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-09 07:05:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/32ae42d1-3214-44a9-a5a0-203a3ac773b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/32ae42d1-3214-44a9-a5a0-203a3ac773b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:04:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "visual calibration",
+    "zero-shot simulation",
+    "action-conditioned video generation",
+    "robotics",
+    "in-context adaptation",
+    "test-time policy improvement"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "通过视觉校准上下文片段实现跨未见相机视角和实体的零样本动作条件世界模型",
+    "动作坐标增强与校准蒸馏联合训练使模型能从交互历史中近似场景特定的动作-视觉映射",
+    "利用零样本仿真 rollout 配合 GPC-Rank 在未见环境中实现无需训练的测试时政策改进"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "ManiSkill",
+    "DROID real-world",
+    "Met3r multi-view consistency"
+   ]
+  }
+ }
 }
