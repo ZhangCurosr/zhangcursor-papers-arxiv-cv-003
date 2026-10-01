@@ -4,5 +4,32 @@
  "title": "Multi-task-learning-for-the-automatic-grading-of-enlarged-pe",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-30 08:08:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eefec3e0-fccd-4525-bfd3-a84ac51321b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eefec3e0-fccd-4525-bfd3-a84ac51321b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:46:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-task learning",
+    "perivascular spaces",
+    "brain MRI",
+    "PVS grading",
+    "medical image segmentation",
+    "clinical scoring"
+   ],
+   "field": "医学图像分析/神经影像学",
+   "innovations": [
+    "首次利用银标准PVS分割掩码辅助多任务学习实现BG+CSO双区域非二分化Potters/Wardlaw量表自动评分",
+    "证明多任务联合训练比条件输入或特征提取更能促使模型学会定位真实PVS结构",
+    "提出动态归一化损失权重β解决多任务学习中样本覆盖不均导致的损失失衡问题"
+   ],
+   "benchmarks": [
+    "Potters/Wardlaw PVS scale",
+    "MSS1/MSS2/MSS3 datasets",
+    "LBC1936 cohort",
+    "VALDO challenge dataset"
+   ]
+  }
+ }
 }

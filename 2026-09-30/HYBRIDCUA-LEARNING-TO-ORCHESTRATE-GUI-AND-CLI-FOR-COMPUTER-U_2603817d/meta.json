@@ -4,5 +4,31 @@
  "title": "HYBRIDCUA-LEARNING-TO-ORCHESTRATE-GUI-AND-CLI-FOR-COMPUTER-U",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-30 08:05:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/441faf77-da61-433b-a77e-c5bf225b540b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/441faf77-da61-433b-a77e-c5bf225b540b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:42:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Computer-Use Agents",
+    "GUI-CLI Orchestration",
+    "Reinforcement Learning with Verifiable Rewards",
+    "Hybrid Action Space",
+    "Unified Action Schema",
+    "CLI-aware Reward"
+   ],
+   "field": "计算机使用智能体",
+   "innovations": [
+    "构建混合GUI-CLI轨迹数据集HybridCUA-8K并提供可扩展数据生成管线",
+    "设计双层CLI-aware奖励（任务级接口选择+步骤级执行可靠性）的在线RL训练框架",
+    "统一bash action schema替代分离工具设计，提升跨接口路由能力"
+   ],
+   "benchmarks": [
+    "OSWorld",
+    "OSWorld-MCP",
+    "WindowsAgentArena"
+   ]
+  }
+ }
 }

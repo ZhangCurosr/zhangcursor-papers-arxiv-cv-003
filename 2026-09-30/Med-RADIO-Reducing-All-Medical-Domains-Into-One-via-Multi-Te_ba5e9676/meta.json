@@ -4,5 +4,29 @@
  "title": "Med-RADIO-Reducing-All-Medical-Domains-Into-One-via-Multi-Te",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-30 18:50:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/66ecc60e-7790-42c9-8598-d267f4f2b5d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/66ecc60e-7790-42c9-8598-d267f4f2b5d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:44:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical Vision Foundation Model",
+    "Multi-Teacher Distillation",
+    "Knowledge Distillation",
+    "Representation Learning",
+    "Medical Imaging"
+   ],
+   "field": "医学视觉基础模型",
+   "innovations": [
+    "基于角色散的静态平衡蒸馏损失防止教师主导",
+    "模态对齐蒸馏流复用通用预训练语料构建专家监督",
+    "轻量级翻译头对齐异构教师输出空间无需修改教师"
+   ],
+   "benchmarks": [
+    "Internal 9-benchmark (US/MRI/CT/Histo/Derm)",
+    "External 5-modality protocol from MMKD-CLIP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "LongLive-Plug-Once-for-All-Distillation-for-Video-Generation",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-30 18:51:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/90ea83a2-268d-4f32-8aa9-527826856822.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/90ea83a2-268d-4f32-8aa9-527826856822.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:43:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video diffusion",
+    "distillation",
+    "LoRA",
+    "classifier-free guidance",
+    "few-step sampling",
+    "long-context generation",
+    "world model"
+   ],
+   "field": "视频生成模型加速与蒸馏",
+   "innovations": [
+    "一次性蒸馏可复用 LoRA 实现零训练即插即用部署",
+    "解耦 CFG 与少步蒸馏，通过 CFG LoRA 权重实现运行时 guidance 可调",
+    "长上下文 DMD 蒸馏提升 AR world model 长 rollout 质量"
+   ],
+   "benchmarks": [
+    "SCOPE",
+    "PAI-Bench-C",
+    "VBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "MotionInsight-Diagnosing-Object-Motion-Deficiencies-in-Gener",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-30 18:51:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c0c3dc38-36f7-4181-9194-9e58014a3299.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c0c3dc38-36f7-4181-9194-9e58014a3299.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:45:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成评估",
+    "运动保真度",
+    "对象运动诊断",
+    "VLM evaluator",
+    "GRPO reward",
+    "VidMotion dataset"
+   ],
+   "field": "视频生成评估与诊断",
+   "innovations": [
+    "运动感知表示：融合对象追踪与相机姿态的结构化运动嵌入",
+    "GRPO 运动特定奖励：多维度评分与非对称惩罚 + 失败原因 grounding"
+   ],
+   "benchmarks": [
+    "VidMotion-Test",
+    "VBench",
+    "VMBench",
+    "VideoPhy2"
+   ]
+  }
+ }
 }

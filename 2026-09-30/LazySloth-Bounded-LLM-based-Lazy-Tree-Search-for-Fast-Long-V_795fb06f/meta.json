@@ -4,5 +4,31 @@
  "title": "LazySloth-Bounded-LLM-based-Lazy-Tree-Search-for-Fast-Long-V",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-30 08:05:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/645e9455-3388-4e59-8fd4-99c803f8e010.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/645e9455-3388-4e59-8fd4-99c803f8e010.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:42:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long video understanding",
+    "VLM",
+    "lazy tree search",
+    "multimodal RAG",
+    "video comprehension"
+   ],
+   "field": "长视频理解与多模态检索",
+   "innovations": [
+    "VLM-based懒加载层次树搜索，将字幕成本从O(N)降至O(k log_k N)",
+    "用VLM语义理解替代CLIP对比检索，避免信息丢失",
+    "三层VLM分工（Captioner/Searcher/Reasoner）实现搜索与推理解耦"
+   ],
+   "benchmarks": [
+    "Video-MME",
+    "LongVideoBench",
+    "LVBench",
+    "EgoSchema"
+   ]
+  }
+ }
 }

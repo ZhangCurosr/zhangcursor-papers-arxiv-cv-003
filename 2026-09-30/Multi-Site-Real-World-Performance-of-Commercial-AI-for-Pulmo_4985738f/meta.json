@@ -4,5 +4,31 @@
  "title": "Multi-Site-Real-World-Performance-of-Commercial-AI-for-Pulmo",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-30 08:01:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0aafb8f3-9df7-4997-84cf-3c7f6b73c484.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0aafb8f3-9df7-4997-84cf-3c7f6b73c484.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:45:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "肺栓塞",
+    "意外肺栓塞",
+    "FDA批准AI",
+    "真实世界评估",
+    "上市后监管",
+    "CTPA",
+    "LLM标签提取"
+   ],
+   "field": "医学影像AI真实世界性能评估",
+   "innovations": [
+    "首次在同一商业平台两款AI模型（PE+iPE）上进行覆盖17个站点的多维度亚组分层真实世界评估",
+    "构建经500例专家验证的LLM管道实现从放射科报告高效提取多标签ground truth",
+    "通过多变量logistic回归系统量化AI敏感性在解剖深度和急慢性维度的衰减梯度"
+   ],
+   "benchmarks": [
+    "FDA 510(k) clearance metrics (PE: sensitivity 94.86%, specificity 94.04%; iPE: sensitivity 89.7%, specificity 90.1%)",
+    "Published external evaluations range: PE sensitivity 63%-96.8%, specificity 95%-99.9%"
+   ]
+  }
+ }
 }

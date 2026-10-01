@@ -4,5 +4,32 @@
  "title": "Motion-Concept-Unlearning-in-Video-Difusion-Models",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-09-30 18:51:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c235525c-f81b-49e0-b087-51e4c8e53a60.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c235525c-f81b-49e0-b087-51e4c8e53a60.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:44:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "motion concept erasure",
+    "text-to-video diffusion",
+    "classifier-free guidance",
+    "training-free unlearning",
+    "concept direction"
+   ],
+   "field": "视频生成模型安全与可控性",
+   "innovations": [
+    "首次系统性探究视频DiT中运动概念的神经编码位置，证明cross-attention适合选择性干预而temporal positional encoding全局支持动态",
+    "提出MUTE：基于token neutralization和自派生spatial gate的training-free输出级逐步骤擦除方法，在CFG前移除概念贡献",
+    "揭示CFG残差缩放机制是权重级擦除效果受限的根本原因，推导出三要求框架指导方法设计"
+   ],
+   "benchmarks": [
+    "X-CLIP MCS",
+    "LPIPS",
+    "SSIM",
+    "Wan2.1-T2V-1.3B",
+    "CogVideoX-2B"
+   ]
+  }
+ }
 }

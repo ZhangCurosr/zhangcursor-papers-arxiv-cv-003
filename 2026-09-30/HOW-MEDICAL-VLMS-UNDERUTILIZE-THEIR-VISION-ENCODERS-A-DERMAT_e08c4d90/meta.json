@@ -4,5 +4,37 @@
  "title": "HOW-MEDICAL-VLMS-UNDERUTILIZE-THEIR-VISION-ENCODERS-A-DERMAT",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-09-30 08:08:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/63c20209-66d4-40d9-8526-471c444b0bfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/63c20209-66d4-40d9-8526-471c444b0bfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:41:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学VLM",
+    "视觉 grounding",
+    "皮肤科",
+    "推理时干预",
+    "注意力分析",
+    "少样本线性探针",
+    "Describe-then-Decide"
+   ],
+   "field": "医学多模态大模型",
+   "innovations": [
+    "提出VAR量化指标揭示医学VLM视觉编码器利用不足",
+    "三种无微调推理时干预策略（临床描述/DtD/Top-5重排）协同缩小视觉-语言性能差距",
+    "机制分析证明DtD提升30-40%视觉注意力并降低注意力熵"
+   ],
+   "benchmarks": [
+    "Derm7pt",
+    "Fitzpatrick17k",
+    "PAD-UFES-20",
+    "eSkinHealth",
+    "CheXpert",
+    "PatchCamelyon",
+    "MedMNIST v2",
+    "VQA-RAD"
+   ]
+  }
+ }
 }

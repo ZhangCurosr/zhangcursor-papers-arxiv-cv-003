@@ -4,5 +4,31 @@
  "title": "HYBRIDCUA-LEARNING-TO-ORCHESTRATE-GUI-AND-CLI-FOR-COMPUTER-U",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-30 18:52:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/441faf77-da61-433b-a77e-c5bf225b540b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/441faf77-da61-433b-a77e-c5bf225b540b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:42:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Computer-Use Agents",
+    "GUI-CLI Orchestration",
+    "RLVR",
+    "Hybrid Action Space",
+    "Reinforcement Learning",
+    "Multimodal Agents"
+   ],
+   "field": "计算机使用智能体",
+   "innovations": [
+    "统一 bash 动作格式将 GUI 与 CLI 整合进单一动作空间",
+    "CLI-aware 双粒度奖励（任务级路由 + 步级执行）驱动接口编排学习",
+    "GUI-to-CLI 轨迹改写与 b* 偏好标注结合的混合数据生成管线"
+   ],
+   "benchmarks": [
+    "OSWorld",
+    "OSWorld-MCP",
+    "WindowsAgentArena"
+   ]
+  }
+ }
 }

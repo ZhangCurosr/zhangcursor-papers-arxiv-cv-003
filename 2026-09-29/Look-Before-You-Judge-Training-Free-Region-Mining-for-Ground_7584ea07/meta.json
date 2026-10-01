@@ -4,5 +4,31 @@
  "title": "Look-Before-You-Judge-Training-Free-Region-Mining-for-Ground",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-29 08:01:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fea15c45-94c9-47e7-a39b-ea66ad9c4afd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fea15c45-94c9-47e7-a39b-ea66ad9c4afd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:41:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deepfake检测",
+    "多模态大语言模型",
+    "可解释AI",
+    "训练免费方法",
+    "视觉 grounding",
+    "幻觉缓解",
+    "证据获取"
+   ],
+   "field": "多模态伪造检测与可解释性",
+   "innovations": [
+    "提出Look-Before-You-Judge序贯证据获取范式，显式分离区域发现、局部检验与全局判决",
+    "设计blur-contrastive attention mining机制，无需训练自动发现图像特定的细节敏感区域",
+    "实现完全training-free推理时干预框架，仅需frozen MLLM的attention响应即可提升检测准确率与解释grounding"
+   ],
+   "benchmarks": [
+    "TriDF",
+    "MMTD-Set"
+   ]
+  }
+ }
 }

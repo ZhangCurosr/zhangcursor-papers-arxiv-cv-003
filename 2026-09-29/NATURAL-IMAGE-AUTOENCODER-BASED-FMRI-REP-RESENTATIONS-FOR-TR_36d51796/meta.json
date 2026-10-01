@@ -4,5 +4,36 @@
  "title": "NATURAL-IMAGE-AUTOENCODER-BASED-FMRI-REP-RESENTATIONS-FOR-TR",
  "token": "sk-dWAo1bBzD...",
  "created_at": "2026-09-29 19:08:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23d916d6-105b-4e78-bdbf-b8a8a19f40e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23d916d6-105b-4e78-bdbf-b8a8a19f40e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:41:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fMRI representation",
+    "foundation model",
+    "natural image prior",
+    "trait prediction",
+    "state prediction",
+    "autoencoder",
+    "linear probing"
+   ],
+   "field": "神经影像表征学习",
+   "innovations": [
+    "冻结自然图像DCAE配合任务自适应readout即可匹敌fMRI基础模型",
+    "将27 tokens/frame压缩为1 token使Transformer专注时序建模，参数减少40%",
+    "证明当前fMRI benchmark上强性能无需fMRI特定预训练，应作为评估基线"
+   ],
+   "benchmarks": [
+    "ADHD-200",
+    "ABIDE-II",
+    "ADNI",
+    "HCP-A",
+    "HBN-Movie",
+    "HCP-Task",
+    "NSD"
+   ]
+  }
+ }
 }

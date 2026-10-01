@@ -4,5 +4,32 @@
  "title": "HaPRL-Human-Anchored-Process-Reinforcement-Learning-for-Visu",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-30 18:52:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/79e23674-83e1-441c-a3cd-75ea9a446f2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/79e23674-83e1-441c-a3cd-75ea9a446f2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:42:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual search",
+    "reinforcement learning",
+    "process supervision",
+    "human traces",
+    "reward design",
+    "multimodal reasoning",
+    "vision-language model"
+   ],
+   "field": "视觉搜索强化学习",
+   "innovations": [
+    "提出人类锚定过程强化学习框架，首次将人类搜索行为作为奖励锚点",
+    "设计任务自适应的过程评价器与答案门控机制",
+    "通过早期过程监督显著提升后续结果扩展增益（6.7倍）"
+   ],
+   "benchmarks": [
+    "VisualProbe Easy/Medium/Hard",
+    "V*QA",
+    "HR-Bench 4K/8K"
+   ]
+  }
+ }
 }

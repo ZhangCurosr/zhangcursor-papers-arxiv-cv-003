@@ -4,5 +4,33 @@
  "title": "MULTI-DEPTH-TEMPORAL-FUSION-FOR-FEEDFORWARD-LOCALLY-TRAINED",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-09-30 08:05:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4b5f61b3-477d-4c54-bfaa-55ee854c58ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4b5f61b3-477d-4c54-bfaa-55ee854c58ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:44:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spiking neural networks",
+    "local learning",
+    "STDP",
+    "R-STDP",
+    "time-to-first-spike",
+    "multi-depth fusion",
+    "neuromorphic computing"
+   ],
+   "field": "脉冲神经网络本地学习",
+   "innovations": [
+    "多深度时间融合(MDTF)机制：保留早期spike延迟+稀疏残差修正+时间共识深度融合",
+    "无标签确定性视觉前端将静态图像和事件流统一转换为校准延迟编码",
+    "多原型R-STDP读出层通过时序竞争实现全spiking分类"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion-MNIST",
+    "CIFAR-10",
+    "N-MNIST"
+   ]
+  }
+ }
 }

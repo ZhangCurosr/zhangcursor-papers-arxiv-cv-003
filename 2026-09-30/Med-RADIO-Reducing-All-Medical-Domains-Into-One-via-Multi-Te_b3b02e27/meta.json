@@ -4,5 +4,29 @@
  "title": "Med-RADIO-Reducing-All-Medical-Domains-Into-One-via-Multi-Te",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-30 08:05:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/66ecc60e-7790-42c9-8598-d267f4f2b5d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/66ecc60e-7790-42c9-8598-d267f4f2b5d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:44:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical Vision Foundation Model",
+    "Multi-Teacher Distillation",
+    "Model Unification",
+    "Representation Learning",
+    "Medical Imaging"
+   ],
+   "field": "医学人工智能",
+   "innovations": [
+    "提出基于数据重组的多教师蒸馏框架Med-RADIO，将多个异构医学专科模型知识压缩到单一统一编码器",
+    "设计基于角离散度的静态平衡蒸馏损失，有效防止多教师优化中的教师坍塌问题",
+    "通过模态对齐的数据流间接利用分布式专科知识，弥合医学通用模型与专科模型的性能差距"
+   ],
+   "benchmarks": [
+    "Internal 9-benchmark (US/MRI/CT/Path/Derm)",
+    "External 5-modality protocol from MMKD-CLIP"
+   ]
+  }
+ }
 }

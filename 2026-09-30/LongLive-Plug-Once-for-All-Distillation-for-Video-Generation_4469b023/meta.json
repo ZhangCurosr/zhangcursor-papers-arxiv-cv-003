@@ -4,5 +4,32 @@
  "title": "LongLive-Plug-Once-for-All-Distillation-for-Video-Generation",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-30 08:07:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/90ea83a2-268d-4f32-8aa9-527826856822.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/90ea83a2-268d-4f32-8aa9-527826856822.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:43:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "蒸馏",
+    "LoRA",
+    "classifier-free guidance",
+    "少步采样",
+    "长上下文",
+    "模型复用"
+   ],
+   "field": "视频生成加速与模型复用",
+   "innovations": [
+    "一次性蒸馏 CFG/少步/长上下文为可复用 LoRA 并零训练迁移到 54 个下游模型",
+    "解耦 CFG 与少步蒸馏，通过推理权重实现引导强度连续调节",
+    "长上下文错误纠正 LoRA 的可迁移性及迁移设计量化分析（rank、数据多样性）"
+   ],
+   "benchmarks": [
+    "SCOPE",
+    "PAI-Bench-C",
+    "VBench"
+   ]
+  }
+ }
 }

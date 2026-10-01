@@ -4,5 +4,32 @@
  "title": "Multi-Granularity-Language-Guided-Imitation-Learning-via-Ins",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-09-30 08:05:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ab147025-0f36-4532-be08-baa8482d7275.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ab147025-0f36-4532-be08-baa8482d7275.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:45:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多粒度语言引导",
+    "模仿学习",
+    "指令分解",
+    "扩散策略",
+    "子任务感知",
+    "LIBERO"
+   ],
+   "field": "语言引导机器人操作学习",
+   "innovations": [
+    "将整体任务指令分解为细粒度子任务指令并提供多粒度语言监督",
+    "设计混合语言指令训练策略动态组合粗细条件",
+    "引入子任务感知损失增强策略对执行阶段的识别能力"
+   ],
+   "benchmarks": [
+    "LIBERO-Goal",
+    "LIBERO-Object",
+    "LIBERO-Spatial",
+    "LIBERO-10"
+   ]
+  }
+ }
 }

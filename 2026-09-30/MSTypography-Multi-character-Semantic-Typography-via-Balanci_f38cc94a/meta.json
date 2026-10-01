@@ -4,5 +4,31 @@
  "title": "MSTypography-Multi-character-Semantic-Typography-via-Balanci",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-30 08:04:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/824a81fb-b940-4de2-ac44-2634ed6687cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/824a81fb-b940-4de2-ac44-2634ed6687cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:43:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义字体",
+    "多字符排版",
+    "可微矢量图形",
+    "SDS优化",
+    "ControlNet",
+    "字形形变"
+   ],
+   "field": "可微矢量图形生成",
+   "innovations": [
+    "首个多字符语义字体全局-局部两级优化框架，平衡legibility与recognizability",
+    "Mask-driven填充损失替代SDS进行全局布局，克服多字符扩散梯度噪声",
+    "SDF可微碰撞检测+Jacobian奇异值约束+ARAP联合保障拓扑稳定性"
+   ],
+   "benchmarks": [
+    "CLIP error (cosine distance)",
+    "OCR feature error (TrOCR cosine distance)",
+    "User study (5-point Likert scale, 22 participants)"
+   ]
+  }
+ }
 }

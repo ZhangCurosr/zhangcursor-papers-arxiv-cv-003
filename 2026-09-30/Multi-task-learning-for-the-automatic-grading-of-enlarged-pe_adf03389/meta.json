@@ -4,5 +4,32 @@
  "title": "Multi-task-learning-for-the-automatic-grading-of-enlarged-pe",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-30 18:50:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eefec3e0-fccd-4525-bfd3-a84ac51321b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eefec3e0-fccd-4525-bfd3-a84ac51321b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:45:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-task learning",
+    "perivascular spaces",
+    "MRI scoring",
+    "medical image analysis",
+    "small vessel disease",
+    "silver-standard segmentation"
+   ],
+   "field": "医学图像分析与脑小血管疾病AI诊断",
+   "innovations": [
+    "首次系统比较条件CNN、多任务CNN和逻辑回归三种利用银标准分割掩码的方法用于PVS评分",
+    "多任务CNN通过动态损失加权同时优化分割与评分任务，显著提升mAP至64.08%",
+    "GradCAM验证表明多任务学习使模型真正定位PVS病灶而非依赖虚假相关特征"
+   ],
+   "benchmarks": [
+    "Potters/Wardlaw scale",
+    "mAP",
+    "Dice similarity coefficient",
+    "macro F1"
+   ]
+  }
+ }
 }

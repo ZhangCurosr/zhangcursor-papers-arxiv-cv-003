@@ -4,5 +4,30 @@
  "title": "Less-Supervision-Better-Generalization-Weakly-Supervised-Fak",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-09-30 18:51:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4aee8176-8274-4883-b759-536c8341b7e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4aee8176-8274-4883-b759-536c8341b7e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:43:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion editing",
+    "weakly supervised localization",
+    "fake region detection",
+    "multiple instance learning",
+    "reconstruction error",
+    "out-of-domain generalization",
+    "AI forensics"
+   ],
+   "field": "生成内容检测与定位",
+   "innovations": [
+    "首次提出扩散编辑假区域定位的弱监督设定，仅需图像级标签",
+    "将扩散重建误差从图像级检测迁移为密集空间先验，提出Reconstruction-Guided Patch Scoring机制",
+    "设计artifact-centric MIL损失，通过soft top-k聚合与pairwise ranking实现可迁移痕迹学习"
+   ],
+   "benchmarks": [
+    "OpenSDID"
+   ]
+  }
+ }
 }

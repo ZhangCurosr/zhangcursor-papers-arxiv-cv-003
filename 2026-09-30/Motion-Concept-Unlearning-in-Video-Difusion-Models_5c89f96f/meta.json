@@ -4,5 +4,30 @@
  "title": "Motion-Concept-Unlearning-in-Video-Difusion-Models",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-09-30 08:07:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c235525c-f81b-49e0-b087-51e4c8e53a60.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c235525c-f81b-49e0-b087-51e4c8e53a60.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:45:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "motion concept erasure",
+    "video diffusion models",
+    "text-to-video",
+    "concept unlearning",
+    "classifier-free guidance",
+    "attention analysis"
+   ],
+   "field": "视频生成模型安全与可控",
+   "innovations": [
+    "提出免训练推理时干预方法MUTE，通过token neutralization提取概念方向并结合自导出空间门控实现运动概念选择性消除",
+    "首次系统探究视频DiT中运动信息的编码位置，证明text-conditioning attention支持概念特定干预而temporal positional encoding支持全局动态",
+    "揭示MUTE与CFG的结构对称性，导出紧凑形式v_final = v_cfg - s·α·M_t⊙d_t"
+   ],
+   "benchmarks": [
+    "Wan2.1-T2V-1.3B",
+    "CogVideoX-2B"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "MG-Thinker-Bi-Axial-Self-Reflection-for-Multi-Image-Reasonin",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-30 18:50:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3e2c8399-e21e-4403-9890-add4c85b3fe3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3e2c8399-e21e-4403-9890-add4c85b3fe3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:43:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多图像推理定位",
+    "多模态大语言模型",
+    "强化学习",
+    "Chain-of-Thought",
+    "组相对优势",
+    "奖励分解"
+   ],
+   "field": "多模态推理与视觉定位",
+   "innovations": [
+    "提出沿信号轴与能力轴双轴解耦的 BiA-DAPO 组相对 RL 更新机制",
+    "构建含层级 CoT 的 25K MRG 冷启动数据与伪推理过滤+IoU 增益后处理",
+    "将 AND 聚合的粗到细奖励（format→image-id→IoU）与双轴训练结合在统一框架"
+   ],
+   "benchmarks": [
+    "MIG-Bench",
+    "LISA-Grounding",
+    "LLMSeg-Grounding",
+    "ReVOS-Grounding",
+    "ReasonVOS-Grounding",
+    "MuirBench",
+    "BLINK",
+    "MMIU",
+    "MIBench",
+    "RefCOCO/+/g"
+   ]
+  }
+ }
 }

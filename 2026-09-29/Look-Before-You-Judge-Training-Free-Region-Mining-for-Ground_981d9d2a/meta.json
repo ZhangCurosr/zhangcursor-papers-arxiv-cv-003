@@ -4,5 +4,30 @@
  "title": "Look-Before-You-Judge-Training-Free-Region-Mining-for-Ground",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-29 19:07:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fea15c45-94c9-47e7-a39b-ea66ad9c4afd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fea15c45-94c9-47e7-a39b-ea66ad9c4afd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:41:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deepfake detection",
+    "multimodal large language model",
+    "visual grounding",
+    "training-free",
+    "explainable AI",
+    "forensic analysis"
+   ],
+   "field": "深度伪造检测与可解释视觉推理",
+   "innovations": [
+    "Look-Before-You-Judge 序贯证据获取范式：将检测拆分为先区域挖掘、再局部检验、后全局聚合三阶段",
+    "模糊对比注意力先验：无需训练即从原始/模糊图像注意力差异中挖掘细节敏感的伪造痕迹区域",
+    "组件级注意力重分配：基于 AttnReal sink-selection 规则定向 steering 至候选区域，实现逐区域聚焦检验"
+   ],
+   "benchmarks": [
+    "TriDF",
+    "MMTD-Set"
+   ]
+  }
+ }
 }
