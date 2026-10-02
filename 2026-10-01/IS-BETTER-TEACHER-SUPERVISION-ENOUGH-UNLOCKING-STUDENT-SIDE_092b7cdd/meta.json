@@ -4,5 +4,37 @@
  "title": "IS-BETTER-TEACHER-SUPERVISION-ENOUGH-UNLOCKING-STUDENT-SIDE",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-10-01 08:28:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/516a7bb9-98f8-47d8-a115-f6b9bf6707ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/516a7bb9-98f8-47d8-a115-f6b9bf6707ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:47:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Distillation",
+    "Multimodal Reasoning",
+    "Knowledge Distillation",
+    "Visual Perception",
+    "Student-side Learning",
+    "Teacher Calibration"
+   ],
+   "field": "多模态大模型蒸馏",
+   "innovations": [
+    "揭示多模态OPD中学生视觉感知瓶颈，提出S-OPD学生侧增强框架",
+    "TPC利用教师跨图响应差异进行token级门控，增强学生对视觉证据移除的敏感度",
+    "PA通过噪声扰动一致性正则提升感知鲁棒性，两种目标互补支持域内学习与跨域泛化"
+   ],
+   "benchmarks": [
+    "Geometry3K",
+    "MathVista",
+    "LogicVista",
+    "MMMU-val",
+    "MathVerse",
+    "VisualPuzzles",
+    "ZeroBench",
+    "WeMath",
+    "MathVision"
+   ]
+  }
+ }
 }

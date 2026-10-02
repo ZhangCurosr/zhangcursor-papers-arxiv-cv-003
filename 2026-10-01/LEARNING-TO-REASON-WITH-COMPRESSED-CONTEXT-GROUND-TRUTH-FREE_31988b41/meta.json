@@ -4,5 +4,34 @@
  "title": "LEARNING-TO-REASON-WITH-COMPRESSED-CONTEXT-GROUND-TRUTH-FREE",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-01 08:26:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b2cf71c2-9134-4378-aeef-93b7d16c5750.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b2cf71c2-9134-4378-aeef-93b7d16c5750.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:48:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "令牌压缩",
+    "自蒸馏",
+    "无标注适配",
+    "OmniLLM",
+    "在线策略蒸馏",
+    "JSD"
+   ],
+   "field": "多模态高效推理与模型适配",
+   "innovations": [
+    "提出事实自由的on-policy自蒸馏框架CAFD，通过同一样本全Token视图为压缩学生提供软监督，无需参考答案或推理链",
+    "在5种压缩管道×5个基准×5个部署预算下验证，平均提升1.44分并恢复26.9%精度差距",
+    "证实JSD蒸馏目标优于前向/反向KL，且单次适配模型可跨多部署预算复用"
+   ],
+   "benchmarks": [
+    "WorldSense",
+    "Daily-Omni",
+    "AVUT",
+    "OmniVideoBench",
+    "Video-MME"
+   ]
+  }
+ }
 }

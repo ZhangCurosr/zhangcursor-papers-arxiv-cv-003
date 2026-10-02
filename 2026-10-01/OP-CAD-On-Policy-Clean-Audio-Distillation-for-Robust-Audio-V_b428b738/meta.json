@@ -4,5 +4,30 @@
  "title": "OP-CAD-On-Policy-Clean-Audio-Distillation-for-Robust-Audio-V",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-01 08:29:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1611f62d-12a2-4ea4-a9ac-dc9a6aa99655.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1611f62d-12a2-4ea4-a9ac-dc9a6aa99655.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:48:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "audio-visual QA",
+    "on-policy distillation",
+    "robust multimodal LLM",
+    "privileged information",
+    "curriculum learning",
+    "noise robustness"
+   ],
+   "field": "音频-视觉多模态鲁棒理解",
+   "innovations": [
+    "基于音频移除与劣化敏感度的 token 级有界监督分配",
+    "从弱到强噪声课程与特权自蒸馏结合",
+    "零额外推理成本的跨模态稳健蒸馏框架"
+   ],
+   "benchmarks": [
+    "Daily-Omni",
+    "OmniVideoBench"
+   ]
+  }
+ }
 }

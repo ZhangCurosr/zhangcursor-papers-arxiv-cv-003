@@ -4,5 +4,36 @@
  "title": "LEAP-LEARNED-BLOCK-WISE-EVIDENCE-RETRIEVAL-FOR-LONG-AUDIO-VI",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-01 08:26:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ea93c930-49cd-4975-a955-fb186554d07b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ea93c930-49cd-4975-a955-fb186554d07b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:48:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长视频理解",
+    "音频-视觉问答",
+    "证据检索",
+    "流式多模态",
+    "块级定位",
+    "LoRA适配",
+    "上下文有界推理"
+   ],
+   "field": "长时音视频理解",
+   "innovations": [
+    "将hour-scale录音划分为固定block+候选窗口双层次网格，以option-letter logit为廉价信号实现有界双分辨率定位",
+    "解耦证据定位与推理并用冻结主干+双LoRA顺序驻留实现O(1)峰值上下文",
+    "引入预计算transcript作为第二定位通道并与media channel共享answer pass以提升召回/降低定位token"
+   ],
+   "benchmarks": [
+    "TraceAV-Bench",
+    "LVOmniBench",
+    "VideoOdyssey-AV",
+    "MMOU",
+    "StreamArena",
+    "CG-Bench mini",
+    "Video-MME"
+   ]
+  }
+ }
 }

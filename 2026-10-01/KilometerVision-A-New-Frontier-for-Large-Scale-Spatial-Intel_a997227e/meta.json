@@ -4,5 +4,33 @@
  "title": "KilometerVision-A-New-Frontier-for-Large-Scale-Spatial-Intel",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-01 08:24:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a5ce0b2e-490e-4f61-9db8-f9791238e770.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a5ce0b2e-490e-4f61-9db8-f9791238e770.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:48:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial intelligence",
+    "vision-language models",
+    "city-scale benchmark",
+    "landmark-route-map",
+    "path integration",
+    "loop closure detection",
+    "survey knowledge"
+   ],
+   "field": "多模态空间理解",
+   "innovations": [
+    "首个基于真实长视频的城市级VLM空间智能基准",
+    "VPS驱动的百万帧级地理定位高效流水线",
+    "认知三阶段范式的系统化多选题评测设计"
+   ],
+   "benchmarks": [
+    "KilometerVision",
+    "Perception Test",
+    "VSI-Bench",
+    "Touchdown"
+   ]
+  }
+ }
 }

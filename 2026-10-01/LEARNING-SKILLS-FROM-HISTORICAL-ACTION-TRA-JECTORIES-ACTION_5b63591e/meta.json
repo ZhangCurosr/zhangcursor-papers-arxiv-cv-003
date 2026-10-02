@@ -4,5 +4,32 @@
  "title": "LEARNING-SKILLS-FROM-HISTORICAL-ACTION-TRA-JECTORIES-ACTION",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-01 08:26:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/265a67ae-f9ab-4ebc-8609-c4538d7b7125.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/265a67ae-f9ab-4ebc-8609-c4538d7b7125.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:48:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Model",
+    "Action Experience Dictionary",
+    "Vision-Language-Action",
+    "Robot Manipulation",
+    "Cross-Task Transfer",
+    "Flow Matching",
+    "Motion-Aware Transition"
+   ],
+   "field": "具身机器人操作与技能迁移",
+   "innovations": [
+    "提出可学习AED词典将历史动作轨迹编码为跨任务共享的动作嵌入",
+    "引入视觉条件化机制融合任务上下文与动作经验",
+    "设计MT loss监督随机时间间隔视觉特征变化以抑制背景干扰"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "LIBERO-Plus"
+   ]
+  }
+ }
 }

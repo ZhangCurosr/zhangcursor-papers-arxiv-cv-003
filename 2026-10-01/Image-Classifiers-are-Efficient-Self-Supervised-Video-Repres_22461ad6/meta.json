@@ -4,5 +4,34 @@
  "title": "Image-Classifiers-are-Efficient-Self-Supervised-Video-Repres",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-10-01 08:25:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6c66c52f-d40f-4016-9364-40285c9cc477.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6c66c52f-d40f-4016-9364-40285c9cc477.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:47:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised video representation",
+    "masked siamese network",
+    "super image",
+    "decoder-free pretraining",
+    "video action recognition",
+    "DINO-v3",
+    "DeiT-v3",
+    "prototype alignment"
+   ],
+   "field": "视频自监督表征学习",
+   "innovations": [
+    "首次将Masked Siamese Network扩展至视频，用特征对齐替代像素重建",
+    "提出两级掩码（空间tube masking + 时间整帧drop）构建fast/slow focal视图",
+    "从预训练图像ViT（DINO-v3/DeiT-v3）初始化，仅需10–50个视频epoch即达SOTA"
+   ],
+   "benchmarks": [
+    "Kinetics-400",
+    "UCF101",
+    "HMDB51",
+    "Something-Something V2"
+   ]
+  }
+ }
 }

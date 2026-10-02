@@ -4,5 +4,38 @@
  "title": "MG-Thinker-Bi-Axial-Self-Reflection-for-Multi-Image-Reasonin",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-30 08:06:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3e2c8399-e21e-4403-9890-add4c85b3fe3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3e2c8399-e21e-4403-9890-add4c85b3fe3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:47:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-image reasoning grounding",
+    "reinforcement learning",
+    "chain-of-thought",
+    "BiA-DAPO",
+    "multimodal large language models",
+    "visual grounding"
+   ],
+   "field": "多图视觉推理与定位",
+   "innovations": [
+    "提出BiA-DAPO双轴优势分解机制，将group-relative优势沿组内方差轴和组间均值轴正交解耦以缓解RL训练不稳定性",
+    "构建25K MRG专用CoT数据集，通过任务自适应cue prompt和IoU提升验证实现层次化推理-定位耦合",
+    "在MIG-Bench上以7B参数达到76.71% SOTA，超越72B模型30.5个百分点并泛化至多图理解与视频推理定位"
+   ],
+   "benchmarks": [
+    "MIG-Bench",
+    "LISA-Grounding",
+    "LLMSeg-Grounding",
+    "ReVOS-Grounding",
+    "ReasonVOS-Grounding",
+    "BLINK",
+    "MuirBench",
+    "MMIU",
+    "MIBench",
+    "RefCOCO/+/g"
+   ]
+  }
+ }
 }
