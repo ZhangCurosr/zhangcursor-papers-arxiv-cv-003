@@ -4,5 +4,30 @@
  "title": "NO-CORNERS-CUT-STATE-GROUNDED-TRANSITIONS-FOR-MID-STREAM-PRO",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-10-01 08:27:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c87b5fb3-f816-442e-968f-57001838155c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c87b5fb3-f816-442e-968f-57001838155c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:45:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "state-grounded planning",
+    "mid-stream prompt switching",
+    "distribution matching distillation",
+    "video generation",
+    "OPENTRANS-360",
+    "transition quality"
+   ],
+   "field": "流式视频生成",
+   "innovations": [
+    "基于TD-Schema的视觉接地过渡规划器，无需训练可附加于冻结生成器",
+    "SPANDMD分段蒸馏，评分模型在全回滚上下文中评估但残差仅作用于对应时间跨度",
+    "OPENTRANS-360基准，专门评估中途提示词切换的语义过渡质量"
+   ],
+   "benchmarks": [
+    "OPENTRANS-360",
+    "StreamAV-Bench"
+   ]
+  }
+ }
 }
