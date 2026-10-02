@@ -4,5 +4,29 @@
  "title": "NESTOK-NESTED-SELF-ALIGNED-1D-TOKENIZER-FOR-AUTOREGRESSIVE-I",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-09-30 08:12:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ba36fb7b-921e-4735-a949-d3ebfb0999f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ba36fb7b-921e-4735-a949-d3ebfb0999f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:43:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "1D visual tokenizer",
+    "variable-length tokenization",
+    "autoregressive image generation",
+    "nested self-alignment",
+    "cross-length training",
+    "image reconstruction"
+   ],
+   "field": "自回归图像生成",
+   "innovations": [
+    "提出跨长度联合训练与嵌套自对齐损失，缓解变长 1D tokenizer 尾部 token 坍缩",
+    "无需外部蒸馏即可在 ImageNet 256×256 上达到变长 AR 生成 SOTA gFID 1.46",
+    "保持标准 ViT decoder + NTP 范式，生成质量随 token 数单调提升"
+   ],
+   "benchmarks": [
+    "ImageNet-1K 256×256"
+   ]
+  }
+ }
 }

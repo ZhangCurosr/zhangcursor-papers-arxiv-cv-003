@@ -4,5 +4,10 @@
  "title": "MAGiDif-Sampling-the-Photospheric-Vector-Field-from-UV-EUV-F",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-01 08:27:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/799db93e-e277-40ad-9eed-b367c0cc0b30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/799db93e-e277-40ad-9eed-b367c0cc0b30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:46:04",
+  "chunks": 1
+ }
 }

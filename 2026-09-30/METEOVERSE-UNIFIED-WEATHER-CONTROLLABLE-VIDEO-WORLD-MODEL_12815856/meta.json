@@ -4,5 +4,33 @@
  "title": "METEOVERSE-UNIFIED-WEATHER-CONTROLLABLE-VIDEO-WORLD-MODEL",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-09-30 18:52:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/45d9fa14-b714-428a-a930-11c8266c0deb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/45d9fa14-b714-428a-a930-11c8266c0deb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:43:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频世界模型",
+    "天气可控生成",
+    "天气过渡建模",
+    "MeteoMoE",
+    "相机控制视频生成",
+    "天气移除与引入"
+   ],
+   "field": "视频生成与天气控制",
+   "innovations": [
+    "显式天气过渡建模：通过观测与目标天气之差推导所需修改，替代仅目标条件化",
+    "MeteoMoE 类别特定专家混合：雨/雪/雾独立专家并通过过渡分量调制，实现精细强度控制",
+    "统一天气保留/引入/移除：支持晴天和恶劣天气双向输入，覆盖完整天气转移类型"
+   ],
+   "benchmarks": [
+    "VBench-I2V",
+    "Weather Alignment",
+    "VLM Evaluation",
+    "User Study",
+    "VGGT-Omega 相机误差"
+   ]
+  }
+ }
 }

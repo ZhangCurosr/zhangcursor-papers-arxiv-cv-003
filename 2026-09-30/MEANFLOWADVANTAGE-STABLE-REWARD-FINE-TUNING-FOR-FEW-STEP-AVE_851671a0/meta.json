@@ -4,5 +4,30 @@
  "title": "MEANFLOWADVANTAGE-STABLE-REWARD-FINE-TUNING-FOR-FEW-STEP-AVE",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-30 08:13:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/12fdf9d5-cbb4-4f8b-a417-9fbe7e64e1b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/12fdf9d5-cbb4-4f8b-a417-9fbe7e64e1b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:42:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MeanFlow",
+    "reward fine-tuning",
+    "few-step generation",
+    "flow matching",
+    "reinforcement learning",
+    "average velocity"
+   ],
+   "field": "少步流匹配生成模型的奖励微调",
+   "innovations": [
+    "共享stop-gradient修正实现平均速度网络与预测空间的精确对齐",
+    "有符号优势加权最小二乘在平均速度表示下的严格凸优化",
+    "统一目标同时支持在线策略RL与奖励分级蒸馏"
+   ],
+   "benchmarks": [
+    "SD3.5-Medium (4/40 NFE)",
+    "FANTOM5 Promoter (Sei MSE, 6-mer)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "LESS-DATA-BETTER-TIMING-STUDENT-CURRICULUM-COUPLING-FOR-VLM",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-01 08:28:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/612ae6c4-f01e-4773-9e48-84755d4edd37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/612ae6c4-f01e-4773-9e48-84755d4edd37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:44:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "temporal video grounding",
+    "curriculum learning",
+    "student-curriculum coupling",
+    "vision-language models",
+    "data-efficient training"
+   ],
+   "field": "时序视频定位",
+   "innovations": [
+    "提出学生-课程耦合（SCC）框架，将监督可信度与动态必要性解耦并联合设计",
+    "引入锚点-前沿（AF）候选空间，结合挂起-重激活机制实现学生依赖的监督分配",
+    "闭环设计使训练动态追踪有效路由率，以60%更少样本和50.4%更少时间实现更高精度"
+   ],
+   "benchmarks": [
+    "Charades-TimeLens",
+    "ActivityNet-TimeLens",
+    "QVHighlights-TimeLens"
+   ]
+  }
+ }
 }

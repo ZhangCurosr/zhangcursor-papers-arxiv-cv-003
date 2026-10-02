@@ -4,5 +4,37 @@
  "title": "MULTIMODAL-FLOW-UNIFIED-FLOW-MODELING-OF-LANGUAGE-AND-VISION",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-01 08:24:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6e7f3f06-d868-40a7-908b-a0745fd7c261.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6e7f3f06-d868-40a7-908b-a0745fd7c261.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:47:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Generation",
+    "Flow Matching",
+    "Unified Multimodal Model",
+    "Continuous Representation",
+    "Vision-Language Model",
+    "Chunk-Causal Attention",
+    "Hybrid Pretraining"
+   ],
+   "field": "多模态生成与理解统一建模",
+   "innovations": [
+    "提出完全连续的 Multimodal Flow 框架，在嵌入空间中统一语言与视觉的 Flow Matching 目标",
+    "引入有序超块（Hyperchunk）与 chunk-causal backbone，保留模态结构并支持并行训练/顺序生成",
+    "验证混合预训练迁移能力：150B token 预训练即超越多数从预训练 LLM 初始化的同等规模模型"
+   ],
+   "benchmarks": [
+    "GenEval",
+    "DPG-Bench",
+    "VQAv2",
+    "MMBench",
+    "POPE",
+    "SEED-Bench",
+    "GQA",
+    "OK-VQA"
+   ]
+  }
+ }
 }

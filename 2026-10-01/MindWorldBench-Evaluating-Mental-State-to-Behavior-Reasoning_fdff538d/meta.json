@@ -4,5 +4,10 @@
  "title": "MindWorldBench-Evaluating-Mental-State-to-Behavior-Reasoning",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-10-01 08:25:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ced95869-8eab-4fe7-918d-fbb081fb61fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ced95869-8eab-4fe7-918d-fbb081fb61fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:48:24",
+  "chunks": 1
+ }
 }

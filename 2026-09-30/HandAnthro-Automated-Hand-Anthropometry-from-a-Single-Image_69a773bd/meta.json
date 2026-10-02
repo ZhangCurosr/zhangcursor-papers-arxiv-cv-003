@@ -4,5 +4,10 @@
  "title": "HandAnthro-Automated-Hand-Anthropometry-from-a-Single-Image",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-30 08:10:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3981c23c-c938-4272-9c1b-ba84fe71e594.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3981c23c-c938-4272-9c1b-ba84fe71e594.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:42:34",
+  "chunks": 1
+ }
 }

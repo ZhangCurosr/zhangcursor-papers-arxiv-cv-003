@@ -4,5 +4,31 @@
  "title": "MemLife-Curating-and-Reasoning-over-Long-Term-Egocentric-Vid",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-10-01 08:26:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4c595943-b120-47b5-8568-dab587ac540f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4c595943-b120-47b5-8568-dab587ac540f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:47:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric video QA",
+    "long-term memory",
+    "reinforcement learning",
+    "retrieval-augmented generation",
+    "multimodal LLM"
+   ],
+   "field": "第一人称视频长期记忆与问答",
+   "innovations": [
+    "提出FIRM三维度奖励机制解耦记忆写作与检索质量评估",
+    "MemOpt框架仅用强化学习训练记忆writer而不依赖端到端任务噪声",
+    "第一人称叙事+实体接地+时间锚定的记忆构建设计"
+   ],
+   "benchmarks": [
+    "SuperMemory-VQA",
+    "EgoLifeQA",
+    "SuperMemory-LVQA",
+    "EgoLife-EQA"
+   ]
+  }
+ }
 }

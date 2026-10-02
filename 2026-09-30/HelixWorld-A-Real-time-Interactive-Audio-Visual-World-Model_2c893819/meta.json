@@ -4,5 +4,32 @@
  "title": "HelixWorld-A-Real-time-Interactive-Audio-Visual-World-Model",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-30 18:49:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3a97e99a-a7de-48a0-a15a-8a4aa73d3f8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3a97e99a-a7de-48a0-a15a-8a4aa73d3f8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:42:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive world model",
+    "audio-visual generation",
+    "causal distillation",
+    "spatial audio",
+    "self-forcing",
+    "flow matching",
+    "HelixBench",
+    "real-time rendering"
+   ],
+   "field": "多模态世界模型与交互式生成",
+   "innovations": [
+    "在线轨迹蒸馏损失L_traj稳定音视频联合自回归rollout，避免DMD模式坍塌",
+    "渐进式条件注入将6-DoF相机轨迹与离散动作原生耦合至联合音视频骨干",
+    "HelixBench首次形式化并量化交互式环境中的空间-声学一致性指标"
+   ],
+   "benchmarks": [
+    "WBench navigation split",
+    "HelixBench"
+   ]
+  }
+ }
 }

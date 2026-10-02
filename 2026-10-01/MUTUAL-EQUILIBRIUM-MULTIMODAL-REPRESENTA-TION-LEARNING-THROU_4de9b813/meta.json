@@ -4,5 +4,33 @@
  "title": "MUTUAL-EQUILIBRIUM-MULTIMODAL-REPRESENTA-TION-LEARNING-THROU",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-01 08:20:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a70041dc-6894-4cc7-ab4e-5618e4001639.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a70041dc-6894-4cc7-ab4e-5618e4001639.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:47:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态融合",
+    "深度平衡模型",
+    "固定点迭代",
+    "表示学习",
+    "跨模态注意力"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "将双模态表示学习建模为耦合动力系统的固定点迭代框架",
+    "基于 Jacobian 谱半径与跨模态敏感度的理论分析与正则化设计",
+    "证明迭代精炼在多模态分类和视觉定位任务中的有效性"
+   ],
+   "benchmarks": [
+    "VQA v2",
+    "SNLI-VE",
+    "VCR",
+    "Hateful Memes",
+    "CMU-MOSEI",
+    "COD10K"
+   ]
+  }
+ }
 }

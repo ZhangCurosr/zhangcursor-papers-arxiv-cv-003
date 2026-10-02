@@ -4,5 +4,30 @@
  "title": "MEMO-Multi-Level-Entity-Aware-Memory-for-Streaming-Video-Und",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-10-01 08:28:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7e88ac6d-80b2-4df6-8fc7-fb2ad65b6e01.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7e88ac6d-80b2-4df6-8fc7-fb2ad65b6e01.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:46:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "streaming video understanding",
+    "multimodal large language models",
+    "structured memory",
+    "entity-aware representation",
+    "online temporal chunking",
+    "query-specific retrieval"
+   ],
+   "field": "流式视频理解与长程视觉记忆",
+   "innovations": [
+    "提出多级实体感知结构化内存框架，解耦轻量索引与高分辨率视觉证据存储",
+    "设计基于全局-实体-空间相似度的自适应在线分块机制，替代固定长度切割",
+    "实现查询特定并行检索，无需训练即可提升多种 MLLM 的流式推理性能"
+   ],
+   "benchmarks": [
+    "StreamingBench",
+    "OVO-Bench"
+   ]
+  }
+ }
 }

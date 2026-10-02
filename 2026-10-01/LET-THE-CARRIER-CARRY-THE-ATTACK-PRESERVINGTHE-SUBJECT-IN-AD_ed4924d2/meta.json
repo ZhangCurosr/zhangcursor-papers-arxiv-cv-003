@@ -4,5 +4,36 @@
  "title": "LET-THE-CARRIER-CARRY-THE-ATTACK-PRESERVINGTHE-SUBJECT-IN-AD",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-10-01 08:28:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/60cadc4d-2df8-4209-b1f1-f55b78df0574.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/60cadc4d-2df8-4209-b1f1-f55b78df0574.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:45:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对抗攻击",
+    "扩散模型",
+    "主体保真",
+    "跨模型迁移",
+    "空间解耦",
+    "FLUX",
+    "DreamBooth"
+   ],
+   "field": "视觉对抗攻击与生成安全",
+   "innovations": [
+    "载体空间解耦机制减少主体归一化更新幅度",
+    "全局RMS归一化梯度分配理论证明",
+    "目标相关载体可控提升跨模型迁移性下界"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "ResNet-50",
+    "ResNet-101",
+    "VGG-19",
+    "Inception-v3",
+    "ConvNeXt-B",
+    "Swin-B"
+   ]
+  }
+ }
 }

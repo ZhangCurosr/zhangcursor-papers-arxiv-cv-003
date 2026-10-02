@@ -4,5 +4,31 @@
  "title": "METEOVERSE-UNIFIED-WEATHER-CONTROLLABLE-VIDEO-WORLD-MODEL",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-09-30 08:09:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/45d9fa14-b714-428a-a930-11c8266c0deb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/45d9fa14-b714-428a-a930-11c8266c0deb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:43:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video World Model",
+    "Weather Control",
+    "Diffusion Video Generation",
+    "Mixture of Experts",
+    "Camera-controllable Generation",
+    "Weather Dataset"
+   ],
+   "field": "可控视频生成与天气建模",
+   "innovations": [
+    "显式天气转换建模 s_trans，将天气保持/引入/移除统一为残差天气控制",
+    "MeteoMoE：类别特定雨/雪/雾专家按转换强度调制后融合注入 DiT backbone"
+   ],
+   "benchmarks": [
+    "VBench-I2V",
+    "Weather Alignment",
+    "VLM Evaluation",
+    "User Study"
+   ]
+  }
+ }
 }

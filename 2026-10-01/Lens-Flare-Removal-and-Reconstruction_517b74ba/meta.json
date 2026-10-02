@@ -4,5 +4,30 @@
  "title": "Lens-Flare-Removal-and-Reconstruction",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-10-01 08:27:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bf56f9b5-02de-4278-895d-6e71a4383aca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bf56f9b5-02de-4278-895d-6e71a4383aca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:45:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lens flare removal",
+    "3D Gaussian splatting",
+    "diffusion model",
+    "flare representation",
+    "multi-view reconstruction",
+    "artefact decomposition"
+   ],
+   "field": "计算摄影与3D视觉",
+   "innovations": [
+    "LoRA微调单步扩散模型实现大反射光晕移除（20小时收敛）",
+    "相机平面锚定1D高斯表示首次实现跨视角一致的3D光晕显式重建",
+    "场景-光晕解耦联合损失支持可迁移编辑与Transfer"
+   ],
+   "benchmarks": [
+    "Flare7K++",
+    "VFX large-reflective-flare benchmark"
+   ]
+  }
+ }
 }

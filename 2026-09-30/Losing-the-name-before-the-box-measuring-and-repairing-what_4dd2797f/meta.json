@@ -4,5 +4,35 @@
  "title": "Losing-the-name-before-the-box-measuring-and-repairing-what",
  "token": "sk-CCo3x8v2b...",
  "created_at": "2026-09-30 08:09:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5567ef15-c347-482a-abba-c1a1f930990f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5567ef15-c347-482a-abba-c1a1f930990f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:42:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "object detection",
+    "fine-tuning",
+    "open-vocabulary detection",
+    "catastrophic forgetting",
+    "proposal coverage",
+    "domain adaptation"
+   ],
+   "field": "目标检测与开放词汇学习",
+   "innovations": [
+    "提出纵向held-out top-K proposal coverage C_tau度量，首次系统追踪单checkpoint微调前后开放定位能力退化",
+    "证明域内评测指标无法识别保留覆盖率损失，给出不可识别性理论论证与经验配对反例",
+    "提出零训练的state interpolation修复（alpha=0.25含归一化buffer），同时揭示AdaBN方向对保留能力有害"
+   ],
+   "benchmarks": [
+    "COCO val2017",
+    "tabletop-22",
+    "cardd-22",
+    "bccd-3",
+    "Pascal VOC",
+    "OpenImages V4",
+    "LVIS"
+   ]
+  }
+ }
 }

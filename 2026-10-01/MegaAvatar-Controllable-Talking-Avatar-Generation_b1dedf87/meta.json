@@ -4,5 +4,30 @@
  "title": "MegaAvatar-Controllable-Talking-Avatar-Generation",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-01 08:21:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d8cedfb4-2c0b-45d4-9108-e6e2b910dee7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d8cedfb4-2c0b-45d4-9108-e6e2b910dee7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:47:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Talking Avatar",
+    "Video Generation",
+    "SMPL-X",
+    "Diffusion Transformer",
+    "Audio-Visual Sync",
+    "Controllable Generation"
+   ],
+   "field": "可控视频生成",
+   "innovations": [
+    "引入SMPL-X稠密网格帧作为全局运动条件实现身体/头部可控生成",
+    "设计frame-level音频交叉注意力实现精确音画同步",
+    "提出audio-to-SMPL-X flow-matching模型支持纯音频驱动推理"
+   ],
+   "benchmarks": [
+    "SpeakerVid-1M",
+    "SpeakerVid-400K"
+   ]
+  }
+ }
 }

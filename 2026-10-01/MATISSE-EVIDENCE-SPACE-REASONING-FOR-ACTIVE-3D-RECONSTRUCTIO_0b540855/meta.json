@@ -4,5 +4,33 @@
  "title": "MATISSE-EVIDENCE-SPACE-REASONING-FOR-ACTIVE-3D-RECONSTRUCTIO",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-01 08:26:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cb07b1ce-5505-4dd9-8f47-5f19ef79a02a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cb07b1ce-5505-4dd9-8f47-5f19ef79a02a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:45:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "active 3D reconstruction",
+    "evidential uncertainty",
+    "information gain",
+    "keyframe selection",
+    "generative 3D model",
+    "Stream3D",
+    "SAM3D",
+    "evidence space"
+   ],
+   "field": "主动三维重建与生成式场景理解",
+   "innovations": [
+    "将自适应证据记忆形式化为MAP估计并推导有界证据不确定性，覆盖已观测与生成补全区域",
+    "在证据空间定义证据信息增益，统一指导主动视角选择与长程关键帧选择",
+    "免训练且仅在稀疏结构阶段评估候选，GPU批量评分达1.26ms/候选，端到端速度较最强基线快1.50×"
+   ],
+   "benchmarks": [
+    "GSO30",
+    "YCB-V",
+    "Replica"
+   ]
+  }
+ }
 }

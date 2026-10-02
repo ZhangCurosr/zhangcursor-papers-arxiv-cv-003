@@ -4,5 +4,32 @@
  "title": "INVARIANT-SHAPE-ANALYSIS-OF-SURFACES-WITH-SPHERICAL-TOPOLOGY",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-01 08:22:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/676cb894-5c1c-4949-9ee0-53283ff87f32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/676cb894-5c1c-4949-9ee0-53283ff87f32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:45:20",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "球面拓扑",
+    "形状描述符",
+    "共形几何",
+    "不变量理论",
+    "手性分析",
+    "SPHARM",
+    "共形质心",
+    "双侧解剖"
+   ],
+   "field": "计算几何与形状分析",
+   "innovations": [
+    "共形质心归一化消除参数化/姿态/尺度依赖",
+    "谐波-二元形式对应构造手性敏感不变量",
+    "显式截断误差界与轨道稳定性证明"
+   ],
+   "benchmarks": [
+    "合成偶极-四极镜像分类",
+    "11对双侧解剖结构识别"
+   ]
+  }
+ }
 }

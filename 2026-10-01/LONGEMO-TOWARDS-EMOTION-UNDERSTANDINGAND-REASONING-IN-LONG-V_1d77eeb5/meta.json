@@ -4,5 +4,29 @@
  "title": "LONGEMO-TOWARDS-EMOTION-UNDERSTANDINGAND-REASONING-IN-LONG-V",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-10-01 08:25:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5d80a6ee-d259-4f85-bb79-392170688b98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5d80a6ee-d259-4f85-bb79-392170688b98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:45:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长视频情感理解",
+    "多模态大模型",
+    "记忆增强Agent",
+    "情感推理",
+    "Event Memory Graph",
+    "LongEmoBench"
+   ],
+   "field": "多模态情感计算与长视频理解",
+   "innovations": [
+    "提出Event Memory Graph，显式建模跨事件情感动态并保留多模态证据锚点",
+    "构建LongEmoBench两级评测基准（Scene/Episode），首个覆盖70小时长视频情感推理的基准",
+    "设计顺序追加+回溯修正的双模式记忆更新机制，支持情感的动态信念更新"
+   ],
+   "benchmarks": [
+    "LongEmoBench (G1 Scene-Level, G2 Episode-Level)"
+   ]
+  }
+ }
 }

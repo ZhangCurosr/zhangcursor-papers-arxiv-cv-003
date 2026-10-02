@@ -4,5 +4,36 @@
  "title": "MESHOCTAVE-VERTEX-SPLIT-AND-REWIRE-CAS-CADES-FOR-NATIVE-MESH",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-10-01 08:25:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a01490db-df2f-4800-925b-887256ffd6ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a01490db-df2f-4800-925b-887256ffd6ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:46:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "native mesh generation",
+    "next-scale generation",
+    "discrete diffusion",
+    "split-and-rewire",
+    "multi-scale 3D",
+    "mesh subdivision"
+   ],
+   "field": "3D 原生网格生成",
+   "innovations": [
+    "提出基于分辨率坍缩与分裂-重连级联的全局并行多尺度网格生成范式",
+    "设计 mask-uniform 混合离散扩散策略配合置信度头缓解早期错误传播",
+    "引入顶点锚定 3D RoPE 在无序面片 token 块中显式编码几何拓扑关系"
+   ],
+   "benchmarks": [
+    "ObjaverseXL",
+    "Toys4K",
+    "Mesh Anything V2",
+    "VertexRegen",
+    "ARMesh",
+    "LATO",
+    "LATO.2",
+    "MeshFlow"
+   ]
+  }
+ }
 }

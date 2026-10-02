@@ -4,5 +4,29 @@
  "title": "NESTOK-NESTED-SELF-ALIGNED-1D-TOKENIZER-FOR-AUTOREGRESSIVE-I",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-09-30 18:51:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ba36fb7b-921e-4735-a949-d3ebfb0999f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ba36fb7b-921e-4735-a949-d3ebfb0999f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:43:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "1D tokenization",
+    "variable-length",
+    "autoregressive image generation",
+    "nested self-alignment",
+    "visual tokenizer",
+    "codebook utilization"
+   ],
+   "field": "自回归图像生成",
+   "innovations": [
+    "嵌套自对齐损失：以全长特征为 stop-gradient 目标对齐短序列，解决尾部 token 坍塌",
+    "跨长度联合训练：每步同时优化全长与短前缀重建损失，确保全位置监督",
+    "无蒸馏可变长度分词器：建立无需外部知识的三阶段自训练方案"
+   ],
+   "benchmarks": [
+    "ImageNet-1K 256x256"
+   ]
+  }
+ }
 }

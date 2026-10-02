@@ -4,5 +4,10 @@
  "title": "MRI-Super-Resolution-with-RCDM-WaveMix-and-Task-Aware-Segmen",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-10-01 08:25:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/420e2c2a-5e55-475d-9ed8-faec3d5dd914.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/420e2c2a-5e55-475d-9ed8-faec3d5dd914.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:47:32",
+  "chunks": 1
+ }
 }

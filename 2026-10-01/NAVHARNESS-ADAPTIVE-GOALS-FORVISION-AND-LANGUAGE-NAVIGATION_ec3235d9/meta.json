@@ -4,5 +4,31 @@
  "title": "NAVHARNESS-ADAPTIVE-GOALS-FORVISION-AND-LANGUAGE-NAVIGATION",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-10-01 08:25:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6138bbee-f463-4846-a7c6-c2044dfe2a4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6138bbee-f463-4846-a7c6-c2044dfe2a4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:48:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Navigation",
+    "Agentic VLN",
+    "Adaptive Goals",
+    "Context Compression",
+    "Zero-shot Navigation",
+    "Embodied AI",
+    "Progress Verification"
+   ],
+   "field": "具身智能导航",
+   "innovations": [
+    "目标-验证解耦：将自适应目标生成与目标特定完成验证分离，使进度判定基于观测而非动作",
+    "验证驱动的多模态上下文压缩：以验证完成事件为边界压缩已完成交互历史，同时保留活跃目标与未完成状态",
+    "零样本超越训练导航基础模型：在 R2R-CE 与 RxR-CE 零样本设置下超越 Qwen-RobotNav-8B 等训练模型"
+   ],
+   "benchmarks": [
+    "R2R-CE",
+    "RxR-CE"
+   ]
+  }
+ }
 }

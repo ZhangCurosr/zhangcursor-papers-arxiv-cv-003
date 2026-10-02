@@ -4,5 +4,32 @@
  "title": "LOCI-SPATIAL-LINEAR-MEMORY-FOR-STREAMING-WORLD-MODELS",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-01 08:24:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1178a922-b712-4272-a5e5-f45033163ca2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1178a922-b712-4272-a5e5-f45033163ca2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:44:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world models",
+    "video generation",
+    "memory architecture",
+    "streaming generation",
+    "spatial consistency",
+    "linear attention",
+    "camera conditioning"
+   ],
+   "field": "视频世界模型与长程记忆",
+   "innovations": [
+    "混合空间记忆架构耦合投影条件化循环状态与显式KV缓存",
+    "分块级保留机制使遗忘频率与视频时间对齐而非token顺序",
+    "循环读出直接调制后续softmax层查询无需独立路由器"
+   ],
+   "benchmarks": [
+    "MIND memory benchmark",
+    "WBench-Navi gated camera-return consistency",
+    "held-out Unreal Engine trajectories (Set A/B)"
+   ]
+  }
+ }
 }
