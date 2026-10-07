@@ -4,5 +4,10 @@
  "title": "Unlocking-Fine-Grained-Perception-in-CLIP-via-Structurally-A",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-07 08:10:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6f748878-fbf5-4e95-9ff8-ac5922b70282.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6f748878-fbf5-4e95-9ff8-ac5922b70282.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:45:04",
+  "chunks": 1
+ }
 }

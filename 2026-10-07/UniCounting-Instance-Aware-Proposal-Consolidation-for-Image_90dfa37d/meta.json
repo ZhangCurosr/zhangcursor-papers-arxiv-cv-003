@@ -4,5 +4,34 @@
  "title": "UniCounting-Instance-Aware-Proposal-Consolidation-for-Image",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-10-07 08:13:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/59e21382-08bd-4b63-a0db-c6e162721a04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/59e21382-08bd-4b63-a0db-c6e162721a04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:44:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-category counting",
+    "instance-aware proposal consolidation",
+    "foundation models",
+    "OWLv2",
+    "SAM 2.1",
+    "DINOv2",
+    "OpenCLIP",
+    "vector counting"
+   ],
+   "field": "开放世界多类别视觉计数",
+   "innovations": [
+    "将图像查询无关多类别计数形式化为实例感知提议整合问题并引入仅 3,267 参数的可训练关系头",
+    "通过受控解码器对比与组件级诊断揭示碎片化–合并折中",
+    "提出最大类别边际代表元与背景边际准入的组合策略"
+   ],
+   "benchmarks": [
+    "COCO clean500",
+    "OmniCount-sub",
+    "FSC-147",
+    "CARPK"
+   ]
+  }
+ }
 }

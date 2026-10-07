@@ -4,5 +4,33 @@
  "title": "The-Failure-Is-in-the-Readout-Fine-Grained-Emotion-Recogniti",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-07 08:11:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ef21d4af-efc8-41bc-8747-2b8a3a0f8319.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ef21d4af-efc8-41bc-8747-2b8a3a0f8319.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:43:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "细粒度情绪识别",
+    "视觉语言模型",
+    "评估协议",
+    "logits概率读取",
+    "验证式提取",
+    "Krippendorff kappa",
+    "EmoNet-Face-HQ",
+    "评估敏感性"
+   ],
+   "field": "多模态情感计算评估",
+   "innovations": [
+    "提出验证式提取协议，从logits读取P(yes)替代生成文本解析，使11个VLM全部超越人类专家锚点",
+    "证明增益来自连续概率而非二元问题格式，阈值化损失142%收益",
+    "设计答案质量守卫与有效性门控检测silent failure，分离协议效应与模型能力"
+   ],
+   "benchmarks": [
+    "EmoNet-Face-HQ",
+    "FACES",
+    "EIF (Empathic-Insight-Face)"
+   ]
+  }
+ }
 }

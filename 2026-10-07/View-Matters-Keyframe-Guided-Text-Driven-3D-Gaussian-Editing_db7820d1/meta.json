@@ -4,5 +4,32 @@
  "title": "View-Matters-Keyframe-Guided-Text-Driven-3D-Gaussian-Editing",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-07 08:12:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1df2342-3997-4f61-884f-496f936e72ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1df2342-3997-4f61-884f-496f936e72ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:45:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "文本驱动编辑",
+    "关键帧选择",
+    "视图重要性",
+    "多视图一致性",
+    "扩散模型编辑"
+   ],
+   "field": "3D神经渲染与编辑",
+   "innovations": [
+    "提出KIE模块通过几何/语义/编辑相关性三维度评估视图重要性",
+    "设计KGE实现关键帧全局交互与非对称传播机制",
+    "提出IAO通过损失重加权在3D优化阶段保持视图可靠性层次"
+   ],
+   "benchmarks": [
+    "Mip-NeRF 360",
+    "IN2N",
+    "CLIP Text-Image Similarity",
+    "CLIP Directional Similarity"
+   ]
+  }
+ }
 }

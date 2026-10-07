@@ -4,5 +4,30 @@
  "title": "UltraDif-Diferentiable-Ray-Tracing-in-Ultrasound-for-Shape-O",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-07 08:18:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3a18bec0-7ffe-4ae4-b060-15f401c21b59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3a18bec0-7ffe-4ae4-b060-15f401c21b59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:44:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differentiable rendering",
+    "medical ultrasound",
+    "shape optimization",
+    "path tracing",
+    "SDF",
+    "analysis-by-synthesis"
+   ],
+   "field": "可微分医学成像",
+   "innovations": [
+    "首个将可微分路径追踪扩展到超声模态的框架",
+    "基于时间飞行门控路径积分的无分割超声形状重建",
+    "支持多 bounce 传播的超声可微分正向模型"
+   ],
+   "benchmarks": [
+    "VerSe2020",
+    "机器人超声脊柱体模"
+   ]
+  }
+ }
 }
