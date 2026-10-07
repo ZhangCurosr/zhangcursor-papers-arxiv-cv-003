@@ -4,5 +4,31 @@
  "title": "WORLDSONUS-BRINGING-SOUND-TO-WORLDS",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-10-07 08:11:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/838ca8e7-c848-4b0f-951f-73f6160a34be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/838ca8e7-c848-4b0f-951f-73f6160a34be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:52:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video-to-Audio",
+    "Streaming Audio Generation",
+    "Spatial Audio",
+    "World Models",
+    "Causal Diffusion",
+    "Audio-Visual Synchronization"
+   ],
+   "field": "视频到音频生成",
+   "innovations": [
+    "训练-only ShiftNCE对比时序蒸馏，推理零开销",
+    "双时间尺度视觉条件解耦（chunk摘要+frame捷径）",
+    "块边界原位提示缓存替换实现流中动态文本控制"
+   ],
+   "benchmarks": [
+    "VGGSound",
+    "Interactive Gameplay & Real-World",
+    "Greatest Hits"
+   ]
+  }
+ }
 }

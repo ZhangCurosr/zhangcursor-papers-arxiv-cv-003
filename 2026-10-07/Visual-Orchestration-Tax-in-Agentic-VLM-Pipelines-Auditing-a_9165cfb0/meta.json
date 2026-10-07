@@ -4,5 +4,10 @@
  "title": "Visual-Orchestration-Tax-in-Agentic-VLM-Pipelines-Auditing-a",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-07 08:11:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d3e0acf8-cbdf-4031-bcda-9eb49091a241.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d3e0acf8-cbdf-4031-bcda-9eb49091a241.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:53:12",
+  "chunks": 1
+ }
 }

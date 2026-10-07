@@ -4,5 +4,41 @@
  "title": "UNSUPERVISED-LONG-TAILED-ADAPTATION-OFVISION-LANGUAGE-MODELS",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-10-07 08:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1ecd4fc-6edc-4bf2-80e0-9997e80a9c9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1ecd4fc-6edc-4bf2-80e0-9997e80a9c9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:53:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督适配",
+    "长尾学习",
+    "视觉-语言模型",
+    "伪标签",
+    "CLIP",
+    "prompt tuning",
+    "边界侵蚀"
+   ],
+   "field": "视觉-语言模型无监督适配",
+   "innovations": [
+    "首次提出 ULTA 场景并揭示无监督长尾适配中头类边界反常侵蚀现象",
+    "设计 BPA 利用 zero-shot CLIP 视觉锚点修正无视觉支持的伪标签概率提升",
+    "提出 MSR 通过类别频率先验与样本边际一致性动态调节边界保留与特征学习"
+   ],
+   "benchmarks": [
+    "CUB",
+    "RESISC45",
+    "FGVCAircraft",
+    "Caltech101",
+    "EuroSAT",
+    "Flowers102",
+    "Food101",
+    "OxfordPets",
+    "StanfordCars",
+    "Places-LT",
+    "ImageNet-LT",
+    "iNaturalist2018"
+   ]
+  }
+ }
 }
