@@ -4,5 +4,34 @@
  "title": "RLHND-VIDEO-FOUNDATION-MODELS-AS-PHYSICALLY-GROUNDED-HAND-TR",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-08 19:47:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3ccd0bec-ce72-469f-a866-eba65088b04f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3ccd0bec-ce72-469f-a866-eba65088b04f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hand tracking",
+    "video foundation model",
+    "tactile estimation",
+    "robot learning from human videos",
+    "MANO",
+    "physics-aware reconstruction"
+   ],
+   "field": "机器人视觉与触觉感知",
+   "innovations": [
+    "将 Cosmos 3 视频扩散 backbone 通过 clean-latent 接口转为确定性特征编码器并联合估计姿态与触觉",
+    "Shape caching 消除 monocular 手重建中的尺度-深度歧义导致的时序手型漂移",
+    "解剖学约束 29-DoF 姿态参数化 + 解耦触觉专家 + LBS-based vertex spreading"
+   ],
+   "benchmarks": [
+    "HOT3D",
+    "ARCTIC",
+    "EgoDex",
+    "OpenTouch",
+    "PressureVisionDB",
+    "DexYCB"
+   ]
+  }
+ }
 }

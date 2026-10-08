@@ -4,5 +4,31 @@
  "title": "TETRIS3D-3D-SCENE-GENERATION-WITH-OBJECTS-THAT-FIT-TOGETHER",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-08 19:47:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f790971d-145c-4751-8021-a0e408613cec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f790971d-145c-4751-8021-a0e408613cec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:55:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D scene generation",
+    "amodal completion",
+    "physical interaction",
+    "autoregressive generation",
+    "3D reconstruction",
+    "physics simulation dataset"
+   ],
+   "field": "3D 场景生成与物理一致性重建",
+   "innovations": [
+    "交互条件化自回归生成：将邻域几何（UDF+法向量）和物理关系类型显式注入扩散生成过程",
+    "V2I跨注意力机制：在3D体素token级实现可见到不可见区域的cross-attention模态补全",
+    "ComOb数据集：基于MuJoCo仿真的120万物理一致场景，覆盖五种交互类型的关系标注"
+   ],
+   "benchmarks": [
+    "Toys4K",
+    "MessyKitchens",
+    "Picasso"
+   ]
+  }
+ }
 }

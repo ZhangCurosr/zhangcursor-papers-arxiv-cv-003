@@ -4,5 +4,31 @@
  "title": "POOLING-REPRESENTATION-AUTOENCODERS-FOR-EFFI-CIENT-DIFFUSION",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-10-08 19:50:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/86b34cec-4977-43ee-92d8-8b031bee5da4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/86b34cec-4977-43ee-92d8-8b031bee5da4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Representation Autoencoder",
+    "Diffusion Model",
+    "Token Compression",
+    "Visual Features",
+    "Internal Guidance",
+    "Image Generation"
+   ],
+   "field": "高效图像生成",
+   "innovations": [
+    "提出学习仿射池化算子 PoolDINO 压缩 DINO 特征 token，无需额外特征自编码器即可保留两阶段 RAE 流程",
+    "系统量化 4×/16× 压缩下的生成质量-吞吐量权衡，IG 引导可在 4× 压缩下维持与基线可比 FID",
+    "揭示生成质量与下游迁移能力的解耦，学习池化在分类/稠密预测上弱于平均池化"
+   ],
+   "benchmarks": [
+    "ImageNet-256",
+    "ADE20K semantic segmentation",
+    "NYUv2 monocular depth estimation"
+   ]
+  }
+ }
 }

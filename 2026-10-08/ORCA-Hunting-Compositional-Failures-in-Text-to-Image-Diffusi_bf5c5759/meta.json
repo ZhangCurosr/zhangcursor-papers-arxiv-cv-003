@@ -4,5 +4,34 @@
  "title": "ORCA-Hunting-Compositional-Failures-in-Text-to-Image-Diffusi",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-10-08 19:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ea7e51d5-1c2a-43a4-a037-99dbc1b9b942.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ea7e51d5-1c2a-43a4-a037-99dbc1b9b942.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image diffusion",
+    "compositional failure",
+    "representation alignment",
+    "orthogonal residual",
+    "self-supervised vision",
+    "DiT",
+    "low-rank subspace"
+   ],
+   "field": "文生图扩散模型组合对齐",
+   "innovations": [
+    "以T5-CLIP残差驱动prompt依赖的正交子空间选择，解决跨模态绑定问题",
+    "冻结低秩PCA视觉目标替代需正则化的可学习目标，消除表征坍塌",
+    "给出可恢复跨模态信息的谱上界并由幂律谱理论保证低秩有效性"
+   ],
+   "benchmarks": [
+    "MS-COCO 256x256",
+    "GenEval",
+    "FID-30K",
+    "CLIPScore",
+    "PickScore"
+   ]
+  }
+ }
 }

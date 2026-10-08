@@ -4,5 +4,31 @@
  "title": "REPRESENTATION-GEOMETRY-SUPERVISED-REPRE-SENTATION-LEARNING",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-08 19:46:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/db36e57e-5884-466c-89ae-6bfc3a25a326.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/db36e57e-5884-466c-89ae-6bfc3a25a326.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学视觉语言模型",
+    "表示学习",
+    "反事实推理",
+    "几何监督",
+    "病理表型",
+    "CT影像分析",
+    "细粒度对齐"
+   ],
+   "field": "医学视觉语言表示学习",
+   "innovations": [
+    "提出BaseAnatomy几何监督模块，利用理想空间分布直接约束正常解剖补丁表示，不依赖文本语义",
+    "提出∆Phenotype反事实增量学习模块，通过邻域加权估计反事实正常参考并计算病理表型增量",
+    "将病理表型显式建模为病变表示与反事实正常表示之差，在视觉空间实现表型聚类与可区分性"
+   ],
+   "benchmarks": [
+    "ReXGroundingCT",
+    "LIDC-IDRI"
+   ]
+  }
+ }
 }

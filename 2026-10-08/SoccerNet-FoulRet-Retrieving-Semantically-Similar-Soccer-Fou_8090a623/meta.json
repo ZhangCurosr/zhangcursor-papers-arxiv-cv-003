@@ -4,5 +4,10 @@
  "title": "SoccerNet-FoulRet-Retrieving-Semantically-Similar-Soccer-Fou",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-08 19:51:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c388f19b-c120-4989-8a80-f2efc69883e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c388f19b-c120-4989-8a80-f2efc69883e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:54:53",
+  "chunks": 1
+ }
 }

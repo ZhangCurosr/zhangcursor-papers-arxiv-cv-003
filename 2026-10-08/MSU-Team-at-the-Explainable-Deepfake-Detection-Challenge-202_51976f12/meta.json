@@ -4,5 +4,32 @@
  "title": "MSU-Team-at-the-Explainable-Deepfake-Detection-Challenge-202",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-08 19:44:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f0249b68-067a-45e8-a50f-7e0829e295fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f0249b68-067a-45e8-a50f-7e0829e295fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:50:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deepfake detection",
+    "explainable AI",
+    "contrastive learning",
+    "vision-language models",
+    "pseudo-mask supervision",
+    "image forensics"
+   ],
+   "field": "可解释AI与深度伪造检测",
+   "innovations": [
+    "解释驱动的伪掩码弱监督生成管线",
+    "局部补丁级对比学习状态划分与pull/push规则",
+    "类条件双VLM生成器防类别泄漏架构"
+   ],
+   "benchmarks": [
+    "XPlainVerse Challenge 2026",
+    "Detection Accuracy",
+    "Explanation Score",
+    "Final Challenge Score"
+   ]
+  }
+ }
 }

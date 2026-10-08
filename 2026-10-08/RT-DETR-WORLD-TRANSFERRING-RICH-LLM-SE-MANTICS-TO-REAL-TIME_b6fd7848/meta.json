@@ -4,5 +4,31 @@
  "title": "RT-DETR-WORLD-TRANSFERRING-RICH-LLM-SE-MANTICS-TO-REAL-TIME",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-10-08 19:46:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9b475107-9c04-4182-869c-20c6aee0f6ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9b475107-9c04-4182-869c-20c6aee0f6ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary detection",
+    "real-time detection",
+    "cross-modal alignment",
+    "contrastive learning",
+    "LLM distillation",
+    "grounding"
+   ],
+   "field": "开放词汇目标检测",
+   "innovations": [
+    "双路径描述对齐：结合轻量MiniLM推理路径与离线LLM教师预计算特征，使紧凑检测器吸收丰富语义而推理零开销",
+    "关系感知负样本松弛：利用冻结教师语义相似度松弛相关负样本，避免硬对比学习的过度分离",
+    "三级显式语义监督数据集GroundingCapv2：类别名-对象描述-图像描述的层次化训练信号与置信度路由整理流程"
+   ],
+   "benchmarks": [
+    "LVIS minival",
+    "ODinW13/35",
+    "COCO-O"
+   ]
+  }
+ }
 }

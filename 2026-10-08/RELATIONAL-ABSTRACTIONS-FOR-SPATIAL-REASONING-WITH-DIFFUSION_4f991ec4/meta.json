@@ -4,5 +4,36 @@
  "title": "RELATIONAL-ABSTRACTIONS-FOR-SPATIAL-REASONING-WITH-DIFFUSION",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-10-08 19:45:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a85ea296-f3d5-4c10-84b4-c6bb8f7183d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a85ea296-f3d5-4c10-84b4-c6bb8f7183d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "spatial reasoning",
+    "object-centric learning",
+    "relational abstraction",
+    "generative modeling",
+    "visual reasoning",
+    "slot attention"
+   ],
+   "field": "视觉空间推理与生成模型",
+   "innovations": [
+    "将无监督对象发现与关系抽象引入扩散模型，通过对象中心关系嵌入引导条件生成以实现空间推理",
+    "提出可扩展Slot解码器，通过可学习位置网格将高slot数量下的显存开销大幅降低",
+    "发布包含Akari、Coldoku、Tangram、LogicFace四数据集的大规模空间推理基准，评估生成式规则学习能力"
+   ],
+   "benchmarks": [
+    "Akari",
+    "Coldoku",
+    "Tildoku",
+    "Tangram",
+    "LogicFace",
+    "MNIST-Sudoku",
+    "Counting Polygons"
+   ]
+  }
+ }
 }

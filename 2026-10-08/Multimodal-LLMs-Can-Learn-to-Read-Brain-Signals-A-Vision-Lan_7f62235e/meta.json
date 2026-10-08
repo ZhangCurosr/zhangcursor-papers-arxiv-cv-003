@@ -4,5 +4,38 @@
  "title": "Multimodal-LLMs-Can-Learn-to-Read-Brain-Signals-A-Vision-Lan",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-10-08 19:46:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e8149760-7410-4863-ac11-1fcf0391267b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e8149760-7410-4863-ac11-1fcf0391267b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:50:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG解码",
+    "视觉语言模型",
+    "多任务学习",
+    "STFT频谱图",
+    "LoRA适配",
+    "脑机接口",
+    "基础模型"
+   ],
+   "field": "神经信号解码与多模态大模型",
+   "innovations": [
+    "提出BraVista视觉-语言接口，将EEG转为结构化STFT图像并由通用VLM统一多任务解码，免去EEG专属预训练",
+    "冻结LLM主干+LoRA+全调视觉编码器的参数高效适配策略",
+    "系统对比并证实STFT是最优EEG-视觉接口，且噪声扰动验证模型依赖信号结构而非表面模式"
+   ],
+   "benchmarks": [
+    "HMC睡眠分期",
+    "SEED情绪识别",
+    "EEGMAT认知负荷",
+    "TUAB异常检测",
+    "NeuroLM",
+    "BIOT",
+    "LaBraM",
+    "CBraMod",
+    "CSBrain"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "STRIKE-Learning-Visual-State-Transitions-for-Physical-World",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-08 19:46:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/93b7e2d0-88fc-4647-8547-401cc3bd28e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/93b7e2d0-88fc-4647-8547-401cc3bd28e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:54:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "physical world modeling",
+    "visual state transition",
+    "video generation",
+    "physics consistency",
+    "robotic manipulation",
+    "event-aligned supervision",
+    "flow matching"
+   ],
+   "field": "物理感知视频生成",
+   "innovations": [
+    "事件对齐监督：VLM辅助从训练视频提取状态对，监督显式状态转换学习",
+    "可组合状态转换模型：基于相对时间条件图像模型递归预测未来视觉状态",
+    "状态条件化密集视频生成：预测状态作为软条件输入视频扩散模型"
+   ],
+   "benchmarks": [
+    "Physics-IQ Verified",
+    "PhyGenBench",
+    "Pisa-Experiments",
+    "RoboTwin2.0"
+   ]
+  }
+ }
 }

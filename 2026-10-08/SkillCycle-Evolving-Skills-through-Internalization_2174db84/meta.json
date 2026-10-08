@@ -4,5 +4,30 @@
  "title": "SkillCycle-Evolving-Skills-through-Internalization",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-10-08 19:45:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6bfaae56-9801-4640-9d36-d10f837fd5db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6bfaae56-9801-4640-9d36-d10f837fd5db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:54:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill internalization",
+    "agentic RL",
+    "self-distillation",
+    "skill bank revision",
+    "teacher-student",
+    "reinforcement learning"
+   ],
+   "field": "LLM Agent 技能内化与持续学习",
+   "innovations": [
+    "蒸馏反馈双重角色：同时监督策略学习与定位技能规则修订点",
+    "策略-技能库两段交替共演化（固定库学习↔固定策略修订）",
+    "rule-level + whole-bank 两层成对环境验证确保修订稳健性"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

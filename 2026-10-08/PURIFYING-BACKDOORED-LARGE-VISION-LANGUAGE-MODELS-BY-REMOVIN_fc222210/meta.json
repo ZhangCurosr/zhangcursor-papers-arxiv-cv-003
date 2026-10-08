@@ -4,5 +4,32 @@
  "title": "PURIFYING-BACKDOORED-LARGE-VISION-LANGUAGE-MODELS-BY-REMOVIN",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-08 19:46:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/11199373-a8d6-4d2d-9ac8-e9733ef83c31.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/11199373-a8d6-4d2d-9ac8-e9733ef83c31.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后门防御",
+    "大视觉语言模型",
+    "方向劫持",
+    "正交投影",
+    "权重子空间",
+    "后门净化"
+   ],
+   "field": "多模态大模型安全",
+   "innovations": [
+    "提出方向劫持理论揭示后门权重更新结构特性",
+    "设计基于伪良性近似的单次正交投影净化方法",
+    "在多种架构与攻击类型下实现 ASR 归零且保持任务性能"
+   ],
+   "benchmarks": [
+    "COCO 图像描述",
+    "VQAv2 视觉问答",
+    "LLaVA-1.5-7B",
+    "Qwen3-VL-8B"
+   ]
+  }
+ }
 }

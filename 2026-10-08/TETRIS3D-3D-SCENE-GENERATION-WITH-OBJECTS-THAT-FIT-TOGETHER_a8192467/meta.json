@@ -4,5 +4,31 @@
  "title": "TETRIS3D-3D-SCENE-GENERATION-WITH-OBJECTS-THAT-FIT-TOGETHER",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-08 08:34:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/bb42ce58-eebd-4a22-afe0-3a814c566edc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/bb42ce58-eebd-4a22-afe0-3a814c566edc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:55:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D场景生成",
+    "物理交互",
+    "自回归生成",
+    "amodal completion",
+    " voxel-based generation",
+    "物理关系推理"
+   ],
+   "field": "3D视觉与生成",
+   "innovations": [
+    "显式条件化邻域几何与物理关系的自回归3D场景生成框架",
+    "V2I跨注意力机制用于遮挡区域的amodal补全",
+    "构建ComOb大规模物理交互仿真数据集"
+   ],
+   "benchmarks": [
+    "Toys4K",
+    "MessyKitchens",
+    "Picasso"
+   ]
+  }
+ }
 }

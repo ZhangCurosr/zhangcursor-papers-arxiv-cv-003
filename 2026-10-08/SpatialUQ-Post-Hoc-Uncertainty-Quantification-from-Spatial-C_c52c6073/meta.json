@@ -4,5 +4,35 @@
  "title": "SpatialUQ-Post-Hoc-Uncertainty-Quantification-from-Spatial-C",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-08 19:51:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/20b6bab0-6779-4b0b-8a9e-36036364122a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/20b6bab0-6779-4b0b-8a9e-36036364122a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:54:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "不确定性量化",
+    "后验方法",
+    "黑盒模型",
+    "空间一致性",
+    "Jensen-Shannon散度",
+    "医学影像",
+    "故障检测",
+    "校准"
+   ],
+   "field": "计算机视觉不确定性估计",
+   "innovations": [
+    "仅用6次确定性前向传播的黑盒后验MUS分数",
+    "MUS与Brier相关的自诊断部署门控(rho<0.15提示严重偏移)",
+    "MUS+熵+置信度+fused超越5成员集成(0.832 vs 0.813 AUC)"
+   ],
+   "benchmarks": [
+    "NIH ChestX-ray14",
+    "CheXpert",
+    "VinBigData",
+    "ImageNet-1k",
+    "MS COCO 2014"
+   ]
+  }
+ }
 }

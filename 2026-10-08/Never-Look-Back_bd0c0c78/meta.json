@@ -4,5 +4,31 @@
  "title": "Never-Look-Back",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-10-08 19:47:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4b7b8c0d-9685-495b-9f74-0eacc203284d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4b7b8c0d-9685-495b-9f74-0eacc203284d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric memory",
+    "3D object tracking",
+    "spatial question answering",
+    "persistent memory",
+    "embodied AI",
+    "ego-centric video understanding"
+   ],
+   "field": "首人称视频持久化空间记忆",
+   "innovations": [
+    "提出LEDGER持久化3D物体记忆，统一存储位置、运动历史和上下文描述",
+    "设计基于重复证据的持久化分段规则，有效区分定位噪声与真实位移",
+    "以纯文本检索替代视频回放，将查询token成本降至48帧方案的约1/5"
+   ],
+   "benchmarks": [
+    "HD-EPIC",
+    "UCS-Bench",
+    "Ego4D VQ3D"
+   ]
+  }
+ }
 }

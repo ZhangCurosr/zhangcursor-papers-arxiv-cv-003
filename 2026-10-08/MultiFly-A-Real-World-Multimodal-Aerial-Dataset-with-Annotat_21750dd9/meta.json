@@ -4,5 +4,33 @@
  "title": "MultiFly-A-Real-World-Multimodal-Aerial-Dataset-with-Annotat",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-08 19:47:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cb9facef-9f23-41fc-b9ed-ee1021037ab4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cb9facef-9f23-41fc-b9ed-ee1021037ab4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:50:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "UAV dataset",
+    "multi-modal perception",
+    "semantic segmentation",
+    "label transfer",
+    "aerial robotics",
+    "cross-modal consistency",
+    "LiDAR",
+    "radar"
+   ],
+   "field": "多模态 aerial 感知与数据集构建",
+   "innovations": [
+    "首个公开的真实世界低空四模态（RGB/Thermal/LiDAR/Radar）同步语义分割数据集",
+    "几何驱动的标注高效标签迁移方法，仅用 0.67% RGB 手动标注自动生成全部模态语义标注且无需人工修正",
+    "首次系统评估 aerial 场景中稀疏雷达的语义分割性能，揭示稀疏卷积优于 point transformer"
+   ],
+   "benchmarks": [
+    "MultiFly Semantic Segmentation Benchmark",
+    "Cross-Modal Semantic Consistency Evaluation",
+    "RGB-Thermal Domain Adaptation Benchmark"
+   ]
+  }
+ }
 }

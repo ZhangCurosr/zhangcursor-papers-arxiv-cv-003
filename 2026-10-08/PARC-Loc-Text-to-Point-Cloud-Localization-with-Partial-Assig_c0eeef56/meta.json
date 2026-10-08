@@ -4,5 +4,31 @@
  "title": "PARC-Loc-Text-to-Point-Cloud-Localization-with-Partial-Assig",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-08 08:34:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/39e2028d-6b75-4a63-96e2-0b50b39b6f89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/39e2028d-6b75-4a63-96e2-0b50b39b6f89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Point-Cloud Localization",
+    "Partial Assignment",
+    "Relational Consistency",
+    "Coarse-to-Fine Framework",
+    "City-Scale 3D Positioning",
+    "Multi-Modal Localization"
+   ],
+   "field": "多模态3D定位与地理感知",
+   "innovations": [
+    "提出PARC-Loc框架，通过部分分配与关系一致性联合建模语义和空间约束，解决布局不一致别名问题",
+    "设计粗到细两阶段机制，在粗选择阶段显式验证候选子图联合布局，在细定位阶段扩展跨边界上下文并用匹配权重引导注意力",
+    "在KITTI360Pose上实现Top-1@5m召回率0.67，相对最强基线MNCL提升34%"
+   ],
+   "benchmarks": [
+    "KITTI360Pose",
+    "CityLoc-K",
+    "CityLoc-C"
+   ]
+  }
+ }
 }

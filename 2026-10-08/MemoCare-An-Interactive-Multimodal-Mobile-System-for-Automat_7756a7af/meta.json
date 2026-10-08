@@ -4,5 +4,32 @@
  "title": "MemoCare-An-Interactive-Multimodal-Mobile-System-for-Automat",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-10-08 19:47:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a7727430-3f0b-476e-b694-4c42efc3049d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a7727430-3f0b-476e-b694-4c42efc3049d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:50:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cognitive screening",
+    "Multimodal interaction",
+    "Mobile health",
+    "Speech processing",
+    "Geospatial reasoning",
+    "Computer vision",
+    "Automated scoring"
+   ],
+   "field": "多模态移动健康与认知筛查",
+   "innovations": [
+    "模态感知的统一评分架构：语音/位置/触摸/绘图异构交互通过解耦的专用模块路由至item-scoring接口",
+    "三模型条件共识绘图评分：基于性能互补性的后验多CNN融合，mean BA达95.17%",
+    "历史感知空间解析：整合89,043条四国行政边界记录，支持地名变更容错匹配"
+   ],
+   "benchmarks": [
+    "Locked test set n=71 (balanced accuracy 91.33% single model, 95.17% consensus)",
+    "Technical verification 151/151 cases",
+    "Spatial regression 48/48 four-country coordinate cases"
+   ]
+  }
+ }
 }

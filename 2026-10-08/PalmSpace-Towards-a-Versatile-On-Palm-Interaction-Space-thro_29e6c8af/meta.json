@@ -4,5 +4,32 @@
  "title": "PalmSpace-Towards-a-Versatile-On-Palm-Interaction-Space-thro",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-08 19:48:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3e42080c-c3c5-4dad-86fd-22e47917b877.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3e42080c-c3c5-4dad-86fd-22e47917b877.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "palm-based input",
+    "wearable interaction",
+    "touch modeling",
+    "smart glasses",
+    "multi-task transformer",
+    "absolute localization"
+   ],
+   "field": "可穿戴人机交互",
+   "innovations": [
+    "手掌归一化坐标系统消除跨用户手型差异，实现无需逐用户校准的绝对定位",
+    "统一多任务Transformer联合预测接触状态、交互模式和归一化坐标",
+    "轻量腕带红外视觉系统首次同时支持单指精确定位与多指手势交互"
+   ],
+   "benchmarks": [
+    "LOPO cross-user evaluation (17 participants)",
+    "Fitts' Law pointing study (12 participants)",
+    "Eyes-free digit entry (12 participants)",
+    "Outdoor zero-shot robustness validation (13 participants)"
+   ]
+  }
+ }
 }

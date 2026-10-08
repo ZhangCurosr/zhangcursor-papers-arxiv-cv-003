@@ -4,5 +4,30 @@
  "title": "ONE-SHOT-ADAPTIVE-SEGMENTATION-FOR-SCIENTIFIC-IMAGES",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-08 19:46:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0cb087f7-5f5a-44e3-8ee3-418a2cea18ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0cb087f7-5f5a-44e3-8ee3-418a2cea18ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "One-shot Segmentation",
+    "Scientific Image",
+    "DINOv3",
+    "SAM",
+    "Training-free Adaptation",
+    "Feature Orthogonalization"
+   ],
+   "field": "科学图像分割",
+   "innovations": [
+    "背景自适应特征正交投影抑制成像伪影",
+    "单参考图像免训练适配冻结视觉基础模型"
+   ],
+   "benchmarks": [
+    "100k-RBC-PathOlogics",
+    "Structured-Illumination Pool Boiling",
+    "Montgomery Chest X-Ray"
+   ]
+  }
+ }
 }

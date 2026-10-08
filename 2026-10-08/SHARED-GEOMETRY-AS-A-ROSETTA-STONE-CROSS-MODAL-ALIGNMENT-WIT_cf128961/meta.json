@@ -4,5 +4,34 @@
  "title": "SHARED-GEOMETRY-AS-A-ROSETTA-STONE-CROSS-MODAL-ALIGNMENT-WIT",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-08 19:47:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/acc06e6f-aed6-408f-8194-ce277c5f391d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/acc06e6f-aed6-408f-8194-ce277c5f391d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:53:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态对齐",
+    "无配对对齐",
+    "Wasserstein Procrustes",
+    "几何初始化",
+    "Platonic Representation Hypothesis",
+    "CKA"
+   ],
+   "field": "多模态表征学习",
+   "innovations": [
+    "证明零配对跨模态对齐可行性并提出 Wasserstein Procrustes 几何初始化方法",
+    "将几何相似度（CKA）作为对齐成功率的强预测指标并系统验证",
+    "自然扩展到少配对场景，在≤100对时大幅超越现有 few-pair 方法"
+   ],
+   "benchmarks": [
+    "MS COCO",
+    "NQ",
+    "PBMC",
+    "NSD fMRI",
+    "CIFAR-10",
+    "ImageNet-100"
+   ]
+  }
+ }
 }

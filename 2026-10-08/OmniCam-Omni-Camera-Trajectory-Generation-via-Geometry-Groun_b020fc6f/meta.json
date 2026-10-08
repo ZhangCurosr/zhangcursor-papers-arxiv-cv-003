@@ -4,5 +4,31 @@
  "title": "OmniCam-Omni-Camera-Trajectory-Generation-via-Geometry-Groun",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-08 19:48:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c386f62b-7a71-465d-be7d-c28c21e14d6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c386f62b-7a71-465d-be7d-c28c21e14d6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:51:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "camera trajectory generation",
+    "panoramic point cloud",
+    "pose tokenization",
+    "SE(3) trajectory",
+    "geometry-grounded conditioning",
+    "autonomous camera planning",
+    "multi-modal trajectory generation"
+   ],
+   "field": "3D 视觉与相机轨迹生成",
+   "innovations": [
+    "混合绝对-相对位姿Token化结合时序四元数符号对齐，消除双覆盖歧义并降低累积误差",
+    "双分支解耦编码（几何点云+语义文本/视觉）配合显式3D目标质心门控注入",
+    "OmniCaT全景多行为轨迹数据集（267K条，4种行为）及分层文本标注"
+   ],
+   "benchmarks": [
+    "OmniCaT",
+    "DataDoP"
+   ]
+  }
+ }
 }

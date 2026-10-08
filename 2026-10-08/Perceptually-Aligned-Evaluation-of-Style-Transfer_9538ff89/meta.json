@@ -4,5 +4,33 @@
  "title": "Perceptually-Aligned-Evaluation-of-Style-Transfer",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-08 19:46:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cdb3677a-a81b-4544-ac47-0d89ac6f78d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cdb3677a-a81b-4544-ac47-0d89ac6f78d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "style transfer",
+    "perceptual evaluation",
+    "Rank Centrality",
+    "ASTRA",
+    "user study",
+    "benchmark"
+   ],
+   "field": "非写实渲染/风格迁移评估",
+   "innovations": [
+    "提出ASTRA框架，联合构建人类偏好基准数据集与学习式自动评估模型",
+    "采用两阶段2AFC用户研究+Rank Centrality全局排名，实现跨内容-风格对的可扩展偏好建模",
+    "发现风格保真度是人类整体偏好的主导因素，内容保留影响较弱"
+   ],
+   "benchmarks": [
+    "ASTRA-Data",
+    "NPRgeneral",
+    "SRQE",
+    "ArtFID",
+    "AST-IQAD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Spatial-Latent-Reasoning-for-Embodied-Reference-Understandin",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-10-08 19:50:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e71985c4-31bc-4b87-b6e9-7d6fd4eb98e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e71985c4-31bc-4b87-b6e9-7d6fd4eb98e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:54:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Embodied Reference Understanding",
+    "Spatial Latent Reasoning",
+    "Visual Grounding",
+    "Parity Pooling",
+    "Continuous Latent Reasoning",
+    "Pointing Gesture"
+   ],
+   "field": "具身视觉定位",
+   "innovations": [
+    "提出SLR框架，将几何监督的射线状态与奇偶池化视觉状态有序耦合到连续隐序列中",
+    "引入Parity Pooling，基于全局行列奇偶性将可变ROI特征分配给四个交错相位目标",
+    "联合几何与视觉监督在Hard-Similar子集上显著提升指向定位性能"
+   ],
+   "benchmarks": [
+    "EgoPoint-Ground",
+    "YouRefIt"
+   ]
+  }
+ }
 }

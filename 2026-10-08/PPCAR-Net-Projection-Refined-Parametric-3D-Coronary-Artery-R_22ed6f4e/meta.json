@@ -4,5 +4,32 @@
  "title": "PPCAR-Net-Projection-Refined-Parametric-3D-Coronary-Artery-R",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-10-08 19:46:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/869e1886-eb56-45cb-9529-c04b3aea3980.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/869e1886-eb56-45cb-9529-c04b3aea3980.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:52:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Coronary Reconstruction",
+    "Sparse-view",
+    "Parametric Representation",
+    "B-spline",
+    "Projection-refinement",
+    "VGGT",
+    "Medical Image Analysis"
+   ],
+   "field": "医学图像三维重建",
+   "innovations": [
+    "提出直接输出参数化血管编码的粗到精网络，避免体素后处理",
+    "利用 B 样条参数化中心线以保证拓扑连通性并降低维度",
+    "设计投影引导的残差细化模块融合多视角局部证据"
+   ],
+   "benchmarks": [
+    "ImageCAS",
+    "ASOCA",
+    "AutoCAR Real X-ray"
+   ]
+  }
+ }
 }
