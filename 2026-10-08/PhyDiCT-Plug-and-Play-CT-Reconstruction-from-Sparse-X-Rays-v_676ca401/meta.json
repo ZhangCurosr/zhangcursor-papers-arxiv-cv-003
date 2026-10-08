@@ -4,5 +4,32 @@
  "title": "PhyDiCT-Plug-and-Play-CT-Reconstruction-from-Sparse-X-Rays-v",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-10-08 08:35:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/321069fe-db3e-4c95-a25b-07b3df17854d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/321069fe-db3e-4c95-a25b-07b3df17854d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:50:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CT重建",
+    "稀疏视角",
+    "扩散模型",
+    "即插即用",
+    "可微分渲染",
+    "医学影像",
+    "逆问题"
+   ],
+   "field": "医学影像重建",
+   "innovations": [
+    "将Beer-Lambert物理渲染嵌入可微分奖励函数引导扩散去噪",
+    "在x0预测上直接优化替代对xt的引导策略",
+    "Split Gibbs采样结合LPIPS损失实现无需训练的3D CT重建"
+   ],
+   "benchmarks": [
+    "CT-Rate",
+    "DifVox",
+    "Deep-DRR"
+   ]
+  }
+ }
 }

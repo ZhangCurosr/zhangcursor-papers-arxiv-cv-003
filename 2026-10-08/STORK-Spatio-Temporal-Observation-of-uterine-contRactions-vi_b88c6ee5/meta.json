@@ -4,5 +4,32 @@
  "title": "STORK-Spatio-Temporal-Observation-of-uterine-contRactions-vi",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-10-08 08:29:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/36cf5d47-5f57-405e-97d5-7c7cddd505c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/36cf5d47-5f57-405e-97d5-7c7cddd505c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:54:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Fetal MRI",
+    "Uterine Contraction Detection",
+    "Multi-Instance Learning",
+    "Spatiotemporal Convolution",
+    "Weak Supervision",
+    "Dynamic MRI Analysis"
+   ],
+   "field": "医学影像AI-动态MRI分析",
+   "innovations": [
+    "超平面因子化3D时空卷积降低4D计算成本",
+    "线性均值聚合实现弱监督系列分类到帧级定位的解耦恢复",
+    "位移场与强度联合输入捕捉子宫收缩的时空相干运动"
+   ],
+   "benchmarks": [
+    "Series AUROC",
+    "Series AUPRC",
+    "Frame AUROC",
+    "Frame AUPRC"
+   ]
+  }
+ }
 }

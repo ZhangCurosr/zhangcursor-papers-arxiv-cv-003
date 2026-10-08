@@ -4,5 +4,38 @@
  "title": "Whose-Face-Is-It-Anyway-A-Multi-Model-Audit-of-Facial-Affect",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-10-07 19:43:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/18fa4906-5524-4be5-b2c4-fc6af0e9df39.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/18fa4906-5524-4be5-b2c4-fc6af0e9df39.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:48:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "facial expression recognition",
+    "bias audit",
+    "children affect",
+    "linear probe",
+    "head recalibration",
+    "AU26 jaw drop",
+    "domain gap",
+    "valence-arousal regression"
+   ],
+   "field": "多模态情感计算与公平性审计",
+   "innovations": [
+    "首个五模型共享harness儿童FER审计，分离模型个性与域共性偏差",
+    "AU26张口→surprise混淆的机制定位与剂量响应验证",
+    "head-not-features诊断+仅重训线性头即可用~10-25名儿童样本修复"
+   ],
+   "benchmarks": [
+    "AffectNet-8 validation",
+    "CAFE",
+    "NIMH-ChEFS",
+    "RaFD-Kid",
+    "ChildEFES",
+    "LIRIS-CSE",
+    "EmoReact",
+    "ABAW Valence-Arousal holdout"
+   ]
+  }
+ }
 }

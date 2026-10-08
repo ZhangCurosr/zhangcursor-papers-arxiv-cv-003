@@ -4,5 +4,37 @@
  "title": "SCALABLE-PATCH-LEVEL-SELF-SUPERVISED-LEARNING",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-10-08 08:30:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b36243f7-b6f6-4322-a78f-6ec72f3879ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b36243f7-b6f6-4322-a78f-6ec72f3879ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:52:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督学习",
+    "多视角InfoMax",
+    "patch-level方法",
+    "JEM",
+    "7B规模",
+    "DINOv3对比",
+    "密集预测"
+   ],
+   "field": "视觉自监督表征学习",
+   "innovations": [
+    "从多视角InfoMax下界推导统一的学生-教师patch级目标",
+    "引入显式全局与结构双正则防止多重坍塌",
+    "在7B参数规模验证首个稳定运行的纯patch级潜空间SSL方法"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "ImageNet-22k",
+    "ADE20k",
+    "COCO",
+    "COCONut",
+    "NYUv2",
+    "KITTI",
+    "A140M"
+   ]
+  }
+ }
 }

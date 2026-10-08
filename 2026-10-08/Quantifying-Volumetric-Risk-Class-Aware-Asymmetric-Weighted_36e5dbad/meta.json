@@ -4,5 +4,30 @@
  "title": "Quantifying-Volumetric-Risk-Class-Aware-Asymmetric-Weighted",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-08 08:31:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/022d1f17-5306-467d-97b4-a24c43cb90c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/022d1f17-5306-467d-97b4-a24c43cb90c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:50:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conformal Prediction",
+    "Uncertainty Quantification",
+    "3D Medical Image Segmentation",
+    "Covariate Shift",
+    "Class-Aware Calibration",
+    "Multimodal LLM"
+   ],
+   "field": "医学影像不确定性量化",
+   "innovations": [
+    "类别感知非对称加权保形预测框架首次应用于3D多类别体积分割",
+    "基于验证集FP/FN率的方向性分位数非对称因子设计",
+    "密度比加权与方向分位数耦合的分布偏移鲁棒校准"
+   ],
+   "benchmarks": [
+    "BraTS 2020",
+    "Synthetic Multi-Organ CT Benchmark (MAISI-v2)"
+   ]
+  }
+ }
 }

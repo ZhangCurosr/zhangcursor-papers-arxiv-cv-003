@@ -4,5 +4,34 @@
  "title": "World-Models-Last-Exam-in-Physics",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-07 08:12:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dc52c3bb-aa07-4d60-aaeb-ba22ecbd21b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dc52c3bb-aa07-4d60-aaeb-ba22ecbd21b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:48:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "物理一致性",
+    "基准评测",
+    "世界模型",
+    "测量基准",
+    "物理规律验证"
+   ],
+   "field": "视频生成物理一致性评测",
+   "innovations": [
+    "无需参考视频的跨9大物理领域测量基准（40任务）",
+    "一致性筛选与物理测量分离的量化评估协议",
+    "无量纲比率尺度消去设计使测量无需绝对标定"
+   ],
+   "benchmarks": [
+    "World Models' Last Exam in Physics",
+    "Principia",
+    "Physics-IQ",
+    "GAUGE",
+    "PhysWeep",
+    "Videophy"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "PPCAR-Net-Projection-Refined-Parametric-3D-Coronary-Artery-R",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-10-08 08:31:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/1146325e-8071-40c7-81b6-17ae7a4f2aa4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/1146325e-8071-40c7-81b6-17ae7a4f2aa4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:49:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D coronary artery reconstruction",
+    "sparse-view",
+    "B-spline centreline",
+    "projection-guided refinement",
+    "vessel code",
+    "VGGT",
+    "medical image reconstruction"
+   ],
+   "field": "医学图像 3D 重建",
+   "innovations": [
+    "投影引导的粗-细两阶段前馈重建，无需逐场景优化",
+    "B-spline 参数化的连续分支中心线-半径表示，降低输出维度并保证连通性",
+    "分支子集增强学习可选侧支存在性，提升分支预测 F1 至 92.48%"
+   ],
+   "benchmarks": [
+    "ImageCAS CT 冠脉造影数据集",
+    "Dice/clDice/Chamfer distance/Connected-component count"
+   ]
+  }
+ }
 }

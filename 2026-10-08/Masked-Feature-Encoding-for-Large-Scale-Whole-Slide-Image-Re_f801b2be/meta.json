@@ -4,5 +4,35 @@
  "title": "Masked-Feature-Encoding-for-Large-Scale-Whole-Slide-Image-Re",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-10-08 08:30:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ec9977cd-f714-49e6-846c-11f5ea30cffc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ec9977cd-f714-49e6-846c-11f5ea30cffc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:48:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "whole slide image",
+    "multiple instance learning",
+    "masked reconstruction",
+    "frozen encoder",
+    "computational pathology",
+    "feature adapter",
+    "attention localization",
+    "survival prediction"
+   ],
+   "field": "计算病理 WSIs 的弱监督表示学习",
+   "innovations": [
+    "冻结编码器的 MIL 管线中插入 MLP 适配器并联合窗口掩码重建，以特征空间正则替代显式空间先验",
+    "揭示分类主导方差压缩而掩码重建提供温和正则的机制，且性能不严格依赖掩码空间排列",
+    "在多数据集/编码器/聚合器组合上插件式提升，并在生存预测中实现所有聚合器的平均 C-index 稳定增益"
+   ],
+   "benchmarks": [
+    "CAMELYON16",
+    "CAMELYON17",
+    "PANDA",
+    "TCGA-BRCA",
+    "TCGA survival (KIRC/KIRP/LUAD/STAD/UCEC)"
+   ]
+  }
+ }
 }

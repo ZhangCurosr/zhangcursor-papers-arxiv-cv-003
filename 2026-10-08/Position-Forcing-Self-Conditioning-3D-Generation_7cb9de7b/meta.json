@@ -4,5 +4,30 @@
  "title": "Position-Forcing-Self-Conditioning-3D-Generation",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-08 08:32:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/15d9ba80-67e8-41d2-99c9-eb027b82c8fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/15d9ba80-67e8-41d2-99c9-eb027b82c8fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:50:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D generation",
+    "diffusion model",
+    "self-conditioning",
+    "VecSet",
+    "position encoding",
+    "single-stage generation",
+    "3D shape"
+   ],
+   "field": "3D generative modeling",
+   "innovations": [
+    "揭示VecSet latent保留可解码空间信息，支持从几何潜在恢复token位置",
+    "提出渐进位置量化与清洁态位置恢复的自条件框架，实现单阶段粗到细空间引导"
+   ],
+   "benchmarks": [
+    "ShapeNet ULIP-T/I",
+    "Uni3D-T/I"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SELF-CORRECTION-OPTIMIZATION-FOR-INTERLEAVED-MULTIMODAL-GENE",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-08 08:32:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/7e3996c3-f820-4088-9c3e-2368e19e54ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/7e3996c3-f820-4088-9c3e-2368e19e54ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:53:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interleaved generation",
+    "multimodal",
+    "training-free",
+    "self-correction",
+    "classifier-free guidance",
+    "temporal consistency"
+   ],
+   "field": "多模态生成",
+   "innovations": [
+    "提出无需训练的自校正优化方法，通过新事件和状态保持双重约束改进交错生成一致性",
+    "构造反事实条件分离事件方向与状态方向，联合有界二维投影实现最小化修正"
+   ],
+   "benchmarks": [
+    "OpenING",
+    "ISG-Bench",
+    "Video-CraftBench",
+    "Interleaved X-Embodiment"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Transferable-Spatial-Temporal-Coherence-Adversarial-Attack-o",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-10-07 19:44:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/bbb4b2af-b7d8-42d2-8533-c4d1c012a152.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/bbb4b2af-b7d8-42d2-8533-c4d1c012a152.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:46:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Language Model",
+    "Adversarial Attack",
+    "Autonomous Driving",
+    "Spatio-Temporal Coherence",
+    "Transferability",
+    "Black-box Attack",
+    "Video Understanding"
+   ],
+   "field": "多模态安全与对抗鲁棒性",
+   "innovations": [
+    "三阶段STCA框架：模态扩展+空间掩码攻击+时序连贯性破坏，首次系统性攻击视频VLM",
+    "Motion-guided时序攻击：利用相邻帧YOLO掩码差值定位动态区域，破坏跨帧时序语义",
+    "揭示域微调VLM（Dolphin）的对抗鲁棒性优势，建立模型专业化与安全性关联"
+   ],
+   "benchmarks": [
+    "BDD100K",
+    "nuScenes"
+   ]
+  }
+ }
 }

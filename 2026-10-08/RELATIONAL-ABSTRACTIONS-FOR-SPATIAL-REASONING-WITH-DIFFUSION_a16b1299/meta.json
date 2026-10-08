@@ -4,5 +4,33 @@
  "title": "RELATIONAL-ABSTRACTIONS-FOR-SPATIAL-REASONING-WITH-DIFFUSION",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-10-08 08:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/7146a32e-dbf0-4319-a7e0-1139bbf39cb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/7146a32e-dbf0-4319-a7e0-1139bbf39cb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:51:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "spatial reasoning",
+    "object-centric learning",
+    "relational abstraction",
+    "generative reasoning",
+    "slot attention"
+   ],
+   "field": "视觉生成与空间推理",
+   "innovations": [
+    "提出RDM框架将无监督对象发现与关系抽象注入扩散模型",
+    "设计可扩展Slot解码器支持数百级槽数推理",
+    "构建百万级多谜题基准测试证明关系抽象提升3倍推理能力"
+   ],
+   "benchmarks": [
+    "Akari",
+    "Coldoku",
+    "Tangram",
+    "LogicFace",
+    "Tildoku"
+   ]
+  }
+ }
 }

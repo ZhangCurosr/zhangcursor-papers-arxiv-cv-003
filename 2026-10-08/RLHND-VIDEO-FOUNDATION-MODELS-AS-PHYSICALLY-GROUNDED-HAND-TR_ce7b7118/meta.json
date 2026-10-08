@@ -4,5 +4,35 @@
  "title": "RLHND-VIDEO-FOUNDATION-MODELS-AS-PHYSICALLY-GROUNDED-HAND-TR",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-08 08:32:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/5be3c47b-d9d9-4ab6-b9f5-9cd63dff65ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/5be3c47b-d9d9-4ab6-b9f5-9cd63dff65ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:51:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hand tracking",
+    "video foundation model",
+    "tactile estimation",
+    "robot learning",
+    "physically grounded",
+    "shape caching",
+    "anatomical pose"
+   ],
+   "field": "具身视觉与机器人学习",
+   "innovations": [
+    "将Cosmos 3视频扩散模型通过clean-latent conditioning转换为确定性clip级特征提取器，并联合估计3D姿态与稠密触觉",
+    "提出shape caching与解剖学约束姿态参数化，消除手部尺度漂移并符合人体运动学",
+    "解耦触觉专家流+LBS-based feature spreading，在pose冻结下实现顶点级接触与力预测"
+   ],
+   "benchmarks": [
+    "HOT3D",
+    "ARCTIC",
+    "EgoDex",
+    "OpenTouch",
+    "PressureVisionDB",
+    "DexYCB"
+   ]
+  }
+ }
 }

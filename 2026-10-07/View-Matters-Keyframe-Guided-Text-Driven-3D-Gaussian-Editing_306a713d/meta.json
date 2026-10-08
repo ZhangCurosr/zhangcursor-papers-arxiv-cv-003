@@ -4,5 +4,33 @@
  "title": "View-Matters-Keyframe-Guided-Text-Driven-3D-Gaussian-Editing",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-07 19:44:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1df2342-3997-4f61-884f-496f936e72ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1df2342-3997-4f61-884f-496f936e72ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:47:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Editing",
+    "Text-driven 3D Editing",
+    "Keyframe Selection",
+    "Multi-view Consistency",
+    "Diffusion-based Editing",
+    "View Reliability"
+   ],
+   "field": "3D场景编辑与生成",
+   "innovations": [
+    "提出三阶段KIE-KGE-IAO框架，显式建模不等视角可靠性并贯穿编辑与优化全流程",
+    "在冻结IP2P注意力层实现关键帧到非关键帧的单向不对称传播，防止反向噪声污染",
+    "通过损失重加权而非专用一致性损失在3DGS优化中保持关键帧优先级"
+   ],
+   "benchmarks": [
+    "Mip-NeRF 360",
+    "IN2N",
+    "CLIP T-I",
+    "CLIP Directional Similarity",
+    "CLIP Temporal Score"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "What-Frame-Level-Labels-Can-and-Cannot-Do-for-Small-UAV-Poin",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-10-07 19:44:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a273c772-04bf-4848-844d-a119ea042728.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a273c772-04bf-4848-844d-a119ea042728.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:48:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督定位",
+    "帧级标签",
+    "小UAV检测",
+    "热红外图像",
+    "点检测",
+    "误报控制"
+   ],
+   "field": "弱监督目标定位",
+   "innovations": [
+    "系统性分析帧级标签训练的点检测架构在小UAV热红外检测中的能力与局限",
+    "揭示定位命中率与误报约束下检测率的分离性及其评估意义",
+    "提出标签分配策略（分散于更多视频优于集中）的实验指导"
+   ],
+   "benchmarks": [
+    "CST Anti-UAV",
+    "Anti-UAV410",
+    "Airborne Object Tracking (AOT)"
+   ]
+  }
+ }
 }

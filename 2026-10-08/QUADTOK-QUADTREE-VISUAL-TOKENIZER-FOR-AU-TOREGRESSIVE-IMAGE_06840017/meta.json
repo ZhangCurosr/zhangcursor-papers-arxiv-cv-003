@@ -4,5 +4,33 @@
  "title": "QUADTOK-QUADTREE-VISUAL-TOKENIZER-FOR-AU-TOREGRESSIVE-IMAGE",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-10-08 08:33:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0110551c-8691-4481-b693-c55efd715821.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0110551c-8691-4481-b693-c55efd715821.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:51:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉分词器",
+    "四叉树",
+    "自回归图像生成",
+    "自适应token分配",
+    "空间布局控制",
+    "零样本生成"
+   ],
+   "field": "自回归图像生成与视觉表示学习",
+   "innovations": [
+    "基于四叉树的视觉分词器 QuadTok，通过层次化结构实现空间自适应 token 分配",
+    "区域复杂度引导策略：探针树+互补树高效估计重建收益，数据驱动选择自适应树结构",
+    "亲属因果掩码：强制粗到细层次依赖，保持 token-区域空间绑定关系"
+   ],
+   "benchmarks": [
+    "ImageNet-1K 256x256 重建",
+    "ImageNet-1K 256x256 类条件生成",
+    "ImageNet-1K 512x512 生成",
+    "MS-COCO 零样本迁移重建",
+    "Zero-shot 空间布局控制"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "VISUAL-ABSTENTION-IN-UNIFIED-MULTIMODAL-MODELS",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-07 19:44:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3147b354-08af-4ec9-a6fe-69b68f8efec1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3147b354-08af-4ec9-a6fe-69b68f8efec1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:47:41",
+  "chunks": 1
+ }
 }

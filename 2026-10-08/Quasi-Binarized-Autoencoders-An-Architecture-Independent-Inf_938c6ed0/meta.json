@@ -4,5 +4,31 @@
  "title": "Quasi-Binarized-Autoencoders-An-Architecture-Independent-Inf",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-10-08 08:33:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/12869fef-1767-4974-9acc-1bcfc5417d0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/12869fef-1767-4974-9acc-1bcfc5417d0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:51:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly detection",
+    "autoencoder",
+    "information bottleneck",
+    "differential privacy",
+    "medical imaging",
+    "reconstruction-based detection",
+    "architecturally-independent bottleneck"
+   ],
+   "field": "医学图像异常检测",
+   "innovations": [
+    "提出 QB 层将信息瓶颈与网络架构解耦，给出仅由ε决定的互信息上界",
+    "QBAE 单一架构+单一配置在 MedIAnomaly 七个数据集上取得 0.828 mean AUROC，跨数据集未适配方法最高",
+    "保留测试期噪声使得每次重建均可审计信息预算，且与输入退化形成正交互补"
+   ],
+   "benchmarks": [
+    "MedIAnomaly (7 datasets)",
+    "BraTS2021 (pixel-level AP/Dice)"
+   ]
+  }
+ }
 }

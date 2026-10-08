@@ -4,5 +4,29 @@
  "title": "Performance-at-What-Cost-A-Sustainability-Aware-Performance",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-08 08:32:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/1f2d1940-074f-421f-9f22-75fcb085b321.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/1f2d1940-074f-421f-9f22-75fcb085b321.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:50:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "绿色AI",
+    "可持续性评估",
+    "实例分割",
+    "能耗测量",
+    "少样本微调",
+    "零样本推理",
+    "SAPI"
+   ],
+   "field": "生物医学图像分析",
+   "innovations": [
+    "提出SAPI指标联合评估分割性能、能耗与模型规模",
+    "建立零样本与少样本双轨受控基准并给出性能-能耗-规模权衡证据"
+   ],
+   "benchmarks": [
+    "CellBinDB"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Perceptually-Aligned-Evaluation-of-Style-Transfer",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-08 08:30:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d96d4b38-65d4-4557-888a-e1d4d862f0fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d96d4b38-65d4-4557-888a-e1d4d862f0fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:50:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "风格迁移",
+    "图像风格迁移",
+    "主观评测",
+    "自动评估指标",
+    "Rank Centrality",
+    "成对比较",
+    "人类偏好对齐"
+   ],
+   "field": "非真实感渲染/风格迁移评测",
+   "innovations": [
+    "ASTRA-Data：双阶段两相选人工成对比较基准，12 风格×6 内容×12 方法共 864 个 triple，推导 Rank Centrality 全局偏好 ground truth",
+    "ASTRA-Score：基于冻结 VGG11 与关系特征（|a-b|, a⊙b, cos）的三头回归评价器，直接从人工偏好学习，LOMO 下 Style Spearman 0.714 显著超越 SRQE 0.390",
+    "揭示风格保真主导人类总体偏好的经验规律（18,747 例冲突中 80.3% 倾向风格），为损失/评测设计提供定性指引"
+   ],
+   "benchmarks": [
+    "ASTRA-Data",
+    "NPRgeneral",
+    "AST-IQAD"
+   ]
+  }
+ }
 }

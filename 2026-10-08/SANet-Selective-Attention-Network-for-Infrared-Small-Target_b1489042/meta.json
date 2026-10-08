@@ -4,5 +4,31 @@
  "title": "SANet-Selective-Attention-Network-for-Infrared-Small-Target",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-10-08 08:34:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/f3f999ca-1107-49e8-997a-bd122de5a43e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/f3f999ca-1107-49e8-997a-bd122de5a43e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:52:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "红外小目标检测",
+    "选择性注意力",
+    "风车形卷积",
+    "U-Net",
+    "特征融合",
+    "虚警抑制"
+   ],
+   "field": "红外小目标检测",
+   "innovations": [
+    "双路径语义感知模块(DSM)融合标准卷积与风车形卷积增强弱小目标感知",
+    "选择性注意力融合模块(SAFM)用动态空间权重替代静态跳跃连接",
+    "多基准全面领先，IoU较次优方法提升1.93~4.32个百分点"
+   ],
+   "benchmarks": [
+    "NUAA-SIRST",
+    "IRSTD-1K",
+    "NUDT-SIRST"
+   ]
+  }
+ }
 }

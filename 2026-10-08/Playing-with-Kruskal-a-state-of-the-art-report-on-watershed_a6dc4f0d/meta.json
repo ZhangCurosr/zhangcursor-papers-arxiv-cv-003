@@ -4,5 +4,31 @@
  "title": "Playing-with-Kruskal-a-state-of-the-art-report-on-watershed",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-10-08 08:30:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/923704e5-456f-4be1-8a89-d0a8a02edb7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/923704e5-456f-4be1-8a89-d0a8a02edb7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:50:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "watershed segmentation",
+    "minimum spanning tree",
+    "binary partition tree",
+    "hierarchical segmentation",
+    "graph-based image analysis",
+    "Kruskal algorithm",
+    "saliency map"
+   ],
+   "field": "图像分割与层次分析",
+   "innovations": [
+    "统一基于Kruskal MST算法的分水岭计算框架，将平坦/层次/监督变体整合至BPTAO数据结构",
+    "建立分水岭切割与最小生成森林的等价定理及层次多尺度最优性证明",
+    "提供从图构建到连通分量标记的完整端到端线性时间算法流水线"
+   ],
+   "benchmarks": [
+    "BSDS500",
+    "Higra库示例"
+   ]
+  }
+ }
 }

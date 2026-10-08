@@ -4,5 +4,10 @@
  "title": "SHARED-GEOMETRY-AS-A-ROSETTA-STONE-CROSS-MODAL-ALIGNMENT-WIT",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-08 08:33:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9c50562d-726e-4ece-adf4-f408e9b88b61.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9c50562d-726e-4ece-adf4-f408e9b88b61.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:54:20",
+  "chunks": 1
+ }
 }

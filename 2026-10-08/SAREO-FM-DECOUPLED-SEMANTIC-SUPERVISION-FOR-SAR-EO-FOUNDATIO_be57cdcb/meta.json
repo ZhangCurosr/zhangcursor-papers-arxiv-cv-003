@@ -4,5 +4,10 @@
  "title": "SAREO-FM-DECOUPLED-SEMANTIC-SUPERVISION-FOR-SAR-EO-FOUNDATIO",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-08 08:34:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/773d4603-1232-4f0d-8b60-75c6f20ff4a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/773d4603-1232-4f0d-8b60-75c6f20ff4a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:53:28",
+  "chunks": 1
+ }
 }

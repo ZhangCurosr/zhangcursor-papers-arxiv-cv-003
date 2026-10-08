@@ -4,5 +4,32 @@
  "title": "REAL-TIME-JOINT-AUDIO-VIDEO-GENERATION-BY-PARALLEL-ADAPTER-C",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-10-08 08:31:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/53619e2e-108b-49bd-853d-aa8444c3ef5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/53619e2e-108b-49bd-853d-aa8444c3ef5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:51:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "joint audio-video generation",
+    "real-time streaming",
+    "parallel adapter composition",
+    "causal diffusion",
+    "model merging",
+    "few-step distillation"
+   ],
+   "field": "实时联合音频-视频生成",
+   "innovations": [
+    "提出并行适配器组合方法，因果化与少步蒸馏独立训练后权重相加，无需链式联合训练",
+    "干净上下文教师强制训练策略，仅用单次 flow-matching regression 实现块因果化",
+    "预测并验证两适配器更新方向近似正交（写干扰仅比随机高26%），加和无需正交约束"
+   ],
+   "benchmarks": [
+    "AVSpeech",
+    "HDTF",
+    "VidChatBench",
+    "自建held-out benchmark (480×832/640×640)"
+   ]
+  }
+ }
 }

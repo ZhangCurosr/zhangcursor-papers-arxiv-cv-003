@@ -4,5 +4,33 @@
  "title": "ROBOQUEST-GENERALIST-PHYSICAL-AGENTS-THAT-SEARCH-INSPECT-AND",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-08 08:33:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9ff3b963-f17b-4eb1-9126-f6f51e4a9373.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9ff3b963-f17b-4eb1-9126-f6f51e4a9373.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:52:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied exploration",
+    "active perception",
+    "robotic manipulation benchmark",
+    "multimodal agents",
+    "failure analysis",
+    "VLA"
+   ],
+   "field": "具身智能与主动感知",
+   "innovations": [
+    "提出RoboQuest基准，首次系统评估多模态代理在目标导向具身探索中的证据寻求能力",
+    "设计搜索/检查/测试三类不确定性任务，揭示探索决策而非执行技能是当前瓶颈"
+   ],
+   "benchmarks": [
+    "RoboQuest",
+    "RoboCasa365",
+    "RLBench",
+    "CALVIN",
+    "LIBERO",
+    "ManiSkill3"
+   ]
+  }
+ }
 }

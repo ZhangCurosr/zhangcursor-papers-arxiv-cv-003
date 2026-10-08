@@ -4,5 +4,32 @@
  "title": "PalmSpace-Towards-a-Versatile-On-Palm-Interaction-Space-thro",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-08 08:33:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/3d1f1ea5-e75d-4f94-8476-28dc19649dfd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/3d1f1ea5-e75d-4f94-8476-28dc19649dfd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:49:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "palm-based input",
+    "wearable interaction",
+    "smart glasses",
+    "unified touch modeling",
+    "multi-task transformer",
+    "absolute localization"
+   ],
+   "field": "可穿戴/体感人机交互",
+   "innovations": [
+    "提出同时编码接触、位置与交互模式的手掌统一表示",
+    "以手掌归一化坐标实现跨用户免校准绝对定位",
+    "多任务 Transformer 联合学习替代独立双模型并提升零样本户外泛化"
+   ],
+   "benchmarks": [
+    "LOPO 离线评测（17 用户，63,903 帧）",
+    "Fitts 定律指向/拖拽用户研究",
+    "盲打数字输入用户研究",
+    "户外日间/夜间鲁棒性验证"
+   ]
+  }
+ }
 }

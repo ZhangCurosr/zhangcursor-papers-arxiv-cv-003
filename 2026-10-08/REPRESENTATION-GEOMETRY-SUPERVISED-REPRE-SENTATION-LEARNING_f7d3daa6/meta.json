@@ -4,5 +4,30 @@
  "title": "REPRESENTATION-GEOMETRY-SUPERVISED-REPRE-SENTATION-LEARNING",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-08 08:30:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/4dd0e9b9-0c00-4d73-a8a8-a91c6f9f13a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/4dd0e9b9-0c00-4d73-a8a8-a91c6f9f13a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:51:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学视觉语言模型",
+    "几何监督表示学习",
+    "反事实推理",
+    "病理表型表征",
+    "病灶定位",
+    "细粒度对齐"
+   ],
+   "field": "医学视觉语言模型表示学习",
+   "innovations": [
+    "将病理表型建模为相对于正常解剖的几何监督反事实增量表示，而非依赖文本语义对齐",
+    "BaseAnatomy 通过理想空间分布建立跨结构几何与结构内连续性约束的稳定解剖表征空间",
+    "DeltaPhenotype 以邻近正常 patch 加权估算反事实正常参考，显式学习表型特异性增量并随样本累积持续聚类细化"
+   ],
+   "benchmarks": [
+    "ReXGroundingCT",
+    "LIDC-IDRI"
+   ]
+  }
+ }
 }

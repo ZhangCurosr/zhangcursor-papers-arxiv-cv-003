@@ -4,5 +4,33 @@
  "title": "MultiFly-A-Real-World-Multimodal-Aerial-Dataset-with-Annotat",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-08 08:32:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d1d9334e-9696-4a9e-94ff-15407f00a438.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d1d9334e-9696-4a9e-94ff-15407f00a438.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 09:49:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "UAV dataset",
+    "multimodal semantic segmentation",
+    "LiDAR",
+    "radar",
+    "thermal imagery",
+    "label transfer",
+    "cross-modal consistency"
+   ],
+   "field": "多模态无人机语义感知",
+   "innovations": [
+    "从115张RGB标注图像通过几何驱动传播生成17,272帧四模态（RGB/热红外/LiDAR/雷达）语义标签，平均转移准确率89.93%",
+    "首次提供公开的四模态同步低空无人机语义分割基准，跨模态语义一致性达90.94%",
+    "揭示稀疏雷达上稀疏卷积（SpUNet）优于Point Transformer的发现"
+   ],
+   "benchmarks": [
+    "RGB semantic segmentation (Firefly/SegFormer/UPerNet)",
+    "Thermal semantic segmentation",
+    "LiDAR semantic segmentation (SpUNet/LitePT/PTv3)",
+    "Radar semantic segmentation (SpUNet/LitePT/PTv3)"
+   ]
+  }
+ }
 }
