@@ -4,5 +4,33 @@
  "title": "TWO-VECTORS-REPLACE-IN-CONTEXT-DEMOS-STRUCTURED-TASK-ADAPTAT",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-07 19:44:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/28154ef9-f6ea-4a7a-aabe-fd5979a729d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/28154ef9-f6ea-4a7a-aabe-fd5979a729d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:41:20",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "任务向量",
+    "上下文学习",
+    "免演示方法",
+    "LMM适应",
+    "双向量架构"
+   ],
+   "field": "多模态大模型高效适应",
+   "innovations": [
+    "双向量分离架构：readout与context向量分别承担分布调整与生成保证功能",
+    "免演示paired训练策略：source/demo与target/no-demo对比保证格式鲁棒性",
+    "输入嵌入层直接注入：depth=0优化实现32KiB存储与zero-shot推理成本一致"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "OK-VQA",
+    "TV benchmark (18 tasks)",
+    "COCO Karpathy",
+    "VizWiz"
+   ]
+  }
+ }
 }

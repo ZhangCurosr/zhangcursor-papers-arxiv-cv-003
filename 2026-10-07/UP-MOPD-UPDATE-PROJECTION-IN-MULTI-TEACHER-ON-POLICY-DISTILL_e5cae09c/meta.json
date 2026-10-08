@@ -4,5 +4,39 @@
  "title": "UP-MOPD-UPDATE-PROJECTION-IN-MULTI-TEACHER-ON-POLICY-DISTILL",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-10-07 19:43:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5e0b83d6-0eb2-4eb4-8de3-aa55f9a59ca8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5e0b83d6-0eb2-4eb4-8de3-aa55f9a59ca8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:40:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "multi-teacher",
+    "update projection",
+    "AdamW",
+    "gradient surgery",
+    "capability consolidation"
+   ],
+   "field": "大语言模型后训练与多任务学习",
+   "innovations": [
+    "提出在AdamW优化器输出层对候选参数位移进行欧氏最小投影以消除域间一阶冲突",
+    "证明梯度空间可行性不保证参数更新可行性并构造对角预条件反例",
+    "设计仅依赖活跃域数的低维对偶求解与分布式Gram流式构建"
+   ],
+   "benchmarks": [
+    "HealthBench-Hard",
+    "MedMCQA",
+    "PubMedQA",
+    "MMLU-Med",
+    "GPQA",
+    "IFEval",
+    "AIME24",
+    "AIME25",
+    "LiveCodeBench v5",
+    "LiveCodeBench v6",
+    "IFBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "TSRN-RTVD-Real-Time-Video-Deblurring-System",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-07 19:43:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6fa09881-55c8-41db-9aee-a37b3e07394e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6fa09881-55c8-41db-9aee-a37b3e07394e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:39:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "real-time video deblurring",
+    "camera trajectory prior",
+    "recurrent network",
+    "motion compensation",
+    "Pareto frontier",
+    "GoPro benchmark"
+   ],
+   "field": "实时视频恢复",
+   "innovations": [
+    "轨迹信号替代稠密光流实现轻量对齐",
+    "循环残差架构在低分辨率特征空间高效融合时序信息",
+    "流式缓存复用保障消费级GPU实时吞吐"
+   ],
+   "benchmarks": [
+    "GoPro"
+   ]
+  }
+ }
 }

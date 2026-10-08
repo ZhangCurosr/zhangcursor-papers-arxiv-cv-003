@@ -4,5 +4,10 @@
  "title": "The-Failure-Is-in-the-Readout-Fine-Grained-Emotion-Recogniti",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-07 19:44:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b664bd59-1bad-483d-8081-d49a95bf153d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b664bd59-1bad-483d-8081-d49a95bf153d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:40:06",
+  "chunks": 1
+ }
 }

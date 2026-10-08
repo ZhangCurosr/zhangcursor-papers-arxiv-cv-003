@@ -4,5 +4,39 @@
  "title": "UNSUPERVISED-LONG-TAILED-ADAPTATION-OFVISION-LANGUAGE-MODELS",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-10-07 19:44:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1ecd4fc-6edc-4bf2-80e0-9997e80a9c9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d1ecd4fc-6edc-4bf2-80e0-9997e80a9c9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:40:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督长尾适应",
+    "视觉语言模型",
+    "伪标签去噪",
+    "边界保持",
+    "长尾学习"
+   ],
+   "field": "无监督视觉语言模型适应",
+   "innovations": [
+    "首次揭示无监督长尾适应中头部类别性能倒置退化现象",
+    "提出基于零样本视觉参考的边界保持对齐模块",
+    "设计动态门控与累积边界一致性相结合的自 refine 机制"
+   ],
+   "benchmarks": [
+    "CUB",
+    "RESISC45",
+    "FGVCAircraft",
+    "Caltech101",
+    "EuroSAT",
+    "Flowers102",
+    "Food101",
+    "OxfordPets",
+    "StanfordCars",
+    "Places-LT",
+    "ImageNet-LT",
+    "iNaturalist2018"
+   ]
+  }
+ }
 }

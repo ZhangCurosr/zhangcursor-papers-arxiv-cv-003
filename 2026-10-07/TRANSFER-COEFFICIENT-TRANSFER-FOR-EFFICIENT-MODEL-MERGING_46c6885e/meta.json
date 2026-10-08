@@ -4,5 +4,31 @@
  "title": "TRANSFER-COEFFICIENT-TRANSFER-FOR-EFFICIENT-MODEL-MERGING",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-07 19:44:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9c856a16-18c6-4241-8c16-0939858d43c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9c856a16-18c6-4241-8c16-0939858d43c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:39:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model merging",
+    "coefficient transfer",
+    "proxy model",
+    "task vector",
+    "model scaling",
+    "multi-task learning"
+   ],
+   "field": "模型合并与效率优化",
+   "innovations": [
+    "提出在小型代理模型上搜索合并系数并迁移至大型目标模型的αTransfer范式",
+    "建立编辑+加权的统一合并形式化框架并设计跨层深相对深度映射策略",
+    "证明同家族模型间合并系数性能分布的高度跨尺度可迁移性"
+   ],
+   "benchmarks": [
+    "CLIP-ViT, SigLIP 视觉分类",
+    "Qwen3 LLM 语言任务",
+    "8项视觉任务, 4项语言任务"
+   ]
+  }
+ }
 }

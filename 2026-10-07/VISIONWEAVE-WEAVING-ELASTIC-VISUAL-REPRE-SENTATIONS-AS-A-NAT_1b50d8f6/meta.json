@@ -4,5 +4,32 @@
  "title": "VISIONWEAVE-WEAVING-ELASTIC-VISUAL-REPRE-SENTATIONS-AS-A-NAT",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-10-07 19:45:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1acb3a05-44a2-4216-84dd-b702a84d42de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1acb3a05-44a2-4216-84dd-b702a84d42de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:41:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Models",
+    "Visual Token Efficiency",
+    "Adaptive Representation",
+    "Self-Distillation",
+    "Inference Acceleration"
+   ],
+   "field": "多模态大模型效率优化",
+   "innovations": [
+    "提出通过三阶段自蒸馏将弹性视觉表征编织内化为MLLM原生能力",
+    "设计门控空间池化器与粒度路由器，实现内容自适应的细/粗粒度视觉token替换",
+    "在现代推理引擎SGLang上验证端到端吞吐量与延迟收益"
+   ],
+   "benchmarks": [
+    "Real-WorldQA",
+    "DocVQA",
+    "ScreenSpotV2",
+    "Video-MME",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

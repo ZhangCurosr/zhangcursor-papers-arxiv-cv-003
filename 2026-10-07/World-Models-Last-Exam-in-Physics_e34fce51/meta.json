@@ -4,5 +4,32 @@
  "title": "World-Models-Last-Exam-in-Physics",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-07 19:43:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dc52c3bb-aa07-4d60-aaeb-ba22ecbd21b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dc52c3bb-aa07-4d60-aaeb-ba22ecbd21b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:42:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "物理一致性",
+    "基准测试",
+    "世界模型",
+    "定量评估",
+    "可解释评测"
+   ],
+   "field": "视频生成物理一致性评估",
+   "innovations": [
+    "跨9类物理域的40任务测量基准，无需参考视频即可定量评估物理一致性",
+    "分离时序一致性筛选与任务特定物理量提取的两阶段可解释评估协议",
+    "利用比例消元设计免标定测量，揭示视频模型在物理正确性上的显著差距"
+   ],
+   "benchmarks": [
+    "World Models' Last Exam in Physics (40 tasks, 9 categories)",
+    "Seedance-2.5 57.76/100 (best overall)",
+    "Synthetic reference validation 97.53/100",
+    "Human agreement 51.58% ranking / 53.12% pairwise"
+   ]
+  }
+ }
 }

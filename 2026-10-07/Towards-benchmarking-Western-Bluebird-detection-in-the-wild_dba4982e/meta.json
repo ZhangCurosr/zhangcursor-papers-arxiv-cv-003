@@ -4,5 +4,30 @@
  "title": "Towards-benchmarking-Western-Bluebird-detection-in-the-wild",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-07 19:44:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5896faf5-6b65-44e5-8e93-b6cc1ccd1610.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5896faf5-6b65-44e5-8e93-b6cc1ccd1610.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:40:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "bird detection",
+    "open-vocabulary detection",
+    "small-object detection",
+    "ecological monitoring",
+    "segmentation benchmark",
+    "domain adaptation"
+   ],
+   "field": "生态视觉与小目标检测",
+   "innovations": [
+    "提出面向野外固定摄像头西方蓝鸟检测与分割的基准数据集与会话级划分协议",
+    "在多范式（监督/Transformer/开放词汇/提示分割）统一评测中揭示该生态小目标场景的难度与排序偏移",
+    "提供多维度困难因子诊断与多变量逻辑回归分析，给出可解释的失败归因"
+   ],
+   "benchmarks": [
+    "Western Bluebird Detection and Segmentation Benchmark",
+    "Error-analysis diagnostic split (505 additional 4K frames)"
+   ]
+  }
+ }
 }
