@@ -4,5 +4,30 @@
  "title": "SkillCycle-Evolving-Skills-through-Internalization",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-10-08 08:31:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/87cd8e92-f0ee-4c9b-ac72-b86d56c8d682.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/87cd8e92-f0ee-4c9b-ac72-b86d56c8d682.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:20:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Skill Internalization",
+    "Agent Reinforcement Learning",
+    "Skill Distillation",
+    "Policy-Skill Co-evolution",
+    "On-policy Distillation",
+    "Skill Routing"
+   ],
+   "field": "Language Agent Reinforcement Learning",
+   "innovations": [
+    "策略-技能协同演化框架：交替内部化与修订形成闭环反馈",
+    "蒸馏反馈双重角色：OPD信号同时用于策略监督与规则诊断",
+    "配对环境验证机制：规则级+全库级两段验证确保编辑安全提交"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

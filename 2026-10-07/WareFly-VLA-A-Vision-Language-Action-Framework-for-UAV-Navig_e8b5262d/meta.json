@@ -4,5 +4,10 @@
  "title": "WareFly-VLA-A-Vision-Language-Action-Framework-for-UAV-Navig",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-07 19:45:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/93a210f4-1644-4b8e-8a7e-de5b7304ad3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/93a210f4-1644-4b8e-8a7e-de5b7304ad3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:19:00",
+  "chunks": 1
+ }
 }

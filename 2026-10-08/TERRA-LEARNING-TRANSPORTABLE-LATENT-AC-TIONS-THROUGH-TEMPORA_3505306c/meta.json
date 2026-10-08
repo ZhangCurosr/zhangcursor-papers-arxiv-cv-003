@@ -4,5 +4,29 @@
  "title": "TERRA-LEARNING-TRANSPORTABLE-LATENT-AC-TIONS-THROUGH-TEMPORA",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-08 08:31:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/93a18588-206c-44e9-ad3a-51d382ab2274.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/93a18588-206c-44e9-ad3a-51d382ab2274.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:20:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent action",
+    "visual-language-action",
+    "transfer representation",
+    "temporal effect",
+    "robot policy"
+   ],
+   "field": "具身智能/视觉-语言-动作模型",
+   "innovations": [
+    "时间效应表示：在帧差外引入低阶窗口动态分量以保留变化过程",
+    "效应锚定迁移：通过固定描述符在同一效应空间约束隐码跨状态的解码一致性",
+    "相对效应一致性：EMA 解耦目标联合共享解码器保持多隐码间关系稳定"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "Open X-Embodiment"
+   ]
+  }
+ }
 }

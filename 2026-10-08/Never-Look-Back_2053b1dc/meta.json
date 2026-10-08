@@ -4,5 +4,30 @@
  "title": "Never-Look-Back",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-10-08 08:33:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/5c937ee5-291b-4f30-9ce2-82b9f824d9bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/5c937ee5-291b-4f30-9ce2-82b9f824d9bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:19:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric memory",
+    "3D object tracking",
+    "spatial QA",
+    "persistent memory",
+    "first-person video"
+   ],
+   "field": "第一人称视觉中的持久化空间记忆",
+   "innovations": [
+    "基于重复证据的移动持久化规则区分定位噪声与真实运动",
+    "无帧文本记忆实现高效空间问答",
+    "上下文描述增强物体记录的语义丰富性"
+   ],
+   "benchmarks": [
+    "HD-EPIC",
+    "Ego4D VQ3D",
+    "UCS-Bench"
+   ]
+  }
+ }
 }

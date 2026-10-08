@@ -4,5 +4,32 @@
  "title": "Visual-Orchestration-Tax-in-Agentic-VLM-Pipelines-Auditing-a",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-07 19:44:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d3e0acf8-cbdf-4031-bcda-9eb49091a241.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d3e0acf8-cbdf-4031-bcda-9eb49091a241.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:18:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "vision-language models",
+    "visual evidence reuse",
+    "orchestration tax",
+    "redundancy audit",
+    "SharedVisCache"
+   ],
+   "field": "多模态Agent效率与可观测性",
+   "innovations": [
+    "形式化视觉编排税为可度量冗余模式并引入M1/M2指标体系",
+    "提出契约感知缓存SharedVisCache，以image_hash+preprocess_fingerprint+encoder_contract构建可验证复用键",
+    "在350个配对样本上实现75%视觉触摸复用且保持100%输出一致性与ΔM5=0"
+   ],
+   "benchmarks": [
+    "ChartQA",
+    "MMMU-dev",
+    "DocVQA",
+    "MMQA-dev"
+   ]
+  }
+ }
 }

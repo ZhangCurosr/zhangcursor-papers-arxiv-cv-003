@@ -4,5 +4,35 @@
  "title": "SoccerNet-FoulRet-Retrieving-Semantically-Similar-Soccer-Fou",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-08 08:37:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9ac23301-6d3e-4c8c-ae66-57ccf9a7a8d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9ac23301-6d3e-4c8c-ae66-57ccf9a7a8d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:20:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频检索",
+    "语义相似度",
+    "足球犯规",
+    "裁判辅助",
+    "零样本学习",
+    "对比学习",
+    "基准构建"
+   ],
+   "field": "视频语义检索",
+   "innovations": [
+    "首个足球犯规语义检索基准，以人类验证先例相关性为核心评估目标",
+    "揭示类别监督微调对先例检索的有限迁移，证明类别相似性与判例相关性存在本质差距",
+    "发现更具体的查询指令反而损害零样本检索性能，规模扩展无效"
+   ],
+   "benchmarks": [
+    "SoccerNet-FoulRet",
+    "SoccerNet-MVFoul",
+    "SoccerNet-XFoul",
+    "ConViS-Bench",
+    "FIVR-200K",
+    "EVVE"
+   ]
+  }
+ }
 }

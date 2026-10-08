@@ -4,5 +4,32 @@
  "title": "ScribbleEdit-A-Benchmark-for-Scribble-Only-Image-Editing",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-10-08 08:37:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/bac9b5a5-1927-4d19-be6a-775d95d1deb7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/bac9b5a5-1927-4d19-be6a-775d95d1deb7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:19:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scribble-only image editing",
+    "visual prompt understanding",
+    "intention alignment",
+    "diffusion image editing",
+    "benchmark construction",
+    "soft-token injection"
+   ],
+   "field": "可控图像生成与视觉交互",
+   "innovations": [
+    "提出ScribbleEdit基准与Intention Accuracy意图解耦评测指标",
+    "CLIP+MLP软token注入实现草图语义可分空间投影",
+    "揭示VLM预训练缺失草图信号导致意图理解严重不足"
+   ],
+   "benchmarks": [
+    "ScribbleEdit",
+    "AnyEdit",
+    "Focused SSIM/CLIP-sim",
+    "Intention Accuracy via ConvNeXt"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Spatial-Latent-Reasoning-for-Embodied-Reference-Understandin",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-10-08 08:35:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/65c475c3-423e-4883-b77c-1fe125f6b1fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/65c475c3-423e-4883-b77c-1fe125f6b1fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:20:43",
+  "chunks": 1
+ }
 }

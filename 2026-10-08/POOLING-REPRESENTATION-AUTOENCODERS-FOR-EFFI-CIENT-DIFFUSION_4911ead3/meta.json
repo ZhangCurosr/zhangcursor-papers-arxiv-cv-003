@@ -4,5 +4,29 @@
  "title": "POOLING-REPRESENTATION-AUTOENCODERS-FOR-EFFI-CIENT-DIFFUSION",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-10-08 08:36:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/87bddc62-806a-48d9-a4ec-3e10f26b8f18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/87bddc62-806a-48d9-a4ec-3e10f26b8f18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:19:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Representation Autoencoder",
+    "Diffusion Model",
+    "Token Compression",
+    "Efficient Generation",
+    "Internal Guidance"
+   ],
+   "field": "高效图像生成",
+   "innovations": [
+    "提出 PoolDINO 仿射池化操作符，联合训练压缩与 RGB 解码器，无需额外特征自动编码器即可压缩 RAE 潜在表示",
+    "系统刻画 4× 至 16× Token 压缩下生成质量与采样吞吐量的权衡，16× 压缩在 IG+CFG 下 FID 1.35 且吞吐量提升 9×"
+   ],
+   "benchmarks": [
+    "ImageNet-256",
+    "ADE20K",
+    "NYUv2"
+   ]
+  }
+ }
 }

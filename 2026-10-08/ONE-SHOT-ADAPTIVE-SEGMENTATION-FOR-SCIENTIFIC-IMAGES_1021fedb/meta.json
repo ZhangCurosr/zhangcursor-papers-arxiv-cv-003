@@ -4,5 +4,30 @@
  "title": "ONE-SHOT-ADAPTIVE-SEGMENTATION-FOR-SCIENTIFIC-IMAGES",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-08 08:31:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/83d7d0da-8384-441b-a299-19524601668b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/83d7d0da-8384-441b-a299-19524601668b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:19:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "One-shot Segmentation",
+    "Scientific Imaging",
+    "DINOv3",
+    "SAM",
+    "Training-Free Adaptation",
+    "Feature Orthogonalization"
+   ],
+   "field": "科学图像分割与视觉基础模型适配",
+   "innovations": [
+    "提出背景自适应正交投影，利用参考图标注背景估计干扰方向并剔除，优于通用噪声投影",
+    "免训练one-shot框架，仅用单张标注参考图即可适配冻结DINOv3+SAM到特定科学分割任务"
+   ],
+   "benchmarks": [
+    "100k-RBC-PathOlOgics",
+    "Structured-Illumination Pool Boiling",
+    "Montgomery County Chest X-Ray"
+   ]
+  }
+ }
 }
