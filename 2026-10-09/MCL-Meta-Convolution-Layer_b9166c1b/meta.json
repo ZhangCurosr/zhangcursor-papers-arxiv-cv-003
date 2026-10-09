@@ -4,5 +4,36 @@
  "title": "MCL-Meta-Convolution-Layer",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-10-09 08:36:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c7962404-3a94-47d4-8995-cd82ad5c53a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c7962404-3a94-47d4-8995-cd82ad5c53a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:21:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "动态卷积",
+    "多项式网络",
+    "输入自适应核",
+    "Meta Convolution",
+    "细粒度视觉分类",
+    "CNN",
+    "Transformer"
+   ],
+   "field": "卷积神经网络架构设计",
+   "innovations": [
+    "提出MCL通过高阶多项式展开直接生成单输入自适应核，替代动态卷积的多核线性混合",
+    "基于NCP-Skip残差结构实现2^N阶多项式展开，无需softmax温度调度即可稳定训练",
+    "MCL作为即插即用模块在CNN和Transformer主干上均获得一致性提升"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "CIFAR-10",
+    "CIFAR-100",
+    "NABirds",
+    "CUB-200-2011",
+    "Oxford-102 Flowers",
+    "Oxford-IIIT Pets"
+   ]
+  }
+ }
 }

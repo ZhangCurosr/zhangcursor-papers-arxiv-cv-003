@@ -4,5 +4,29 @@
  "title": "MATE4D-Matrix-Guided-Editable-4D-Generation-from-a-Single-Im",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-10-09 08:38:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3bae7916-840d-4d44-a5dd-84feea9c05ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3bae7916-840d-4d44-a5dd-84feea9c05ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:21:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单图 4D 生成",
+    "高斯泼溅",
+    "背景编辑",
+    "多视图合成",
+    "动态场景重建"
+   ],
+   "field": "单图 4D 内容生成",
+   "innovations": [
+    "时空图像矩阵模块增强几何完整性",
+    "轻量形变场与 SDS 损失平衡保真与泛化",
+    "文本引导背景编辑实现前景环境解耦"
+   ],
+   "benchmarks": [
+    "Objaverse-XL",
+    "Difusion4D"
+   ]
+  }
+ }
 }

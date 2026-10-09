@@ -4,5 +4,29 @@
  "title": "JUST-WEATHER-SCORING-EFFICIENT-END-TO-END-NOWCASTING-WITH-DI",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-10-09 08:39:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d851a25c-7cc6-46cc-80b5-b883bc176f19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d851a25c-7cc6-46cc-80b5-b883bc176f19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:20:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "precipitation nowcasting",
+    "diffusion model",
+    "pixel-space generation",
+    "probabilistic forecasting",
+    "distributional diffusion"
+   ],
+   "field": "气象深度学习/降水短时预报",
+   "innovations": [
+    "端到端像素空间扩散短时预报，消除压缩不确定性",
+    "掩码异步扩散(MAD)时间步采样策略",
+    "简单分布扩散(sDDM)无超参数目标函数"
+   ],
+   "benchmarks": [
+    "SEVIR",
+    "MeteoNet"
+   ]
+  }
+ }
 }

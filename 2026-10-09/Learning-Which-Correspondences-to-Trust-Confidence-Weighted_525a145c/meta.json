@@ -4,5 +4,29 @@
  "title": "Learning-Which-Correspondences-to-Trust-Confidence-Weighted",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-10-09 08:37:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/78e839d4-9863-42c1-877e-e33914cebfc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/78e839d4-9863-42c1-877e-e33914cebfc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:21:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "event camera localization",
+    "LiDAR map",
+    "correspondence confidence",
+    "differentiable PnP",
+    "cross-modal registration"
+   ],
+   "field": "事件相机视觉定位",
+   "innovations": [
+    "通过可微概率PnP的姿态监督学习逐对应关系置信度，避免光流误差的深度依赖偏差",
+    "解耦训练策略使置信度头通过pose loss学习但不污染光流骨干网络梯度",
+    "置信度三重应用：光流监督重加权、概率对应选择与边缘匹配细化"
+   ],
+   "benchmarks": [
+    "M3ED",
+    "DSEC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "MAMHOI-Factorizing-Scene-Aware-Human-Object-Interaction-thro",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-09 08:30:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cdb8791c-658a-452a-bb12-69a99190b7cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cdb8791c-658a-452a-bb12-69a99190b7cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:21:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-Object Interaction",
+    "Scene-aware Motion Generation",
+    "Affordance",
+    "Diffusion Model",
+    "3D Human Motion",
+    "Factorized Generation"
+   ],
+   "field": "人体-物体交互生成",
+   "innovations": [
+    "通过运动affordance解耦场景可行性推理与交互动力学生成，分别利用HSI和HOI数据独立训练",
+    "设计affordance-aware排名损失L_rank，通过正负运动对SDF对比提供密集相对监督",
+    "将局部场景体素规范到人体坐标系，显著提升场景感知运动生成质量"
+   ],
+   "benchmarks": [
+    "OMOMO",
+    "LINGO",
+    "TRUMANS"
+   ]
+  }
+ }
 }

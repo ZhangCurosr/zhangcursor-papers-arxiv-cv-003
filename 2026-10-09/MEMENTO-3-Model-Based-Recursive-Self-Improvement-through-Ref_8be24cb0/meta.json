@@ -4,5 +4,31 @@
  "title": "MEMENTO-3-Model-Based-Recursive-Self-Improvement-through-Ref",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-09 08:37:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/505a3991-7191-4d42-ad8f-16cfc3d8822c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/505a3991-7191-4d42-ad8f-16cfc3d8822c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:21:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Models",
+    "Recursive Self-Improvement",
+    "Large Language Model Agents",
+    "Executable Programming",
+    "ARC-AGI-3",
+    "Reflective Memory",
+    "Model-Based Reinforcement Learning"
+   ],
+   "field": "世界模型与智能体持续学习",
+   "innovations": [
+    "提出 Code as Model 框架，将冻结 LLM 的世界模型表示为可修订的自然语言规则手册与可执行代码配对",
+    "设计观察-反思-修订-编译-验证五步反射式学习闭环，利用预测误差驱动模型迭代而 LLM 参数固定",
+    "引入种群扩展机制，并行维护多个兼容世界模型并共享交互历史，按行为等价类采样引导探索"
+   ],
+   "benchmarks": [
+    "ARC-AGI-3",
+    "Atari Pong"
+   ]
+  }
+ }
 }

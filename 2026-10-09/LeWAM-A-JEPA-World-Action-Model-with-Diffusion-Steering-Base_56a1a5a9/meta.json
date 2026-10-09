@@ -4,5 +4,35 @@
  "title": "LeWAM-A-JEPA-World-Action-Model-with-Diffusion-Steering-Base",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-10-09 08:34:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/16198aed-13ce-4ccc-bc18-36df222acb11.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/16198aed-13ce-4ccc-bc18-36df222acb11.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:20:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Model",
+    "JEPA",
+    "Diffusion Steering",
+    "MPC",
+    "Flow Matching",
+    "Decoder-free World Model",
+    "Robotic Control"
+   ],
+   "field": "具身智能与机器人学习",
+   "innovations": [
+    "提出 LeWAM：首个 decoder-free 四模态 JEPA 世界动作模型，在单一双向 transformer 上联合训练前向/后向/逆动力学与流匹配策略",
+    "提出扩散导航（Diffusion Steering）：将采样式 MPC 搜索变量移至流匹配策略噪声空间，并通过投影到典型集合保证候选动作合理性",
+    "实证表明动作空间 MPC 在小数据下因利用动力学误差而失败，DS 规划显著提升闭环成功率"
+   ],
+   "benchmarks": [
+    "PushT",
+    "robomimic Lift",
+    "robomimic Can",
+    "robomimic Square",
+    "robomimic ToolHang",
+    "robomimic Transport"
+   ]
+  }
+ }
 }
