@@ -4,5 +4,30 @@
  "title": "TiTok-Audio-Visual-LLM-for-Multi-Segment-Temporal-Grounding",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-10-08 19:50:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/65c5634d-a44a-48bb-9bb5-714252431533.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/65c5634d-a44a-48bb-9bb5-714252431533.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:17:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Segment Temporal Grounding",
+    "Audio-Visual LLM",
+    "Reinforcement Learning",
+    "Count Miscalibration",
+    "Time Token Interleaving",
+    "GDPO"
+   ],
+   "field": "多模态时序定位",
+   "innovations": [
+    "提出 TTI 机制，将特殊时间令牌交织入音视频流实现输入输出时间对齐",
+    "设计五解耦多片段导向奖励并采用 GDPO 优化，有效缓解计数失配",
+    "建立 UnAV-100 评估协议并提出 CountF1 指标量化计数校准能力"
+   ],
+   "benchmarks": [
+    "UnAV-100",
+    "Charades-STA"
+   ]
+  }
+ }
 }

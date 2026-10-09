@@ -4,5 +4,10 @@
  "title": "Playing-with-Kruskal-a-state-of-the-art-report-on-watershed",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-10-08 19:46:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/70773277-8010-45dc-9667-3ac5793bc954.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/70773277-8010-45dc-9667-3ac5793bc954.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:16:33",
+  "chunks": 1
+ }
 }

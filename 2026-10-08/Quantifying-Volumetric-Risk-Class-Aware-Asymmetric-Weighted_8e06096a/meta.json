@@ -4,5 +4,30 @@
  "title": "Quantifying-Volumetric-Risk-Class-Aware-Asymmetric-Weighted",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-08 19:45:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/801ebaec-755c-4777-a6ce-616c9db0c51a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/801ebaec-755c-4777-a6ce-616c9db0c51a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:16:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conformal prediction",
+    "uncertainty quantification",
+    "3D medical image segmentation",
+    "covariate shift",
+    "asymmetric weighting",
+    "multimodal LLM report generation"
+   ],
+   "field": "医学图像分割与不确定性量化",
+   "innovations": [
+    "将方向分位数与非对称因子引入 3D 多类体积 CP，显式刻画类别偏置",
+    "提供加权可交换下的边际覆盖理论保证并讨论权重近似带来的降级",
+    "把校准体积区间结构化输入多模态 LLM 生成不确定度感知的放射报告"
+   ],
+   "benchmarks": [
+    "BraTS 2020",
+    "Synthetic Multi-organ CT (MAISI-v2 / NV-Generate-CTMR)"
+   ]
+  }
+ }
 }

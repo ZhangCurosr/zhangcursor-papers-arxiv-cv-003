@@ -4,5 +4,37 @@
  "title": "On-the-Necessity-of-Attention-FFN-Split-in-Vision-Transforme",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-10-08 19:45:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d9ce90de-3410-4a51-b9a0-b420311fcb31.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d9ce90de-3410-4a51-b9a0-b420311fcb31.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:15:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "inductive bias",
+    "attention-FFN dichotomy",
+    "AttenFeed",
+    "uViT",
+    "model scaling"
+   ],
+   "field": "视觉Transformer架构分析",
+   "innovations": [
+    "提出AttenFeed模块，在Attention的OV circuit中嵌入GELU激活，统一Attention和FFN功能",
+    "构建uViT控制架构，消除ViT中严格的Attention-FFN交替结构",
+    "揭示Attention-FFN分离在小模型规模下构成有害归纳偏置，uViT-S在ImageNet-1k上较ViT-S提升13.47%"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "Places365",
+    "iNaturalist 2021",
+    "CIFAR-10",
+    "CIFAR-100",
+    "SVHN",
+    "STL-10",
+    "ImageNet-Segmentation",
+    "Pascal-VOC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "One-Frame-Full-Heartbeat-ECG-Free-Cardiac-Cine-MRI-Synthesis",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-10-08 19:49:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/84976a3d-e1b3-4e9c-ac46-c8e60862a1c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/84976a3d-e1b3-4e9c-ac46-c8e60862a1c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:15:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cine CMR",
+    "Flow Matching",
+    "ECG-Free",
+    "Cardiac MRI Synthesis",
+    "Rectified Flow",
+    "Diffeomorphic Deformation",
+    "Phase Estimation"
+   ],
+   "field": "医学影像生成",
+   "innovations": [
+    "ECG-free nonlinear cardiac phase estimation from LV area curve with pathology-specific templates",
+    "Phase-conditioned rectified flow in latent space enabling single-step inference",
+    "Diffeomorphic deformation decoder that warps ED pixels directly, bypassing VAE reconstruction blur"
+   ],
+   "benchmarks": [
+    "ACDC",
+    "M&Ms"
+   ]
+  }
+ }
 }

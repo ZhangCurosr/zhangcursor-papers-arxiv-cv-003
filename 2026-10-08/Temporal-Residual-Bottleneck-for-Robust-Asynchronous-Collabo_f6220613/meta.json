@@ -4,5 +4,31 @@
  "title": "Temporal-Residual-Bottleneck-for-Robust-Asynchronous-Collabo",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-08 19:49:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5fc613ce-3b34-4f1e-a0b9-20d46ce49125.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5fc613ce-3b34-4f1e-a0b9-20d46ce49125.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:17:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Collaborative Perception",
+    "Asynchronous Fusion",
+    "Temporal Residual",
+    "xLSTM",
+    "V2X",
+    "Robust Perception",
+    "Feature Alignment"
+   ],
+   "field": "自动驾驶协同感知",
+   "innovations": [
+    "将异步协同感知建模为时间残差预测，以pose-warped特征为保守锚点",
+    "∆t-conditioned xLSTM处理不规则collaborator历史并提取门控残差证据",
+    "detector-facing残差瓶颈融合recurrent/stale/agreement三项证据并objectness-gated"
+   ],
+   "benchmarks": [
+    "DAIR-V2X",
+    "OPV2V Culver City"
+   ]
+  }
+ }
 }

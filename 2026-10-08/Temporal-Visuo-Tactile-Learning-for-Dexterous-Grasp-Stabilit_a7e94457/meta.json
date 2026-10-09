@@ -4,5 +4,31 @@
  "title": "Temporal-Visuo-Tactile-Learning-for-Dexterous-Grasp-Stabilit",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-08 19:46:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8b13697e-d00b-4bd8-a3b9-441ecec5d571.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8b13697e-d00b-4bd8-a3b9-441ecec5d571.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:17:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dexterous grasping",
+    "visuo-tactile learning",
+    "grasp stability prediction",
+    "tactile sensing",
+    "multimodal fusion",
+    "robotic manipulation"
+   ],
+   "field": "多模态机器人抓握学习",
+   "innovations": [
+    "构建10,000次多指灵巧抓取的视觉-触觉-本体多模态时序数据集",
+    "提出基于VideoMAEv2的时序多模态稳定性预测器并系统消融触觉空间分辨率与时序动态贡献",
+    "在线部署视觉-触觉门控实现10.5个百分点的成功率提升"
+   ],
+   "benchmarks": [
+    "10,000-trial dexterous grasp dataset",
+    "5-fold object-disjoint cross-validation",
+    "20-unseen-object real-robot evaluation"
+   ]
+  }
+ }
 }

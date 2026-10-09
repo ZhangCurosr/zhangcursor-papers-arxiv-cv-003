@@ -4,5 +4,34 @@
  "title": "TIRA-Tumor-Immune-Representation-Adaptation-for-Zero-Shot-Cr",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-08 19:49:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ebd829fe-63e0-43a3-b7f0-1bb3f32dee13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ebd829fe-63e0-43a3-b7f0-1bb3f32dee13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:17:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨癌种泛化",
+    "零样本预测",
+    "空间免疫拓扑",
+    "多实例学习",
+    "病理学基础模型",
+    "MSI预测",
+    "TMB预测"
+   ],
+   "field": "计算病理学跨域泛化",
+   "innovations": [
+    "利用源域空间免疫拓扑引导冻结病理基础模型的tile级注意力，实现无目标域数据的跨癌种MSI/TMB零样本预测",
+    "RNA一致性筛选驱动的12维空间免疫描述符集合作为拓扑监督信号，与MSI/TMB标签解耦",
+    "生物学引导的双流MIL架构：拓扑表征指导注意力权重分配，形态学表征独立用于预测"
+   ],
+   "benchmarks": [
+    "TCGA-COAD+READ",
+    "CPTAC-COAD",
+    "TCGA-STAD",
+    "TCGA-UCEC",
+    "CPTAC-UCEC"
+   ]
+  }
+ }
 }
