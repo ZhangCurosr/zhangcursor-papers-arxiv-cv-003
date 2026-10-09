@@ -4,5 +4,34 @@
  "title": "LIVIN-BENCHMARKING-SPATIAL-AND-EMBODIED-INTELLIGENCE-IN-DIGI",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-09 08:36:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4c986430-a60c-4f84-bd60-8d9974f0c520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4c986430-a60c-4f84-bd60-8d9974f0c520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:04:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数字孪生",
+    "具身智能",
+    "3D检测",
+    "3D重建",
+    "导航",
+    "移动操作",
+    "人机协作"
+   ],
+   "field": "具身智能与室内场景理解",
+   "innovations": [
+    "构建基于30个真实家庭生活场景数字孪生的统一基准，覆盖3D检测、重建、导航和移动操作四个任务",
+    "提出人机协作的分阶段重建工作流，结合智能体推理、Blender代码建模和Rodin图像条件3D生成",
+    "在真实密集家庭环境中揭示现有方法在小物体覆盖、导航鲁棒性和物理交互完成度方面的系统性不足"
+   ],
+   "benchmarks": [
+    "LIVIN-Bench",
+    "3D Detection",
+    "3D Reconstruction",
+    "Navigation",
+    "Loco-manipulation"
+   ]
+  }
+ }
 }

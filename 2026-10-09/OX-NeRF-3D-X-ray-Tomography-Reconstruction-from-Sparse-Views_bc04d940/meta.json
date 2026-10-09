@@ -4,5 +4,32 @@
  "title": "OX-NeRF-3D-X-ray-Tomography-Reconstruction-from-Sparse-Views",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-09 08:32:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3a0e9e5b-9f8d-449b-99f5-effd11d71f06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3a0e9e5b-9f8d-449b-99f5-effd11d71f06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:07:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse-view CT",
+    "Neural Radiance Fields",
+    "X-ray tomography",
+    "hash encoding",
+    "self-supervised reconstruction",
+    "generalizable radiance fields"
+   ],
+   "field": "稀疏视角X射线CT重建",
+   "innovations": [
+    "跨场景CNN编码器与逐场景哈希网格解耦的表示架构",
+    "残差引导的主动射线采样策略",
+    "几何感知加权多视角衰减聚合机制"
+   ],
+   "benchmarks": [
+    "Ellipsoids",
+    "Lung CT",
+    "Shells",
+    "Voids"
+   ]
+  }
+ }
 }

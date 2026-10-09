@@ -4,5 +4,30 @@
  "title": "TILESKIPPER-REGION-ADAPTIVE-TILE-PRUNING-FOR-3D-GAUSSIAN-SPL",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-08 08:32:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/279573d1-d3cd-4bad-8b78-660e5889c7ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/279573d1-d3cd-4bad-8b78-660e5889c7ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:02:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "tile pruning",
+    "region-adaptive cutoff",
+    "post-training acceleration",
+    "compositing-aware residual"
+   ],
+   "field": "Neural/Radiance Field Rendering Systems",
+   "innovations": [
+    "Compositing-aware isolated-removal residual for discrete cutoff allocation across workload-balanced regions",
+    "Static one-byte per-Gaussian policy exported from frozen checkpoint with no per-frame inference",
+    "Cross-rasterizer transferable tile-pruning policy validated on held-out complete renders"
+   ],
+   "benchmarks": [
+    "Mip-NeRF 360",
+    "Tanks & Temples",
+    "Deep Blending"
+   ]
+  }
+ }
 }

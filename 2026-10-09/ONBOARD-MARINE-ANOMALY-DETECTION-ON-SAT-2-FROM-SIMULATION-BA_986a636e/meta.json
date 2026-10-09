@@ -4,5 +4,30 @@
  "title": "ONBOARD-MARINE-ANOMALY-DETECTION-ON-SAT-2-FROM-SIMULATION-BA",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-10-09 08:29:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/99f79bb6-3d6e-4302-80fb-7fb695c32c12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/99f79bb6-3d6e-4302-80fb-7fb695c32c12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:07:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "星载AI",
+    "海洋异常检测",
+    "自监督学习",
+    "GMM",
+    "模块化管道",
+    "在轨验证"
+   ],
+   "field": "星载边缘AI与地球观测",
+   "innovations": [
+    "模糊标注与multi-hot训练降低边界不确定性的标注偏差",
+    "功能验证与科学验证分层的方法论",
+    "从仿真到在轨真实数据重训练的完整迁移流程"
+   ],
+   "benchmarks": [
+    "Φsat-2 Level-1 真实数据（16训练/8测试）",
+    "ESA simulator 生成的 L1C 仿真数据"
+   ]
+  }
+ }
 }

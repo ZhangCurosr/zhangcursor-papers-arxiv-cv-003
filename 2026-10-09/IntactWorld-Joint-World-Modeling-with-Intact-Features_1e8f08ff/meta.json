@@ -4,5 +4,31 @@
  "title": "IntactWorld-Joint-World-Modeling-with-Intact-Features",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-10-09 08:43:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3d60bb3b-c8d9-4ae8-8ab7-03efb86f7d5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3d60bb3b-c8d9-4ae8-8ab7-03efb86f7d5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:03:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "世界建模",
+    "流形间隙",
+    "Flow Matching",
+    "Diffusion Transformer",
+    "特征对齐"
+   ],
+   "field": "视频生成中的世界知识建模",
+   "innovations": [
+    "预测干净特征x₀而非速度v以缓解高维流形间隙",
+    "Full-to-Compact两阶段训练将多源世界知识蒸馏为紧凑CLS token",
+    "位置隔离RoPE防止混合序列中虚假时空坐标干扰"
+   ],
+   "benchmarks": [
+    "VBench",
+    "VBench 2.0",
+    "VideoPhy"
+   ]
+  }
+ }
 }

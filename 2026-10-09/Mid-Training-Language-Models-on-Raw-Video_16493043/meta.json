@@ -4,5 +4,39 @@
  "title": "Mid-Training-Language-Models-on-Raw-Video",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-10-09 08:37:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ba234e0a-6b9d-4448-8c96-5b6a18b77aee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ba234e0a-6b9d-4448-8c96-5b6a18b77aee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:05:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "中期训练",
+    "自监督学习",
+    "视频理解",
+    "原始视频",
+    "视觉token预测",
+    "语言模型"
+   ],
+   "field": "多模态学习",
+   "innovations": [
+    "提出原始视频无标注中期训练框架，通过预测连续视觉token提升多模态能力",
+    "证明纯自监督视觉预测优于字幕预测，消除昂贵标注管道",
+    "揭示视觉增益在30%训练量后plateau的高效训练规律"
+   ],
+   "benchmarks": [
+    "EgoSchema",
+    "NExT-QA",
+    "VideoMME",
+    "TempCompass",
+    "ChartQA",
+    "DocVQA",
+    "MMBench",
+    "AI2D",
+    "MathVista",
+    "MMStar"
+   ]
+  }
+ }
 }

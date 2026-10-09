@@ -4,5 +4,45 @@
  "title": "LOOK-BACK-THINK-AHEAD-VISUAL-MEMORY-ON-DEMAND-FOR-EFFICIENT",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-10-09 08:35:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/1a7bb7af-f859-4f8c-940e-5ab04bebeebc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/1a7bb7af-f859-4f8c-940e-5ab04bebeebc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:04:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "视觉token压缩",
+    "动态推理",
+    "视觉记忆",
+    "高效推理",
+    "状态空间模型",
+    "视觉-语言推理"
+   ],
+   "field": "多模态高效推理",
+   "innovations": [
+    "DART变形区域聚合实现内容自适应的可恢复视觉记忆压缩",
+    "TRACE利用SSM编码解码历史前瞻性地按需路由细粒度视觉证据",
+    "冻结骨干网络下Joint-KV联合注意力实现极低参数增量的动态视觉访问"
+   ],
+   "benchmarks": [
+    "MathVerse",
+    "MMMU-Pro",
+    "DynaMath",
+    "DocVQA",
+    "ChartQA",
+    "We-Math",
+    "MathVista",
+    "LogicVista",
+    "VisualPuzzles",
+    "GQA",
+    "POPE",
+    "V*",
+    "MME",
+    "MMBench",
+    "OCRBench v2",
+    "MathVision"
+   ]
+  }
+ }
 }

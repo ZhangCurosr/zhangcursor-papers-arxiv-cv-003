@@ -4,5 +4,32 @@
  "title": "LEGO-A-LIFTING-FREE-APPROACH-FOR-EXOCENTRIC-TO-EGOCENTRIC-VI",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-09 08:29:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b20eb0a5-9f3d-43a3-aa86-ffc53a3de01f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b20eb0a5-9f3d-43a3-aa86-ffc53a3de01f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:04:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric video generation",
+    "view synthesis",
+    "lifting-free",
+    "diffusion conditioning",
+    "correspondence confidence",
+    "training-free guidance",
+    "novel view synthesis"
+   ],
+   "field": "第一人称视频生成",
+   "innovations": [
+    "以学习视图合成器替代点云重建作为 diffusion 条件，全程 lifting-free",
+    "提出对齐优先于锐利的条件设计原则并用alignment-vs-sharpness 实验证据支撑",
+    "训练免费的早期去噪引导 ARC，复用对应分布置信度同时完成 gating 与推理 steering"
+   ],
+   "benchmarks": [
+    "Ego-Exo4D",
+    "EgoHumans",
+    "Nymeria"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "INTRINSYNC-JOINT-INTRINSIC-DECOMPOSITION-AND-RECIPROCAL-REND",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-09 08:39:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/198e94e2-c20d-486b-9541-7e681faac7a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/198e94e2-c20d-486b-9541-7e681faac7a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:03:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inverse rendering",
+    "intrinsic decomposition",
+    "reciprocal rendering",
+    "diffusion model",
+    "cycle consistency",
+    "joint channel modeling"
+   ],
+   "field": "计算机视觉-逆渲染与本征求解",
+   "innovations": [
+    "联合通道级本征求解：在 MMDiT 中同时对五个本征通道进行 1-to-N 联合去噪以实现跨通道信息交互",
+    "双循环一致性训练：对齐正反互易路径上中间时刻的 velocity 预测，避免捷径泄露",
+    "统一正/反渲染架构：共享同一 MMDiT 骨干支持异构数据集和可编辑接口"
+   ],
+   "benchmarks": [
+    "Hypersim",
+    "InteriorVerse",
+    "MatrixCity"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "One-Block-Multiple-Depths-Recurrent-Vision-Transformers-with",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-10-09 08:30:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7329e5f0-c9f6-4d8a-9ab4-5f55fc209193.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7329e5f0-c9f6-4d8a-9ab4-5f55fc209193.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:07:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "Recurrent Network",
+    "Mixture of Experts",
+    "Weight Sharing",
+    "Elastic Depth",
+    "Model Compression"
+   ],
+   "field": "视觉Transformer高效架构",
+   "innovations": [
+    "用单个循环Transformer块+深度程序化专家替代全深度堆叠，73%参数减少匹配DeiT III精度",
+    "归一化深度坐标作为唯一路由信号实现弹性深度推理",
+    "在统一测试床下对比七种MoE机制，证明权重空间合并是one-FFN预算下的最优方案"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "ADE20k",
+    "NYUv2",
+    "DINOv2-B/14 distillation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "LEARNING-TO-RETRIEVE-INTERNALIZING-MEMORY-RETRIEVAL-FOR-VIDE",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-10-09 08:34:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a1905368-b369-479b-ba62-356607f76105.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a1905368-b369-479b-ba62-356607f76105.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:04:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video World Models",
+    "Memory Retrieval",
+    "Gated Linear Attention",
+    "Scene Consistency",
+    "Loop Closure"
+   ],
+   "field": "视频生成与3D一致建模",
+   "innovations": [
+    "将记忆检索内化到视频生成过程的注意力状态更新中",
+    "引入相机姿态条件门控与3D可见性重入监督实现选择性检索"
+   ],
+   "benchmarks": [
+    "Echo-Memory",
+    "Revisit-Bench",
+    "VBench"
+   ]
+  }
+ }
 }

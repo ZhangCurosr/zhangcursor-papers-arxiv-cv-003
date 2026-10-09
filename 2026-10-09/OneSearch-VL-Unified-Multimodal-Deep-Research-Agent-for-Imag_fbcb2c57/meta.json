@@ -4,5 +4,39 @@
  "title": "OneSearch-VL-Unified-Multimodal-Deep-Research-Agent-for-Imag",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-09 08:36:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/675efe4f-af5e-4296-aca3-ec65ecc8a7b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/675efe4f-af5e-4296-aca3-ec65ecc8a7b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:09:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal deep research",
+    "vision-language agent",
+    "VGEG",
+    "process reward",
+    "GRPO",
+    "multi-image reasoning",
+    "video grounding"
+   ],
+   "field": "多模态智能体与深度研究",
+   "innovations": [
+    "提出VGEG统一表征视觉锚点-来源事实-答案操作的端到端证据链",
+    "基于VGEG导出EVGR双维过程奖励（证据溯源+视觉定位）",
+    "联合训练单图/多图/视频三种输入的统一深度研究Agent"
+   ],
+   "benchmarks": [
+    "OneSearch-MI-Bench",
+    "OneSearch-Video-Bench",
+    "VideoDR",
+    "SimpleVQA",
+    "VDR",
+    "MMSearch",
+    "LiveVQA",
+    "BrowseComp-VL",
+    "FVQA",
+    "InfoSeek"
+   ]
+  }
+ }
 }

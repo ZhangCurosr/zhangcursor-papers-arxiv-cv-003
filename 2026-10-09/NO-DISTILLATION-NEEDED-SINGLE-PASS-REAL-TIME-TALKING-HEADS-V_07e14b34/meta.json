@@ -4,5 +4,34 @@
  "title": "NO-DISTILLATION-NEEDED-SINGLE-PASS-REAL-TIME-TALKING-HEADS-V",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-10-09 08:41:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/70f9257d-6f92-45a2-8303-25e96c1a08e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/70f9257d-6f92-45a2-8303-25e96c1a08e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:06:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "audio-driven facial animation",
+    "talking head",
+    "single-pass GAN",
+    "noise shaping",
+    "real-time streaming",
+    "Kolmogorov-Szego theorem",
+    "acausal generation"
+   ],
+   "field": "音频驱动面部动画与实时流式生成",
+   "innovations": [
+    "通过Kolmogorov-Szego定理形式化因果单步生成器的频谱限制并揭示抖动/呆板权衡本质",
+    "引入无延迟非因果噪声整形技术突破i.i.d.噪声的频谱瓶颈",
+    "FaceGAN单步前向传播生成高质量表情与姿态，43ms延迟下Sync Score最优"
+   ],
+   "benchmarks": [
+    "Chu et al. 2026 dataset (64 held-out clips)",
+    "FED (Fréchet Expression Distance)",
+    "FPD (Fréchet Pose Distance)",
+    "Sync Score",
+    "Expr/Pose Variance Ratio"
+   ]
+  }
+ }
 }

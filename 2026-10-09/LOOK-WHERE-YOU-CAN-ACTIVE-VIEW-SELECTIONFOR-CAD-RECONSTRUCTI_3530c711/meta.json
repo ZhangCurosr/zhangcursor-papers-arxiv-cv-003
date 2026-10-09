@@ -4,5 +4,34 @@
  "title": "LOOK-WHERE-YOU-CAN-ACTIVE-VIEW-SELECTIONFOR-CAD-RECONSTRUCTI",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-09 08:36:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/21b8eb58-4d49-404d-8d98-b42e3fecbed6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/21b8eb58-4d49-404d-8d98-b42e3fecbed6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:04:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CAD Reconstruction",
+    "Active View Selection",
+    "Vision-Language Model",
+    "Reinforcement Learning",
+    "Parametric CAD",
+    "Occlusion Handling",
+    "GRPO"
+   ],
+   "field": "计算机辅助设计与视觉生成",
+   "innovations": [
+    "提出SightCAD框架，将视角选择作为可学习策略与CAD代码生成VLM联合训练",
+    "使用执行后的几何IoU奖励通过GRPO端到端优化视角选择和代码生成",
+    "揭示了学习的视角策略能恢复类似机械制图的投影惯例以优化参数可读性"
+   ],
+   "benchmarks": [
+    "DeepCAD-test",
+    "Fusion360-test",
+    "T-LESS",
+    "MP6D",
+    "自建SceneNet嵌入CAD数据集"
+   ]
+  }
+ }
 }

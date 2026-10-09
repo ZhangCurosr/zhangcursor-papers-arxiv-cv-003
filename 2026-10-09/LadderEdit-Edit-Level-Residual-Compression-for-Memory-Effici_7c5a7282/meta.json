@@ -4,5 +4,31 @@
  "title": "LadderEdit-Edit-Level-Residual-Compression-for-Memory-Effici",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-10-09 08:36:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ceed0abe-9501-4b91-9fa5-16896322e58e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ceed0abe-9501-4b91-9fa5-16896322e58e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:05:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lifelong Editing",
+    "Model Editing",
+    "Low-Rank Adaptation",
+    "Memory Efficiency",
+    "LLM Compression",
+    "Residual Storage"
+   ],
+   "field": "大语言模型编辑与持续学习",
+   "innovations": [
+    "提出coverage-before-fidelity存储原语，将编辑存储从二元保留/丢弃转为逐编辑分辨率分配",
+    "设计光谱预测器+行为审计的双层决策机制，单次SVD即可预测候选秩并验证行为合约",
+    "实现编辑流中约80%编辑仅需rank-1草图，在5.2×压缩下追踪完整LoRA性能"
+   ],
+   "benchmarks": [
+    "ZsRE",
+    "CounterFact",
+    "WikiBigEdit"
+   ]
+  }
+ }
 }

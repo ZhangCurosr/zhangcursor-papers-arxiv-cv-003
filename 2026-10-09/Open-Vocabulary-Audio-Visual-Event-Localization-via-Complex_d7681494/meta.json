@@ -4,5 +4,10 @@
  "title": "Open-Vocabulary-Audio-Visual-Event-Localization-via-Complex",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-10-09 08:57:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d30a9a9f-1771-4cb9-b6dc-309c2687a11d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d30a9a9f-1771-4cb9-b6dc-309c2687a11d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:08:26",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Hybrid-Cinematography-Previsualizing-and-Managing-Hallucinat",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-10-09 08:35:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/24f444aa-ba6e-4c92-9164-80e9a1a236bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/24f444aa-ba6e-4c92-9164-80e9a1a236bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:03:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative video reshooting",
+    "hallucination risk",
+    "previsualization",
+    "camera planning",
+    "human-AI interaction",
+    "film production",
+    "augmented reality"
+   ],
+   "field": "生成式视频与影视制作交互",
+   "innovations": [
+    "提出Hybrid Cinematography工作流程，在物理拍摄与生成式重拍间建立桥梁，通过可编辑3D镜头计划预可视化幻觉风险",
+    "形式化三种捕获缺陷（覆盖度/分辨率/表演）并为每类提供独立预可视化信号与针对性响应策略",
+    "实现移动端AR应用与离线流水线，支持拍摄现场与后期的连续权衡探索"
+   ],
+   "benchmarks": [
+    "7位经验丰富的电影制作人实证研究",
+    "Vista4D重拍模型评测"
+   ]
+  }
+ }
 }

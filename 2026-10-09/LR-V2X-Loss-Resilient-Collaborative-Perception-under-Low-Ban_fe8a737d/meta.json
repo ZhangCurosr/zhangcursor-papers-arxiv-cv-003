@@ -4,5 +4,30 @@
  "title": "LR-V2X-Loss-Resilient-Collaborative-Perception-under-Low-Ban",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-10-09 08:35:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cef2f826-ac8b-47d9-ad9b-4de066a82efe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/cef2f826-ac8b-47d9-ad9b-4de066a82efe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:05:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "V2X 协同感知",
+    "丢包弹性",
+    "低带宽通信",
+    "扩散模型重建",
+    "BEV 特征恢复",
+    "自动驾驶"
+   ],
+   "field": "车载多智能体协同感知",
+   "innovations": [
+    "先验引导的 LPD + ego-conditioned 噪声条件 DiT 两阶段重构框架",
+    "仅在完整通信下训练即可直接应对任意丢包率（含 90%）",
+    "带宽匹配对比揭示重构增益独立于通信冗余"
+   ],
+   "benchmarks": [
+    "DAIR-V2X",
+    "V2XREAL"
+   ]
+  }
+ }
 }

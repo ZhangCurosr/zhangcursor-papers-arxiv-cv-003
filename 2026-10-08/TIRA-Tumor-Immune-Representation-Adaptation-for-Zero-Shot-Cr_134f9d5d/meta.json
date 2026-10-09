@@ -4,5 +4,34 @@
  "title": "TIRA-Tumor-Immune-Representation-Adaptation-for-Zero-Shot-Cr",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-08 08:35:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/5e00b055-6d58-49f4-9f68-5a6db973bcc0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/5e00b055-6d58-49f4-9f68-5a6db973bcc0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:03:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨癌种泛化",
+    "微卫星不稳定性",
+    "肿瘤突变负荷",
+    "病理基础模型",
+    "空间免疫拓扑",
+    "零样本转移",
+    "多重实例学习"
+   ],
+   "field": "计算病理学",
+   "innovations": [
+    "提出目标域无关的 TIRA 框架，利用源队列空间免疫拓扑约束冻结基础模型表示",
+    "设计生物学引导的 MIL 注意力机制，将拓扑先验与形态学特征解耦用于跨癌种 MSI/TMB 联合预测",
+    "通过 bulk RNA 一致性筛选构建 12 个跨癌种保守的空间免疫描述符作为无标签监督信号"
+   ],
+   "benchmarks": [
+    "TCGA-COAD+READ",
+    "CPTAC-COAD",
+    "TCGA-STAD",
+    "TCGA-UCEC",
+    "CPTAC-UCEC"
+   ]
+  }
+ }
 }

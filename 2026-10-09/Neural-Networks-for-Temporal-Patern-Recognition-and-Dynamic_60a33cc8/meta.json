@@ -4,5 +4,32 @@
  "title": "Neural-Networks-for-Temporal-Patern-Recognition-and-Dynamic",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-10-09 08:39:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/174b0675-5e08-403e-88a3-ca93da928364.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/174b0675-5e08-403e-88a3-ca93da928364.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:07:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序模式识别",
+    "神经网络基准测试",
+    "手势速度估计",
+    "BiGRU",
+    "TCN",
+    "深度学习架构对比",
+    "骨架关键点",
+    "机器人交互"
+   ],
+   "field": "时序模式识别与机器人手势控制",
+   "innovations": [
+    "构建18架构×10任务的严格可控基准并给出全局排名方法",
+    "揭示单变量基准排名与多变量真实数据迁移表现之间的断层",
+    "从OpenPose骨架序列端到端回归手势执行速度，相对误差4%-8%"
+   ],
+   "benchmarks": [
+    "Synthetic 10-task sequential benchmark",
+    "Custom 8-class traffic gesture speed estimation dataset (OpenPose BODY-25, 256710 frames)"
+   ]
+  }
+ }
 }
