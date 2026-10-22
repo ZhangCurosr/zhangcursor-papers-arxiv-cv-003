@@ -1,0 +1,112 @@
+# TWO FOR ONE: PRIVILEGED LEARNING FOR RESOURCE-CONSTRAINED SCREENING
+
+Lisa Y.W. Tang
+
+University of British Columbia - Faculty of Medicine
+
+## ABSTRACT
+
+Machine learning systems are often developed under data-rich conditions but deployed when only incomplete information is available. A natural example arises in colour fundus photography (CFP), where both eyes are commonly imaged because they can provide complementary information for ocular disease assessment. Prior approaches that exploit bilateral information either fuse both eyes in a single model or use knowledge distillation to compress a dual-eye teacher into a lightweight student that still requires both images at test time. However, bilateral acquisition may not always be feasible. We thus propose a privileged learning framework in which a teacher model has access to bilateral CFP images during training and learns representations informed by information from both eyes, while the student is trained to transfer this knowledge from the bilateral teacher using only a single-eye image as input. At inference, the student operates exclusively on this single-eye input and does not require the contralateral image. Experimental results show consistent improvements in area under the receiver operating characteristic curve over conventional monocular training, with the largest gains observed for left-eye images for the detection of age-related macular degeneration (0.931 vs. 0.966) and diabetic retinopathy (0.789 vs. 0.836).By enabling models to benefit from bilateral information during training while requiring only a singleeye image at inference, our approach may support more reliable deployment in resource-constrained clinical and screening environments.
+
+## 1 Introduction
+
+Machine learning systems are often developed under data-rich conditions but deployed when only incomplete information is available. This mismatch is particularly important in clinical settings, where acquisition failures, limited infrastructure, patient-related factors, or operational constraints may prevent models from accessing all observations available during development. Consequently, models that exploit multiple complementary observations during training may face a practical challenge at deployment when one or more of these observations are unavailable or unusable.
+
+A natural example arises in colour fundus photography (CFP), where bilateral imaging is commonly performed because the two eyes can provide complementary information for ocular disease assessment (Wang et al., 2024a). However, obtaining two usable fundus images is not guaranteed in routine screening. Fundus images can be ungradable because of media opacity, inadequate pupil dilation, defocus, poor fixation, or other acquisition-related factors, and image quality can differ between fellow eyes. Previous CFP studies have reported high but incomplete bilateral gradability; for example, approximately 92–94% of participants had gradable images in both eyes in some population-based studies, while substantially higher rates of unilateral or bilateral ungradability have been reported in other clinical screening settings (Aung et al., 2009; Piyasena et al., 2019). Thus, although bilateral imaging may be attempted and remains clinically valuable, a deployment scenario in which only one usable eye is ultimately available is realistic. Requiring bilateral images at inference would exclude such cases even when the available monocular image is itself sufficient for prediction.
+
+This creates a distinction between models trained using monocular inputs and those trained using bilateral inputs. A monocular model can operate whenever at least one usable eye is available, but cannot directly exploit information contained in the contralateral eye. Conversely, a bilateral model can incorporate information from both eyes but requires both images to be available and usable at inference (He et al., 2020). This represents a practical trade-off between access to complementary information and robustness to incomplete acquisition. In settings where repeat image acquisition, pupil dilation, or additional clinical assessment may be costly or impractical, a model that can operate from a single usable eye may provide greater deployment flexibility. This motivates the question: can informationfrom bilateral observations available during training be transferred to a model that requires only a monocular image at inference?
+
+In this paper, we examine this question by leveraging a publicly available dataset and proposing a teacher-student framework in which a teacher model has access to bilateral image inputs during training and can exploit information from the contralateral eye when both images are available. A student model is subsequently trained to transfer this knowledge while receiving only monocular inputs. At inference, the student operates exclusively on a single-eye image and therefore remains applicable when the contralateral image is unavailable or ungradable. Here, we refer to information available during training but unavailable at inference as privileged information; in our setting, the contralateral-eye image constitutes this privileged information.
+
+Prior work has explored learning from privileged information that is available during training but unavailable at deployment. For example, Duan et al. (2014) incorporate privileged genetic information into fundus-image-based glaucoma detection, while Korevaar et al. (2024) perform macular disease severity classification using optical coherence tomography images and incorporate fluid segmentation masks as privileged information to improve domain generalization. Studies have also exploited bilateral fundus images for ocular disease classification by weighting and fusing informa tion from both eyes (He et al., 2020; Al-Fahdawi et al., 2024). Such approaches can benefit from complementary bilateral information but require paired images at inference. More recent work has explored knowledge distillation to reduce model size while retaining dual-eye inputs; e.g. Soflaei & SamadZamini (2025) propose to train a student whose Siamese variant fuses information from both eyes for cataract detection, but this formulation still requires both images at inference.
+
+Our approach therefore seeks to combine the complementary information available in bilateral observations during development with the acquisition flexibility of monocular inference. Rather than requiring bilateral imaging at deployment, the proposed framework uses bilateral information to guide representation learning during training and transfers this information to a student model that can operate from either eye independently. This formulation provides a practical way to exploit richer training observations without imposing the same acquisition requirements on the deployed system, and shifts the benefit of dual-eye distillation from model compression toward deployment flexibility under incomplete acquisition.
+
+## 2 Methods
+
+We build our framework using RETFound-Green, a pretrained retinal foundation model based on the Vision Transformer architecture (Engelmann & Bernabeu, 2025). RETFound-Green contains 22.2 million parameters and was designed as a compact, computationally efficient retinal foundation model. The word Green in the name reflects its emphasis on reducing computational and resource requirements while maintaining competitive performance for retinal image analysis. This compact architecture makes RETFound-Green well suited to our setting, where computational efficiency and practical deployment are important considerations.
+
+Our proposed framework consists of a teacher and a student model. The teacher model was trained on paired left and right images, learning features from both eyes and fusing them via mean pooling to form a privileged bilateral representation that was subsequently passed to a linear classifier. A distillation loss guided the student to learn features that aligned with the teacher’s richer bilateral representation. The overall training objective combined the binary cross-entropy (BCE) classification losses of both networks with a feature-level distillation loss, given by the third term:
+
+$$
+\mathcal { L } = \mathrm { B C E } ( \hat { y } _ { t e a c h e r } , y ) + \mathrm { B C E } ( \hat { y } _ { s t u d e n t } , y ) + \alpha \frac { 1 } { B } \sum _ { i = 1 } ^ { B } | | \mathbf { Z } _ { s t u d e n t } ^ { i } - \mathbf { Z } _ { t e a c h e r } ^ { i } | | _ { 2 } ^ { 2 } ,\tag{1}
+$$
+
+where $\mathbf { Z } _ { s t u d e n t } ^ { i } \in \mathbb { R } ^ { 3 8 4 }$ and $\mathbf { Z } _ { t e a c h e r } ^ { i } \in \mathbb { R } ^ { 3 8 4 }$ were the feature representations from the second-tolast layer of each network, extracted from the monocular images and the fused bilateral representation, respectively. The hyperparameter α balanced the classification and distillation objectives. We set α = 0.1 for all experiments in this work.
+
+## 2.1 Model Architectures
+
+We considered three model configurations.
+
+Baseline $( M _ { \mathrm { b a s e l i n e } } )$ . A single-eye network trained to classify monocular fundus images, optimized solely via the binary cross-entropy loss. In every training batch, both eyes of each patient are in cluded as separate monocular examples.
+
+Privileged Teacher $( M _ { \mathrm { t e a c h e r } } )$ . A separate network that processes paired left and right fundus images, extracts per-eye features, mean-pools them into a bilateral representation $\mathbf { Z } _ { \mathrm { t e a c h e r } } ,$ and classifies this representation with a linear head. It is trained with the classification loss only. The teacher’s parameters are not shared with the student.
+
+Privileged Student $( M _ { \mathrm { s t u d e n t } } )$ . Identical architecture and training inputs to the baseline: the same single-eye network, and the same batches containing both eyes of each patient as separate monocular examples. The only difference from the baseline is the loss. During training, the student’s feature representation $\mathbf { Z } _ { \mathrm { s t u d e n t } }$ is additionally matched to the teacher’s detached bilateral representation $\mathbf { Z } _ { \mathrm { t e a c h e r } }$ . The teacher’s representation is detached before the MSE, so gradients from the distillation term update the student only.
+
+Because the baseline and the privileged student share architecture, inputs, and training schedule, the only difference between them is this additional supervision. At inference, only the student is used, on a single eye; the teacher is not required.
+
+## 2.2 Experimental Setup
+
+Dataset. We developed and validated our proposed method using the Ocular Disease Intelligent Recognition (ODIR-5K) dataset (Peking University, 2019).
+
+Tasks. We considered two detection tasks: age-related macular degeneration (AMD) and diabetic retinopathy (DR).
+
+Data split. To obtain unbiased performance estimates, we partitioned the ODIR-5K dataset at the patient level, ensuring that images from the same patient never appeared in more than one data subsets. We first performed a 6-fold split to separate a held-out test set (20% of patients). From the remaining patients, we performed a second 5-fold split to create a training set (80%) and a validation set (20%). This hierarchical, patient-aware splitting strategy prevented data leakage and evaluated the model’s ability to generalize to new patients.
+
+The validation set was used for (1) early stopping during training and (2) threshold calibration. At the end of each epoch, we computed the binary cross-entropy loss on the validation set and saved the model checkpoint with the lowest validation loss. For threshold calibration, we selected the optimal decision threshold t<sup>∗</sup> that maximized the macro F1-score. The threshold was then applied to the held-out test set predictions. All final metrics reported in this work were computed on the test set, which remained completely unseen during training, model selection, and threshold calibration.
+
+Performance evaluation. We computed Area Under the Receiver Operating Characteristic Curve (AUROC), Area Under the Precision–Recall Curve (AUPRC), Balanced Accuracy, Precision, and Recall, alongside false positive rate (FPR) to transparently capture task-specific clinical trade-offs.
+
+## 3 Results & Discussion
+
+Disease prevalence. The developmental dataset contains 136 positive cases for AMD and 939 positive cases for DR, corresponding to a prevalence of 4.8% and 32.4%, respectively. The heldout test set contains 28 positive AMD cases (4.7%) for AMD and 189 positive cases for DR cases (32.2%).
+
+Performance & trade-offs. Table 1 summarizes the results across all experimental trials. We report 95% confidence intervals for all metrics, estimated via bootstrapping on the held-out test set to quantify sampling variability. The privileged-distillation framework improved AUROC and balanced accuracy for the left eye (0.931 vs. 0.966 and 0.834 vs. 0.879, respectively), indicating improved ranking performance and class-balanced accuracy. However, this improvement was accompanied by a higher false-positive rate (0.011 vs. 0.027) and lower precision (0.760 vs. 0.595).
+
+Table 1: Performance metrics with 95% confidence intervals for AMD (top) and DR (bottom). Bold indicates the best result for each eye and task. The privileged framework improves AUROC and balanced accuracy across both tasks, with task-specific trade-offs: increased recall for AMD (catching more positives) and increased precision for DR (reducing false positives).
+<table><tr><td>Metric</td><td>Baseline (Left)</td><td>Privileged (Left)</td><td>Baseline (Right)</td><td>Privileged (Right)</td></tr><tr><td colspan="5">Task: Detection of Age-related Macular Degeneration (AMD)</td></tr><tr><td>AUROC</td><td>0.931 (0.846–0.984)</td><td>0.966 (0.936–0.987)</td><td>0.801 (0.679–0.890)</td><td>0.810 (0.710–0.889)</td></tr><tr><td>Balanced Accuracy</td><td>0.834 (0.744–0.924)</td><td>0.879 (0.799–0.957)</td><td>0.676 (0.585–0.774)</td><td>0.689 (0.592–0.784)</td></tr><tr><td>AUPRC</td><td>0.696 (0.520–0.838)</td><td>0.651 (0.473–0.821)</td><td>0.446 (0.259–0.642)</td><td>0.413 (0.221–0.610)</td></tr><tr><td>Precision</td><td>0.760 (0.588–0.917)</td><td>0.595 (0.429–0.744)</td><td>0.769 (0.500–1.000)</td><td>0.579 (0.333–0.833)</td></tr><tr><td>Recall</td><td>0.679 (0.500–0.857)</td><td>0.786 (0.625–0.939)</td><td>0.357 (0.176–0.552)</td><td>0.393 (0.200–0.577)</td></tr><tr><td>FPR (↓ is better)</td><td>0.011 (0.004–0.020)</td><td>0.027 (0.014–0.041)</td><td>0.005 (0.000–0.011)</td><td>0.014 (0.005–0.025)</td></tr><tr><td colspan="5">Task: Detection of Diabetic Retinopathy (DR)</td></tr><tr><td>AUROC</td><td>0.789 (0.734–0.843)</td><td>0.836 (0.799–0.872)</td><td>0.825 (0.787–0.860)</td><td>0.837 (0.801–0.871)</td></tr><tr><td>Balanced Accuracy</td><td>0.576 (0.548–0.601)</td><td>0.749 (0.712–0.788)</td><td>0.740 (0.703–0.776)</td><td>0.757 (0.719–0.791)</td></tr><tr><td>AUPRC</td><td>0.511 (0.417–0.608)</td><td>0.772 (0.717–0.824)</td><td>0.759 (0.705–0.811)</td><td>0.778 (0.724–0.827)</td></tr><tr><td>Precision</td><td>0.078 (0.064–0.094)</td><td>0.760 (0.688–0.831)</td><td>0.741 (0.669–0.807)</td><td>0.803 (0.733–0.867)</td></tr><tr><td>Recall</td><td>0.917 (0.865–0.966)</td><td>0.587 (0.516–0.659)</td><td>0.577 (0.508–0.643)</td><td>0.582 (0.511–0.650)</td></tr><tr><td>FPR (↓ is better)</td><td>0.766 (0.744–0.787)</td><td>0.089 (0.061–0.117)</td><td>0.096 (0.069–0.127)</td><td>0.068 (0.044–0.094)</td></tr></table>
+
+This trade-off reflects a shift toward higher sensitivity (recall: 0.679 vs. 0.786), which may be desirable in screening applications where false negatives can be more costly than false positives Wang et al. (2024b). The increase in FPR remains modest in absolute terms (from 1.1% to 2.7%), while the improvement in balanced accuracy indicates improved aggregate performance across the two classes. Nevertheless, the accompanying reduction in precision highlights a potential cost of this increased sensitivity.
+
+For DR, the privileged model similarly improved AUROC and balanced accuracy across both eyes, with the largest improvement observed for the left eye (AUROC: 0.789 vs. 0.836; balanced accuracy: 0.576 vs. 0.749). Unlike AMD, the left-eye DR model achieved substantially higher precision and lower false-positive rate at the expense of recall.
+
+Limitations. First, the relatively small test set limits the statistical power and precision of our estimates and therefore the strength of our generalizability claims. External validation is needed to assess robustness across diverse populations, acquisition conditions, and imaging systems. Second, while the proposed method improves classification performance, clinical deployment would require careful integration with existing screening workflows, including appropriate human oversight and evaluation of model interpretability. Finally, our experiments were conducted using a single dataset split. Evaluation across multiple random seeds and, where feasible, cross-validation would provide a more robust assessment of performance variability.
+
+## 4 Conclusions
+
+We introduced a privileged distillation framework for retinopathy detection using monocular images, where a teacher network trained on paired fundus images guides a student network to process only monocular images. The proposed method was evaluated against a baseline that treats each eye independently. Our framework offers a practical, deployable solution for DR screening, particularly in settings where only one fundus image is available. The observed trade-offs and asymmetrie reveal insights for future research into multimodal and asymmetric medical imaging.
+
+## A FEATURE QUALITY VIA LINEAR PROBING.
+
+To determine whether the teacher improved the intrinsic quality of the student’s features (beyond the final classification head), we performed linear probing (Alain & Bengio, 2016). We froze the backbones of both the baseline and privileged student models and replaced their classification heads with a fresh, randomly initialized linear layer. We then trained only this new linear layer on the training set for 20 epochs, while keeping the backbones entirely frozen. The performance (AUROC) of this probe was evaluated on the test set. If the privileged backbone achieves a higher AUROC than the baseline backbone under this protocol, it provides direct evidence that the teacher improved the linear separability and quality of the student’s learned features.
+
+## A.1 RESULTS
+
+Linear probing revealed that the privileged student’s frozen backbone achieved a +2.0 percentagepoint AUROC improvement over the baseline backbone for AMD when trained with a new linear classifier (0.815 vs. 0.836). A similar +2.9 percentage-point improvement was observed for DR. These results indicate that disease-relevant information was more linearly accessible from the privileged student’s frozen representations than from the baseline representations. This suggests that the benefits of privileged-information distillation extend beyond optimization of the original classification head and are reflected in the learned backbone representations.
+
+## REFERENCES
+
+Shumoos Al-Fahdawi, Alaa S Al-Waisy, Diyar Qader Zeebaree, Rami Qahwaji, Hayder Natiq, Mazin Abed Mohammed, Jan Nedoma, Radek Martinek, and Muhammet Deveci. Fundus-deepnet: Multi-label deep learning classification system for enhanced detection of multiple ocular diseases through data fusion of fundus images. Information Fusion, 102:102059, 2024.
+
+Guillaume Alain and Yoshua Bengio. Understanding intermediate layers using linear classifier probes. In International Conference on Learning Representations (ICLR) Workshop, 2016.
+
+Khin Zaw Aung, Luba Robman, Elaine W. T. Chong, Dallas R. English, Graham G. Giles, and Robyn H. Guymer. Non-mydriatic digital macular photography: How good is the second eye photograph? Ophthalmic Epidemiology, 16(4):254–261, 2009. doi: 10.3109/09286580902864419.
+
+Lixin Duan, Yuan Yuan, Qiang Yang, et al. Incorporating privileged genetic information for fundus image based glaucoma detection. 2014. doi: 10.1007/978-3-319-10470-6 26. URL https://link.springer. com/chapter/10.1007/978-3-319-10470-6\_26.
+
+Justin Engelmann and Miguel O Bernabeu. Training a high-performance retinal foundation model with halfthe-data and 400 times less compute. Nature Communications, 16(1):6862, 2025.
+
+Junjun He, Cheng Li, Jin Ye, Shanshan Wang, Yu Qiao, and Lixu Gu. Classification of ocular diseases employing attention-based unilateral and bilateral feature weighting and fusion. In 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), pp. 1258–1261. IEEE, 2020.
+
+Steven Korevaar, Ruwan Tennakoon, Ricky O’Brien, Dwarikanath Mahapatra, and Alireza Bab-Hadiashar. Domain generalization by learning from privileged medical imaging information. In 2024 IEEE International Symposium on Biomedical Imaging (ISBI), pp. 1–5. IEEE, 2024.
+
+Peking University. Ocular disease intelligent recognition (ODIR-2019). https://odir2019. grand-challenge.org/, 2019. Accessed: 2026-08-01].
+
+M. M. P. N. Piyasena, J. L. Y. Yip, D. Macleod, M. Kim, and V. S. M. Gudlavalleti. Diagnostic test accuracy of diabetic retinopathy screening by physician graders using a hand-held non-mydriatic retinal camera at a tertiary level medical clinic. BMC Ophthalmology, 19(1):89, 2019. doi: 10.1186/s12886-019-1092-3.
+
+MohammadReza Abbaszadeh Bavil Soflaei and Karim SamadZamini. Explainable deep learning for cataract detection in retinal images: A dual-eye and knowledge distillation approach. arXiv preprint arXiv:2509.22696, 2025.
+
+Lehan Wang, Chongchong Qi, Chubin Ou, Lin An, Mei Jin, Xiangbin Kong, and Xiaomeng Li. Multieye: Dataset and benchmark for oct-enhanced retinal disease recognition from fundus images. IEEE Transactions on Medical Imaging, 44(4):1711–1722, 2024a.
+
+Yueye Wang, Chi Liu, Wenyi Hu, Lixia Luo, Danli Shi, Jian Zhang, Qiuxia Yin, Lei Zhang, Xiaotong Han, and Mingguang He. Economic evaluation for medical artificial intelligence: accuracy vs. cost-effectiveness in a diabetic retinopathy screening case. NPJ Digital Medicine, 7(1):43, 2024b.
